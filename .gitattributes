@@ -1,0 +1,2 @@
+git lfs track .smali
+git lfs track .xml
