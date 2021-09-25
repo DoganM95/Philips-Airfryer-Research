@@ -44,7 +44,7 @@ Connection: Close
         <modelName>AirfryerConnected</modelName>
         <modelNumber>HD9280/9x</modelNumber>
         <UDN>uuid:12345678-1234-1234-1234-e8c1d70ba3dd</UDN>
-        <cppId>e8:c1:d7:0b:a3:dd</cppId>
+        <cppId>00:11:22:FF:FF:FF</cppId>
     </device>
 </root>
 ```
