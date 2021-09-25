@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceH4Secondary" android:id="@id/headerLabel" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

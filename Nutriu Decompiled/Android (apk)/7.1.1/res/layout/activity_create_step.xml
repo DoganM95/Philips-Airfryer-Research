@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/svRoot" android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include layout="@layout/toolbar" />
+        <RelativeLayout android:id="@id/stepPhoto" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x" />
+        <EditText android:id="@id/etDirectionStep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?inputFieldMultilineWrap" />
+        <TextView android:id="@id/tvDescriptionEmpty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/step_description_missing" style="@style/Text.Error" />
+        <androidx.appcompat.widget.SwitchCompat android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/swNeedDevice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/set_airfryer_time_and_temperature" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Switch" />
+        <LinearLayout android:orientation="vertical" android:id="@id/viewAirfryer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_device" style="@style/Text.Section.Title" />
+            <Spinner android:id="@id/deviceFamilies" android:background="?containerBackground10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:popupBackground="?containerBackgroundInverse" />
+            <TextView android:id="@id/temperatureLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_temperature" style="@style/Text.Section.Title" />
+            <TextView android:id="@id/inputTemperature" android:background="?containerBackground10" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:text="@string/zero" android:drawableStart="@drawable/img_input_temperature_primary_wrapper" style="@style/Text.PickerValue" />
+            <TextView android:id="@id/labelTemperatureEmpty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/temperature_not_set" style="@style/Text.Error" />
+            <TextView android:id="@id/timeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_time" style="@style/Text.Section.Title" />
+            <TextView android:id="@id/inputTime" android:background="?containerBackground10" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:drawableStart="@drawable/img_input_time_primary_wrapper" style="@style/Text.PickerValue" />
+            <TextView android:id="@id/labelTimeEmpty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/time_not_set" style="@style/Text.Error" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

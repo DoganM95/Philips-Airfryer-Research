@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/languagePicker" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_3x" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/countryFlagImage" android:visibility="gone" android:layout_width="@dimen/spacing_4x" android:layout_height="@dimen/spacing_4x" />
+    <TextView android:id="@id/getStartedCountryButton" android:background="@android:color/transparent" android:padding="@dimen/spacing_1x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_1x" android:textAllCaps="true" android:drawableEnd="@drawable/ic_dropdown_arrow_inverse" style="?buttonDenseQuietSmallInverse" />
+</LinearLayout>

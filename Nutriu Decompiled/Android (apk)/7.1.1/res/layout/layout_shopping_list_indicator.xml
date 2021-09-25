@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/shoppingListIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btnShoppingList" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shopping_basket_primary" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+    <TextView android:textAppearance="?textAppearanceSmallText2Inverse" android:gravity="center" android:id="@id/ingredientsCounterLabel" android:background="@drawable/bg_active_rounded_large" android:paddingTop="@dimen/spacing_0.5x" android:paddingBottom="@dimen/spacing_0.5x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/planner_unbought_top_spacing" android:minWidth="@dimen/shopping_list_counter_badge_min_width" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" android:layout_marginStart="@dimen/planner_unbought_start_spacing" />
+</RelativeLayout>

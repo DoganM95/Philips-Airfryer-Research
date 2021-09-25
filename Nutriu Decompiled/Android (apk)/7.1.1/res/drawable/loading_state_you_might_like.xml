@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="252.0dip" android:width="375.0dip" android:viewportWidth="375.0" android:viewportHeight="252.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?loadingColor" android:pathData="M26,4h276c1.105,0 2,0.895 2,2v20c0,1.105 -0.895,2 -2,2H26c-1.105,0 -2,-0.895 -2,-2V6c0,-1.105 0.895,-2 2,-2z" android:fillType="evenOdd" />
+    <group>
+        <clip-path android:pathData="M0,48L375,48L375,252L0,252z" />
+        <path android:fillColor="?loadingColor" android:pathData="M364,212L512,212A4,4 0,0 1,516 216L516,224A4,4 0,0 1,512 228L364,228A4,4 0,0 1,360 224L360,216A4,4 0,0 1,364 212z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M364,232L472,232A4,4 0,0 1,476 236L476,244A4,4 0,0 1,472 248L364,248A4,4 0,0 1,360 244L360,236A4,4 0,0 1,364 232z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M364,48L512,48A4,4 0,0 1,516 52L516,200A4,4 0,0 1,512 204L364,204A4,4 0,0 1,360 200L360,52A4,4 0,0 1,364 48z" android:fillType="nonZero" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,48L375,48L375,252L0,252z" />
+        <path android:fillColor="?loadingColor" android:pathData="M196,212L344,212A4,4 0,0 1,348 216L348,224A4,4 0,0 1,344 228L196,228A4,4 0,0 1,192 224L192,216A4,4 0,0 1,196 212z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M196,232L304,232A4,4 0,0 1,308 236L308,244A4,4 0,0 1,304 248L196,248A4,4 0,0 1,192 244L192,236A4,4 0,0 1,196 232z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M196,48L344,48A4,4 0,0 1,348 52L348,200A4,4 0,0 1,344 204L196,204A4,4 0,0 1,192 200L192,52A4,4 0,0 1,196 48z" android:fillType="nonZero" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,48L375,48L375,252L0,252z" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,212L176,212A4,4 0,0 1,180 216L180,224A4,4 0,0 1,176 228L28,228A4,4 0,0 1,24 224L24,216A4,4 0,0 1,28 212z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,232L136,232A4,4 0,0 1,140 236L140,244A4,4 0,0 1,136 248L28,248A4,4 0,0 1,24 244L24,236A4,4 0,0 1,28 232z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,48L176,48A4,4 0,0 1,180 52L180,200A4,4 0,0 1,176 204L28,204A4,4 0,0 1,24 200L24,52A4,4 0,0 1,28 48z" android:fillType="nonZero" />
+    </group>
+</vector>

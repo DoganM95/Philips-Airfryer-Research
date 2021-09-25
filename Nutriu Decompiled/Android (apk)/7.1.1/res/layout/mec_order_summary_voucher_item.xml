@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/mec_order_summary_voucher_item_0" android:background="@color/uid_level_white" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mec_applied_vocuher_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/mec_voucherItem_layout" android:paddingLeft="@dimen/iap_text_size_16sp" android:paddingTop="@dimen/iap_margin_10dp" android:paddingRight="@dimen/iap_text_size_16sp" android:paddingBottom="@dimen/iap_margin_10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/border16_margin_left_right">
+            <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_text_size_16sp" android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/mec_voucherItem_label" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mecCentralesansBookFont" />
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp">
+                <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_text_size_12" android:textColor="?uidContentItemTertiaryNormalTextColor" android:id="@id/mec_discountedPrecentage_label" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_text_size_12" android:textColor="?uidButtonSecondaryNormalTextColor" android:id="@id/mec_discount" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/line" android:layout_marginTop="@dimen/border8_margin" android:layout_below="@id/mec_voucherItem_layout" style="@style/mec_button_border" />
+    </RelativeLayout>
+</RelativeLayout>

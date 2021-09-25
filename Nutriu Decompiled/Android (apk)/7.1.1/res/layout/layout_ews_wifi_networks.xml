@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="?textAppearanceH3Secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/wifi_setup_choose_network_subtitle" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/wifiNetworks" android:paddingBottom="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+    <TextView android:id="@id/addNetworkButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/wifi_setup_choose_network_add_manually" app:drawableStartCompat="@drawable/ic_add_new_primary" style="?buttonQuietSmall" />
+</LinearLayout>

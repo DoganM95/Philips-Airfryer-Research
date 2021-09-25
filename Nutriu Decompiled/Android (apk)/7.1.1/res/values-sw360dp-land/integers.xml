@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="apptentive_image_grid_default_column_number">5</integer>
+    <integer name="apptentive_image_grid_default_column_number_incoming">4</integer>
+</resources>

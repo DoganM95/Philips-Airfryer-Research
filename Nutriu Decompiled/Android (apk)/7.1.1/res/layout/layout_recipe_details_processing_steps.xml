@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/stepsShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/loading_state_processing_steps" android:scaleType="fitXY" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/stepsLabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" android:text="@string/step_by_step" style="@style/Text.Details.Subtitle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/stepsContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

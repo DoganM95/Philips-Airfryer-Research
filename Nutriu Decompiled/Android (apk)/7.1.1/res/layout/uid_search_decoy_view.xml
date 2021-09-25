@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/uid_search_decoy_view" android:layout_width="fill_parent" android:layout_height="@dimen/uid_searchbox_decoy_height" android:layout_marginStart="@dimen/uid_searchbox_layout_margin" android:layout_marginEnd="@dimen/uid_searchbox_layout_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/uid_search_decoy_hint_icon" android:layout_width="@dimen/uid_searchbox_button_dimen" android:layout_height="@dimen/uid_searchbox_button_dimen" android:tint="?uidSearchBoxAndroidDefaultNormalHintTextColor" android:layout_marginStart="@dimen/uid_searchbox_button_padding" android:layout_marginEnd="@dimen/uid_searchbox_button_padding_end" app:srcCompat="@drawable/uid_search_icon" />
+    <com.philips.platform.uid.view.widget.Label android:id="@id/uid_search_decoy_hint_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="viewStart" android:layoutDirection="locale" style="@style/UIDLabel.SearchBoxHint" />
+</LinearLayout>

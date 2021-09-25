@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/mec_enter_address_0" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textDirection="locale">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.philips.platform.uid.view.widget.Label android:id="@id/tv_shipping_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mec_personal_details" style="@style/mec_address_header" />
+            <LinearLayout android:orientation="vertical" android:background="?uidContentSecondaryNeutralBackgroundColor" android:padding="@dimen/border16_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:tag="binding_1" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border12_margin">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/tv_salutation" android:text="@string/mec_salutation" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_salutation" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_salutation_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_salutation" android:tag="binding_3" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:hint="@string/mec_salutation_none" android:cursorVisible="false" android:maxLines="1" android:inputType="none" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_4" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_first_name" android:text="@string/mec_first_name" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_first_name" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_first_name_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_first_name" android:tag="binding_6" android:hint="@string/mec_first_name_hint" android:maxLines="1" android:maxLength="17" android:inputType="textCapSentences" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/lable_last_name" android:text="@string/mec_last_name" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_last_name" android:tag="binding_8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_last_name_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_last_name" android:tag="binding_9" android:hint="@string/mec_last_name_hint" android:maxLines="1" android:maxLength="17" android:inputType="textCapSentences" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_10" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border12_margin">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_phone" android:text="@string/mec_phone" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_phone1" android:tag="binding_11" android:layout_width="fill_parent" android:layout_height="wrap_content" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_phone_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_phone1" android:tag="binding_12" android:hint="@string/mec_phone_hint" android:maxLines="1" android:inputType="phone" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border24_margin">
+            <com.philips.platform.uid.view.widget.Label android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mec_address" style="@style/mec_address_header" />
+            <LinearLayout android:orientation="vertical" android:background="?uidContentSecondaryNeutralBackgroundColor" android:padding="@dimen/border16_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:tag="binding_13" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_house_no" android:text="@string/mec_house_number" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_house_no" android:tag="binding_14" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_house_number_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_house_no" android:tag="binding_15" android:hint="@string/mec_house_number_hint" android:maxLines="1" android:maxLength="35" android:inputType="textCapWords" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_16" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_address1" android:text="@string/mec_address_line_one" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_address_line_one" android:tag="binding_17" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_address_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_address_line_one" android:tag="binding_18" android:layout_height="wrap_content" android:hint="@string/mec_address_line_one_hint" android:maxLines="1" android:maxLength="35" android:inputType="textCapWords" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_19" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_address2" android:text="@string/mec_address_line_two" style="@style/AddressItemLabel" />
+                    <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_address_line_two" android:tag="binding_20" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" android:hint="(Optional)" android:maxLines="1" android:maxLength="35" android:inputType="textCapWords" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_21" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_town" android:text="@string/mec_town" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_town" android:tag="binding_22" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_town_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_town" android:tag="binding_23" android:hint="@string/mec_town_hint" android:maxLines="1" android:maxLength="35" android:inputType="textCapWords" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_24" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_postal_code" android:text="@string/mec_postal_code" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_postal_code" android:tag="binding_25" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_postal_code_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_postal_code" android:tag="binding_26" android:hint="@string/mec_postal_code_hint" android:maxLines="1" android:maxLength="10" android:inputType="textVisiblePassword|textCapSentences|textNoSuggestions" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_27" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/lebel_state" android:text="@string/mec_state" style="@style/AddressItemLabel" />
+                    <com.philips.platform.mec.screens.address.MECInputValidationLayout android:id="@id/ll_state" android:tag="binding_28" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_4dp" app:uidTextBoxValidationErrorDrawable="@drawable/uid_ic_data_validation" app:uidTextBoxValidationErrorText="@string/mec_state_error">
+                        <com.philips.platform.uid.view.widget.ValidationEditText android:id="@id/et_state" android:tag="binding_29" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:hint="@string/mec_state" android:cursorVisible="false" android:maxLines="1" android:inputType="none" android:importantForAutofill="no" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                    </com.philips.platform.mec.screens.address.MECInputValidationLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:tag="binding_30" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                    <com.philips.platform.uid.view.widget.Label android:id="@id/label_country" android:text="@string/mec_country" style="@style/AddressItemLabel" />
+                    <com.philips.platform.uid.view.widget.EditText android:enabled="false" android:id="@id/et_country" android:tag="binding_31" android:layout_marginTop="@dimen/iap_margin_4dp" android:maxLines="1" android:inputType="textVisiblePassword|textCapCharacters|textNoSuggestions" app:uidInputTextWithClearButton="true" style="@style/mec_address_validation_text" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

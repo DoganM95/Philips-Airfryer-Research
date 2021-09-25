@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ingredientStatusImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_checkbox_inverse_state_selected" android:layout_marginEnd="@dimen/spacing_4x" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?textAppearanceBody2Inverse" android:id="@id/ingredientLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginEnd="@dimen/spacing_2x" />
+            <TextView android:textAppearance="?textAppearanceSmallText2Inverse" android:id="@id/ingredientDescriptionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:alpha="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="?dividerColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/spacing_2x" />
+</LinearLayout>

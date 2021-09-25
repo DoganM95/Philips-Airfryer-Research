@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.philips.platform.uid.view.widget.SideBar android:id="@id/sidebar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.philips.platform.uid.view.widget.NavigationContainer android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:background="?uidNavigationSecondaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" app:elevation="@dimen/reg_dimen_16dp">
+                <include layout="@layout/uid_toolbar_layout" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <FrameLayout android:id="@id/frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </com.philips.platform.uid.view.widget.NavigationContainer>
+</com.philips.platform.uid.view.widget.SideBar>

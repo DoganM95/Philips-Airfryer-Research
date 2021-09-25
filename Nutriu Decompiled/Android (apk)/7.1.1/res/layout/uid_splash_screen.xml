@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/uid_splash_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/uid_splash_screen_margin_horizontal" android:paddingEnd="@dimen/uid_splash_screen_margin_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/uid_splash_screen_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/uid_splash_screen_app_name_size" android:textColor="?uidSplashScreenDefaultTextColor" android:id="@id/uid_splash_screen_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/uid_splash_screen_app_name_spacing" fontPath="fonts/centralesanslight.ttf" />
+</LinearLayout>

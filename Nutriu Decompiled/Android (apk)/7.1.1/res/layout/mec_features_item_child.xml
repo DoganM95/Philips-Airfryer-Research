@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/mec_features_item_child_0" android:paddingLeft="@dimen/border16_margin_left_right" android:paddingRight="@dimen/border16_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_lebel" android:background="?uidContentPrimaryBackgroundColor" android:paddingTop="@dimen/border8_margin" android:paddingBottom="@dimen/border8_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.philips.platform.uid.view.widget.Label android:textSize="14.0sp" android:textColor="?uidContentItemSecondaryNormalTextColor" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/iapCentralesansBoldFont" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_horizontal" android:id="@id/network_image" android:tag="binding_2" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="10.0sp" />
+            <com.philips.platform.uid.view.widget.Label android:id="@id/videoPlay_image" android:tag="binding_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dls_startaction" style="@style/MECPlayButtonBoldFont48" />
+        </FrameLayout>
+        <com.philips.platform.uid.view.widget.Label android:textSize="12.0sp" android:textColor="?uidContentItemPrimaryNormalTextColor" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0sp" android:singleLine="false" android:lineSpacingExtra="6.0dip" style="@style/mecCentralesansBookFont" />
+    </LinearLayout>
+</RelativeLayout>

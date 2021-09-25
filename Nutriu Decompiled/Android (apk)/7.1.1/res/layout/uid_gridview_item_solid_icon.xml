@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:id="@id/uid_gridview" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/uid_grid_item_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/uid_gridview_thumbnail" android:layout_height="@dimen/uid_grid_image_height" android:layout_alignParentTop="true" style="@style/UIDGridViewImage" />
+    <RelativeLayout android:id="@id/uid_gridview_solid_holder" android:background="?uidGridViewPrimaryNormalHeaderBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/uid_gridview_thumbnail">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/uid_gridview_two_line_text" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="@dimen/uid_grid_two_line_text_height" android:layout_alignParentStart="true">
+            <com.philips.platform.uid.view.widget.Label android:id="@id/uid_gridview_title" style="@style/UIDLabel.GridViewTitleText" />
+            <com.philips.platform.uid.view.widget.Label android:id="@id/uid_gridview_description" style="@style/UIDLabel.GridViewDescriptionText" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

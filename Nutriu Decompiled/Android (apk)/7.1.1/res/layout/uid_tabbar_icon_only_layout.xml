@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/uid_tab_frame_layout" style="@style/UIDTabItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/uid_tab_icon" style="@style/UIDTabIcon" />
+    <com.philips.platform.uid.view.widget.NotificationBadge android:id="@id/uid_tab_notification_badge" android:visibility="gone" style="@style/UIDTabNotificationBadge" />
+</FrameLayout>

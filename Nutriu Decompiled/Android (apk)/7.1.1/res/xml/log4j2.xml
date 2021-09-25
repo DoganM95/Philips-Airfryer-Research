@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration status="DEBUG">
+    <Properties>
+        <Property name="log-path">C:/logs/</Property>
+    </Properties>
+    <Appenders>
+        <RollingFile fileName="${log-path}/myexample.log" filePattern="${log-path}/myexample-%d{yyyy-MM-dd}-%i.log" name="RollingFile">
+            <PatternLayout>
+                <pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="5" />
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger additivity="false" level="debug" name="root">
+            <appender-ref level="debug" ref="RollingFile" />
+        </Logger>
+        <Root additivity="false" level="debug">
+            <AppenderRef ref="RollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/labelItemName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" />
+    <ProgressBar android:textAppearance="?android:progressBarStyleHorizontal" android:id="@id/percentProgressBar" android:layout_width="100.0dip" android:layout_height="8.0dip" android:max="100" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_nutrient" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_2x" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/nutrition_graph_percentage_column_width" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/labelDailyValuePercent" android:layout_width="35.0dip" android:layout_height="wrap_content" android:minWidth="0.0dip" android:lines="1" android:layout_marginEnd="@dimen/spacing_1x" />
+        <View android:background="?dividerColor" android:layout_width="1.0dip" android:layout_height="22.0dip" />
+        <TextView android:id="@id/labelDailyValue" android:layout_marginStart="@dimen/spacing_1x" style="@style/RecipeDetails.NutritionInfo.Label.Grams" />
+    </LinearLayout>
+</LinearLayout>

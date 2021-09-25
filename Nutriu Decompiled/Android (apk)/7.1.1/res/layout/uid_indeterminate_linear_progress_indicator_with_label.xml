@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/uid_progress_indicator_label_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.philips.platform.uid.view.widget.Label android:gravity="start" android:id="@id/uid_progress_indicator_label_top_left" android:visibility="gone" android:layout_marginBottom="@dimen/uid_indeterminate_linear_progress_indicator_label_margin" android:layout_weight="1.0" style="@style/UIDLabel.ProgressBarLabel" />
+        <com.philips.platform.uid.view.widget.Label android:gravity="end" android:id="@id/uid_progress_indicator_label_top_right" android:visibility="gone" android:layout_marginBottom="@dimen/uid_indeterminate_linear_progress_indicator_label_margin" android:layout_weight="1.0" style="@style/UIDLabel.ProgressBarLabel" />
+    </LinearLayout>
+    <com.philips.platform.uid.view.widget.IndeterminateLinearProgressBar android:id="@id/uid_indeterminate_linear_progress_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/uid_progress_indicator_label_top_layout" />
+    <com.philips.platform.uid.view.widget.Label android:id="@id/uid_progress_indicator_label_bottom_left" android:visibility="gone" android:layout_marginTop="@dimen/uid_indeterminate_linear_progress_indicator_label_margin" android:layout_below="@id/uid_indeterminate_linear_progress_indicator" android:layout_alignParentStart="true" style="@style/UIDLabel.ProgressBarLabel" />
+    <com.philips.platform.uid.view.widget.Label android:id="@id/uid_progress_indicator_label_bottom_right" android:visibility="gone" android:layout_marginTop="@dimen/uid_indeterminate_linear_progress_indicator_label_margin" android:layout_below="@id/uid_indeterminate_linear_progress_indicator" android:layout_alignParentEnd="true" style="@style/UIDLabel.ProgressBarLabel" />
+</RelativeLayout>

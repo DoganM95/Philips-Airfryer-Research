@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:theme="@style/Theme.Nutriu" android:id="@id/deviceWrapper" android:background="?selectableItemBackground" android:layout_width="@dimen/device_card_width" android:layout_height="@dimen/device_card_height" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" app:cardElevation="@dimen/device_card_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?textAppearanceH4Secondary" android:gravity="center" android:id="@id/deviceRangeLabel" android:paddingLeft="@dimen/spacing_2x" android:paddingRight="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:layout_marginBottom="10.0dip" />
+            <ImageView android:id="@id/deviceSelectedImage" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_checkbox_primary_on" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/spacing_2x" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textAppearance="?textAppearanceBody3Secondary" android:gravity="center" android:id="@id/deviceModelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1.5x" android:textAllCaps="true" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+        <ImageView android:id="@id/deviceImage" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/spacing_2x" android:scaleType="centerInside" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

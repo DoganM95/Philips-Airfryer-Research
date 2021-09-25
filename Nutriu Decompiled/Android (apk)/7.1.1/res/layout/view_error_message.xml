@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layoutErrorMessage" android:background="?containerBackgroundInverse" android:padding="@dimen/spacing_2x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceH3Secondary" android:padding="@dimen/spacing_1.5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apptentive_oops" />
+    <TextView android:textAppearance="?textAppearanceBody2Neutral2" android:gravity="center_horizontal" android:id="@id/tvErrorMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/error_view_description_default" />
+    <TextView android:gravity="center" android:id="@id/btnErrorRefresh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_4x" android:text="@string/refresh" android:layout_marginStart="@dimen/spacing_6x" android:layout_marginEnd="@dimen/spacing_6x" style="?buttonDenseSmall" />
+</LinearLayout>

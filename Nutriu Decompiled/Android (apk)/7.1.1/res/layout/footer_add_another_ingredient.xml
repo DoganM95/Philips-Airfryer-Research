@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_vertical" android:id="@id/addAnotherIngredientButton" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/ingredients_to_avoid_add_another" android:drawableStart="@drawable/ic_add_new_inverse" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_2x" style="?buttonDenseQuietInverseAsParagraph"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

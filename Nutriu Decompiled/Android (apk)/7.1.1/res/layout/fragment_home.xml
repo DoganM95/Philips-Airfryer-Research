@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_dodgeInsetEdges="bottom">
+            <include android:id="@id/searchLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:layout_marginStart="@dimen/home_screen_padding" android:layout_marginEnd="@dimen/home_screen_padding" layout="@layout/home_search_toolbar_layout" />
+            <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+                <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/homeContentLayout" android:background="?containerBackgroundInverse" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.constraintlayout.widget.Barrier android:id="@id/search_toolbar_barrier" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="announcementsView, search_toolbar_guideline" />
+                    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/search_toolbar_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/spacing_12x" />
+                    <com.philips.ka.oneka.app.ui.home.announcements.HomeAnnouncementsView android:id="@id/announcementsView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/search_toolbar_barrier">
+                        <include android:id="@id/sectionRecommender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_recommender_you_might_like" />
+                        <include android:id="@id/sectionSearchFilters" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_home_search_filters" />
+                        <include android:id="@id/sectionSecondRecommender" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_second_recommender_recipes" />
+                        <include android:id="@id/sectionRecipeBooks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_home_recipe_books" />
+                        <include android:id="@id/sectionPinnedRecipeBook" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_pinned_recipe_book" />
+                        <include android:id="@id/marketingOptInLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" android:layout_marginStart="@dimen/home_screen_padding" android:layout_marginEnd="@dimen/home_screen_padding" layout="@layout/layout_opt_in_home" />
+                        <include android:id="@id/sectionNewsFeed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_feed_list" />
+                        <include android:id="@id/sectionFromTheCommunity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_recipes_from_the_community" />
+                        <include android:id="@id/sectionArticles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" layout="@layout/layout_nutriu_articles" />
+                        <include android:id="@id/sectionProductRange" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" android:layout_marginBottom="@dimen/spacing_5x" layout="@layout/layout_product_range" />
+                    </LinearLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_error_message" />
+    <View android:id="@id/statusBarBackground" android:background="@drawable/bg_gradient_black_30_to_transparent_top_to_bottom" android:layout_width="fill_parent" android:layout_height="32.0dip" android:elevation="32.0dip" />
+</FrameLayout>

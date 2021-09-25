@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/amazon" app:startDestination="@id/amazonConnectFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <action android:id="@id/deep_link_to_amazon_connect" app:destination="@id/amazonConnectFragment" app:launchSingleTop="true" app:popUpTo="@id/amazon" app:popUpToInclusive="true" />
+    <fragment android:name="com.philips.ka.oneka.app.ui.amazon.connect.AmazonConnectFragment" android:id="@id/amazonConnectFragment">
+        <argument android:name="state" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="step" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="error" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="entryPoint" android:defaultValue="UNDEFINED" app:argType="com.philips.ka.oneka.app.ui.amazon.AmazonActivity$EntryPoint" app:nullable="false" />
+        <action android:id="@id/action_amazon_connect_to_webview" app:destination="@id/amazonWebViewFragment" />
+        <action android:id="@id/action_amazon_connect_to_success" app:destination="@id/amazonSuccessFragment" app:launchSingleTop="true" app:popUpTo="@id/amazon" app:popUpToInclusive="true" />
+        <action android:id="@id/action_amazon_connect_to_alreadyLinked" app:destination="@id/amazonAlreadyLinkedFragment" app:launchSingleTop="true" app:popUpTo="@id/amazon" app:popUpToInclusive="true" />
+        <action android:id="@id/action_amazonConnectFragment_to_amazonPrivacyFragment" app:destination="@id/amazonPrivacyFragment" />
+    </fragment>
+    <fragment android:name="com.philips.ka.oneka.app.ui.amazon.already_linked.AmazonAlreadyLinkedFragment" android:id="@id/amazonAlreadyLinkedFragment">
+        <argument android:name="entryPoint" app:argType="com.philips.ka.oneka.app.ui.amazon.AmazonActivity$EntryPoint" app:nullable="false" />
+        <action android:id="@id/action_amazonAlreadyLinkedFragment_to_amazonPrivacyFragment" app:destination="@id/amazonPrivacyFragment" />
+        <argument android:name="voiceLinkingStatus" android:defaultValue="@null" app:argType="com.philips.ka.oneka.app.data.model.ui_model.UiVoiceLinkingStatus" app:nullable="true" />
+    </fragment>
+    <fragment android:name="com.philips.ka.oneka.app.ui.amazon.webview.AmazonWebViewFragment" android:id="@id/amazonWebViewFragment">
+        <argument android:name="url" app:argType="string" app:nullable="false" />
+        <action android:id="@id/action_amazon_web_view_to_destination_start" app:destination="@id/amazonConnectFragment" app:launchSingleTop="true" app:popUpTo="@id/amazon" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:name="com.philips.ka.oneka.app.ui.amazon.success.AmazonSuccessFragment" android:id="@id/amazonSuccessFragment">
+        <argument android:name="entryPoint" app:argType="com.philips.ka.oneka.app.ui.amazon.AmazonActivity$EntryPoint" app:nullable="false" />
+    </fragment>
+    <fragment android:name="com.philips.ka.oneka.app.ui.amazon.privacy.AmazonPrivacyFragment" android:id="@id/amazonPrivacyFragment" />
+</navigation>

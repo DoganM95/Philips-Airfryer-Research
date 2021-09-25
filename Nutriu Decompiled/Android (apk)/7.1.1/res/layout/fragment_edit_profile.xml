@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/Theme.Nutriu.DarkStatusBar.StatusBackgroundPrimary" android:orientation="vertical" android:background="?containerBackgroundInverse" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/backButton" android:padding="@dimen/spacing_1.5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_primary" android:layout_marginStart="@dimen/spacing_2x" />
+        <TextView android:textAppearance="?textAppearanceH4Secondary" android:id="@id/toolbarTitle" android:padding="@dimen/spacing_1.5x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/my_profile" android:lines="1" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?textAppearanceH4Primary" android:layout_gravity="center_vertical" android:id="@id/saveButton" android:background="?selectableItemBackground" android:padding="@dimen/spacing_1.5x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:layout_marginEnd="@dimen/spacing_2x" />
+    </LinearLayout>
+    <View android:id="@id/toolbarDivider" android:background="@drawable/line_divider_on_inverse" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ScrollView android:id="@id/scrollView" android:background="?containerBackgroundInverse" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_3x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/photoFragmentContainer" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:id="@id/usernameLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/name" style="@style/Text.Section.Title" />
+            <EditText android:id="@id/nameInput" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:hint="@string/user_name" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?inputField" />
+            <TextView android:id="@id/nameEmptyLabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/name_empty" style="@style/Text.Error" />
+            <TextView android:id="@id/descriptionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_me" style="@style/Text.Section.Title" />
+            <EditText android:gravity="top" android:id="@id/aboutMeInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/about_me_hint" android:maxLength="150" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?inputFieldMultilineWrap" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

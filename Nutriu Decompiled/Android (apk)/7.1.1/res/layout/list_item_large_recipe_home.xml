@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_0.5x" android:paddingBottom="@dimen/spacing_0.5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:paddingStart="@dimen/spacing_0.5x" android:paddingEnd="@dimen/spacing_0.5x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="224.0dip" android:layout_height="224.0dip" android:layout_marginBottom="@dimen/spacing_2x">
+        <ImageView android:id="@id/image" android:background="@drawable/placeholder_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bg_border_inverse" android:src="@drawable/img_chef_hat" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="center_vertical" android:background="@drawable/bg_gradient_black_to_50_black_bottom_to_top" android:padding="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="1.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/preparationTimeClockIcon" android:padding="@dimen/spacing_0.25x" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_time_small_inverse" android:layout_marginEnd="@dimen/spacing_1x" />
+            <TextView android:textAppearance="?textAppearanceSmallText1Inverse" android:id="@id/preparationTimeText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/text" android:layout_width="224.0dip" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" />
+</LinearLayout>

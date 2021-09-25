@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_2x" android:foreground="?selectableItemBackground" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="@drawable/placeholder_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/imageContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="?nutriuCornerRadius0.5">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <View android:id="@id/gradientView" android:background="@drawable/bg_gradient_black_to_65_black_bottom_to_top" android:layout_width="fill_parent" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <ImageView android:id="@id/imageWarning" android:background="@drawable/circle_neutral1" android:padding="@dimen/spacing_0.5x" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:src="@drawable/ic_warning_secondary" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" android:backgroundTint="?nutriuColorInverse" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="?textAppearanceSmallText1PrimaryNegative3" android:ellipsize="end" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:layout_marginBottom="@dimen/spacing_1.5x" android:maxLines="2" android:textAllCaps="true" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" android:elevation="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <androidx.constraintlayout.widget.Group android:id="@id/labelLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="gradientView,label" />
+                <LinearLayout android:orientation="vertical" android:id="@id/dragHandleLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                    <View android:background="@drawable/bg_inverse_rounded" android:layout_width="24.0dip" android:layout_height="3.0dip" />
+                    <View android:background="@drawable/bg_inverse_rounded" android:layout_width="24.0dip" android:layout_height="3.0dip" android:layout_marginTop="@dimen/spacing_0.5x" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout>
+    <TextView android:textAppearance="?textAppearanceH5Secondary" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:maxLines="2" />
+</LinearLayout>

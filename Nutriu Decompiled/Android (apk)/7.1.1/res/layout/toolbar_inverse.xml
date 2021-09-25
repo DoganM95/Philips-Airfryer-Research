@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:fitsSystemWindows="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStart="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/backButton" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back_secondary" android:paddingStart="@dimen/spacing_2x" />
+        <TextView android:textAppearance="?textAppearanceH3Primary" android:id="@id/customTitleLabel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2x" />
+        <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/customOptionsLabel" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/mec_features_item_parent_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.philips.platform.uid.view.widget.Label android:textSize="16.0sp" android:textColor="?uidContentItemPrimaryNormalTextColor" android:tag="binding_1" android:background="?uidContentSecondaryNeutralBackgroundColor" android:paddingLeft="@dimen/border16_margin_left_right" android:paddingTop="@dimen/border8_margin" android:paddingRight="@dimen/border16_margin_left_right" android:paddingBottom="@dimen/border8_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/iapCentralesansBoldFont" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_child" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

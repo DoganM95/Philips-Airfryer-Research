@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/uid_expander" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/uid_expander_view_title" android:paddingTop="@dimen/uid_expander_view_title_padding_top_bottom" android:paddingBottom="@dimen/uid_expander_view_title_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/uid_expander_view_panel_min_height" android:paddingStart="@dimen/uid_expander_view_title_padding_start_end" android:paddingEnd="@dimen/uid_expander_view_title_padding_start_end" />
+    <View android:id="@id/uid_expander_title_bottom_divider" android:background="?uidSeparatorContentNormalBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/uid_divider_Height" />
+    <RelativeLayout android:id="@id/uid_expander_view_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/uid_expander_view_content_margin_bottom" android:layout_marginStart="@dimen/uid_expander_view_content_margin_start_end" android:layout_marginEnd="@dimen/uid_expander_view_content_margin_start_end" />
+    <View android:id="@id/uid_expander_content_bottom_divider" android:background="?uidSeparatorContentNormalBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/uid_divider_Height" />
+</LinearLayout>

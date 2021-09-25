@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.philips.platform.uid.view.widget.ProgressBar android:id="@id/uid_progress_indicator" android:layout_centerHorizontal="true" style="@style/UIDProgressBarCircularIndeterminateBig" />
+    <com.philips.platform.uid.view.widget.Label android:id="@id/uid_progress_indicator_label_bottom_center" android:visibility="gone" android:layout_marginTop="@dimen/uid_circular_progress_indicator_big_label_margin" android:layout_below="@id/uid_progress_indicator" android:layout_centerHorizontal="true" style="@style/UIDLabel.ProgressBarLabel" />
+    <com.philips.platform.uid.view.widget.Label android:id="@id/uid_progress_indicator_label_center" android:visibility="gone" android:layout_centerInParent="true" style="@style/UIDLabel.ProgressBarLabel" />
+</RelativeLayout>

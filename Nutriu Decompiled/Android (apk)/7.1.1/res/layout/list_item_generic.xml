@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" layout="@layout/image_layout" />
+        <View android:layout_gravity="bottom" android:background="@drawable/bg_gradient_black_50_to_black_bottom_to_top" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+        <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/infoLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_2x">
+            <TextView android:textAppearance="?textAppearanceBody2Inverse" android:gravity="center" android:layout_gravity="center" android:id="@id/favouritesLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="@dimen/spacing_0.5x" android:drawableStart="@drawable/ic_favourite_inverse" android:layout_marginEnd="@dimen/spacing_2x" />
+            <TextView android:textAppearance="?textAppearanceBody2Inverse" android:gravity="center" android:layout_gravity="center" android:id="@id/preparationTimeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_0.5x" android:drawableStart="@drawable/ic_time_inverse" />
+        </LinearLayout>
+        <TextView android:textAppearance="?textAppearanceSmallText1PrimaryNegative1" android:ellipsize="end" android:layout_gravity="start|bottom|center" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:layout_marginBottom="@dimen/spacing_2x" android:maxLines="2" android:textAllCaps="true" android:layout_marginStart="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_4x" />
+        <include layout="@layout/action_button" />
+    </FrameLayout>
+    <TextView android:textAppearance="?textAppearanceH2Secondary" android:id="@id/titleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_1.5x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+</LinearLayout>

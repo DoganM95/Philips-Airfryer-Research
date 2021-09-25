@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="215.0dip" android:width="374.0dip" android:viewportWidth="374.0" android:viewportHeight="215.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:translateX="15.0" android:translateY="88.0">
+        <path android:fillColor="?loadingColor" android:pathData="M2 0H341A2 2 0 0 1 343 2V125A2 2 0 0 1 341 127H2A2 2 0 0 1 0 125V2A2 2 0 0 1 2 0Z" android:fillType="evenOdd" />
+    </group>
+    <group android:translateX="-1.0">
+        <group android:translateX="255.0" android:translateY="24.0">
+            <path android:fillColor="?loadingColor" android:pathData="M20 0H107A20 20 0 0 1 127 20V20A20 20 0 0 1 107 40H20A20 20 0 0 1 0 20V20A20 20 0 0 1 20 0Z" android:fillType="evenOdd" />
+            <path android:fillColor="#ffedf0ed" android:pathData="M40 20A20 20 0 0 1 0 20A20 20 0 0 1 40 20Z" android:fillType="evenOdd" />
+        </group>
+        <group android:translateX="16.0" android:translateY="24.0">
+            <path android:fillColor="?loadingColor" android:pathData="M20 0H203A20 20 0 0 1 223 20V20A20 20 0 0 1 203 40H20A20 20 0 0 1 0 20V20A20 20 0 0 1 20 0Z" android:fillType="evenOdd" />
+            <path android:fillColor="#ffedf0ed" android:pathData="M40 20A20 20 0 0 1 0 20A20 20 0 0 1 40 20Z" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

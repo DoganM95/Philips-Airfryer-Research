@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/jr_preview_box_border_inset" android:insetRight="@dimen/jr_preview_box_border_inset" android:insetTop="@dimen/jr_preview_box_border_inset" android:insetBottom="@dimen/jr_preview_box_border_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <solid android:color="#00000000" />
+        <stroke android:width="1.0dip" android:color="#ffffffff" />
+        <padding android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="8.0dip" />
+        <corners android:radius="4.0dip" />
+    </shape>
+</inset>

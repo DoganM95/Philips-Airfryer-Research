@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:id="@id/mec_nestedScroll" android:tag="layout/mec_product_review_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/mec_bv_trustmark" android:background="?uidContentTertiaryBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="120.0dip" android:layout_height="40.0dip" android:src="@drawable/mec_bv_trustmark" android:layout_weight="1.0" android:layout_marginStart="@dimen/iap_text_size_16sp" />
+            <com.philips.platform.uid.view.widget.Label android:textSize="10.0sp" android:textColor="?uidLabelRegularNormalTextColor" android:linksClickable="true" android:id="@id/mec_bazaarvoice_link" android:padding="@dimen/iap_margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="link" android:layout_weight="1.0" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mec_bv_trustmark" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_product_ctn_12" android:gravity="center_horizontal" android:id="@id/mec_productReview_empty_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mec_no_review_available" android:layout_centerInParent="true" style="@style/iapCentralesansBoldFont" />
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/mec_progress_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+            <com.philips.platform.uid.view.widget.ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progressBar" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UIDProgressBarCircularIndeterminateSmall" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

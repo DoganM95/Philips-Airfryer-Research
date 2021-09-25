@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.firebase.inappmessaging.display.internal.layout.CardLayoutLandscape android:theme="@style/FiamUI" android:layout_gravity="center" android:id="@id/card_content_root" android:layout_width="fill_parent" android:layout_height="fill_parent" fiam:maxHeightPct="@dimen/dialogHeightPct" fiam:maxWidthPct="@dimen/dialogWidthPct" style="@style/FiamUI.Card"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fiam="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_view" style="@style/FiamUI.Card.ImageView" />
+    <TextView android:id="@id/message_title" android:paddingLeft="@dimen/paddingSmall" android:paddingTop="@dimen/paddingSmall" android:paddingRight="@dimen/paddingSmall" style="@style/FiamUI.Text.Title" />
+    <ScrollView android:id="@id/body_scroll" style="@style/FiamUI.Card.Scroll">
+        <TextView android:id="@id/message_body" style="@style/FiamUI.ModalBody" />
+    </ScrollView>
+    <LinearLayout android:id="@id/action_bar" style="@style/FiamUI.Card.ActionBar">
+        <Button android:id="@id/secondary_button" style="@style/FiamUI.Card.ActionBar.Button" />
+        <Button android:id="@id/primary_button" style="@style/FiamUI.Card.ActionBar.Button" />
+    </LinearLayout>
+</com.google.firebase.inappmessaging.display.internal.layout.CardLayoutLandscape>

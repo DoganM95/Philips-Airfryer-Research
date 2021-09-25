@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/feedHeaderView" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_1x" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_4x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/profileImage" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginStart="@dimen/spacing_2x" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+        <TextView android:id="@id/feedLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_0.5x" style="@style/TextAppearance.Nutriu.Body3.Secondary" />
+        <TextView android:id="@id/feedTimestampLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Nutriu.SmallText2.Neutral2" />
+    </LinearLayout>
+</LinearLayout>

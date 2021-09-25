@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/uid_edittext_stroke_width" android:color="?uidTextBoxDefaultNormalBorderColor" />
+            <solid android:color="?uidSearchBoxAndroidDefaultFocusInputBackgroundColor" />
+        </shape>
+    </item>
+</selector>

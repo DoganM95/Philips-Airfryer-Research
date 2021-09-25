@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/collectionsList" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_2x" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/loading_layout_profile_collections" />
+    <com.philips.ka.oneka.app.ui.shared.EmptyStateLayout android:id="@id/emptyLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

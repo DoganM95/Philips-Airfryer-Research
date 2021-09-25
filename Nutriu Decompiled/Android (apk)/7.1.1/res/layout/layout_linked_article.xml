@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?textAppearanceH2Secondary" android:gravity="center_vertical" android:id="@id/linkedArticleTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_3x" android:layout_marginTop="@dimen/spacing_5x" android:layout_marginRight="@dimen/spacing_3x" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/linked_story_in_recipe_details_section_title" android:layout_marginHorizontal="@dimen/spacing_3x" />
+    <ImageView android:id="@id/linkedArticleImage" android:background="?loadingColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="170.0dip" android:layout_marginLeft="@dimen/spacing_3x" android:layout_marginRight="@dimen/spacing_3x" android:foreground="@drawable/bg_border_inverse" android:scaleType="centerCrop" android:layout_marginHorizontal="@dimen/spacing_3x" />
+    <TextView android:textAppearance="?textAppearanceH4Secondary" android:gravity="center_vertical" android:id="@id/linkedArticleName" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_3x" android:layout_marginTop="@dimen/spacing_2.5x" android:layout_marginRight="@dimen/spacing_3x" android:maxLines="2" android:layout_marginHorizontal="@dimen/spacing_3x" />
+</merge>

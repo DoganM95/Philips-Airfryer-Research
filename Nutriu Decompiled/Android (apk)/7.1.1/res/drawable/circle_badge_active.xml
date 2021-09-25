@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?nutriuColorInverse" />
+            <size android:height="20.0dip" android:width="20.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="4.0dip" android:color="@android:color/transparent" />
+            <solid android:color="?nutriuColorActive" />
+            <size android:height="16.0dip" android:width="16.0dip" />
+        </shape>
+    </item>
+</layer-list>

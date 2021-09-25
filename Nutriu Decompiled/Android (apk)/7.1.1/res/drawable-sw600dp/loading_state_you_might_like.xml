@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="296.0dip" android:width="1024.0dip" android:viewportWidth="1024.0" android:viewportHeight="296.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M436,56L616,56A4,4 0,0 1,620 60L620,240A4,4 0,0 1,616 244L436,244A4,4 0,0 1,432 240L432,60A4,4 0,0 1,436 56z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M436,252L594,252A4,4 0,0 1,598 256L598,264A4,4 0,0 1,594 268L436,268A4,4 0,0 1,432 264L432,256A4,4 0,0 1,436 252z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M436,274L594,274A4,4 0,0 1,598 278L598,286A4,4 0,0 1,594 290L436,290A4,4 0,0 1,432 286L432,278A4,4 0,0 1,436 274z" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M640,56L820,56A4,4 0,0 1,824 60L824,240A4,4 0,0 1,820 244L640,244A4,4 0,0 1,636 240L636,60A4,4 0,0 1,640 56z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M640,252L798,252A4,4 0,0 1,802 256L802,264A4,4 0,0 1,798 268L640,268A4,4 0,0 1,636 264L636,256A4,4 0,0 1,640 252z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M640,274L798,274A4,4 0,0 1,802 278L802,286A4,4 0,0 1,798 290L640,290A4,4 0,0 1,636 286L636,278A4,4 0,0 1,640 274z" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M844,56L1024,56A4,4 0,0 1,1028 60L1028,240A4,4 0,0 1,1024 244L844,244A4,4 0,0 1,840 240L840,60A4,4 0,0 1,844 56z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M844,252L1002,252A4,4 0,0 1,1006 256L1006,264A4,4 0,0 1,1002 268L844,268A4,4 0,0 1,840 264L840,256A4,4 0,0 1,844 252z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M844,274L1002,274A4,4 0,0 1,1006 278L1006,286A4,4 0,0 1,1002 290L844,290A4,4 0,0 1,840 286L840,278A4,4 0,0 1,844 274z" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M232,56L412,56A4,4 0,0 1,416 60L416,240A4,4 0,0 1,412 244L232,244A4,4 0,0 1,228 240L228,60A4,4 0,0 1,232 56z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M232,252L390,252A4,4 0,0 1,394 256L394,264A4,4 0,0 1,390 268L232,268A4,4 0,0 1,228 264L228,256A4,4 0,0 1,232 252z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M232,274L390,274A4,4 0,0 1,394 278L394,286A4,4 0,0 1,390 290L232,290A4,4 0,0 1,228 286L228,278A4,4 0,0 1,232 274z" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,56L208,56A4,4 0,0 1,212 60L212,240A4,4 0,0 1,208 244L28,244A4,4 0,0 1,24 240L24,60A4,4 0,0 1,28 56z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,252L186,252A4,4 0,0 1,190 256L190,264A4,4 0,0 1,186 268L28,268A4,4 0,0 1,24 264L24,256A4,4 0,0 1,28 252z" android:fillType="evenOdd" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,274L186,274A4,4 0,0 1,190 278L190,286A4,4 0,0 1,186 290L28,290A4,4 0,0 1,24 286L24,278A4,4 0,0 1,28 274z" android:fillType="evenOdd" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H1024V296H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M28,4L252,4A4,4 0,0 1,256 8L256,24A4,4 0,0 1,252 28L28,28A4,4 0,0 1,24 24L24,8A4,4 0,0 1,28 4z" android:fillType="evenOdd" />
+    </group>
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?containerBackgroundGradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/ingredientsToAvoidRecycler" android:paddingTop="@dimen/spacing_2x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <Button android:id="@id/avoidIngredientsButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/ingredients_to_avoid_confirm_button_title" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?buttonDenseInverse" />
+    <include android:visibility="gone" layout="@layout/ingredients_to_avoid_done" />
+</LinearLayout>

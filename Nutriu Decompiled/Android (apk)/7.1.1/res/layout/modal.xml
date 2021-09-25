@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.firebase.inappmessaging.display.internal.layout.FiamRelativeLayout android:id="@id/modal_root" android:padding="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/modal_portrait_inner" />
+    <Button android:id="@id/collapse_button" android:layout_alignTop="@id/modal_content_root" android:layout_alignRight="@id/modal_content_root" android:layout_alignEnd="@id/modal_content_root" style="@style/FiamUI.CollapseButton" />
+</com.google.firebase.inappmessaging.display.internal.layout.FiamRelativeLayout>

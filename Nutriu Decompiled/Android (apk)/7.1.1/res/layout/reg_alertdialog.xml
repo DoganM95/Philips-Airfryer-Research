@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/reg_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:reglib="http://reg.lib/schema">
+    <ScrollView android:id="@id/usr_activation_rootLayout_scrollView" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/usr_activation_root_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_dimen_24dp" android:layout_marginTop="@dimen/reg_dimen_12dp" android:layout_marginRight="@dimen/reg_dimen_24dp" android:layout_marginBottom="@dimen/reg_dimen_12dp">
+            <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/reg_text_size_20" android:textStyle="bold" android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/usr_activation_title_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reg_dimen_16dp" android:text="Email needs to be verified" reglib:fontAssetName="CentraleSans-Book.OTF" />
+            <com.philips.platform.uid.view.widget.Label android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/alertDescription1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reg_dimen_16dp" android:text="Please click on the link in the email we've sent you." reglib:fontAssetName="CentraleSans-Book.OTF" />
+            <com.philips.platform.uid.view.widget.Label android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/usr_activation_email_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reg_dimen_16dp" android:text="The email may not arrive immediately but it is on its way." reglib:fontAssetName="CentraleSans-Book.OTF" />
+            <com.philips.platform.uid.view.widget.Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="I'll check again" style="@style/UIDImageTextButton.Center" />
+            <View android:layout_width="wrap_content" android:layout_height="@dimen/reg_dimen_16dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AE">United Arab Emirates</string>
+    <string name="ALCOHOLIC_BEVERAGES">Alcoholic beverages</string>
+    <string name="AT">Austria</string>
+    <string name="BG">Bulgaria</string>
+    <string name="BREAD_AND_SMALL_BAKERY_PRODUCTS">Bread and small bakery</string>
+    <string name="CEREALS_GRAIN_AND_CEREAL_PRODUCTS_AND_RICE">Cereals</string>
+    <string name="CZ">Czechia</string>
+    <string name="DE">Germany</string>
+    <string name="DEEP_SEA_AND_FRESH_WATER_FISHES_SHELLFISH">Sea food</string>
+    <string name="EE">Estonia</string>
+    <string name="EGGS_AND_EGG_PRODUCTS_AND_PASTA">Eggs and pasta</string>
+    <string name="ES">Spain</string>
+    <string name="FRUIT_AND_FRUIT_PRODUCTS">Fruits</string>
+    <string name="GAME_POULTRY_GAME_BIRDS_VARIETY_MEATS">Poultry</string>
+    <string name="GB">United Kingdom</string>
+    <string name="GR">Greece</string>
+    <string name="HR">Croatia</string>
+    <string name="HU">Hungary</string>
+    <string name="IE">Ireland</string>
+    <string name="IT">Italy</string>
+    <string name="KR">South Korea</string>
+    <string name="LEGUMES_NUTS_OIL_AND_OTHER_SEEDS">Legumes, nuts, oil, seeds</string>
+    <string name="LT">Lithuania</string>
+    <string name="LV">Latvia</string>
+    <string name="MEAT_EXCLUDING_VARIETY_MEATS">Meat</string>
+    <string name="MILK_DAIRY_PRODUCTS_CHEESE">Milk and products thereof</string>
+    <string name="NL">Netherlands</string>
+    <string name="NON_ALCOHOLIC_BEVERAGES">Beverages</string>
+    <string name="OILS_FATS_BUTTER_LARD_TALLOW">Oils, fats, butter…</string>
+    <string name="PL">Poland</string>
+    <string name="POTATOES_AND_POTATO_PRODUCTS_STARCHY_ROOTS_AND_TUBERS_MUSHROOMS">Potatoes and products thereof</string>
+    <string name="PT">Portugal</string>
+    <string name="READY_MADE_BAKERY_PRODUCTS_CAKES_PASTRIES">Bakery and cakes</string>
+    <string name="RO">Romania</string>
+    <string name="SA">Saudi Arabia</string>
+    <string name="SAUSAGES_AND_OTHER_MEAT_PRODUCTS">Meat products</string>
+    <string name="SE">Sweden</string>
+    <string name="SI">Slovenia</string>
+    <string name="SK">Slovakia</string>
+    <string name="SPICES_CONDIMENTS_FOOD_ADDITIVES">Spices</string>
+    <string name="SWEETS_SUGAR_CANDY_CHOCOLATE_SPREAD_ICE_CREAM">Sweets</string>
+    <string name="VEGETABLES_AND_VEGETABLE_PRODUCTS">Vegetables</string>
+    <string name="_private">Private</string>
+    <string name="a_minute_ago">a minute ago</string>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="about_copyright">© %d, Koninklijke Philips N.V.</string>
+    <string name="about_description">We believe in the power of home made food</string>
+    <string name="about_licences">Licenses</string>
+    <string name="about_me">About me</string>
+    <string name="about_me_hint">Write something about yourself</string>
+    <string name="about_privacy">Privacy notice</string>
+    <string name="about_rate_app">Rate this app</string>
+    <string name="about_sub_header">We believe in the power of home made food</string>
+    <string name="about_term_conditions">Terms of Use</string>
+    <string name="about_title">About</string>
+    <string name="about_version">Version %s</string>
+    <string name="accept_sharing_of_usage_data">Ok, share my usage data</string>
+    <string name="accessories">Accessories</string>
+    <string name="accessories_entry_point_title">"Don't have an accessory?"</string>
+    <string name="accessory">Accessory</string>
+    <string name="account">Account</string>
+    <string name="account_marketing_data_title">This data may include:</string>
+    <string name="account_marketing_data_we_get_text">Data about your interactions and usage of the Philips digital channels, such as social media, websites, email, apps and connected products. This data may include: IP address. cookies, device information, communications you click on, location details, and websites you visit.</string>
+    <string name="account_marketing_data_we_get_title">Data we get from your interactions with Philips</string>
+    <string name="account_marketing_data_you_gave_text">Data that you want to actively share with us such as: your name, date of birth or age, email address, physical address, country, gender, phone number, social media profile.</string>
+    <string name="account_marketing_data_you_gave_title">Data you gave us</string>
+    <string name="account_marketing_description">"As a result of your consent, Philips group companies may contact you with promotional communications - based on your preferences and behaviour - about Philips products, services, events and promotions.
+
+We may contact you via email, SMS and other digital channels, such as mobile apps and social media. To be able to tailor the communications to your preferences and behavior and provide you with the best, personalized experience, we may analyze and combine your personal data."</string>
+    <string name="account_marketing_end_text">Philips will give you the opportunity to withdraw your consent at any time.</string>
+    <string name="account_settings_title">Account</string>
+    <string name="add">Add</string>
+    <string name="add_a_new_ingredient">Add new ingredient \"%s\"</string>
+    <string name="add_additional_comment">Tell us why</string>
+    <string name="add_airfryer">Add Airfryer</string>
+    <string name="add_an_airfryer">Add an airfryer?</string>
+    <string name="add_another_appliance">Add another appliance</string>
+    <string name="add_appliance">Add appliance</string>
+    <string name="add_appliances">Add appliances</string>
+    <string name="add_first_recipe">Add first recipe</string>
+    <string name="add_ingredient">Add ingredient</string>
+    <string name="add_ingredient_description">Please include all ingredients required.</string>
+    <string name="add_network_credentials_ssid_input_description_nmx">NutriMax supports only 2.4 Ghz network.</string>
+    <string name="add_new_ingredient">Add new ingredient</string>
+    <string name="add_photo">Add a photo</string>
+    <string name="add_profile_image">Add a profile photo</string>
+    <string name="add_profile_photo">Add a profile photo</string>
+    <string name="add_recipe_photo">Add a recipe photo</string>
+    <string name="add_recipe_tags">Add recipe tags</string>
+    <string name="add_step">Add step</string>
+    <string name="add_step_photo">Add a step photo</string>
+    <string name="add_tags">Add tags</string>
+    <string name="add_tags_description">Category tags make your recipe easy to find.</string>
+    <string name="add_time">Add time</string>
+    <string name="add_to_recipe_book">Add to book</string>
+    <string name="add_to_recipe_book_button">Add to recipe book</string>
+    <string name="add_unknown_ingredient_description">"'%s' isn't in our database, so we won't be able to include its nutritional information. Are you sure you want to add it?"</string>
+    <string name="add_unknown_ingredient_title">Adding \"%s\"</string>
+    <string name="added_ingredient" formatted="false">%s %s of %s</string>
+    <string name="additional_content">Additional content</string>
+    <string name="aifryer_firmware_update_download_completed_body">Airfryer has downloaded the update and it’s now installing. We can’t connect until it’s finished, which can take some time. We’ll reconnect automatically.</string>
+    <string name="aifryer_firmware_update_download_description">Airfryer is downloading an available update and preparing for later installation. While download is in progress, communication with the Airfryer may have some delay.</string>
+    <string name="aifryer_firmware_update_download_in_progress_body">Airfryer firmware update is in progress. You will be notified when download has finished and installation process has begun.</string>
+    <string name="aifryer_firmware_update_download_title">Airfryer updating...</string>
+    <string name="air_cooker">Air Cooker</string>
+    <string name="air_cooker_firmware_update_download_description">Air Cooker is downloading an available update and preparing for later installation. While download is in progress, communication with the Air Cooker may have some delay.</string>
+    <string name="air_cooker_firmware_update_download_title">Air Cooker updating…</string>
+    <string name="air_cooker_firmware_update_in_progress_error">Your Air Cooker is currently updating. The Air Cooker dedicated actions will be disabled until update is finished.</string>
+    <string name="air_steam_cooking_method_title">Air steam</string>
+    <string name="aircooker_paired_title">Your Air Cooker is added and paired!</string>
+    <string name="aircooker_settings_switch">Select Air Cooker settings?</string>
+    <string name="airfryer">Airfryer</string>
+    <string name="airfryer_details_serial_number">Model number</string>
+    <string name="airfryer_model_missing">Airfryer model missing</string>
+    <string name="airfryer_model_not_set">"You haven't set the Airfryer model yet"</string>
+    <string name="airfryer_not_in_setup_mode">It looks like your Airfryer is not in setup mode.</string>
+    <string name="airfryer_not_in_setup_mode_action">Restart setup</string>
+    <string name="airfryer_not_in_setup_mode_description">Your Airfryer is not in the setup mode anymore. Please repeat the easy WiFi setup.</string>
+    <string name="airfryer_not_selected">You have removed the Airfryer from your profile so we cannot store the Airfryer time and temperature. Please select an Airfryer model or continue without time and temperature values.</string>
+    <string name="airfryer_recipes">Airfryer recipes</string>
+    <string name="airfryer_status_info_description">"
+Check that your Airfryer is on, and your Wi-Fi is working. If there is still an issue, check the FAQs in the Airfryer settings in this app."</string>
+    <string name="airfryer_status_info_title">Your Airfryer is not connected</string>
+    <string name="airfryer_user_manual">User manual</string>
+    <string name="airfyer_accessories_description">Explore new possibilities with our accessories</string>
+    <string name="airfyer_description">Fry, bake, roast and grill with up to 90% less oil</string>
+    <string name="alert_remove_airfryer">"If you remove your Airfryer, you won't recieve personalized recommendations."</string>
+    <string name="alert_remove_nutrimax">If you remove your NutriMax, you won’t be able to change cooking instructions remotely, or use any Smart cooking features.</string>
+    <string name="alert_remove_smart_airfryer">If you remove your Airfryer, you won’t be able to change cooking instructions remotely, or use any Smart cooking features.</string>
+    <string name="all_ingredients">All ingredients</string>
+    <string name="allergen_celery">Celery and products thereof</string>
+    <string name="allergen_cereals_containing_gluten">Cereals containing gluten</string>
+    <string name="allergen_cereals_containing_gluten_description">"Namely wheat (such as spelt, Khorasan 
+wheat/Kamut), rye, barley, oats, or their hybridised strains"</string>
+    <string name="allergen_crustaceans">Crustaceans and products thereof</string>
+    <string name="allergen_crustaceans_description">For example crab, lobster, crayfish, shrimp, prawn</string>
+    <string name="allergen_eggs">Eggs and products thereof</string>
+    <string name="allergen_fish">Fish and products thereof</string>
+    <string name="allergen_lupin">Lupin and products thereof</string>
+    <string name="allergen_milk">Milk and products thereof (including lactose)</string>
+    <string name="allergen_molluscs">Molluscs</string>
+    <string name="allergen_molluscs_description">For example mussels, oysters, squid</string>
+    <string name="allergen_mustard">Mustard and products thereof</string>
+    <string name="allergen_nuts">Nuts and nut products</string>
+    <string name="allergen_nuts_description">Namely almonds, hazelnuts, walnuts, cashews, pecans, brazils, pistachios, macadamia nuts or Queensland nuts and products thereof</string>
+    <string name="allergen_peanuts">Peanuts</string>
+    <string name="allergen_sesame_seeds">Sesame seeds and products thereof</string>
+    <string name="allergen_soybeans">Soybeans and products thereof</string>
+    <string name="allergen_sulphur_dioxde_sulphites">Sulphur dioxide and sulphites</string>
+    <string name="allergen_sulphur_dioxde_sulphites_description">At concentration of more than ten parts per million</string>
+    <string name="almost_there">Almost there!</string>
+    <string name="already_have_account">I already have an account</string>
+    <string name="amazon_banner_dismiss">You can always connect your Amazon account in settings.</string>
+    <string name="amazon_banner_text">Connect to your Amazon account for extra benefits</string>
+    <string name="amazon_privacy_notice">Amazon privacy notice</string>
+    <string name="amazon_terms_and_conditions">Amazon T&amp;C</string>
+    <string name="amount">Amount</string>
+    <string name="amount_zero_error">"Amount can't be zero."</string>
+    <string name="an_hour_ago">an hour ago</string>
+    <string name="analytics_cookies_title">How we use analytics &amp; cookies</string>
+    <string name="announcement_error_message">"Sorry, something went wrong. 
+Announcement failed to load, please try again."</string>
+    <string name="announcement_not_active_error">This announcement is not active anymore.</string>
+    <string name="app_crashed_message">It appears that there is a problem with the app. A bug report was automatically sent to the developer.</string>
+    <string name="app_name">NutriU</string>
+    <string name="app_to_app_linking_already_connected_description">It looks like NutriU is already connected with Amazon Alexa. Go back to keep enjoying hands-free cooking or disconnect below.</string>
+    <string name="app_to_app_linking_already_connected_disconnect">Disconnect Amazon</string>
+    <string name="app_to_app_linking_already_connected_title">NutriU is already connected with Alexa</string>
+    <string name="app_to_app_linking_amazon_privacy_description">"The Kitchen Plus Skill allows you to control your Philips Airfryer and obtain information via Amazon Alexa. When you enable the Skill, Philips allows you to connect your Amazon Account to the Philips account you use to log in to the NutriU app. When connecting your accounts, Philips and Amazon independently adopt technical measures to validate your identity. Philips does not share your account credentials, including name or email address, with Amazon.
+
+When you speak to Alexa, Amazon sends a written version of your voice commands to Philips together with a unique identifier. We process this information to execute your commands and issue a response in accordance with our Privacy Notice. We share our written response with Amazon so that Amazon can inform you about the outcome of your command in accordance with Amazon’s Privacy Notice and Terms of Use. Philips and Alexa may also exchange information on the Airfryer you decide to control through the Skill, including when you update, change or remove a device.
+
+You understand that your commands and responses amount to personal data. You also understand that Amazon provides its own services to you and by providing consent, you instruct us to share your personal data with Amazon. Amazon may process your personal data in countries outside of your country of residence which may not provide adequate protection to personal data. You can revoke your consent at any time by disabling the Skill."</string>
+    <string name="app_to_app_linking_connect_alexa_button">Connect with Alexa</string>
+    <string name="app_to_app_linking_consent_revoke_popup_description">Amazon consent is required for account linking. By revoking your consent, your account will get unlinked from Amazon and you will not be able to use voice control.</string>
+    <string name="app_to_app_linking_privacy_label">I want to activate the Kitchen Plus skill and share my information with Amazon to receive voice services</string>
+    <string name="app_to_app_linking_step_one">Log in or create an Amazon account</string>
+    <string name="app_to_app_linking_step_three">Start using voice control with your Aifryer</string>
+    <string name="app_to_app_linking_step_two">Connect your account</string>
+    <string name="app_to_app_linking_subtitle">Connect NutriU with Amazon Alexa for hands-free cooking.</string>
+    <string name="app_to_app_linking_success_header">Voice control</string>
+    <string name="app_to_app_linking_success_subtitle">That’s it! Now you’re free to enjoy hands-free cooking with your Airfryer.</string>
+    <string name="app_to_app_linking_success_title">Well done! NutriU is connected with Alexa</string>
+    <string name="app_to_app_linking_title">Connect your smart home device app to use voice control</string>
+    <string name="app_to_app_linking_unlink_disabled_description">If you used the Alexa app to connect with NutriU, please disconnect using the Alexa app too.</string>
+    <string name="app_to_app_unlink_notice">"
+If you disconnect your Amazon account, Alexa will not be able to access your Airfryer for hands-free cooking."</string>
+    <string name="app_to_app_unlink_title">Disconnect your Amazon account</string>
+    <string name="app_transparency_prompt_for_iOS_only">NutriU would like permission to track you across apps and websites owned by other companies. We will exchange a unique id with our marketing partners to understand the effectiveness of our advertising.</string>
+    <string name="appliance_empty_description">Add your Aifryer and see all the features specifically for it.</string>
+    <string name="appliance_empty_title">"You haven't added an appliance yet!"</string>
+    <string name="appliance_named_notifications_settings_title">“%s” notifications</string>
+    <string name="appliance_notifications_settings_description">Choose when you want your Airfryer to send you cooking updates.</string>
+    <string name="appliance_notifications_settings_title">“My Smart Airfryer” notifications</string>
+    <string name="appliance_removal_message">You have removed your appliance</string>
+    <string name="appliance_selection_onboarding_description">"Let us know which appliance(s) you use and we'll share popular recipes and NutriU articles."</string>
+    <string name="appliance_selection_onboarding_title">Add your appliance for personalized recipes</string>
+    <string name="appliance_selection_own_appliance_header_title">Do you also own an appliance?</string>
+    <string name="appliances">Appliances</string>
+    <string name="apply">Apply</string>
+    <string name="ar_AE">Arabic</string>
+    <string name="ar_KW">Arabic</string>
+    <string name="are_you_using_blender_or_airfryer">Are you using blender or airfryer?</string>
+    <string name="articles">Articles</string>
+    <string name="articles_all">All Articles</string>
+    <string name="articles_favourite">Favourites</string>
+    <string name="author">Author</string>
+    <string name="back">Back</string>
+    <string name="bake_cooking_method_title">Bake</string>
+    <string name="before_we_start">Welcome to NutriU</string>
+    <string name="benefit_1_v4">"Be inspired 
+by healthy recipes"</string>
+    <string name="blend_consumption_type_all">All of it</string>
+    <string name="blend_consumption_type_custom">%sg</string>
+    <string name="blend_consumption_type_half">Half</string>
+    <string name="blend_consumption_type_none">None</string>
+    <string name="blend_consumption_type_one_quarter">One quarter</string>
+    <string name="blend_consumption_type_one_third">One third</string>
+    <string name="blend_details_error_message">Sorry, something went wrong. Blend details failed to load, please try again.</string>
+    <string name="blend_details_how_nutritious">How nutritious was your last smoothie?</string>
+    <string name="blend_details_nutri_info_title">250g contain</string>
+    <string name="blend_details_prepared_on">Prepared on: %s</string>
+    <string name="blender">Blender</string>
+    <string name="blender_and_juicer">Blender &amp; Juicer</string>
+    <string name="blender_description">Get your daily boost with fruit &amp; veggie smoothies</string>
+    <string name="blender_or_juicer">Blender or juicer</string>
+    <string name="blenders">Blenders</string>
+    <string name="blenders_and_juicers">Blenders &amp; Juicers</string>
+    <string name="blending_time">Blending time:</string>
+    <string name="bluetooth_off_button">Turn on Bluetooth</string>
+    <string name="bluetooth_off_description">Bluetooth is needed to connect to the blender, please turn it on under your mobile phone Settings</string>
+    <string name="bluetooth_off_title">Please turn on Bluetooth</string>
+    <string name="bluetooth_pairing_description_p2">Bluetooth is part of device’s location service so Location permission is required.</string>
+    <string name="bluetooth_pairing_title">"Bluetooth 
+pairing"</string>
+    <string name="bmi">BMI</string>
+    <string name="boosts_carousel_error_message">Sorry something went wrong. Daily boosts section failed to load, please try again.</string>
+    <string name="browse_recipes">Browse recipes</string>
+    <string name="by_continuing_you_agree">Allow</string>
+    <string name="camera_access_not_granted">Camera access not granted.</string>
+    <string name="can">can</string>
+    <string name="cancel">Cancel</string>
+    <string name="cancel_changes">Cancel changes</string>
+    <string name="carbohydrate">Carbohydrates</string>
+    <string name="celsius">°C</string>
+    <string name="celsius_sign">%s°</string>
+    <string name="centrifugal_juicer">Centrifugal Juicer</string>
+    <string name="centrifugal_juicer_description">Fresh juice just how you like it, every day</string>
+    <string name="check_airfryer_plugged_in">Check that your Airfryer is plugged in, and fully powered on.</string>
+    <string name="check_bluetooth_settings">Connect via Bluetooth and get blending!</string>
+    <string name="check_bluetooth_settings_description">"Your Philips blender needs to connect to your app using Bluetooth. 
+It’s easy to do. Turn on your device’s Bluetooth.
+Make sure to allow NutriU access to Bluetooth Sharing in iOS settings."</string>
+    <string name="check_bluetooth_settings_success">You are all set!</string>
+    <string name="check_bluetooth_settings_success_description">The next step is to pair your blender.</string>
+    <string name="check_credentials">Check credentials</string>
+    <string name="check_your_permissions_in_settings">Please check your permission in settings</string>
+    <string name="chicken_drumsticks_preset_title">Chicken drumsticks</string>
+    <string name="choose_content_description">Choose at least one type of content you want to see, including recipes, articles and tips for the appliances you own.</string>
+    <string name="choose_content_description_preselected">You can choose the type of content you want to see, including recipes and tips. Content for appliances you own are already added.</string>
+    <string name="choose_photo">Choose photo</string>
+    <string name="choose_your_content">Choose your content</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all">Clear all</string>
+    <string name="clear_shopping_list_warning">This will remove all recipes from your shopping list. Are you sure?</string>
+    <string name="clear_the_list">Clear the list?</string>
+    <string name="colour">Colour</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="comment_count">%s comment</string>
+    <string name="comments_count">%s comments</string>
+    <string name="comments_empty">Be the first to comment</string>
+    <string name="comments_label">Comments</string>
+    <string name="comments_list_error_message">Sorry, something went wrong. Comments list failed to load, please try again.</string>
+    <string name="community_images">Homemade highlights</string>
+    <string name="community_introduction_consent_additonal_description">"Not ready yet? You can still use NutriU and agree later in your Settings
+menu. Once you join, you'll be a part of the growing Airfryer community."</string>
+    <string name="community_notification_description">Get notified of new followers, favorites and comments on your recipes.</string>
+    <string name="community_notification_title">Community updates</string>
+    <string name="confirm">Confirm</string>
+    <string name="confirm_save_changes_title">Save changes?</string>
+    <string name="connect_my_blender">Connect my blender</string>
+    <string name="connect_to_access_point_first_step">Tap ‘Connect’ to allow access to your location services.</string>
+    <string name="connect_to_access_point_second_step">Join the ‘Philips Setup’ network.</string>
+    <string name="connect_to_access_point_third_step">Give ‘local network access‘ so you can connect your phone to your Airfryer.</string>
+    <string name="connect_to_access_point_third_step_nutrimax">Give ‘local network access‘ so you can connect your phone to your NutriMax.</string>
+    <string name="connected">Connected</string>
+    <string name="connected_via_wifi">Connected via WiFi</string>
+    <string name="connecting_to_wifi_android_10_step_1">Tap ‘Connect’ to allow access to your location services.</string>
+    <string name="connecting_to_wifi_android_10_step_2">Select the ‘Philips Setup’ network from the Wi-Fi list.</string>
+    <string name="connecting_to_wifi_failed_message">Connecting to ‘Philips Setup’ failed. Please try to connect again.</string>
+    <string name="contact">Contact</string>
+    <string name="contact_url">https://www.philips.com.au/c-m/consumer-support</string>
+    <string name="content_cannot_be_found">Content you requested can not be found.</string>
+    <string name="content_deselect_dialog_text">By deselecting a content category you will not be able to create recipes for that category and devices for that category will be removed from the settings list.</string>
+    <string name="content_selection_description_only_dolphin">"You’ll get tips for a healthier diet, personalized information &amp; 100s of healthy smoothie recipes to match your goals and preferences. 
+
+Tap \"Next\" to start.
+"</string>
+    <string name="content_selection_description_settings_v3">This will help us show you the right recipes and NutriU Articles.</string>
+    <string name="continue_action">Continue</string>
+    <string name="continue_preheat">Continue preheat</string>
+    <string name="continue_to_parameters">Continue to parameters</string>
+    <string name="continue_with_setup">Continue with setup</string>
+    <string name="cook">Cook</string>
+    <string name="cook_message">Please specify cooking settings.</string>
+    <string name="cook_mode_step">Step %s</string>
+    <string name="cook_more">Cook more</string>
+    <string name="cooking_action_back">Back to recipe</string>
+    <string name="cooking_action_continue">Continue cooking</string>
+    <string name="cooking_action_start">Start cooking</string>
+    <string name="cooking_action_update_settings">Change time/temp.</string>
+    <string name="cooking_almost_done">Almost done</string>
+    <string name="cooking_banner_done">Cooking step %s is done</string>
+    <string name="cooking_banner_drawer_open">All cooking actions are limited while drawer is open.</string>
+    <string name="cooking_banner_in_progress_manual">Cooking in progress.</string>
+    <string name="cooking_banner_keep_warm">"Cooking finished. 
+Food warmer on."</string>
+    <string name="cooking_banner_keep_warm_done">Keep warm done.</string>
+    <string name="cooking_banner_keep_warm_paused">Keep warm has been paused.</string>
+    <string name="cooking_banner_paused">Cooking has been paused.</string>
+    <string name="cooking_banner_view_more">View details</string>
+    <string name="cooking_banner_water_tank_empty">Cooking has been paused. Fill water tank to continue.</string>
+    <string name="cooking_done">Cooking done</string>
+    <string name="cooking_finished_notification_title">Cooking is finished</string>
+    <string name="cooking_finishing_up">Finishing up...</string>
+    <string name="cooking_in_progress">Cooking…</string>
+    <string name="cooking_methods">COOKING METHODS</string>
+    <string name="cooking_mode_finish_community_description_for_liquid_health">How do you compare to other chefs?</string>
+    <string name="cooking_mode_finish_noncommunity_decription_for_liquid_health">Does it look as good as it tastes? Upload a picture and share it with your friends</string>
+    <string name="cooking_mode_finish_upload_image_description">Proud of how your recipe turned out? Share the image with your friends on social media!</string>
+    <string name="cooking_next_step">To next step</string>
+    <string name="cooking_preheat_done">Preheat done</string>
+    <string name="cooking_preheat_skipped">Preheat skipped</string>
+    <string name="cooking_progress_connecting">Connecting to Airfryer</string>
+    <string name="cooking_progress_connecting_nutrimax">Connecting to NutriMax</string>
+    <string name="cooking_progress_done">Cooked</string>
+    <string name="cooking_progress_keep_warm">Keeping warm</string>
+    <string name="cooking_progress_keep_warm_done">Keep warm done</string>
+    <string name="cooking_progress_keep_warm_paused">Keep warm paused</string>
+    <string name="cooking_progress_paused">Paused</string>
+    <string name="cooking_progress_preheating">Preheating...</string>
+    <string name="cooking_progress_ready">Ready</string>
+    <string name="cooking_progress_recipe">Cooking %s</string>
+    <string name="cooking_push_notifications_alert_allow">Allow</string>
+    <string name="cooking_push_notifications_alert_description">Notification may include alerts, sounds and icon badges. These can be configured in settings.</string>
+    <string name="cooking_push_notifications_alert_dont_allow">Don’t Allow</string>
+    <string name="cooking_push_notifications_alert_title">“NutriU” Would like to send you cooking notifications.</string>
+    <string name="cooking_tab_appliance_title_description">REMOTE CONTROL YOUR</string>
+    <string name="cooking_time">Cooking time</string>
+    <string name="cooking_tip_notification_description">For example “Shake the fries”</string>
+    <string name="cooking_tip_notification_title">Tip while cooking</string>
+    <string name="cooking_will_finish_notification_description">Notify me 1min before it ends</string>
+    <string name="cooking_will_finish_notification_title">Cooking will be finished soon</string>
+    <string name="copy_text">Copy text</string>
+    <string name="copy_toast_msg">Link copied to clipboard</string>
+    <string name="country">Country</string>
+    <string name="courses">Courses</string>
+    <string name="create">Create</string>
+    <string name="create_account_entry_point_description">"Create or log in to your Philips account to use all of your Airfryer's smart cooking features."</string>
+    <string name="create_account_entry_point_title">Your Philips account</string>
+    <string name="create_new">Create new</string>
+    <string name="create_new_recipe">Create new recipe</string>
+    <string name="create_recipe">Create recipe</string>
+    <string name="create_recipe_book_not_private_message">You can not add a saved recipe to public recipe books. Please create a private recipe book.</string>
+    <string name="create_recipe_exit_warning">Your changes are not saved. Are you sure you want to exit?</string>
+    <string name="create_recipe_for">Create recipe for</string>
+    <string name="create_recipe_now">Create a recipe now</string>
+    <string name="create_recipe_steps_toggle_title">Include Airfryer settings</string>
+    <string name="created">created</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="cuisines">Cuisines</string>
+    <string name="da_DK">Danish</string>
+    <string name="daily_energy_values">RNI*</string>
+    <string name="daily_energy_values_info" formatted="false">"*Nutrient reference value (RNI) is based on a %s kilocalorie diet. Your daily values may be higher or lower depending on your kilocalorie needs. 
+
+Amounts are per serving. One serving is 1/%s of \"%s\" recipe."</string>
+    <string name="daily_energy_values_info_servings" formatted="false">Amounts are per serving. One serving is 1/%s of \"%s\" recipe.</string>
+    <string name="data_transfer_consent_explanation_description">NutriU sends recipe and ingredient data to the blender so that recipes can be prepared and created on the blender. NutriU receives data from recipe preparation and blender usage so that coaching and guidance functionality can be provided and improvements can be made to app and appliance based on actual usage.</string>
+    <string name="data_transfer_consent_explanation_title">Data transfer</string>
+    <string name="data_transfer_consent_failure_message">Something went wrong. Your settings could not be saved successfully.</string>
+    <string name="data_transfer_consent_text">By pairing via Bluetooth you allow NutriU to transfer recipe, nutrition and usage data between phone and blender.</string>
+    <string name="day_ago">%s day ago</string>
+    <string name="days_ago">%s days ago</string>
+    <string name="de_AT">German (Austria)</string>
+    <string name="de_CH">German (Switzerland)</string>
+    <string name="de_DE">German</string>
+    <string name="default_calories_daily_intake_value">2000</string>
+    <string name="default_calories_daily_intake_value_indonesia">2150</string>
+    <string name="defrost_cooking_method_title">Defrost</string>
+    <string name="delete">Delete</string>
+    <string name="delete_comment">Delete comment</string>
+    <string name="delete_community_image_description">This image will be permanently deleted. Are you sure?</string>
+    <string name="delete_draft">Delete draft</string>
+    <string name="delete_last_recipe_from_recipe_book_info">This is the last recipe in the recipe book, by removing it you will delete the whole recipe book. Delete the recipe book?</string>
+    <string name="delete_recipe">Delete recipe</string>
+    <string name="delete_recipe_book_confirmation">Are you sure you want to delete your recipe book?</string>
+    <string name="delete_recipe_confirmation">You will delete this recipe and won’t be able to restore it, are you sure?</string>
+    <string name="delete_recipe_from_recipe_book_confirmation">Are you sure you want to delete recipe from recipe book?</string>
+    <string name="delete_step">Delete Step %s?</string>
+    <string name="delete_step_description">This step will be permanently deleted. Are you sure?</string>
+    <string name="delete_successful">Recipe successfully deleted.</string>
+    <string name="delete_the_recipe">Delete the recipe?</string>
+    <string name="delete_this_comment_description">This comment will be permanently deleted. Are you sure?</string>
+    <string name="delete_this_comment_title">Delete this comment</string>
+    <string name="delete_this_draft">Delete this draft</string>
+    <string name="delete_timeline_item_confirmation">Are you sure you want to delete?</string>
+    <string name="description">Description</string>
+    <string name="description_hint">Tell us something about this recipe</string>
+    <string name="description_hint_eg">e.g. This is my favorite dessert</string>
+    <string name="device">Device</string>
+    <string name="device_discovery_completed_description_nmx">Tap to select your NutriMax. Next we will pair your NutriMax with your phone.</string>
+    <string name="device_discovery_completed_title_nmx">Select your NutriMax</string>
+    <string name="device_discovery_finished_description_airfryer">Tap to select your Airfryer. Next we will pair your Airfryer with your phone.</string>
+    <string name="device_discovery_finished_navigation_title_airfryer">Your airfryer</string>
+    <string name="device_discovery_finished_navigation_title_nmx">Your NutriMax</string>
+    <string name="device_discovery_finished_title_airfryer">Select your Airfryer</string>
+    <string name="device_discovery_in_progress_description_airfryer">"We're searching for your Airfryer. If you haven't already, check that it is fully powered on. Searching can take up to 30 seconds."</string>
+    <string name="device_discovery_in_progress_description_nmx">"We're searching for your NutriMax. If you haven't already, check that it is fully powered on. Searching can take up to 30 seconds."</string>
+    <string name="device_discovery_in_progress_nmx">Searching for your NutriMax</string>
+    <string name="device_discovery_in_progress_title_airfryer">Searching for your Airfryer</string>
+    <string name="device_discovery_not_found_description_airfryer">"Our search timed out. If your Airfryer wasn't fully powered on, wait until it is and then try again."</string>
+    <string name="device_discovery_not_found_description_nmx">"Our search timed out. If your NutriMax wasn't fully powered on, wait until it is and then try again."</string>
+    <string name="device_discovery_not_found_navigation_title">Nothing found</string>
+    <string name="device_discovery_not_found_title_airfryer">"We couldn't find your Airfryer"</string>
+    <string name="device_discovery_not_found_title_nmx">"We couldn't find your NutriMax"</string>
+    <string name="device_filter_airfryer">Airfryer recipes</string>
+    <string name="device_filter_all">All</string>
+    <string name="device_filter_blenders">Blender &amp; juicer recipes</string>
+    <string name="device_filter_dolphin">Dolphin recipes</string>
+    <string name="device_mismatch_info_message">Please note that this recipe was not optimized for the Airfryer model you own. Cooking times may need to be adjusted for your appliance.</string>
+    <string name="device_mismatch_info_title">Cooking time may differ</string>
+    <string name="device_mismatch_info_title_v2">Different Airfryer model</string>
+    <string name="device_mismatch_warning">Cooking time may differ on your Airfryer model</string>
+    <string name="device_mismatch_warning_button">More</string>
+    <string name="device_mismatch_warning_v2">Cooking time may vary in your Airfryer model.</string>
+    <string name="device_selected">Device selected</string>
+    <string name="device_selection_exit_warning">Your changes are not saved. Are you sure you want to exit?</string>
+    <string name="device_series">series</string>
+    <string name="device_status_info_description">"
+Check that your Airfryer is on, and your Wi-Fi is working. If there is still an issue, check the FAQs in the Airfryer settings in this app."</string>
+    <string name="device_status_info_title">Your Airfryer is not connected</string>
+    <string name="direction_not_set">Please add at least one step</string>
+    <string name="direction_step_number">Instructions</string>
+    <string name="discard">Discard</string>
+    <string name="discard_changes">Discard changes?</string>
+    <string name="discard_changes_description">You will lose your changes if you continue without saving them.</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected_from_airfryer">Disconnected from Airfryer</string>
+    <string name="disconnected_from_airfryer_alert_description">To connect please check if your Airfryer is turned on and check your connection.</string>
+    <string name="disconnected_from_airfryer_alert_title">You’re disconnected from Airfryer</string>
+    <string name="disconnected_from_device">Disconnected from device</string>
+    <string name="discover_kitchen_appliances">Discover our kitchen appliances</string>
+    <string name="do_not_own_an_airfryer">"I don't own an Airfryer"</string>
+    <string name="dolphin">Dolphin</string>
+    <string name="dolphin_add_new_recipe">Add new recipe</string>
+    <string name="dolphin_communication_error">There was an error communicating with the device.</string>
+    <string name="dolphin_connecting_to_the_blender">Connecting to the blender...</string>
+    <string name="dolphin_current_firmware_version">Current blender firmware</string>
+    <string name="dolphin_downloading_firmware_file">Downloading firmware file...</string>
+    <string name="dolphin_favourite_recipes_max">Limit of 10 recipes reached.</string>
+    <string name="dolphin_firmware_up_to_date">Newest version. You are up to date.</string>
+    <string name="dolphin_firmware_update_in_progress_error_message">Firmware update is in progress. Please try again later.</string>
+    <string name="dolphin_home_entry_point_subtitle">Pair the blender</string>
+    <string name="dolphin_home_entry_point_subtitle_connected">Manage blends and ingredients</string>
+    <string name="dolphin_ingredients" formatted="false">Ingredients (%s/%s)</string>
+    <string name="dolphin_ingredients_max">Limit of 30 ingredients reached.</string>
+    <string name="dolphin_ingredients_overwrite_alert_text">Cancel changes and retrieve current ingredients list from blender?</string>
+    <string name="dolphin_install_update">Install update</string>
+    <string name="dolphin_max_number_of_ingredients">You have added the maximum number of ingredients for the recipe.</string>
+    <string name="dolphin_new_firmware_version">New blender firmware</string>
+    <string name="dolphin_new_firmware_version_available">New blender firmware update is available.</string>
+    <string name="dolphin_not_in_main_state">Blender is not in main menu. Please go to the first screen</string>
+    <string name="dolphin_progress_finished_message">Don’t turn off the blender while installation is in the progress. This will take only a couple of minutes.</string>
+    <string name="dolphin_progress_finished_message_2">In the meanwhile, you can use the app.</string>
+    <string name="dolphin_progress_finished_title">We will now update your blender</string>
+    <string name="dolphin_recipes" formatted="false">Recipes (%s/%s)</string>
+    <string name="dolphin_recipes_overwrite_alert_text">Cancel changes and retrieve current recipes list from blender?</string>
+    <string name="dolphin_recommended_title">Recommended recipes</string>
+    <string name="dolphin_update_info_message">Watch out. It can take up to 20 minutes for entire process to finish, but in the meantime, why not make a smoothie?</string>
+    <string name="dolphin_update_your_blender">Update your blender!</string>
+    <string name="dolphin_user_manual">User manual</string>
+    <string name="done">Done</string>
+    <string name="dont_have_a_blender">"I don't have a blender"</string>
+    <string name="download">Download</string>
+    <string name="draft">Draft</string>
+    <string name="edit_live_flagged_message">"This operation is currently not allowed since your recipe is under review.
+Please try again later."</string>
+    <string name="edit_published_recipe">Edit published recipe</string>
+    <string name="edit_recipe">Edit recipe</string>
+    <string name="edit_recipe_book">Edit recipe book</string>
+    <string name="edit_recipe_draft">Edit recipe draft</string>
+    <string name="edit_rni">Edit your data</string>
+    <string name="edit_saved_recipe_v4">Edit saved recipe</string>
+    <string name="email_description">You have logged in using:</string>
+    <string name="email_description_text">You have logged in using:</string>
+    <string name="empty_article_favorites_message">Once you favorite an Article it will be shown here.</string>
+    <string name="empty_articles_message">Once an article is created it will appear here</string>
+    <string name="empty_articles_search_message">"Sorry, we couldn't find any matching article."</string>
+    <string name="empty_here">"It's empty here"</string>
+    <string name="empty_value_placeholder">—</string>
+    <string name="en_AU">English (Australia)</string>
+    <string name="en_GB">English</string>
+    <string name="en_NZ">English (New Zealand)</string>
+    <string name="en_SG">English (Singapore)</string>
+    <string name="en_US">English</string>
+    <string name="en_ZA">English (South Africa)</string>
+    <string name="enable_storage_permission_message">Please enable storage permission</string>
+    <string name="energy">Energy</string>
+    <string name="energy_graph_info_description_1">"This chart shows how many kilocalories are in the uncooked recipe.
+
+
+Kilocalories are equal to the energy in one serving and are divided into fats, carbs and proteins. 
+
+
+Your diet is divided into other nutrients, such as fiber or alcohol.
+"</string>
+    <string name="energy_graph_info_description_1_airfryer">"This chart shows how many kilocalories are in the uncooked recipe.
+
+For example, if you prepare food in heat with an Airfryer, it may reduce the amount of fat in the ingredients and the kilocalories per serving.
+
+Kilocalories are equal to the energy in one serving and are divided into fats, carbs and proteins. 
+
+
+\"Other\" contains kilocalories which are coming for example from alcohol.
+"</string>
+    <string name="energy_graph_info_description_1_dolphin">"This chart shows how many kilocalories are in the recipe.
+
+Kilocalories are equal to the energy in one serving and are divided into fats, carbs and proteins. 
+
+
+\"Other\" contains kilocalories which are coming for example from alcohol."</string>
+    <string name="energy_graph_info_description_2">"Energy is shown based on one serving. This recipe contains %s servings. The Daily Values are for a 2,000 kilocalories per day diet. Your recommended intake changes to match your age, height, weight and activity level.
+
+If you personalized your nutritional profile, the graph will reflect these values."</string>
+    <string name="energy_graph_info_description_2_airfryer_with_rni">"
+* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on your personalized nutritional intake of %s kilocalories."</string>
+    <string name="energy_graph_info_description_2_airfryer_without_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on a %s kilocalorie diet. Your daily values may be higher or lower depending on your kilocalorie needs.</string>
+    <string name="energy_graph_info_description_2_dolphin_with_rni">"
+* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on your personalized nutritional intake of %s kilocalories."</string>
+    <string name="energy_graph_info_description_2_dolphin_without_rni">"
+* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on a %s kilocalorie diet. If you set your personal RNI in the app, the calculations of RNI%% are based on your profile."</string>
+    <string name="energy_graph_info_description_2_one_serving">Daily Values are based on %s kilocalories diet. Your own recommended intake will vary based on factors like age, height, weight and activity level.</string>
+    <string name="energy_graph_info_description_2_personalized_one_serving">Daily Values are based on your recommended %s kilocalories diet.</string>
+    <string name="energy_graph_info_title_1">How to read the energy graph</string>
+    <string name="energy_graph_info_title_2">How to read daily energy values</string>
+    <string name="energy_info_additional_description">"%s
+
+
+The nutritional values are based on raw foods, if not otherwise indicated."</string>
+    <string name="energy_info_calories">Kilocalorie</string>
+    <string name="energy_info_carbohydrates">Carbohydrates</string>
+    <string name="energy_info_daily_value">% RNI*</string>
+    <string name="energy_info_dietary_fibers">Dietary fibers</string>
+    <string name="energy_info_explanation_airfryer_with_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on your personalized nutritional intake of %s kilocalories.</string>
+    <string name="energy_info_explanation_airfryer_without_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on a %s kilocalorie diet. Your daily values may be higher or lower depending on your kilocalorie needs.</string>
+    <string name="energy_info_explanation_dolphin_with_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on your personalized nutritional intake of %s kilocalories.</string>
+    <string name="energy_info_explanation_dolphin_without_rni">"* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on a %s kilocalorie diet. If you set your personal RNI in the app, the calculations of RNI%% are based on your profile.
+
+
+"</string>
+    <string name="energy_info_fat">Fat</string>
+    <string name="energy_info_omega">Omega-3 fatty acids</string>
+    <string name="energy_info_per_serving">"Per 
+Serving"</string>
+    <string name="energy_info_protein">Protein</string>
+    <string name="energy_info_saturated">Saturated</string>
+    <string name="energy_info_serving">Each serving is 1/%s recipe</string>
+    <string name="energy_info_single_serving">Recipe contains 1 serving</string>
+    <string name="energy_info_sodium">Sodium</string>
+    <string name="energy_info_sugar">Sugar</string>
+    <string name="energy_info_unsaturated">Unsaturated</string>
+    <string name="enjoy_the_blend">Enjoy!</string>
+    <string name="enjoy_the_meal">Enjoy!</string>
+    <string name="enjoy_your_meal">Enjoy your meal!</string>
+    <string name="enjoy_your_meal_community_description">Post a picture of your delicious meal and show off your cooking.</string>
+    <string name="enjoy_your_meal_non_community_description">Save an image of your delicious meal.</string>
+    <string name="enter_network_credentials_philips_setup_lost_android_10">"Your connection to 'Philips Setup' network was lost. Please select 'Philips Setup' from network list below to re-connect."</string>
+    <string name="enter_new_ingredient">Enter new ingredient</string>
+    <string name="enter_your_comment">Enter your comment</string>
+    <string name="entry_blender">Entry blender</string>
+    <string name="error">Error</string>
+    <string name="error_loading_devices">Unable to load your devices. You can retry or add the step without a device.</string>
+    <string name="error_loading_photo">There was an error loading the photo. Please try again.</string>
+    <string name="error_missing_info">Please add missing info</string>
+    <string name="error_user_manual_not_available">Sorry, the user manual is not available.</string>
+    <string name="error_view_description_default">"Sorry, something went wrong. 
+The screen failed to load, please try again."</string>
+    <string name="error_view_title_default">Oops!</string>
+    <string name="exit">Exit</string>
+    <string name="expanded_carousel_error_message">Sorry, something went wrong. Recipe books failed to load, please try again.</string>
+    <string name="fahrenheit">°F</string>
+    <string name="fallback_menu_item_copy_link">Copy link</string>
+    <string name="fallback_menu_item_open_in_browser">Open in browser</string>
+    <string name="fallback_menu_item_share_link">Share link</string>
+    <string name="faq">FAQ</string>
+    <string name="fat">Fat</string>
+    <string name="favorited">favorited</string>
+    <string name="favorites_list_error_message">Sorry, something went wrong. Favorites list failed to load, please try again.</string>
+    <string name="favorites_list_error_message_next_page">Sorry, something went wrong. Part of Favorites list failed to load, please try again.</string>
+    <string name="favourite">%s favorite</string>
+    <string name="favourites">%s favourites</string>
+    <string name="favourites_label">Favourites</string>
+    <string name="fi_FI">Finnish</string>
+    <string name="filter_articles">Filter articles</string>
+    <string name="filter_nutri_u_stories">Filter NutriU Articles</string>
+    <string name="filter_recipes">Filter recipes</string>
+    <string name="filter_your_results">Filter your results</string>
+    <string name="filters">Filters</string>
+    <string name="filters_choose_category">Choose a category</string>
+    <string name="filters_loading_failed_message">Oops, we failed to load filters. Please try again.</string>
+    <string name="filters_refine_by">Refine by</string>
+    <string name="find_articles">Find articles</string>
+    <string name="find_out_more">Find out more</string>
+    <string name="find_recipe">Find a recipe</string>
+    <string name="find_recipes">Find recipes</string>
+    <string name="find_recipes_for_recipe_book">Find recipes for recipe book</string>
+    <string name="find_some_recipes_you_like">Find some recipes you like</string>
+    <string name="find_some_tips_you_like">Find some articles you like</string>
+    <string name="find_stories">Find articles</string>
+    <string name="finding_blender_description">Make sure your blender is turned on and within 2 meters of range of your mobile phone.</string>
+    <string name="finding_blender_title">Finding your blender</string>
+    <string name="finish">Finish</string>
+    <string name="finish_setup">Finish setup</string>
+    <string name="firmware_update_cancel_message">Are you sure you want to cancel the firmware update?</string>
+    <string name="firmware_update_device_up_to_date">Your firmware is up to date.</string>
+    <string name="firmware_update_in_progress_error">Your Airfryer is currently updating. The Airfryer dedicated actions will be disabled until update is finished.</string>
+    <string name="firmware_update_transferring_data_message">When the progress is done the blender will shut down to install the update.</string>
+    <string name="firmware_update_transferring_data_message_2">Don’t turn off the blender or exit this screen until the transfer is done.</string>
+    <string name="firmware_update_transferring_data_title">Updating firmware…</string>
+    <string name="fish_filet_preset_title">Fish filet</string>
+    <string name="follow">Follow</string>
+    <string name="followed">followed</string>
+    <string name="followers">Followers</string>
+    <string name="followers_list_error_message">Sorry, something went wrong. Followers list failed to load, please try again.</string>
+    <string name="followers_list_error_message_next_page">Sorry, something went wrong. Part of Followers list failed to load, please try again.</string>
+    <string name="following">Following</string>
+    <string name="food_category_dairy">Dairy</string>
+    <string name="food_category_fish">Fish</string>
+    <string name="food_category_fruits">Fruits</string>
+    <string name="food_category_liquids">Liquids</string>
+    <string name="food_category_meat">Meat</string>
+    <string name="food_category_vegetables">Vegetables</string>
+    <string name="food_preferences">Food preferences</string>
+    <string name="four_servings">4 servings</string>
+    <string name="fr_BE">French (Belgium)</string>
+    <string name="fr_CH">French (Switzerland)</string>
+    <string name="fr_FR">French</string>
+    <string name="fresh_content_notification_description">Get notified about new recipes, healthy tips and more.</string>
+    <string name="fresh_content_notification_title">Fresh content updates</string>
+    <string name="fresh_fries_preset_title">Fresh fries</string>
+    <string name="fresh_ideas_for_you">Fresh ideas for you</string>
+    <string name="fridge_make_a_meal">Make a meal immediately</string>
+    <string name="fridge_make_a_smoothie">Make a smoothie immediately</string>
+    <string name="fridge_make_a_smoothie_or_meal">Make a smoothie or meal</string>
+    <string name="fridge_what_is_in_my">"What's in my fridge?"</string>
+    <string name="fridge_what_is_in_my_title">"What's in my fridge"</string>
+    <string name="frozen_potato_based_snacks_preset_title">Frozen potato based snacks</string>
+    <string name="fw_update_notification_title">Blender update</string>
+    <string name="gallery_access_not_granted">Access to the gallery is not granted.</string>
+    <string name="general">General</string>
+    <string name="general_category_description">None of the above appliances are required</string>
+    <string name="general_save_or_exit_warning">Your changes are not saved. Are you sure you want to exit?</string>
+    <string name="generic_no_result_message">Sorry, we couldn’t find any results.</string>
+    <string name="get_personalized_recipes_text">"Analytics help us recommend recipes you'll like"</string>
+    <string name="get_personalized_recipes_title">Get personalized recipes</string>
+    <string name="get_photo_error">Unable to get photo. Please try again.</string>
+    <string name="get_started">"Let's get started"</string>
+    <string name="go_back">Go back</string>
+    <string name="go_back_to_settings">Go back to settings</string>
+    <string name="go_to_settings">Go to iOS Settings</string>
+    <string name="go_to_settings_button">Go to settings</string>
+    <string name="gram_unit">%s g</string>
+    <string name="grams">%s g</string>
+    <string name="graph_label_daily_values">RNI* %s kcal</string>
+    <string name="graph_label_per_serving">Per serving %s kcal</string>
+    <string name="graph_label_your_consumption">Your consumption</string>
+    <string name="grill_cooking_method_title">Grill</string>
+    <string name="guest_profile_description">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guest_profile_register_login">Register/Login</string>
+    <string name="guest_user">Guest user</string>
+    <string name="guest_user_community_screen_title">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guest_user_cooking_screen_title">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guest_user_description">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guest_user_generic_screen_title">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guest_user_profile_screen_title">It only takes a minute to register and unlock all the features of NutriU, like saving favorite recipes and sharing your own.</string>
+    <string name="guidelines_airfryer_photo_hint_1_description">Use a Dry Microfiber or a Lens Cloth. One of the easiest methods is wiping down your phone camera lens with a dry microfiber or a lens cloth.</string>
+    <string name="guidelines_airfryer_photo_hint_1_title">Clean your camera</string>
+    <string name="guidelines_airfryer_photo_hint_2_description">Meals under natural light look more natural and display more details in your food.</string>
+    <string name="guidelines_airfryer_photo_hint_2_title">Use natural light</string>
+    <string name="guidelines_airfryer_photo_hint_3_description">The meal itself shouldn’t fill the entire frame, two-thirds of the photo should be negative space. That helps the subject to stand out even more.</string>
+    <string name="guidelines_airfryer_photo_hint_3_title">Be on optimal distance</string>
+    <string name="guidelines_airfryer_photo_hint_4_description">This view shows the meal as if you’re looking down at it from an angle. It is considered the best angle for capturing meals.</string>
+    <string name="guidelines_airfryer_photo_hint_4_title">Capture on 45° degree angle</string>
+    <string name="guidelines_airfryer_photo_open">See how to take high-quality photos</string>
+    <string name="guidelines_airfryer_photo_title">How to take high-quality photos?</string>
+    <string name="health_good_afternoon">Good afternoon, %s</string>
+    <string name="health_good_evening">Good evening, %s</string>
+    <string name="health_good_morning">Good morning, %s</string>
+    <string name="health_hello_name">Hello, %s</string>
+    <string name="health_stories">Health stories</string>
+    <string name="hello_name">Hello %s</string>
+    <string name="help">Info</string>
+    <string name="help_improve_text">We use the data to gain insight into how we can do better</string>
+    <string name="help_improve_title">Help improve NutriU</string>
+    <string name="hide_this_section">Hide this section</string>
+    <string name="high_speed_blender">High speed blender</string>
+    <string name="hold_airfryer_menu_button">Press and hold the menu button until you are sure the Wi-Fi symbol is blinking.</string>
+    <string name="home_greeting_1">Here’s more tasty ideas</string>
+    <string name="home_greeting_10">Let’s get cooking</string>
+    <string name="home_greeting_11">Prepare to be inspired</string>
+    <string name="home_greeting_2">Here’s what’s been happening</string>
+    <string name="home_greeting_3">Here’s what’s on the menu</string>
+    <string name="home_greeting_4">Check out what’s cooking</string>
+    <string name="home_greeting_5">Looking for new tastes?</string>
+    <string name="home_greeting_6">Ready for something new?</string>
+    <string name="home_greeting_7">Hungry for fresh ideas?</string>
+    <string name="home_greeting_8">What’s on the menu today?</string>
+    <string name="home_greeting_9">Let’s try something new</string>
+    <string name="home_newsfeed_subtitle">People you follow</string>
+    <string name="home_tips_subtitle">NutriU Articles</string>
+    <string name="hour_ago">%s hour ago</string>
+    <string name="hours_ago">%s hours ago</string>
+    <string name="how_much">Measuring unit</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_empty">--</string>
+    <string name="humidity_not_set">Please set humidity</string>
+    <string name="iap_no_accessories_available">There are no accessories available for your Airfryer</string>
+    <string name="iap_no_products_available">Currently there are no products available</string>
+    <string name="id_ID">Bahasa Indonesia</string>
+    <string name="ihut_off_header">Ending In-home Usage Test</string>
+    <string name="ihut_off_text">"\"Dear test person, 
+the home application test with the Philips Air Cooker and the associated app has ended. Thank you for your participation and your valuable feedback! 
+
+Please uninstall this test app from your smartphone. As you were informed at the beginning of the study, you will not be able to continue with your created test account after the end of the test. 
+
+To continue enjoying the benefits of the NutriU app, install the Philips NutriU app on your phone and create a new account. 
+
+We look forward to welcoming you to a consumer test again soon. 
+
+Your Philips product test center.”"</string>
+    <string name="image_editing_instructions">You can zoom or rotate the photo</string>
+    <string name="image_not_set">Please set the recipe image</string>
+    <string name="imp_fluid_ounce">fluid ounce</string>
+    <string name="imp_ounce">ounce</string>
+    <string name="imp_pound">pound</string>
+    <string name="inappropriate_abusive_content">Inappropriate or abusive content</string>
+    <string name="inappropriate_content">Inappropriate content</string>
+    <string name="incomplete_content">Incomplete content</string>
+    <string name="incorrect_content">Incorrect content</string>
+    <string name="info_title">Info</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="ingredient_hint_longer">Enter ingredient, e.g. Carrot</string>
+    <string name="ingredient_n_plural">%s ingredients</string>
+    <string name="ingredient_n_singular">%s ingredient</string>
+    <string name="ingredient_not_found">"Sorry, we don't recognize this."</string>
+    <string name="ingredient_not_found_dolphin">"Oops! Looks like we don't have your ingredient yet. Please check back as we keep adding more to NutriU."</string>
+    <string name="ingredient_not_set">Please add at least one ingredient</string>
+    <string name="ingredient_share" formatted="false">%s %s of %s</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="ingredients_empty_placeholder">There are no ingredients on the blender</string>
+    <string name="ingredients_to_avoid_add_another">Add another</string>
+    <string name="ingredients_to_avoid_confirm_button_title">Avoid these ingredients</string>
+    <string name="ingredients_to_avoid_entry_point">Avoid ingredient</string>
+    <string name="ingredients_to_avoid_entry_point_title">"Don't like some of these ingredients?"</string>
+    <string name="ingredients_to_avoid_finish_title">"Done! 
+You won't be seeing recipes with these ingredients."</string>
+    <string name="ingredients_to_avoid_search_placeholder">Enter the ingredient to avoid</string>
+    <string name="ingredients_to_avoid_settings_item_title">Ingredients to avoid</string>
+    <string name="ingredients_to_avoid_start_title">Do you want to avoid some of the ingredients?</string>
+    <string name="ingredients_to_avoid_title">What do you want to avoid?</string>
+    <string name="inspiration">All recipes</string>
+    <string name="instant_boosts">Daily boosts</string>
+    <string name="jailbreak_warning_message">Warning. You are running Philips NutriU on a jailbroken device. This is highly discouraged. Your private data might be compromised</string>
+    <string name="juicer">Juicer</string>
+    <string name="juicers">juicers</string>
+    <string name="just_now">just now</string>
+    <string name="kcal_per_day">kcal/day</string>
+    <string name="kcal_per_serving">kcal/serving</string>
+    <string name="keep_warm">Keep warm</string>
+    <string name="keep_warm_time">Keep warm time</string>
+    <string name="kind_of_blend">Kind of blend</string>
+    <string name="ko_KR">Korean (South Korea)</string>
+    <string name="language">Language</string>
+    <string name="language_confirm_save_changes_message">Are you sure you want to change the language? NutriU will restart to complete this change.</string>
+    <string name="language_selection_additional_info">Tip: You can change your language selection any time in the Settings menu.</string>
+    <string name="language_selection_subtitle">We’re sorry, your preferred langauge isn’t available. Please let us know which language you would like the app to use.</string>
+    <string name="language_selection_title">Select your language</string>
+    <string name="last_month">last month</string>
+    <string name="last_preparation">Last preparation %s</string>
+    <string name="last_preparation_title">Last preparation</string>
+    <string name="last_used">Last used</string>
+    <string name="last_week">last week</string>
+    <string name="last_year">last year</string>
+    <string name="linked_recipes_to_NutriU_story_title">Try with these recipes</string>
+    <string name="linked_story_in_recipe_details_action_title">Show me how</string>
+    <string name="linked_story_in_recipe_details_section_title">Cooking tip</string>
+    <string name="loading">Loading</string>
+    <string name="loading_nutri_u_story_failed">Loading article failed. Please try again.</string>
+    <string name="loading_recipe_failed">Loading recipe failed. Please try again.</string>
+    <string name="local_network_usage_description">Local network access allows app to connect to device and start cooking remotely.</string>
+    <string name="locale">en_AU</string>
+    <string name="locales">en_AU</string>
+    <string name="location_when_in_use_usage_description">App needs access to the location service in order to get WiFi Network name and connect to your Airfryer device.</string>
+    <string name="logout">Log Out</string>
+    <string name="maintenance_dialog_description">"We're performing maintenance on NutriU to improve your experience and apologize for any inconvenience. Please try again soon."</string>
+    <string name="maintenance_dialog_title">Server currently unavailable</string>
+    <string name="make_recipe_book_private">Make recipe book private</string>
+    <string name="manage_dolphin_blend_history">Recent blends</string>
+    <string name="manage_dolphin_ingredients">Manage ingredients</string>
+    <string name="manage_dolphin_recipes">Manage recipes</string>
+    <string name="manage_dolphin_unpair">Unpair my blender</string>
+    <string name="manage_dolphin_unpair_text_android">"Are you sure you want to unpair your blender from your phone?
+
+If you experience connectivity issues go to Bluetooth settings on your phone and remove the blender."</string>
+    <string name="manage_dolphin_unpair_text_ios">"Are you sure you want to unpair your device? 
+Note: If you experience issues with reconnecting to the device, please remove the device in OS Bluetooth settings."</string>
+    <string name="manage_dolphin_version">Software version</string>
+    <string name="manage_ingredients_title">Manage ingredients</string>
+    <string name="manage_your_app_experience">Manage your app experience</string>
+    <string name="manage_your_appliances">Manage your appliances</string>
+    <string name="manual_cooking_title">Manual cooking</string>
+    <string name="marketing_opt_in_banner_title">Secure 10 EUR welcome coupon</string>
+    <string name="marketing_opt_in_details_description_1">Sign up for the exclusive Philips Newsletter here and receive a 10 € welcome voucher * for signing up. Also get information about product launches and news, invitations to free product testing, and helpful tips on our products, offers, and services.</string>
+    <string name="marketing_opt_in_details_description_2">*You will receive the voucher by E-Mail after confirming your E-Mail address. The voucher is valid for new subscribers from a minimum order value of 30 €. It is valid 14 days after successful registration for the Philips online shop and cannot be combined with other discounts.</string>
+    <string name="marketing_opt_in_details_title">Our offer for you!</string>
+    <string name="marketing_opt_in_success_message">Thanks for subscribing! Stay tuned for special offers, tips &amp; tricks.</string>
+    <string name="marketing_optin_confirmation_button_text">OK, count me in</string>
+    <string name="masticating_juicer">Masticating Juicer</string>
+    <string name="masticating_juicer_description">Extract maximum nutrition with no fuss</string>
+    <string name="max_number_of_steps_error">You cannot have more than %s steps.</string>
+    <string name="meat_chops_preset_title">Meat chops</string>
+    <string name="min">"%s'"</string>
+    <string name="minimal_duration">Minimal duration</string>
+    <string name="minimum_aircooker_temperature_copy">The minimum Air Cooker temperature is %s</string>
+    <string name="minimum_aircooker_time_copy">The minimum Air Cooker time is 1 min</string>
+    <string name="minimum_airfryer_temperature_copy">The minimum Airfryer temperature is %s</string>
+    <string name="minimum_airfryer_time_copy">The minimum Airfryer time is 1 min</string>
+    <string name="minute">min</string>
+    <string name="minute_ago">%s minute ago</string>
+    <string name="minutes_ago">%s minutes ago</string>
+    <string name="month_ago">%s month ago</string>
+    <string name="months_ago">%s months ago</string>
+    <string name="more">More</string>
+    <string name="muffins_cake_preset_title">Muffins/cake</string>
+    <string name="my_airfryer">My Airfryer</string>
+    <string name="my_appliance">My appliances</string>
+    <string name="my_blender">My blender</string>
+    <string name="my_blender_juicer">My blender/juicer</string>
+    <string name="my_blender_manage_ingredients_description">Add or remove ingredients from blender</string>
+    <string name="my_blender_manage_recipes_description">Add or remove recipes from the blender</string>
+    <string name="my_blender_not_paired_description">Pair your blender and gain the full potential of NutriU</string>
+    <string name="my_blender_not_paired_title">Pair my blender</string>
+    <string name="my_gallery">My gallery</string>
+    <string name="my_images">My cooking gallery</string>
+    <string name="my_nutrition_error_state_description">Sorry, something went wrong. My nutrition failed to load, please try again.</string>
+    <string name="my_nutrition_title">My nutrition</string>
+    <string name="my_philips_blender">My Philips blender</string>
+    <string name="my_profile">My profile</string>
+    <string name="my_recipes">My recipes</string>
+    <string name="my_shopping_list">My shopping list</string>
+    <string name="name">Name</string>
+    <string name="name_empty">Your name must not be empty</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+    <string name="nb_NO">Norwegian</string>
+    <string name="need_to_select_content_type">You need to select at least one content type!</string>
+    <string name="network_error">Sorry, something went wrong. Please try again.</string>
+    <string name="new_air_cooker_recipe">New Air Cooker recipe</string>
+    <string name="new_airfryer_recipe">New Airfryer recipe</string>
+    <string name="new_blender_recipe_v4">New blender recipe</string>
+    <string name="new_content_added">New content added</string>
+    <string name="new_content_added_description">We have added new content based on your appliance selection. You can see this in your profile.</string>
+    <string name="new_for_you">New for you</string>
+    <string name="new_recipe_with_device">Create %s recipe</string>
+    <string name="newsfeed_by">By %s</string>
+    <string name="newsfeed_created_nutri_u_story">%s has a new article.</string>
+    <string name="newsfeed_created_recipe">%s created a recipe.</string>
+    <string name="newsfeed_created_recipe_book">%s has a new recipe book</string>
+    <string name="newsfeed_following">%s is following:</string>
+    <string name="newsfeed_like_nutri_u_story" formatted="false">"%s made %s's article a favorite."</string>
+    <string name="newsfeed_like_recipe" formatted="false">"%s made %s's recipe a favorite"</string>
+    <string name="newsfeed_like_recipe_book" formatted="false">"%s favorited %s's recipe book."</string>
+    <string name="newsfeed_number_of_followers">%s followers</string>
+    <string name="newsfeed_title">People you follow</string>
+    <string name="next">Next</string>
+    <string name="nl_BE">Dutch (Belgium)</string>
+    <string name="nl_NL">Dutch</string>
+    <string name="nmx_humidity_high">High</string>
+    <string name="nmx_humidity_low">Low</string>
+    <string name="nmx_humidity_medium">Medium</string>
+    <string name="nmx_humidity_off">Off</string>
+    <string name="no">No</string>
+    <string name="no_activities_yet">No activities yet</string>
+    <string name="no_appliance_selected">No appliance selected</string>
+    <string name="no_blender_found_title">Couldn’t find your blender</string>
+    <string name="no_category_selected_alert_message">"
+You cannot deselect because at least one content category has to be selected."</string>
+    <string name="no_category_selected_alert_title">At least one content category has to be selected</string>
+    <string name="no_created_recipe_books_other">"%s hasn't created any recipe books yet"</string>
+    <string name="no_created_recipes_other">"%s hasn't created any recipes yet"</string>
+    <string name="no_device_browse_desc_airfryer">Find a perfect model and start preparing these tasty recipes.</string>
+    <string name="no_device_title_airfryer">Find an Airfryer</string>
+    <string name="no_device_title_airfryer_accessories">Airfryer accessories</string>
+    <string name="no_device_title_blender">Find a Blender</string>
+    <string name="no_device_title_juicer">Find a Juicer</string>
+    <string name="no_followers_yet">No followers yet</string>
+    <string name="no_following_other">This person isn’t following anyone yet</string>
+    <string name="no_following_owner">Follow your favorite cooks to get information about new recipes</string>
+    <string name="no_internet_connection">You seem to be offline. Please check your internet connection.</string>
+    <string name="no_internet_connection_notification">No Internet connection</string>
+    <string name="no_loved_recipes">You haven’t got any favorites yet</string>
+    <string name="no_loved_recipes_other">"%s hasn't favorited anything yet"</string>
+    <string name="no_new_history_items">There are no new preparation items in the blender history.</string>
+    <string name="no_recipe_books_created">No recipe books created yet</string>
+    <string name="no_recipes_created">You haven’t created any recipes yet</string>
+    <string name="no_recipes_in_collection">No recipes yet</string>
+    <string name="no_recipes_planned">No recipes planned</string>
+    <string name="no_stories">No articles created yet</string>
+    <string name="no_thanks">Not now, thanks</string>
+    <string name="no_thanks_button_title">No, thanks</string>
+    <string name="none">None</string>
+    <string name="not_connected_error_description">"
+You’re offline. Check your connection."</string>
+    <string name="not_connected_error_title">Connect to the internet!</string>
+    <string name="not_interested">"No, I'm not interested"</string>
+    <string name="not_now">Not now</string>
+    <string name="notification_channel_fw_update_name">Firmware update notifications</string>
+    <string name="notification_comment">%s commented on your recipe:</string>
+    <string name="notification_favourite">%s made your recipe a favorite</string>
+    <string name="notification_favourite_recipe_book">%s made your recipe book a favorite</string>
+    <string name="notification_flagged" formatted="false">Your %s recipe was flagged for %s. It’s in your Drafts folder, if you want to fix it.</string>
+    <string name="notification_follow">%s is following you</string>
+    <string name="notification_removed" formatted="false">Your %s recipe has been removed for %s.</string>
+    <string name="notification_removed_prepared_meal">Your image has been removed for %s.</string>
+    <string name="notification_report_reasons" formatted="false">%s and %s</string>
+    <string name="notification_taken" formatted="false">Your %s recipe was taken from the community for %s reason. You can still find it under “my recipes” section.</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_disabled_settings_description">Turn on notifications to receive messages faster, even when you are not in the app.</string>
+    <string name="notifications_disabled_settings_title">"Notifications disabled in
+the phone settings."</string>
+    <string name="notifications_settings_description">Set your content preferences and manage notifications.</string>
+    <string name="notifications_settings_title">Manage NutriU notifications</string>
+    <string name="num_one">1</string>
+    <string name="num_three">3</string>
+    <string name="num_two">2</string>
+    <string name="number_of_images_plural">%s images</string>
+    <string name="number_of_images_singular">%s image</string>
+    <string name="number_of_servings">Number of servings</string>
+    <string name="nutri_details_rni_title">Recommended nutritional intake*</string>
+    <string name="nutri_info_dialog_message">"This chart shows a breakdown of kilocalories per serving from fat, carbs and protein. It can help you understand the ‘nutrition splits’ between these macronutrients in your diet.
+
+Kilocalorie counts are based on the recipe’s raw ingredients. The amount of fat and kilocalories may be reduced through cooking."</string>
+    <string name="nutri_info_dialog_title">Kilocalories per serving</string>
+    <string name="nutri_u_stories">NutriU articles</string>
+    <string name="nutri_u_story_creator">By %s</string>
+    <string name="nutrient_intake_graph_error">Oops, something went wrong</string>
+    <string name="nutrients">Nutrients</string>
+    <string name="nutrients_calcium">Calcium</string>
+    <string name="nutrients_energy_info_explanation_dolphin_with_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on your personalized nutritional intake of %s kilocalories.</string>
+    <string name="nutrients_energy_info_explanation_dolphin_without_rni">* Recommended nutrient intake (RNI) is the daily recommended amount of nutrients you should eat based on a %s kilocalorie diet. If you set your personal RNI in the app, the calculations of RNI%% are based on your profile.</string>
+    <string name="nutrients_fibers">Fibers</string>
+    <string name="nutrients_folic_acid">Folic acid</string>
+    <string name="nutrients_info" formatted="false">"*RNI percent is the daily recommended nutrients you need to eat based on a %s kilocalorie diet. Depending on your energy needs, the daily values may be higher or lower. 
+
+Amounts are calculated per serving. One serving is 1/%s of \"%s\" recipe."</string>
+    <string name="nutrients_info_one_serving_servings">Amounts are calculated per serving.</string>
+    <string name="nutrients_info_servings" formatted="false">Amounts are calculated per serving. One serving is 1/%s of \"%s\" recipe.</string>
+    <string name="nutrients_iron">Iron</string>
+    <string name="nutrients_magnesium">Magnesium</string>
+    <string name="nutrients_minerals">Minerals</string>
+    <string name="nutrients_percent_daily_value">% RNI*</string>
+    <string name="nutrients_potassium">Potassium</string>
+    <string name="nutrients_salt">Salt</string>
+    <string name="nutrients_selenium">Selenium</string>
+    <string name="nutrients_vitamin_a">Vitamin A</string>
+    <string name="nutrients_vitamin_b_1">Thiamin</string>
+    <string name="nutrients_vitamin_b_12">Vitamin B-12</string>
+    <string name="nutrients_vitamin_b_2">Riboflavin</string>
+    <string name="nutrients_vitamin_b_3">Niacin</string>
+    <string name="nutrients_vitamin_b_5">Pantothenic acid</string>
+    <string name="nutrients_vitamin_b_6">Vitamin B-6</string>
+    <string name="nutrients_vitamin_b_7">Biotin</string>
+    <string name="nutrients_vitamin_b_9">Folic acid</string>
+    <string name="nutrients_vitamin_c">Vitamin C</string>
+    <string name="nutrients_vitamin_d">Vitamin D</string>
+    <string name="nutrients_vitamin_e">Vitamin E</string>
+    <string name="nutrients_vitamin_k">Vitamin K</string>
+    <string name="nutrients_zinc">Zinc</string>
+    <string name="nutriflavor_technology">Nutriflavor Technology</string>
+    <string name="nutrimax">NutriMax</string>
+    <string name="nutrimax_setup_mode_first_step">"On your NutriMax go to 'Settings' then press 'Setup WiFi'."</string>
+    <string name="nutrimax_setup_mode_second_step">"Press 'Yes' on screen for 'Setup WiFi'."</string>
+    <string name="nutrimax_setup_mode_third_step">Tap ‘Continue’ when Setup mode on appliance is activated.</string>
+    <string name="nutrimax_setup_mode_title">Put your NutriMax in setup mode</string>
+    <string name="nutrimax_status_info_description">"
+Check that your NutriMax is on, and your Wi-Fi is working. If there is still an issue, check the FAQs in the NutriMax settings in this app."</string>
+    <string name="nutrimax_status_info_title">Your NutriMax is not connected</string>
+    <string name="nutrinets_vitamins">Vitamins</string>
+    <string name="nutrition_claims">Nutrition claims</string>
+    <string name="nutrition_tab_my_rni_description_generic">Based on your personal profile</string>
+    <string name="nutrition_tab_my_rni_title">My Ideal Nutrient Intake</string>
+    <string name="nutrition_tab_rni_description_generic">Values based on a standard person</string>
+    <string name="nutrition_tab_rni_description_personalized">Values based on your personalized data</string>
+    <string name="nutrition_tab_rni_title">Recommended nutrient intake</string>
+    <string name="nutrition_title">Nutrition</string>
+    <string name="nutritional_values">Nutritional values</string>
+    <string name="nutritional_values_airfryer">Nutritional values</string>
+    <string name="nutritional_values_dolphin">1 serving (250 g)</string>
+    <string name="occasions">Occasions</string>
+    <string name="of">of</string>
+    <string name="ok">OK</string>
+    <string name="onboarding_analytics_title">Nice to meet you</string>
+    <string name="onboarding_content_airfryer">Airfryer</string>
+    <string name="onboarding_content_subtitle">"Let us know which device(s) you use so we can show you the best recipes and
+NutriU Stories."</string>
+    <string name="onboarding_content_title">Let’s tailor recipes for you!</string>
+    <string name="onboarding_get_started_subtitle">"Savor unlimited healthy and tasty
+recipes every day!"</string>
+    <string name="onboarding_get_started_title">Welcome to a world of flavor</string>
+    <string name="one_serving">1 serving</string>
+    <string name="oneda_mandatory_privacy_policy_screen_agree_button">OK &amp; Continue</string>
+    <string name="oneda_mandatory_privacy_policy_screen_description">Per 1 September Domestic Appliances is an independent company and no longer a part of Philips. The app is presented to you by Domestic Appliances. Because of this change in the entity controlling your data and the app, we have updated the Privacy Notice. If you want to learn more, please click here.</string>
+    <string name="oneda_mandatory_privacy_policy_screen_title">Transition to Philips Domestic Appliances</string>
+    <string name="only_time_adjustment_message">Feel free to adjust the cooking time before starting.</string>
+    <string name="only_you_will_see">Your personal NutriU</string>
+    <string name="oops">Oops</string>
+    <string name="other">Other</string>
+    <string name="other_airfryers">Other Airfryers</string>
+    <string name="other_devices">Other devices</string>
+    <string name="our_app_works_best">Start today to get the most out of your Philips appliance! Now you can enjoy tasty, healthy recipes based on your profile and tastes.</string>
+    <string name="overseas_usage_data_consent_message">I agree with overseas transfer of personal information</string>
+    <string name="package_unit">package</string>
+    <string name="pair">Pair</string>
+    <string name="pair_device">Pair</string>
+    <string name="pairing">Pairing</string>
+    <string name="pairingWithBlenderTitle">Pairing with your blender</string>
+    <string name="pairing_airfryer_error">Pairing Airfryer with your phone failed. Please repeat pairing process and try again</string>
+    <string name="pairing_completed_description">Your blender and app are synced. To check Bluetooth anytime, go to Settings.</string>
+    <string name="pairing_completed_title">Done!</string>
+    <string name="pairing_error_text">Verify if blender is turned on and within range (stand next to the blender, not more than 2 meters away)</string>
+    <string name="pairing_error_title">Not possible to connect</string>
+    <string name="pairing_nmx_error">Pairing NutriMax with your phone failed. Please repeat pairing process and try again</string>
+    <string name="pause">Pause</string>
+    <string name="per_serving">Per serving</string>
+    <string name="per_week">%s per week</string>
+    <string name="personal_data_removed_description">Your shared information will no longer be stored in our platform. You’ll get advice based on the average person.</string>
+    <string name="personal_data_removed_title">Personal data removed</string>
+    <string name="personal_intake_history_nutrient_picker_title">Nutrient</string>
+    <string name="personal_intake_history_title">My history</string>
+    <string name="personalize">Personalize</string>
+    <string name="personalize_rni">Personalize your app</string>
+    <string name="personalized_nutrition">Personalized nutrition</string>
+    <string name="personalized_nutrition_description_health_dashboard">Want personalized nutrition tips to match your needs?</string>
+    <string name="personalized_nutrition_rni_entry_point_health_dashboard">Want personalized nutrition tips to match your needs?</string>
+    <string name="philips_announcements">Philips announcements</string>
+    <string name="philips_privacy_notice">Philips privacy notice</string>
+    <string name="photo_image_usage_description">App needs access to the camera and photos to upload your profile picture and images of your recipes.</string>
+    <string name="photo_library">Photo library</string>
+    <string name="pl_PL">Polish</string>
+    <string name="placeholder_no_favourites_yet">No favourites yet</string>
+    <string name="planner_last_week">Last week</string>
+    <string name="planner_next_week">Next week</string>
+    <string name="planner_replace_planned_recipe">Replace the currently planned recipe?</string>
+    <string name="planner_this_week">This week</string>
+    <string name="planner_today">Today</string>
+    <string name="planner_tomorrow">Tomorrow</string>
+    <string name="planner_yesterday">Yesterday</string>
+    <string name="please_choose_reason">"What's the matter?"</string>
+    <string name="please_insert_food">Please insert food</string>
+    <string name="please_select_an_ingredient">Please select an ingredient</string>
+    <string name="posting">Posting...</string>
+    <string name="posting_comments_failed">Posting comment failed. Please retry.</string>
+    <string name="power_on_your_airfryer">Power on your Airfryer</string>
+    <string name="power_on_your_nutrimax">Power on your NutriMax</string>
+    <string name="preheat_cooking_method">Preheat</string>
+    <string name="preheat_cooking_method_message">Air Cooker will be heated to 160°C. This will take about 5 minutes.</string>
+    <string name="preheat_steps_exceeded">Preheat can only be selected once per recipe.</string>
+    <string name="preheat_time">Preheat time</string>
+    <string name="preparation_time">Preparation time</string>
+    <string name="preparation_time_description">How long does it take from start to finish?</string>
+    <string name="preparation_time_info">Here you can specify the time needed to prepare everything for cooking, e.g. chopping, peeling, mixing.</string>
+    <string name="preparation_time_info_blenders_juicers">Here you can specify the time needed to prepare everything, e.g. chopping, peeling, mixing.</string>
+    <string name="preparation_time_not_set">Please set preparation time</string>
+    <string name="presets">PRESETS</string>
+    <string name="privacy">Analytics and cookies</string>
+    <string name="privacy_acknowledgement_description">Thank you for using Philips NutriU app. Please read the Privacy Notice and the Terms &amp; Conditions carefully, and click “OK” to start using the app.</string>
+    <string name="privacy_acknowledgement_title">Privacy Acknowledgement</string>
+    <string name="privacy_bullets_airfryer">"- Create and share your own recipes
+- Save and organize your favourites
+- Plan your meals and groceries
+- Get suggestions based on what you like
+- Find tasty recipes from the Philips Chef
+- And more"</string>
+    <string name="privacy_bullets_airfryer_community">"- Create and share your own recipes
+- Save and organize your favourites
+- Plan your meals and groceries
+- Follow home cooks and get inspired
+- Find tasty recipes from the Philips Chef
+- And more"</string>
+    <string name="privacy_bullets_airfryer_community_v5p2">"- Create and share your own recipes
+- Save and organize your favourites
+- Follow home cooks and get inspired
+- Find tasty recipes from the Philips Chef
+- And more"</string>
+    <string name="privacy_bullets_airfryer_dolphin">"- Get customized support for your healthy living goals
+- Personalize your experience
+- Get nutrition guidance to help you succeed
+- Find hundreds of recipes created by nutrition experts
+- Save and organize your favourites
+- Plan your smoothies, meals and groceries"</string>
+    <string name="privacy_bullets_airfryer_dolphin_community">"- Get support for your healthy living goals
+- Get nutrition guidance to help you succeed
+- Find hundreds of recipes created by nutrition experts
+- Save and organize your favourites
+- Plan your smoothies, meals and groceries
+- Follow home cooks and get inspired"</string>
+    <string name="privacy_bullets_airfryer_dolphin_community_v5p2">"- Get support for your healthy living goals
+- Get nutrition guidance to help you succeed
+- Find hundreds of recipes created by nutrition experts
+- Save and organize your favourites
+- Follow home cooks and get inspired"</string>
+    <string name="privacy_bullets_airfryer_dolphin_v5p2">"- Get customized support for your healthy living goals
+- Personalize your experience
+- Get nutrition guidance to help you succeed
+- Find hundreds of recipes created by nutrition experts
+- Save and organize your favourites"</string>
+    <string name="privacy_bullets_airfryer_v5p2">"- Create and share your own recipes
+- Save and organize your favourites
+- Get suggestions based on what you like
+- Find tasty recipes from the Philips Chef
+- And more"</string>
+    <string name="privacy_bullets_dolphin">"- Get customized support for your healthy living goals 
+- Get nutrition guidance to help you succeed
+- See nutritional intake of each smoothie 
+- Find hundreds of recipes created by nutrition experts
+- Plan your smoothies and groceries
+- And more"</string>
+    <string name="privacy_bullets_dolphin_v5p2">"- Get customized support for your healthy living goals 
+- Get nutrition guidance to help you succeed
+- See nutritional intake of each smoothie 
+- Find hundreds of recipes created by nutrition experts
+- And more"</string>
+    <string name="privacy_explanation_dialog_header">Cookies notice</string>
+    <string name="privacy_info_message_v2">"This App uses Adobe Analytics, an analytics service (“Adobe Analytics”) provided by Adobe Systems Software Ireland Limited (“Adobe”). Adobe Analytics uses “cookies” or similar techniques, which are text files placed in your App, in order to help the App to analyze overall traffic patterns through our App. When transmitting the information generated by the cookie about the use of the App to Adobe, Adobe ensures that your IP address is anonymized before geo-localization can be used and replaces it with a generic IP address before storage. On behalf of Philips, Adobe will use this information for the evaluation of your use of the App, compiling reports on App activity for Philips, and in order to provide other services relating to App activity and use of the App to Philips. Adobe will not associate your IP address with any other data held by Adobe.
+
+The App uses Apptentive, a feedback and communication service (“Apptentive”) provided by Apptentive Inc. Apptentive uses a technology similar to a “cookie” in order to help the App analyze the overall traffic patterns and collect your feedback through the App.
+On behalf of Philips, Apptentive will use information about your device (such as manufacturer, model, and operating system), App usage patterns, and information you choose to provide (such as survey responses or feedback) to provide services to Philips to help them understand App usage, provide support, and improve their products and services. Your IP address is anonymized prior to use and storage within Apptentive's products and services.
+
+This App uses Google Firebase, an app development service (“Firebase”) provided by Google Ireland Ltd. (“Google”). Firebase uses “cookies” or similar techniques- SDK, which are text files placed in your App and web browser.
+On behalf of Philips, Firebase will use information from your device such as your Device ID, IP address, your IDFA or Google Play Services ID and your MAC address, and replace them with a unique code. When you use the App we will measure the numbers of visits to the App, which pages you visit, your network connection, load times and when the App crashes. We use this information to evaluate and understand your use of the App, to test and analyze performance and ultimately optimize our products and services.
+
+The App uses Branch Metrics to deep-link users into the App and to analyze how users access and use the App (“Branch’). On behalf of Philips Branch Metrics will use information generated about your use of the App (such as the mobile platform, timestamp, API key (identifier for application), App version, device identifier, iOS Identifier for Advertising, iOS Identifier for Vendors, Android Advertiser ID, IP address, the device model, manufacturer and device O/S, session start/stop time, mobile network code and network status) and transmit and store such data on the servers of Branch Metrics. We use Branch for the purpose of evaluating your use of the App and compiling reports on App activity. For more information visit: https://branch.io/policies/#privacy 
+
+You can prevent collection and use of data (cookies and IP address) if you opt-out after you close this screen."</string>
+    <string name="privacy_info_message_with_branchio">"Adobe Analytics. This App uses Adobe Analytics, an analytics service (“Adobe Analytics”) provided by Adobe Systems Software Ireland Limited (“Adobe”). Adobe Analytics uses “cookies” or similar techniques, which are text files placed in your App, in order to help the App to analyze overall traffic patterns through our App. By transmitting the information generated by the cookie about the use of the App to Adobe, Adobe ensures that your IP address is anonymized before geo-localization can be used and is replaced by a generic IP address before storage. On behalf of Philips Domestic Appliances, Adobe will use this information for the evaluation of your use of the App, compiling reports on App activity for Philips Domestic Appliances, and in order to provide other services relating to App activity and use of the App to Philips Domestic Appliances. Adobe will not associate your IP address with any other data held by Adobe. 
+
+Apptentive. This App uses Apptentive, a feedback and communication service (\"Apptentive\") provided by Apptentive Inc.  Apptentive uses a technology similar to a \"cookie\" in order to help the App analyze the overall traffic patterns and collect your feedback through the App. On behalf of Philips, Apptentive will use information about your mobile device (such as manufacturer, model, and operating system), App usage patterns, and information you choose to provide (such as survey responses or feedback) to provide services to Philips to help them understand App usage, provide support, and improve their products and services.  Your IP address is anonymized prior to use and storage within Apptentive's products and services.
+
+Branch Metrics. This App uses Branch Metrics, a service provided by Branch Metrics Inc. (“Branch”), to deep-link users into the App, analyze how users access and use the App and use these insights to improve the App.  On behalf of Philips Domestic Appliances, Branch will process information generated about your use of the App (such as the mobile platform, timestamp, API key (identifier for application), App version, mobile device identifier, iOS Identifier for Advertising, iOS Identifier for Vendors, Android Advertiser ID, IP address, the mobile device model, manufacturer and device O/S, session start/stop time, mobile network code and network status).  If you download the App by clicking on a Philips Domestic Appliances Ad on one of our marketing partners’ platforms, such as Facebook, Apple or Google, and decide to provide consent, Branch will collect Ad measurement data from your mobile device, including unique identifiers and analytics data on the Ad that you click on and other App events (such as first install, open and App sharing via the App’s sharing feature).  To understand the effectiveness of our advertising campaigns and measure engagement, we share your Ad measurement data with the platform we used to run the Ad, which will then use the data to report on the effectiveness of our Ads.  By consenting to the use of Branch, you agree to the sharing of your Ad measurement data with the platform you used when clicking on our Ad, such as Facebook, Apple or Google, as it may be the case, which platform will process your data in accordance with its Privacy Notice (Facebook: https://www.facebook.com/privacy/explanation; Apple:  https://www.apple.com/privacy/;  Google:  https://policies.google.com/privacy).
+
+Google Firebase. This App uses Google Firebase, an app development service (“Firebase”) provided by Google Ireland Ltd. (“Google”). Firebase uses “cookies” or similar techniques, which are text files placed in your App and web browser. On behalf of Philips Domestic Appliances, Firebase will use information from your mobile device such as your device ID, IP address, your IDFA or Google Play Services ID and your MAC address, and replace them with a unique code. When you use the App we will measure the numbers of visits to the App, which pages you visit, your network connection, load times and when the App crashes. We use this information to evaluate and understand your use of the App, to test and analyze performance and ultimately optimize our products and services. 
+
+You can prevent collection and use of data (cookies and IP address) if you opt-out after you close this screen."</string>
+    <string name="privacy_notice_description">In order for us to show you the right content and provide our services, we process your personal data. Please read the Privacy Notice to learn more.</string>
+    <string name="privacy_policy">Privacy notice</string>
+    <string name="privacy_policy_url">https://www.philips.com.au/a-w/mobile-privacy-notice/nutriu.html</string>
+    <string name="privacy_setting_option">When you share your app data and cookies, we can keep improving NutriU and giving you a helpful and personalized experience.</string>
+    <string name="profile">Profile</string>
+    <string name="profile_bmi">Body mass index (BMI): %s</string>
+    <string name="profile_image_consent">Photos you add will be stored on our servers and may be viewed by other users using this app.</string>
+    <string name="profile_manage_appliances">Manage appliances</string>
+    <string name="profile_manage_content">Manage content</string>
+    <string name="profile_manage_title">Manage</string>
+    <string name="profile_my_content_title">My Content</string>
+    <string name="profile_my_preferences">My preferences</string>
+    <string name="profile_no_rni_button">Personalize nutrition</string>
+    <string name="profile_no_rni_question">"Want to get recommendations 
+that match your needs?"</string>
+    <string name="profile_nutritional_profile_button">Adjust</string>
+    <string name="profile_nutritional_profile_title">Nutritional profile</string>
+    <string name="profile_rni_title">Recommended daily consumption</string>
+    <string name="profile_timeline_empty_placeholder_title">No activity yet</string>
+    <string name="program_recommendation">Program recommendation</string>
+    <string name="protein">Protein</string>
+    <string name="pt_BR">Portuguese</string>
+    <string name="pt_PT">Portuguese</string>
+    <string name="publish">Publish</string>
+    <string name="published_recipe_title">You have published your recipe!</string>
+    <string name="publishing">Publishing...</string>
+    <string name="publishing_v2">Publishing</string>
+    <string name="push_notifications">Push notifications</string>
+    <string name="quick_filters_title">Hungry for ideas?</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="read_Analytics_and_cookies_title">Read Analytics &amp; cookies in:</string>
+    <string name="read_privacy_notice">Read privacy notice</string>
+    <string name="receive_marketing_email_description">"Receive Philips' promotional communications based on my preferences and online behaviour"</string>
+    <string name="recent_searches">Recent searches</string>
+    <string name="recipe_already_in_recipe_book_message">The selected recipe is already in the recipe book. Please select another recipe.</string>
+    <string name="recipe_book">Recipe book</string>
+    <string name="recipe_book_create_new">Create new recipe book</string>
+    <string name="recipe_book_description_hint">Tell us something about this recipe book</string>
+    <string name="recipe_book_error_message">Sorry, something went wrong. Recipe book section failed to load, please try again.</string>
+    <string name="recipe_book_name">Name of recipe book</string>
+    <string name="recipe_book_name_not_set">Please give recipe book a name</string>
+    <string name="recipe_book_not_private_message">You can not add a saved recipe to the public recipe book. Please select a private recipe book.</string>
+    <string name="recipe_books">Recipe books</string>
+    <string name="recipe_by">Recipe by</string>
+    <string name="recipe_description">Recipe description</string>
+    <string name="recipe_description_description">Tell us a story or share your tips.</string>
+    <string name="recipe_details_cooking_time">Cooking time: %s min</string>
+    <string name="recipe_details_cooking_time_description">Cooking time:</string>
+    <string name="recipe_details_preparation_time">Preparation time: %s min</string>
+    <string name="recipe_details_preparation_time_description">Preparation time:</string>
+    <string name="recipe_details_servings_description">Servings:</string>
+    <string name="recipe_details_servings_plural">Servings: %s</string>
+    <string name="recipe_details_servings_singular">Servings: %s</string>
+    <string name="recipe_details_view">%s view</string>
+    <string name="recipe_details_views">%s views</string>
+    <string name="recipe_elements_order">$value1$value2$value3</string>
+    <string name="recipe_filters">My appliances</string>
+    <string name="recipe_missing_info">It looks like you’re missing some required information. Please review and revise.</string>
+    <string name="recipe_n_plural">%s recipes</string>
+    <string name="recipe_n_singular">%s recipe</string>
+    <string name="recipe_name">Recipe name</string>
+    <string name="recipe_photo">Recipe photo</string>
+    <string name="recipe_photo_description">Show us a photo of the end result.</string>
+    <string name="recipe_publish_missing_info">It looks like you are missing some information, please review it before publishing.</string>
+    <string name="recipe_removed_from">Recipe removed from %s</string>
+    <string name="recipe_save_missing_info">It looks like you are missing some information, please review it before saving.</string>
+    <string name="recipe_saved">Your recipe has been saved!</string>
+    <string name="recipe_sent_description">Check the blender screen for the instructions.</string>
+    <string name="recipe_sent_title">Recipe sent!</string>
+    <string name="recipe_title">Name of recipe</string>
+    <string name="recipe_type">Recipe type:</string>
+    <string name="recipe_type_category">Recipe type: %s</string>
+    <string name="recipe_types">Recipe types</string>
+    <string name="recipe_upload_failed">Recipe upload failed. Please try again.</string>
+    <string name="recipes">Recipes</string>
+    <string name="recipes_empty_placeholder">There are no recipes on the blender</string>
+    <string name="recommended_for_you_community_variant_section_title">From the community</string>
+    <string name="recommended_for_you_section_title">You might like...</string>
+    <string name="recommended_recipes_analytics_opt_in_more_info">What does this mean</string>
+    <string name="recommended_recipes_analytics_opt_in_share_data">Share my App data with NutriU</string>
+    <string name="recommended_recipes_analytics_opt_in_subtitle">You can always change this in Settings</string>
+    <string name="recommended_recipes_analytics_opt_in_title">"We can't recommend recipes you'll like unless you share your NutriU data"</string>
+    <string name="recommended_recipes_analytics_opt_in_toast_message">"Thanks! Keep using NutriU to tell us what you like and stay tuned for recipes you'll love."</string>
+    <string name="recommended_recipes_based_on_preference_subtitle">Based on your preferences</string>
+    <string name="recommended_recipes_based_on_preference_title">More of what you love</string>
+    <string name="recommended_recipes_carousel_description">"Dishes we think you'll love"</string>
+    <string name="recommended_recipes_carousel_title_opt_in">Based on your activity</string>
+    <string name="recommended_recipes_carousel_title_opt_out">Fresh ideas for you</string>
+    <string name="recommended_recipes_error_message">Sorry, something went wrong. Recommended recipes failed to load, please try again.</string>
+    <string name="recommender_questionnaire_accept_text">"Sure! Let's do it"</string>
+    <string name="recommender_questionnaire_cancel_text">"I'll do it later in Settings"</string>
+    <string name="recommender_questionnaire_canceled_toast_message">If you change your mind, you can set Food Preferences in Settings.</string>
+    <string name="recommender_questionnaire_description">"Tell us what you like and we'll find recipes you'll love."</string>
+    <string name="recommender_questionnaire_finished_toast_message">Got it! You’ll find personal suggestions on the homescreen now.</string>
+    <string name="recommender_questionnaire_header_text">Food preferences</string>
+    <string name="recommender_questionnaire_remove_selection_toast_message">OK. Feel free to come back and choose preferences anytime, so we can offer personal suggestions.</string>
+    <string name="recommender_questionnaire_title">Get personal suggestions</string>
+    <string name="reconnect_wifi_message">Your phone is not on the same Wi-Fi network as your Airfryer. On the next step, select %s to reconnect to the same network your Airfryer is on.</string>
+    <string name="reconnect_wifi_title">Reconnect to your Wi-Fi</string>
+    <string name="refine_filter_airfryer">Airfryer filters</string>
+    <string name="refine_filter_blender_and_juicer">Blender &amp; juicer filters</string>
+    <string name="refine_filter_dolphin">Dolphin filters</string>
+    <string name="refresh">Refresh</string>
+    <string name="registartion_offline">Registration is not available because you are offline</string>
+    <string name="reheat_cooking_method_title">Reheat</string>
+    <string name="remote_consent">Remote consent</string>
+    <string name="remote_cooking">Remote cooking</string>
+    <string name="remote_cooking_consent">"This function enables you to control your smart home device via the NutriU app or voice control if you have connected it with NutriU. 
+
+Please make sure you're always in control of the appliance and never leave it operating unattended."</string>
+    <string name="remote_cooking_consent_title">Turn remote cooking on?</string>
+    <string name="remote_cooking_profile_consent">"Remote cooking lets you change the cooking time and temperature, and stop or start cooking, even when you’re not in the kitchen.
+
+Please ensure you are always in control of your appliance and do not let the appliance operate unattended."</string>
+    <string name="remove">Remove</string>
+    <string name="remove_airfryer">Remove Airfryer</string>
+    <string name="remove_all_recipes_after_last_ingredient_removal">It seems you have bought all ingredients from the list, would you like to remove all recipes from the shopping list?</string>
+    <string name="remove_appliance">Remove Appliance</string>
+    <string name="remove_blender">Remove Blender</string>
+    <string name="remove_content_alert_message" formatted="false">Removing %s content means you will not see related content including recipes, articles and tips. You will also remove the %s from your appliance list</string>
+    <string name="remove_content_alert_title">Remove “%s” content?</string>
+    <string name="remove_from_the_recipe_book">Remove from the recipe book</string>
+    <string name="remove_juicer">Remove Juicer</string>
+    <string name="remove_nutrimax">Remove NutriMax</string>
+    <string name="remove_photo">Remove photo</string>
+    <string name="remove_this_airfryer">Are you sure you want to remove this Airfryer?</string>
+    <string name="remove_this_blender">Are you sure you want to remove this Blender?</string>
+    <string name="remove_this_connected_airfryer">Remove this Airfryer?</string>
+    <string name="remove_this_juicer">Are you sure you want to remove this Juicer?</string>
+    <string name="remove_this_nutrimax">Remove this NutriMax?</string>
+    <string name="report">Report</string>
+    <string name="report_article">Report this article</string>
+    <string name="report_comment">Report comment</string>
+    <string name="report_comment_missing">Please enter the comment to submit the report</string>
+    <string name="report_image">Report this image</string>
+    <string name="report_please_add_comment_description">Please add a comment so we could see the reason of report.</string>
+    <string name="report_please_add_comment_title">Missing comment</string>
+    <string name="report_recipe">Report recipe</string>
+    <string name="report_recipe_book_button">"Have feedback? We'd like to know!"</string>
+    <string name="report_recipe_book_title">Report recipe book</string>
+    <string name="report_story">Report article</string>
+    <string name="report_submitted_text">Thank you for making NutriU a better community.</string>
+    <string name="report_submitted_title">Report submitted</string>
+    <string name="report_text">Noticed something wrong? Let us know</string>
+    <string name="report_this_recipe">Report this recipe</string>
+    <string name="report_this_story">Report this article</string>
+    <string name="report_tip">Report tip</string>
+    <string name="report_user">Report user</string>
+    <string name="request_new_ingredient">Request an ingredient</string>
+    <string name="reset">Reset</string>
+    <string name="reset_airfryer">Reset your Airfryer by pressing and holding the up buttons on either side of the screen at the same time.</string>
+    <string name="reset_rni_data">Reset my data</string>
+    <string name="resetting_rni_data_accept_button">Yes, reset data</string>
+    <string name="resetting_rni_data_title">Resetting your data</string>
+    <string name="resetting_rni_data_warning">"All your RNI data will be reset and you cannot undo this. Are you sure 
+you wish to continue?"</string>
+    <string name="resseting_rni_data">Reset my data</string>
+    <string name="retry">Retry</string>
+    <string name="rni_age_dialog_title">Enter birthdate</string>
+    <string name="rni_entry_point_title">Want to personalize your nutrition?</string>
+    <string name="rni_gender_female">Female</string>
+    <string name="rni_gender_male">Male</string>
+    <string name="rni_gender_question">Gender?</string>
+    <string name="rni_hint_age">Enter your date</string>
+    <string name="rni_hint_height">170.0</string>
+    <string name="rni_hint_hip">90.0</string>
+    <string name="rni_hint_waist">60.0</string>
+    <string name="rni_hint_weight">70.0</string>
+    <string name="rni_personalization_accept_action_title">Yes, proceed</string>
+    <string name="rni_personalization_accept_button_title">"Let's Go!"</string>
+    <string name="rni_personalization_additional_description">"Why do we need your data? 
+
+To help you meet healthy living goals, NutriU will provide nutritional advice &amp; recipes to match your exact goals and preferences. 
+ If you’re not ready, you’ll get advice based on the average person."</string>
+    <string name="rni_personalization_description">"To make the most of NutriU and your nutrition goals, fill in your details. You’ll get advice designed especially for you.
+"</string>
+    <string name="rni_personalization_nutriu_description">We can help you enjoy even better blends. Share a few details about yourself. You’ll get helpful nutrition blends and information based on your details and tastes.</string>
+    <string name="rni_personalize_nutriu_consent_text">I consent to sharing my physical and lifestyle details that will be used to provide customised nutrition information.</string>
+    <string name="rni_personalize_your_nutrition_description">"To make the most of NutriU and your nutrition goals, fill in your details. You’ll get advice designed especially for you. 
+Not ready yet? We’ll offer recommendations based on the average person.
+"</string>
+    <string name="rni_personalize_your_nutrition_description_optional_part">Your personal energy need is %s kilocalories.</string>
+    <string name="rni_personalize_your_nutrition_success">You will now see your recommended daily intake (% of daily value) in the recipes.</string>
+    <string name="rni_personalize_your_nutrition_success_description">"You will now see your recommended daily intake (% of daily value) in the recipes. 
+To see or update your details go to your profile."</string>
+    <string name="rni_personalize_your_nutrition_success_info">To see or update your details go to your profile.</string>
+    <string name="rni_personalize_your_nutrition_success_title">Done!</string>
+    <string name="rni_personalize_your_nutrition_title">Personalize your nutrition</string>
+    <string name="rni_personalize_your_nutriu_experience_title">Personalize your NutriU experience</string>
+    <string name="rni_question_age">When were you born?</string>
+    <string name="rni_question_height">How tall are you?</string>
+    <string name="rni_question_hip">What is your hip measurement?</string>
+    <string name="rni_question_waist">"What's your waist size?"</string>
+    <string name="rni_question_weight">What is your current weight?</string>
+    <string name="rni_sport_2_to_4_hours">2 – 4 hours</string>
+    <string name="rni_sport_4_to_6_hours">4 – 6 hours</string>
+    <string name="rni_sport_less_than_2_hours">Less than 2 hours</string>
+    <string name="rni_sport_more_than_6_hours">More than 6 hours</string>
+    <string name="rni_sport_none">Not at all</string>
+    <string name="rni_sport_title">How much do you exercise weekly?</string>
+    <string name="rni_unit_height">cm</string>
+    <string name="rni_unit_hip">cm</string>
+    <string name="rni_unit_waist">cm</string>
+    <string name="rni_unit_weight">kg</string>
+    <string name="rni_work_body_movement">I move around a lot.</string>
+    <string name="rni_work_exertion">I exert myself physically.</string>
+    <string name="rni_work_only_sitting">I only sit at the desk all day.</string>
+    <string name="rni_work_sitting">I get up and move around a bit.</string>
+    <string name="rni_work_sitting_very_little_movement">Sitting at work with very little body movement.</string>
+    <string name="rni_work_title">How active is your daily life?</string>
+    <string name="roast_cooking_method_title">Roast</string>
+    <string name="save">Save</string>
+    <string name="save_and_add_another">Save &amp; add another</string>
+    <string name="save_and_finish">Save &amp; finish</string>
+    <string name="save_as_draft">Save as draft</string>
+    <string name="save_changes">Save changes</string>
+    <string name="save_made_changes_info">Do you want to save these changes?</string>
+    <string name="save_my_preferences">Save my preferences</string>
+    <string name="save_not_allowed_without_selection">"You can't save without selecting anything!"</string>
+    <string name="save_recipe_book">Save recipe book</string>
+    <string name="saved_recipe_title_v4">You have saved your recipe!</string>
+    <string name="saved_to">Saved to %s</string>
+    <string name="saving">Saving</string>
+    <string name="saving_v4">Saving...</string>
+    <string name="search">Search</string>
+    <string name="search_again">Search again</string>
+    <string name="search_menu_title">Search</string>
+    <string name="search_people_no_data_message">Sorry, we couldn’t find any matching Airfryer cooks.</string>
+    <string name="search_recipes_no_data_message">Sorry, we couldn’t find any matching recipes.</string>
+    <string name="search_stories_no_data_message">Sorry, we couldn’t find any matching articles.</string>
+    <string name="searching">Searching</string>
+    <string name="second">sec</string>
+    <string name="second_ago">%s second ago</string>
+    <string name="seconds_ago">%s seconds ago</string>
+    <string name="see_more">See more</string>
+    <string name="select_another_airfryer">Select another airfryer</string>
+    <string name="select_content">Select content</string>
+    <string name="select_device">Select a device</string>
+    <string name="select_servings_title">How many servings would you like to have?</string>
+    <string name="select_your_airfryer">Select your Airfryer</string>
+    <string name="select_your_country">Select your country</string>
+    <string name="select_your_country_subtitle">Choose your country to get local content and recipe recommendations.</string>
+    <string name="select_your_device">Select your device</string>
+    <string name="select_your_kitchen_appliances_description">Adding your appliances helps NutriU show you personalized recipes and tips. You can always update your appliances in your preferences settings.</string>
+    <string name="select_your_kitchen_appliances_profile_description">Adding your appliances helps NutriU show you personalized recipes and tips.</string>
+    <string name="select_your_kitchen_appliances_title">Select your kitchen appliances</string>
+    <string name="select_your_model">Select your model</string>
+    <string name="selected">Selected</string>
+    <string name="selected_tags">Selected tags</string>
+    <string name="send_to_blender">Send to blender</string>
+    <string name="sending_recipe_description">The recipe will be displayed on your blender in few seconds.</string>
+    <string name="sending_recipe_failed_description">"We couldn't send the selected recipe to the blender. Please check if the bluetooth on your phone and the blender are on and close enough.
+Please try again."</string>
+    <string name="sending_recipe_title">Sending the recipe</string>
+    <string name="serving_n_plural">%s servings</string>
+    <string name="serving_n_singular">%s serving</string>
+    <string name="serving_not_set">Please set servings</string>
+    <string name="serving_size">Serving size</string>
+    <string name="serving_unit_format">%s of</string>
+    <string name="servings">Servings</string>
+    <string name="servings_description">How many adults will this serve?</string>
+    <string name="servings_empty">-- servings</string>
+    <string name="servings_empty_v2">— servings</string>
+    <string name="set">Set</string>
+    <string name="set_airfryer_time_and_temperature">Set Airfryer time and temperature</string>
+    <string name="set_amount">Set amount</string>
+    <string name="set_humidity">Set humidity</string>
+    <string name="set_ingredients_to_avoid">Set ingredients to avoid</string>
+    <string name="set_temperature">Set temperature</string>
+    <string name="set_time">Set time</string>
+    <string name="settings">Settings</string>
+    <string name="shake_fries">Shake Basket</string>
+    <string name="shake_multiple_times_mesage">Open the Airfryer and shake the basket %s times during cooking.</string>
+    <string name="shake_once_message">Open the Airfryer and shake the basket once during cooking.</string>
+    <string name="share">Share</string>
+    <string name="share_data_description">I want to share my App data to help improve the App and provide me personalized services.</string>
+    <string name="share_my_app_data">Share my App data with NutriU</string>
+    <string name="share_recipe">Share recipe...</string>
+    <string name="share_shopping_list">Share shopping list...</string>
+    <string name="share_story">Share article...</string>
+    <string name="shop_product_entry_point">Buy this product</string>
+    <string name="shopping_list">Shopping list</string>
+    <string name="shopping_list_empty">Your shopping list is empty.</string>
+    <string name="shopping_list_recipe_added">Recipe added to shopping list</string>
+    <string name="shot">shot</string>
+    <string name="show_more">Show more</string>
+    <string name="skip">Skip</string>
+    <string name="slow_cook_cooking_method_title">Slow cook</string>
+    <string name="smart_airfryer">Smart airfryer</string>
+    <string name="smart_coach_says">Smart Coach says</string>
+    <string name="smart_cooking_consent">"Smart cooking lets you change the cooking time and temperature, and stop or start cooking, even when you’re not in the kitchen.
+
+Please ensure you are always in control of your appliance and do not let the appliance operate unattended."</string>
+    <string name="smart_cooking_consent_title">Turn Smart cooking on?</string>
+    <string name="smart_cooking_not_on">‘Smart cooking’ is not on</string>
+    <string name="smart_device_disconnect">Are you sure you want to disconnect %s?</string>
+    <string name="smart_device_paired_message">Now you have access to recipes and articles tailored for your appliance.</string>
+    <string name="smart_devices">Smart devices</string>
+    <string name="smoothie_n_plural">smoothies</string>
+    <string name="smoothie_n_singular">smoothie</string>
+    <string name="smoothies">smoothies</string>
+    <string name="smoothies_and_juices">Smoothies &amp; juices</string>
+    <string name="smoothies_per_week">Smoothies per week</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sous_vide_cooking_method_message">Please set temperature and time. Humidity will be set automatically.</string>
+    <string name="sous_vide_cooking_method_title">Sous vide</string>
+    <string name="spam">Spam</string>
+    <string name="special_diets">Special diets</string>
+    <string name="spectre_paired_title">Your smart Airfryer is added and paired!</string>
+    <string name="spectre_setup_mode_description">"Press and hold the menu button on the left of display screen until you see the Wi-Fi symbol start blinking. 
+
+Tap Continue when you see the Wi-Fi symbol blink."</string>
+    <string name="spectre_setup_mode_first_step">Press and hold the menu button on the left of display screen until you see the Wi-Fi symbol start blinking.</string>
+    <string name="spectre_setup_mode_second_step">Tap ‘Continue’ when you see the Wi-Fi symbol blink.</string>
+    <string name="spectre_setup_mode_title">Put your Airfryer in setup mode</string>
+    <string name="standard_blender">Standard blender</string>
+    <string name="start_cook_mode">Cook!</string>
+    <string name="start_manual_cooking">Start manual cooking</string>
+    <string name="start_preheat">Start preheat</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="steam_cooking_method_title">Steam</string>
+    <string name="step_by_step">Step by step</string>
+    <string name="step_by_step_description">Tell us what to do as clearly as possible.</string>
+    <string name="step_by_step_optional">Step by step (optional)</string>
+    <string name="step_cooking_not_in_progress">Send settings</string>
+    <string name="step_description_missing">Please enter step description</string>
+    <string name="step_hint">Instructions</string>
+    <string name="step_number">Step %s</string>
+    <string name="step_number_list">Step %s</string>
+    <string name="steps_instruction">Write instructions for this step</string>
+    <string name="steps_limit_error">You have reached the maximum number of steps.</string>
+    <string name="stories">Articles</string>
+    <string name="sv_SE">Swedish</string>
+    <string name="tags_title_text">Select as many categories as you like.</string>
+    <string name="take_photo">Take photo</string>
+    <string name="taste">Taste</string>
+    <string name="tell_us_more">Tell us more</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_not_set">Please set temperature</string>
+    <string name="terms_and_conditions_url">https://www.philips.com.au/c-w/terms/terms-and-conditions-nutriu-app.html</string>
+    <string name="terms_conditions">Terms of Use</string>
+    <string name="text_copied">Text copied to clipboard</string>
+    <string name="th_TH">Thai (Thailand)</string>
+    <string name="three_servings">3 servings</string>
+    <string name="time">Time</string>
+    <string name="time_empty">-- min</string>
+    <string name="time_empty_v2">— min</string>
+    <string name="time_exceeded">Time exceeds limit.</string>
+    <string name="time_not_set">Please set time</string>
+    <string name="time_to_prepare">Preparation time</string>
+    <string name="timeline">Timeline</string>
+    <string name="timeline_blend_serving">%s kcal / 250 g</string>
+    <string name="timeline_empty_placeholder_action_title">Go to recipes</string>
+    <string name="timeline_empty_placeholder_message">To fill your timeline you need to prepare a new recipe</string>
+    <string name="timeline_empty_placeholder_title">Joined NutriU</string>
+    <string name="timeline_this_month">This month</string>
+    <string name="timeline_this_week">This week</string>
+    <string name="timeline_you_blended">You blended</string>
+    <string name="timeline_you_cooked">You cooked</string>
+    <string name="tip_rni_daily_need_title">Your daily need</string>
+    <string name="title_hint">Enter name</string>
+    <string name="title_not_set">Please give recipe a name before publishing</string>
+    <string name="title_not_set_save">Please give recipe a name before saving</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">tomorrow</string>
+    <string name="top_recipe_books_title">Our top recipe books of the moment</string>
+    <string name="total_time">Total time</string>
+    <string name="tr_TR">Turkish (Turkey)</string>
+    <string name="try_again">Try again</string>
+    <string name="try_broccoli">Try \"Broccoli\"</string>
+    <string name="turn_on_airfryer_description">"Press the power button on the right side of the Airfryer screen to turn on your Airfryer.
+
+After you turned it on press continue."</string>
+    <string name="turn_on_airfryer_first_step">Check that your Airfryer is plugged in, and give the power button on the right of the screen one short, firm press.</string>
+    <string name="turn_on_airfryer_second_step">Once your Airfryer is on, tap Continue below.</string>
+    <string name="turn_on_nutrimax_first_step">Check that your NutriMax is plugged in, and press the power button on the right of the display screen.</string>
+    <string name="turn_on_nutrimax_second_step">Once your NutriMax is on, tap Continue below.</string>
+    <string name="turn_smart_cooking_on">Turn Smart cooking on</string>
+    <string name="two_servings">2 servings</string>
+    <string name="type">Type</string>
+    <string name="type_of_ingredients">Type of ingredients</string>
+    <string name="undo">Undo</string>
+    <string name="unit_branch_plural">branches</string>
+    <string name="unit_branch_singular">branch</string>
+    <string name="unit_bunch_plural">bunches</string>
+    <string name="unit_bunch_singular">bunch</string>
+    <string name="unit_can_plural">cans</string>
+    <string name="unit_centiliter_plural">centiliters</string>
+    <string name="unit_centiliter_singular">centiliter</string>
+    <string name="unit_clove_plural">cloves</string>
+    <string name="unit_clove_singular">clove</string>
+    <string name="unit_cup">c</string>
+    <string name="unit_dash_plural">dashes</string>
+    <string name="unit_dash_singular">dash</string>
+    <string name="unit_decigram">dg</string>
+    <string name="unit_decigram_plural">decigrams</string>
+    <string name="unit_decigram_singular">decigram</string>
+    <string name="unit_deciliter_plural">deciliters</string>
+    <string name="unit_deciliter_singular">deciliter</string>
+    <string name="unit_drop_plural">drops</string>
+    <string name="unit_drop_singular">drop</string>
+    <string name="unit_gram">g</string>
+    <string name="unit_gram_plural">grams</string>
+    <string name="unit_gram_singular">gram</string>
+    <string name="unit_imp_cup_plural">cups</string>
+    <string name="unit_imp_cup_singular">cup</string>
+    <string name="unit_imp_pound_plural">pounds</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_kilogram">kg</string>
+    <string name="unit_kilogram_plural">kilograms</string>
+    <string name="unit_kilogram_singular">kilogram</string>
+    <string name="unit_liter_plural">liters</string>
+    <string name="unit_liter_singular">liter</string>
+    <string name="unit_microgram">µg</string>
+    <string name="unit_milligram">mg</string>
+    <string name="unit_milligram_plural">milligrams</string>
+    <string name="unit_milligram_singular">milligram</string>
+    <string name="unit_milliliter">ml</string>
+    <string name="unit_milliliter_plural">milliliters</string>
+    <string name="unit_milliliter_singular">milliliter</string>
+    <string name="unit_ounce">oz.</string>
+    <string name="unit_piece_plural">pieces</string>
+    <string name="unit_piece_singular">piece</string>
+    <string name="unit_pinch_plural">pinches</string>
+    <string name="unit_pinch_singular">pinch</string>
+    <string name="unit_sachet_plural">sachets</string>
+    <string name="unit_sachet_singular">sachet</string>
+    <string name="unit_shot_plural">shots</string>
+    <string name="unit_slice_plural">slices</string>
+    <string name="unit_slice_singular">slice</string>
+    <string name="unit_tablespoon_plural">tablespoons</string>
+    <string name="unit_tablespoon_singular">tablespoon</string>
+    <string name="unit_teaspoon_plural">teaspoons</string>
+    <string name="unit_teaspoon_singular">teaspoon</string>
+    <string name="unit_us_cup_plural">cups</string>
+    <string name="unit_us_cup_singular">cup</string>
+    <string name="unknown">Unknown</string>
+    <string name="unknown_error">Sorry, something went wrong. Please try again.</string>
+    <string name="unpair_and_hide_airfryer">Unpair Airfryer from your phone</string>
+    <string name="unpair_and_hide_nutrimax">Unpair NutriMax from your phone</string>
+    <string name="update_airfryer">Update your Airfryer</string>
+    <string name="update_description_mandatory">A new version of the app was released. Please download the newest update to continue using the app.</string>
+    <string name="update_description_optional">We have improved our app. You can download the newest version from the store.</string>
+    <string name="update_now">Update now</string>
+    <string name="update_rni_data_description">"With the information you shared, NutriU can provide nutritional advice &amp; recipes to match your exact goals and preferences. Go through the questionnaire again to change your data. 
+
+If you no longer want to share your information, you’ll get advice based on the average person."</string>
+    <string name="update_rni_data_title">Change your personal data</string>
+    <string name="update_title_mandatory">Update needed</string>
+    <string name="update_title_optional">Hello, a new app update is available.</string>
+    <string name="uploading_photos">Uploading photos...</string>
+    <string name="us_fluid_ounce">fluid ounce</string>
+    <string name="us_ounce">ounce</string>
+    <string name="used_ingredients">Used ingredients</string>
+    <string name="user_blocked_title">You have been blocked</string>
+    <string name="user_name">Name</string>
+    <string name="vegetables_preset_title">Vegetables</string>
+    <string name="version">Version</string>
+    <string name="view">View</string>
+    <string name="view_all">View all</string>
+    <string name="view_all_articles">View all articles</string>
+    <string name="view_all_comments">View all comments (%s)</string>
+    <string name="view_all_tags">View all tags</string>
+    <string name="view_more_details">Show me more</string>
+    <string name="visit_page_button">Visit the page</string>
+    <string name="voice_control">Voice control</string>
+    <string name="walkthrough_add_recipe_message">Create and share your best dishes.</string>
+    <string name="walkthrough_add_recipe_title">Adding a recipe</string>
+    <string name="walkthrough_close">Got it!</string>
+    <string name="walkthrough_from_the_community_message">Get updates from cooks you follow</string>
+    <string name="walkthrough_from_the_community_title">My newsfeed</string>
+    <string name="walkthrough_notifications_message">See who likes, comments and follows you</string>
+    <string name="walkthrough_notifications_title">Notifications</string>
+    <string name="walkthrough_planner_message">Plan your weekly cooking and shopping activities.</string>
+    <string name="walkthrough_planner_title">Planning &amp; Shopping</string>
+    <string name="walkthrough_profile_message">Manage all your recipes and settings</string>
+    <string name="walkthrough_profile_title">Preferences</string>
+    <string name="walkthrough_recipe_details_title">Recipes</string>
+    <string name="walkthrough_recipe_details_v4_message">Find out more about the recipe, favorite, share, comment and add it to the recipe book.</string>
+    <string name="walkthrough_search_message_v3">Find and filter recipes and articles</string>
+    <string name="walkthrough_search_title">Digging deeper</string>
+    <string name="water_tank">WATER TANK</string>
+    <string name="water_tank_empty_action_label">Please fill water tank now</string>
+    <string name="water_tank_empty_status_label">Water level is low</string>
+    <string name="water_tank_status_all_good">All good</string>
+    <string name="we_respect_your_privacy_text">We use your data in accordance with our privacy notice</string>
+    <string name="we_respect_your_privacy_title">We respect your privacy</string>
+    <string name="week">Week</string>
+    <string name="week_ago">%s week ago</string>
+    <string name="weeks">weeks</string>
+    <string name="weeks_ago">%s weeks ago</string>
+    <string name="what_does_this_mean">What does this mean?</string>
+    <string name="whats_in_my_fridge_empty_state">Sorry, there are no ingredients available.</string>
+    <string name="whats_in_my_fridge_error_message">"Sorry, something went wrong. What's in my fridge failed to load, please try again."</string>
+    <string name="which_appliance_will_you_use">Which appliance will you use?</string>
+    <string name="wif_cooking_time_label">Time</string>
+    <string name="wifi_authentication_airfryer_footnote">Pairing can take up to 30 seconds. Please keep your Airfryer on, and the Philips NutriU app open on your phone.</string>
+    <string name="wifi_authentication_airfryer_instructions_title">Pair your Airfryer with your phone</string>
+    <string name="wifi_authentication_description">"Press and hold the down arrow the left of the Airfryer screen. We'll let you know as soon as the Airfyer has paired with your phone."</string>
+    <string name="wifi_authentication_first_step">Give the down arrow on the left side of the display screen one short, firm press.</string>
+    <string name="wifi_authentication_navigation_title">Pair with phone</string>
+    <string name="wifi_authentication_nmx_footnote">Pairing can take up to 30 seconds. Please keep your NutriMax on, and the Philips NutriU app open on your phone.</string>
+    <string name="wifi_authentication_nmx_instructions_title">Pair your NutriMax with your phone</string>
+    <string name="wifi_authentication_nutrimax_first_step">"On your appliance allow pairing by pressing 'Yes'."</string>
+    <string name="wifi_authentication_nutrimax_title">Well done! Now pair your NutriMax with your phone</string>
+    <string name="wifi_authentication_second_step">"When the down arrow is solid on, press 'Pair' on mobile device."</string>
+    <string name="wifi_authentication_success_airfryer_description">"Now you can send recipes to your Airfryer and control it with the Philips NutriU app - even when you're not in the kitchen."</string>
+    <string name="wifi_authentication_success_title">"Great, you're ready for remote cooking"</string>
+    <string name="wifi_authentication_title">Pair your Airfryer with your mobile device</string>
+    <string name="wifi_cooking_disabled_step_action_message">Please end opened cooking process before beginning a new one.</string>
+    <string name="wifi_cooking_drawer_is_open_description">Close the drawer to continue</string>
+    <string name="wifi_cooking_drawer_is_open_label">Drawer is open</string>
+    <string name="wifi_cooking_keeping_warm">Food warmer</string>
+    <string name="wifi_cooking_no_wifi_message">To perform this action, please ensure that you are in the same network as your Airfryer</string>
+    <string name="wifi_cooking_no_wifi_positive_button">Settings</string>
+    <string name="wifi_cooking_send_settings_label">Send settings</string>
+    <string name="wifi_cooking_step_title">Step 1</string>
+    <string name="wifi_cooking_temperature_label">Temperature</string>
+    <string name="wifi_cooking_time_label">Time</string>
+    <string name="wifi_device_accept">Accept</string>
+    <string name="wifi_device_certificate_mismatch_error">"Certificate doesn't match the stored certificate. This can occur after a factory reset but may also indicate a man-in-the-middle attack.
+
+ Accept the new certificate?"</string>
+    <string name="wifi_device_firmware_current_version_tag">Airfryer version</string>
+    <string name="wifi_device_firmware_loading_screen_error_description">"Sorry, something went wrong.
+The screen failed to load, please try again."</string>
+    <string name="wifi_device_firmware_loading_screen_error_title">Oops!</string>
+    <string name="wifi_device_firmware_up_to_date">Your Airfryer is up to date.</string>
+    <string name="wifi_device_firmware_update_changelog">"This update includes: 
+%s"</string>
+    <string name="wifi_device_firmware_update_extra_info">Updates can take up to 20 minutes. You won’t be able to use your Airfryer while it updates, but you can check out our latest recipes.</string>
+    <string name="wifi_device_firmware_update_failed_description">"Sorry, something went wrong.
+Firmware update failed, please try again."</string>
+    <string name="wifi_device_firmware_update_failed_title">Oops!</string>
+    <string name="wifi_device_firmware_update_installing">Installing %s update…</string>
+    <string name="wifi_device_firmware_update_installing_extra_info">Please do not use your Airfryer while update installs.</string>
+    <string name="wifi_device_firmware_update_installing_success">Successfully updated to %s</string>
+    <string name="wifi_device_firmware_update_title">Update your Airfryer</string>
+    <string name="wifi_device_firmware_update_version_tag">Airfryer</string>
+    <string name="wifi_device_firmware_update_your_airfryer">Update your Airfryer!</string>
+    <string name="wifi_device_firmware_version">Firmware version</string>
+    <string name="wifi_device_reject">Reject</string>
+    <string name="wifi_setup_access_point_issues_description">Make sure you gave all the following permissions in your phone settings.</string>
+    <string name="wifi_setup_access_point_issues_first_step">Turn on “Precise” on your location permissions.</string>
+    <string name="wifi_setup_access_point_issues_second_step">Allow local network access permission.</string>
+    <string name="wifi_setup_access_point_issues_title">Can’t connect to Philips Setup Network?</string>
+    <string name="wifi_setup_bottom_info_nmx">"Tap 'Set up NutriMax' for step-by-step instructions. Tap 'Skip setup' if your NutriMax is already connected to your Wi-Fi network."</string>
+    <string name="wifi_setup_check_nutrimax_plugged_in">Check that your NutriMax is plugged in, and fully powered on.</string>
+    <string name="wifi_setup_choose_network_add_manually">Add manually</string>
+    <string name="wifi_setup_choose_network_description">If you have more than one network, we recommend choosing your main network.</string>
+    <string name="wifi_setup_choose_network_subtitle">Choose your network</string>
+    <string name="wifi_setup_choose_network_title">Choose your Wi-Fi network</string>
+    <string name="wifi_setup_connect">Connect</string>
+    <string name="wifi_setup_connect_to_named_network">Connect to %s network?</string>
+    <string name="wifi_setup_connect_to_wifi_description">"Next, the NutriU app will ask for permission to use location services to connect the phone to the 'Philips Setup' network."</string>
+    <string name="wifi_setup_connect_to_wifi_navigation_title">Connect to Wi-Fi</string>
+    <string name="wifi_setup_connect_to_wifi_title">Connect your phone to the Philips Setup network</string>
+    <string name="wifi_setup_connect_to_wifi_warning">The WiFi connection will drop briefly as the app connects to ‘Philips Setup’ network.</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name">Enter Wi-Fi network name</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_airfryer">Name your Airfryer*</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_extra_info">Airfryer supports only 2.4 Ghz network.</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_nutrimax">Name your NutriMax*</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_nutrimax_extra_info">NutriMax requres a 2.4 Ghz network</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_placeholder">Network SSID name</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_nutrimax_title">Connect your NutriMax to your Wi-Fi network</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_nutrimax_title_named">Connect your NutriMax to \"%s\"</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_password">Enter your WiFi password</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_password_extra_info">If your Wi-Fi security type is WPA/WPA2 Personal, then the password entered must contain at least 8 characters.</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_title">Connect your Airfryer to your Wi-Fi network</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_title_named">Connect your Airfryer to \"%s\"</string>
+    <string name="wifi_setup_connected_consent_already_given_description">You have already given consent for the remote control to cook remotely. You can always change this in appliance settings.</string>
+    <string name="wifi_setup_connected_consent_already_given_title">Well done! You connected successfully!</string>
+    <string name="wifi_setup_connected_description">Next, if you want to use the NutriU app to control your Airfryer, give remote consent to turn Smart cooking on.</string>
+    <string name="wifi_setup_connected_nutrimax_description">Next, if you want to use the NutriU app to control your NutriMax, give remote consent to turn remote cooking on.</string>
+    <string name="wifi_setup_connected_title">"Well done! You're nearly finished"</string>
+    <string name="wifi_setup_connecting_failed_description">Please follow the steps below before trying again:</string>
+    <string name="wifi_setup_connecting_failed_first_step">Check your Wi-Fi name and password correct</string>
+    <string name="wifi_setup_connecting_failed_nutrimax_second_step">Make sure that your phone and NutriMax are on the same Wi-Fi network</string>
+    <string name="wifi_setup_connecting_failed_nutrimax_third_step">Check that your phone and NutriMax are within range of your Wi-Fi router</string>
+    <string name="wifi_setup_connecting_failed_second_step">Make sure that your phone and Airfryer are on the same Wi-Fi network</string>
+    <string name="wifi_setup_connecting_failed_third_step">Check that your phone and Airfryer are within range of your Wi-Fi router</string>
+    <string name="wifi_setup_connecting_failed_title">We couldn’t connect to your Wi-Fi</string>
+    <string name="wifi_setup_connection_in_progress_description">This can take up to 60 seconds. Please keep your Airfryer on and the app open. We’ll let you know when your Airfryer is connected.</string>
+    <string name="wifi_setup_connection_in_progress_nutrimax_description">This can take up to 30 seconds. Please keep your NutriMax on and the app open. We’ll let you know when your NutriMax is connected.</string>
+    <string name="wifi_setup_connection_in_progress_nutrimax_title">Connecting NutriMax to \"%s\"</string>
+    <string name="wifi_setup_connection_in_progress_title">Connecting Airfryer to \"%s\"</string>
+    <string name="wifi_setup_connection_unsuccessful_description">"The phone could not detect your Airfryer in home WiFi network. This may be because you entered the wrong password or because your Airfryer is out of range.
+
+ Please verify your password, move your device and phone closer to your home router and try again."</string>
+    <string name="wifi_setup_connection_unsuccessful_title">Connection was unsuccessful</string>
+    <string name="wifi_setup_device_issues_description">"Check that your Airfryer is plugged in and switched on.
+
+If it is on, you’ll need to do a hard reset. Here’s how etc."</string>
+    <string name="wifi_setup_device_issues_title">We can’t find your Airfryer</string>
+    <string name="wifi_setup_device_name_hint">My Spectre</string>
+    <string name="wifi_setup_device_name_label">Give your Spectre a unique name</string>
+    <string name="wifi_setup_device_not_prepared_description">"If you don't see the blinking light on your device please go ahead and reset your device. Once the device is back on you should be able to see the blinking light. If that's still not the case please contact our customer support for additional information."</string>
+    <string name="wifi_setup_device_not_prepared_title">Reset your device</string>
+    <string name="wifi_setup_enter_hidden_network_credentials_title">"Let's now connect Airfryer to ‘MyNetwork’"</string>
+    <string name="wifi_setup_enter_name_default">My Smart Airfryer</string>
+    <string name="wifi_setup_enter_name_nutrimax_default">My NutriMax</string>
+    <string name="wifi_setup_enter_name_placeholder">Enter name</string>
+    <string name="wifi_setup_enter_network_name">Enter network name</string>
+    <string name="wifi_setup_enter_network_name_hint">Network SSID name</string>
+    <string name="wifi_setup_enter_password_description">If your WiFi security type is WPA/WPA2 Personal, then the password entered must contain at least 8 characters.</string>
+    <string name="wifi_setup_enter_password_placeholder">Enter password</string>
+    <string name="wifi_setup_enter_wifi_password">Enter your WiFi password</string>
+    <string name="wifi_setup_find_network_issues_description">"Please follow all 4 steps before leaving 
+the app."</string>
+    <string name="wifi_setup_find_network_issues_first_step">Check that your hidden network is a 2.4 GHz network</string>
+    <string name="wifi_setup_find_network_issues_fourth_step">Make sure your phone is within reach of your Wi-Fi network</string>
+    <string name="wifi_setup_find_network_issues_second_step">"Check that your phone is connected to the same hidden
+Wi-Fi network"</string>
+    <string name="wifi_setup_find_network_issues_third_step">Tap ‘Add manually’ and enter your hidden Wi-Fi network name and password</string>
+    <string name="wifi_setup_find_network_issues_title">Connect to your hidden or private Wi-Fi network</string>
+    <string name="wifi_setup_hidden_network_ghz_support">Airfryer supports only 2.4 Ghz network.</string>
+    <string name="wifi_setup_hsdp_pairing_failed_error">"Please try again later. If it hasn't resolved after 24 hours, please contact customer care."</string>
+    <string name="wifi_setup_mode_title">Setup mode</string>
+    <string name="wifi_setup_network_not_found_error">Device wifi network not found, please go back to previous step and turn on your device.</string>
+    <string name="wifi_setup_no_location_permission_description">We use location services to connect to your Airfryer. Without this permission your phone can’t control your Airfryer or share recipes and cooking instructions.</string>
+    <string name="wifi_setup_no_location_permission_description_ios">"We use location information to connect to your Airfryer. Without this information, your phone can't control your Airfryer or share recipes and cooking instructions.
+
+Please make sure that both location permission and location services are enabled. You can enable location services in Privacy Settings and location permission in the app settings."</string>
+    <string name="wifi_setup_no_location_permission_description_nmx">We use location services to connect to your NutriMax. Without this permission your phone can’t control your NutriMax or share recipes and cooking instructions.</string>
+    <string name="wifi_setup_no_location_permission_proceed_action">Allow location services</string>
+    <string name="wifi_setup_no_location_permission_title">Are you sure?</string>
+    <string name="wifi_setup_no_location_services_description">Without location services the app won’t know which Wi-Fi network your Airfryer is on and won’t be able to connect with it.</string>
+    <string name="wifi_setup_no_location_services_description_nmx">Without location services the app won’t know which Wi-Fi network your NutriMax is on and won’t be able to connect with it.</string>
+    <string name="wifi_setup_no_location_services_title">Why we use location services</string>
+    <string name="wifi_setup_no_nearby_networks_found_error">No nearby wifi networks found. Please stay in range of an active wifi network and try again.</string>
+    <string name="wifi_setup_no_precise_location_permission_description">You allowed access to your location, but you turned off “Precise”. To connect to the WiFi network, NutriU needs your precise location. Please enable precise location services in the app settings.</string>
+    <string name="wifi_setup_no_precise_location_permission_title">Precise location needed</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_1">Airfryer will be connected to 2.4 Ghz network</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_2">Airfryer has to be connected to the same network as your phone</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_3">Add network manually if you want to use a hidden network</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_4">Make sure you are within reach of your WiFi network</string>
+    <string name="wifi_setup_no_preferred_network_visible_title">Connect to your hidden or private Wi-Fi network</string>
+    <string name="wifi_setup_no_wifi_connection_description">Please read all 4 steps before leaving the application.</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_1">Tap WiFi in your phone settings</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_2">Make sure your WiFi is turned on</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_3">Select your network</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_4">Return to the NutriU app</string>
+    <string name="wifi_setup_no_wifi_connection_title">Seems like you are not on WiFi network.</string>
+    <string name="wifi_setup_not_connected_issues_continue">Yes, I did it</string>
+    <string name="wifi_setup_not_connected_issues_description">It looks like your phone is not connected to a Wi-Fi network.</string>
+    <string name="wifi_setup_not_connected_issues_first_step">Check that Wi-Fi is on in your phone settings</string>
+    <string name="wifi_setup_not_connected_issues_help">Please help</string>
+    <string name="wifi_setup_not_connected_issues_second_step">Check that your Wi-Fi router is switched on</string>
+    <string name="wifi_setup_not_connected_issues_title">"Make sure you're connected to your Wi-Fi network"</string>
+    <string name="wifi_setup_nutrimax_in_wifi_mode_settings">"Make sure your appliance is in 'WiFi setup mode' when you select 'WiFi Setup' in Settings of appliance."</string>
+    <string name="wifi_setup_nutrimax_issues_title">"We can't find your NutriMax"</string>
+    <string name="wifi_setup_nutrimax_not_in_setup_mode">It looks like your NutriMax is not in setup mode.</string>
+    <string name="wifi_setup_paired_description">Now you can send recipes to your Airfryer and control it with your NutriU app.</string>
+    <string name="wifi_setup_paired_navigation_title">Paired</string>
+    <string name="wifi_setup_paired_title">Your Airfryer is now connected and paired</string>
+    <string name="wifi_setup_pairing_unsuccessful_description">This can be due to wrong user ID</string>
+    <string name="wifi_setup_pairing_unsuccessful_title">Pairing was unsuccessful</string>
+    <string name="wifi_setup_product_discovery_error_navigation_title">Nothing found</string>
+    <string name="wifi_setup_reset_nutrimax">Reset your NutriMax by pressing and holding the up buttons on either side of the screen at the same time.</string>
+    <string name="wifi_setup_start_pairing">Start pairing</string>
+    <string name="wifi_setup_turn_on_device_description">When you turn your Airfryer on for the first time, it will try to connect to your Wi-Fi automatically. You’ll see a Wi-Fi symbol blinking on the screen.</string>
+    <string name="wifi_setup_turn_on_device_help">Need help?</string>
+    <string name="wifi_setup_turn_on_device_title">Turn on your Airfryer</string>
+    <string name="wifi_setup_welcome_bottom_info">"Tap 'Set up Airfryer' for step-by-step instructions. Tap 'Skip setup' if your Airfryer is already connected to your Wi-Fi network."</string>
+    <string name="wifi_setup_welcome_continue">Set up Airfryer</string>
+    <string name="wifi_setup_welcome_description">Send recipes to your Airfryer and enjoy remote cooking via your mobile phone.</string>
+    <string name="wifi_setup_welcome_first_step">Set up your Airfryer</string>
+    <string name="wifi_setup_welcome_navigation_title">Getting started</string>
+    <string name="wifi_setup_welcome_nutrimax_continue">Set up NutriMax</string>
+    <string name="wifi_setup_welcome_nutrimax_description">Send recipes to your NutriMax and enjoy remote cooking via your mobile phone.</string>
+    <string name="wifi_setup_welcome_nutrimax_first_step">Setup your NutriMax</string>
+    <string name="wifi_setup_welcome_nutrimax_second_step">Pair your NutriMax and phone</string>
+    <string name="wifi_setup_welcome_nutrimax_third_step">Connect your NutriMax to your Wi-Fi</string>
+    <string name="wifi_setup_welcome_second_step">Pair your Airfryer and phone</string>
+    <string name="wifi_setup_welcome_skip_setup">Skip setup</string>
+    <string name="wifi_setup_welcome_third_step">Connect your Airfryer to your Wi-Fi</string>
+    <string name="wifi_setup_welcome_title">Smarter cooking in three steps or less</string>
+    <string name="wifi_unable_to_connect_to_device_wifi">Connect to \"Philips Setup\" network failed. Please try again.</string>
+    <string name="wimf_result_error">"Sorry, something went wrong. What's in my fridge results failed to load, please try again."</string>
+    <string name="wimf_result_you_have_all_ingredients">You have all ingredients</string>
+    <string name="write_the_first_step">1. Describe the first step</string>
+    <string name="year_ago">%s year ago</string>
+    <string name="years_ago">%s years ago</string>
+    <string name="yes">Yes</string>
+    <string name="yesterday">yesterday</string>
+    <string name="you_have_no_notifications">You have no notifications</string>
+    <string name="zero_percent">0%</string>
+</resources>

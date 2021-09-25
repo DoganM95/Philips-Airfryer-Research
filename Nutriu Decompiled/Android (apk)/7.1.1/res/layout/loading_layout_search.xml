@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loadingViewContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/imageContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_1x">
+            <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="?loadingColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/spacing_1x" android:layout_weight="1.0" />
+            <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="?loadingColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/spacing_1x" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+            <ImageView android:layout_width="0.0dip" android:layout_height="17.0dip" android:src="?loadingColor" android:layout_weight="1.0" android:paddingEnd="36.0dip" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="17.0dip" android:src="?loadingColor" android:layout_weight="1.0" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="48.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/spacing_4x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_1x">
+            <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="?loadingColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/spacing_1x" android:layout_weight="1.0" />
+            <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="?loadingColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/spacing_1x" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+            <ImageView android:layout_width="0.0dip" android:layout_height="17.0dip" android:src="?loadingColor" android:layout_weight="1.0" android:paddingEnd="36.0dip" />
+            <ImageView android:layout_width="0.0dip" android:layout_height="17.0dip" android:src="?loadingColor" android:layout_weight="1.0" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="48.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

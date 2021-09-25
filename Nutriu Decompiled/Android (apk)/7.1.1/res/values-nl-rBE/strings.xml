@@ -1,0 +1,1851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AE">Verenigde Arabische Emiraten</string>
+    <string name="ALCOHOLIC_BEVERAGES">Alcoholische dranken</string>
+    <string name="AT">Oostenrijk</string>
+    <string name="BG">Bulgarije</string>
+    <string name="BREAD_AND_SMALL_BAKERY_PRODUCTS">"Brood en kleine gebakjes
+"</string>
+    <string name="CEREALS_GRAIN_AND_CEREAL_PRODUCTS_AND_RICE">Graan</string>
+    <string name="CZ">Tscjechië</string>
+    <string name="DE">Duitsland</string>
+    <string name="DEEP_SEA_AND_FRESH_WATER_FISHES_SHELLFISH">Vis en schaal- en schelpdieren</string>
+    <string name="EE">Estland</string>
+    <string name="EGGS_AND_EGG_PRODUCTS_AND_PASTA">Eieren en pasta</string>
+    <string name="ES">Spanje</string>
+    <string name="FRUIT_AND_FRUIT_PRODUCTS">Vruchten</string>
+    <string name="GAME_POULTRY_GAME_BIRDS_VARIETY_MEATS">Gevogelte</string>
+    <string name="GB">Verenigd Koninkrijk</string>
+    <string name="GR">Griekenland</string>
+    <string name="HR">Kroatië</string>
+    <string name="HU">Hongarije</string>
+    <string name="IE">Ierland</string>
+    <string name="IT">Italië</string>
+    <string name="KR">Zuid-Korea</string>
+    <string name="LEGUMES_NUTS_OIL_AND_OTHER_SEEDS">Peulvruchten, noten, olie, zaden</string>
+    <string name="LT">Lithouwen</string>
+    <string name="LV">Letland</string>
+    <string name="MEAT_EXCLUDING_VARIETY_MEATS">Vlees</string>
+    <string name="MILK_DAIRY_PRODUCTS_CHEESE">Melk en producten daarvan</string>
+    <string name="NL">Nederland</string>
+    <string name="NON_ALCOHOLIC_BEVERAGES">Dranken</string>
+    <string name="OILS_FATS_BUTTER_LARD_TALLOW">Olie, vet, boter…</string>
+    <string name="PL">Polen</string>
+    <string name="POTATOES_AND_POTATO_PRODUCTS_STARCHY_ROOTS_AND_TUBERS_MUSHROOMS">Aardappelen en producten daarvan</string>
+    <string name="PT">Portugal</string>
+    <string name="READY_MADE_BAKERY_PRODUCTS_CAKES_PASTRIES">Cake en ander gebak</string>
+    <string name="RO">Roemenië</string>
+    <string name="SA">Saoedi-Arabië</string>
+    <string name="SAUSAGES_AND_OTHER_MEAT_PRODUCTS">Vleesproducten</string>
+    <string name="SE">Zweden</string>
+    <string name="SI">Slovenië</string>
+    <string name="SK">Slowakije</string>
+    <string name="SPICES_CONDIMENTS_FOOD_ADDITIVES">Kruiden</string>
+    <string name="SWEETS_SUGAR_CANDY_CHOCOLATE_SPREAD_ICE_CREAM">Snoepgoed</string>
+    <string name="VEGETABLES_AND_VEGETABLE_PRODUCTS">Groenten</string>
+    <string name="_private">Privé</string>
+    <string name="a_minute_ago">een minuut geleden</string>
+    <string name="about_copyright">© %d, Koninklijke Philips N.V.</string>
+    <string name="about_description">Wij geloven in de kracht van zelfbereide maaltijden</string>
+    <string name="about_licences">Licenties</string>
+    <string name="about_me">Over mij</string>
+    <string name="about_me_hint">Schrijf iets over jezelf</string>
+    <string name="about_privacy">Privacybeleid</string>
+    <string name="about_rate_app">Deze app beoordelen</string>
+    <string name="about_sub_header">Wij geloven in de kracht van zelfbereide maaltijden</string>
+    <string name="about_term_conditions">Voorwaarden</string>
+    <string name="about_title">Over</string>
+    <string name="about_version">Versie %s</string>
+    <string name="accept_sharing_of_usage_data">Oké, deel mijn gebruiksgegevens</string>
+    <string name="accessories">Accessoires</string>
+    <string name="accessories_entry_point_title">Hebt u geen accessoire?</string>
+    <string name="accessory">Accessoire</string>
+    <string name="account">Account</string>
+    <string name="account_marketing_data_title">Deze gegevens kunnen bestaan uit:</string>
+    <string name="account_marketing_data_we_get_text">Gegevens over je interactie met en het gebruik van de digitale kanalen van Philips, zoals social media, websites, e-mail, apps en connected producten. Deze gegevens kunnen het volgende omvatten: IP-adres, cookies, apparaatinformatie, berichten waar je op klikt, locatiegegevens en websites die je bezoekt.</string>
+    <string name="account_marketing_data_we_get_title">Gegevens die wij hebben verkregen via je interactie met Philips</string>
+    <string name="account_marketing_data_you_gave_text">Gegevens die je met ons hebt gedeeld, zoals je naam, geboortedatum of leeftijd, e-mailadres, woonadres, land, geslacht, telefoonnummer, social-mediaprofiel.</string>
+    <string name="account_marketing_data_you_gave_title">Verstrekte gegevens</string>
+    <string name="account_marketing_description">"Door je toestemming kunnen de bedrijven uit de Philips-groep je, op basis van je voorkeuren en gedrag, benaderen over Philips-producten, diensten, evenementen en aanbiedingen voor promotionele doeleinden. 
+
+We kunnen je benaderen via e-mail, sms en andere digitale kanalen, zoals mobiele apps en social media. Om de berichtgeving te kunnen aanpassen aan je voorkeuren en gedrag en je de beste persoonlijke ervaring te bieden, kunnen we mogelijk je persoonsgegevens analyseren en combineren."</string>
+    <string name="account_marketing_end_text">Je kunt je toestemming aan Philips op ieder gewenst moment intrekken.</string>
+    <string name="account_settings_title">Accountinstellingen</string>
+    <string name="add">Toevoegen</string>
+    <string name="add_a_new_ingredient">Nieuw ingrediënt toevoegen \"%s\"</string>
+    <string name="add_additional_comment">Vertel ons waarom</string>
+    <string name="add_airfryer">Voeg Airfryer toe</string>
+    <string name="add_an_airfryer">Een Airfryer toevoegen?</string>
+    <string name="add_another_appliance">Nog een apparaat toevoegen</string>
+    <string name="add_appliance">Voeg apparaat toe</string>
+    <string name="add_appliances">Apparaten toevoegen</string>
+    <string name="add_first_recipe">Eerste recept toevoegen</string>
+    <string name="add_ingredient">Ingrediënt toevoegen</string>
+    <string name="add_ingredient_description">Voeg alle benodigde ingrediënten toe.</string>
+    <string name="add_network_credentials_ssid_input_description_nmx">NutriMax ondersteunt alleen 2,4 Ghz-netwerken.</string>
+    <string name="add_new_ingredient">Nieuw ingrediënt toevoegen</string>
+    <string name="add_photo">Foto toevoegen</string>
+    <string name="add_profile_image">Een profielfoto toevoegen</string>
+    <string name="add_profile_photo">Profielfoto toevoegen</string>
+    <string name="add_recipe_photo">Receptfoto toevoegen</string>
+    <string name="add_recipe_tags">Labels aan recept toevoegen</string>
+    <string name="add_step">Stap toevoegen</string>
+    <string name="add_step_photo">"Foto van een stap toevoegen
+"</string>
+    <string name="add_tags">Labels toevoegen</string>
+    <string name="add_tags_description">Categorielabels maken je recept gemakkelijk te vinden.</string>
+    <string name="add_time">Voeg tijd toe</string>
+    <string name="add_to_recipe_book">Toevoegen aan boek</string>
+    <string name="add_to_recipe_book_button">Toevoegen aan receptenboek</string>
+    <string name="add_unknown_ingredient_description">"'%s' zit niet in onze database, dus we kunnen geen informatie over de voedingswaarde ervan opnemen. Weet je zeker dat je het wilt toevoegen?"</string>
+    <string name="add_unknown_ingredient_title">Toevoegen van \"%s\"</string>
+    <string name="added_ingredient" formatted="false">%s %s van %s</string>
+    <string name="additional_content">Extra content</string>
+    <string name="aifryer_firmware_update_download_completed_body">Je Airfryer heeft de update gedownload en wordt nu geïnstalleerd. We kunnen pas verbinding maken als het klaar is, wat even kan duren. We maken automatisch opnieuw verbinding.</string>
+    <string name="aifryer_firmware_update_download_description">Je Airfryer is bezig een beschikbare update te downloaden en bereidt zich voor op latere installatie. Tijdens het downloaden kan de communicatie met de Airfryer enige vertraging oplopen.</string>
+    <string name="aifryer_firmware_update_download_in_progress_body">Firmware-update voor Airfryer wordt uitgevoerd. Je krijgt een melding wanneer het downloaden is voltooid en het installatieproces is begonnen.</string>
+    <string name="aifryer_firmware_update_download_title">Airfryer bezig met updaten...</string>
+    <string name="air_cooker">Air Cooker</string>
+    <string name="air_cooker_firmware_update_download_description">Je Air Cooker is een update aan het downloaden en bereidt zich voor op latere installatie. Tijdens het downloaden kan de communicatie met je Air Cooker trager verlopen.</string>
+    <string name="air_cooker_firmware_update_download_title">Air Cooker updaten...</string>
+    <string name="air_cooker_firmware_update_in_progress_error">Je Air Cooker wordt momenteel geüpdatet. De speciale functies van je Air Cooker worden uitgeschakeld totdat de update is voltooid.</string>
+    <string name="air_steam_cooking_method_title">Luchtstomen</string>
+    <string name="aircooker_paired_title">Je Air Cooker is toegevoegd en gekoppeld!</string>
+    <string name="aircooker_settings_switch">De instellingen van je Air Cooker selecteren?</string>
+    <string name="airfryer">Airfryer</string>
+    <string name="airfryer_details_serial_number">Modelnummer</string>
+    <string name="airfryer_model_missing">Airfryer-model ontbreekt</string>
+    <string name="airfryer_model_not_set">Je hebt nog geen Airfryer-model ingesteld</string>
+    <string name="airfryer_not_in_setup_mode">Het lijkt erop dat je Airfryer niet in de instelmodus staat.</string>
+    <string name="airfryer_not_in_setup_mode_action">Start de installatie opnieuw</string>
+    <string name="airfryer_not_in_setup_mode_description">Je Airfryer staat niet meer in de instelmodus. Herhaal de eenvoudige wifi-installatie.</string>
+    <string name="airfryer_not_selected">Je hebt de Airfryer verwijderd uit je profiel waardoor we de bereidingstijd en temperatuur niet kunnen opslaan. Selecteer je Airfryer model of ga door zonder tijd- en temperatuurwaarden.</string>
+    <string name="airfryer_recipes">Airfryer recepten</string>
+    <string name="airfryer_status_info_description">"
+Controleer of je Airfryer is ingeschakeld en of je Wi-Fi werkt. Als er nog steeds een probleem is, bekijk dan in deze app de veelgestelde vragen in de Airfryer-instellingen."</string>
+    <string name="airfryer_status_info_title">Je Airfryer is niet aangesloten</string>
+    <string name="airfryer_user_manual">Handleiding</string>
+    <string name="airfyer_accessories_description">Ontdek nieuwe mogelijkheden met onze accessoires</string>
+    <string name="airfyer_description">Bakken, braden en grillen met tot wel 90% minder olie</string>
+    <string name="alert_remove_airfryer">Als je je Airfryer verwijdert, ontvang je geen gepersonaliseerde aanbevelingen.</string>
+    <string name="alert_remove_nutrimax">Als je je NutriMax verwijdert, kun je de kookinstructies niet op afstand wijzigen of slimme kookfuncties gebruiken.</string>
+    <string name="alert_remove_smart_airfryer">Als je je Airfryer verwijdert, kun je de kookinstructies niet op afstand wijzigen of slimme kookfuncties gebruiken.</string>
+    <string name="all_ingredients">Alle ingrediënten</string>
+    <string name="allergen_celery">"Bleekselderij en producten daarvan
+"</string>
+    <string name="allergen_cereals_containing_gluten">Graanproducten met gluten</string>
+    <string name="allergen_cereals_containing_gluten_description">"Namelijk tarwe (zoals spelt, khorasantarwe/
+kamut), rogge, gerst, haver en hybride soorten"</string>
+    <string name="allergen_crustaceans">Schaaldieren en producten daarvan</string>
+    <string name="allergen_crustaceans_description">Bijvoorbeeld krab, kreeft, rivierkreeft, garnalen, steurgarnalen</string>
+    <string name="allergen_eggs">Eieren en producten daarvan</string>
+    <string name="allergen_fish">Vis en producten daarvan</string>
+    <string name="allergen_lupin">Lupine en producten daarvan</string>
+    <string name="allergen_milk">Melk en producten daarvan (inclusief lactose)</string>
+    <string name="allergen_molluscs">Weekdieren</string>
+    <string name="allergen_molluscs_description">Bijvoorbeeld mosselen, oesters, inktvis</string>
+    <string name="allergen_mustard">Mosterd en producten daarvan</string>
+    <string name="allergen_nuts">Schaalvruchten en afgeleide producten</string>
+    <string name="allergen_nuts_description">"Namelijk amandelen, hazelnoten, walnoten, cashewnoten, 
+pecannoten, paranoten, pistachenoten, macadamianoten 
+of Queenslandnoten en producten daarvan"</string>
+    <string name="allergen_peanuts">"Pinda's"</string>
+    <string name="allergen_sesame_seeds">"Sesamzaad en producten daarvan
+"</string>
+    <string name="allergen_soybeans">Sojabonen en producten daarvan</string>
+    <string name="allergen_sulphur_dioxde_sulphites">Zwaveldioxide en sulfiet</string>
+    <string name="allergen_sulphur_dioxde_sulphites_description">Met een concentratie van meer dan tien delen per miljoen</string>
+    <string name="almost_there">Bijna klaar!</string>
+    <string name="already_have_account">Ik heb al een account</string>
+    <string name="amazon_banner_dismiss">Je kunt je Amazon-account altijd verbinden in de instellingen.</string>
+    <string name="amazon_banner_text">Maak verbinding met je Amazon-account voor extra voordelen</string>
+    <string name="amazon_privacy_notice">Privacyverklaring van Amazon</string>
+    <string name="amazon_terms_and_conditions">Algemene voorwaarden van Amazon</string>
+    <string name="amount">Hoeveelheid</string>
+    <string name="amount_zero_error">De hoeveelheid mag niet nul zijn.</string>
+    <string name="an_hour_ago">een uur geleden</string>
+    <string name="analytics_cookies_title">Hoe we analyses en cookies gebruiken</string>
+    <string name="announcement_error_message">Sorry, er is iets misgegaan. Aankondiging niet geladen. Probeer het opnieuw.</string>
+    <string name="announcement_not_active_error">Deze aankondiging is niet meer actief.</string>
+    <string name="app_crashed_message">Er lijkt een probleem te zijn met de app. Er is automatisch een foutenrapport verstuurd naar de app-ontwikkelaar.</string>
+    <string name="app_name">NutriU</string>
+    <string name="app_to_app_linking_already_connected_description">Het lijkt erop dat NutriU al is verbonden met Amazon Alexa. Ga terug om te blijven genieten van handsfree koken of verbreek de verbinding hieronder.</string>
+    <string name="app_to_app_linking_already_connected_disconnect">Verbreek Amazon</string>
+    <string name="app_to_app_linking_already_connected_title">NutriU is al verbonden met Alexa</string>
+    <string name="app_to_app_linking_amazon_privacy_description">"Met de Kitchen Plus skill-functie van Philips kun je je Philips Airfryer bedienen en informatie opvragen via Amazon Alexa. Wanneer je de Kitchen Plus skill-functie inschakelt, kan je Amazon-account gekoppeld worden aan het Philips-account dat je gebruikt om in te loggen op de NutriU-app. Bij het verbinden van je accounts controleren Philips en Amazon los van elkaar je identiteit. Philips deelt je accountgegevens, inclusief naam of e-mailadres, niet met Amazon.
+
+Als je met Alexa spreekt, stuurt Amazon een schriftelijke versie van je spraakopdrachten naar Philips, samen met een unieke identificatiecode. We verwerken deze informatie om je opdrachten uit te voeren en een antwoord te geven conform onze privacyverklaring. We delen onze schriftelijke reactie met Amazon zodat Amazon je kan informeren over de uitkomst van je opdracht conform de Privacyverklaring en Gebruiksvoorwaarden van Amazon. Philips en Alexa kunnen ook informatie uitwisselen over de Airfryer die je via de Kitchen Plus skill-functie besluit te bedienen, ook wanneer je de software van een apparaat update, wijzigt of verwijdert.
+
+Je begrijpt dat je opdrachten en reacties net zoiets zijn als persoonlijke gegevens. Je begrijpt ook dat Amazon zijn eigen diensten aan je levert en door toestemming te geven, geef je ons opdracht om je persoonlijke gegevens met Amazon te delen. Amazon kan je persoonlijke gegevens verwerken in landen buiten het land waarin je woont en waar je persoonlijke gegevens mogelijk minder goed beschermd worden. Je kunt je toestemming op elk moment intrekken door de Kitchen Plus skill-functie uit te schakelen."</string>
+    <string name="app_to_app_linking_connect_alexa_button">Maak verbinding met Alexa</string>
+    <string name="app_to_app_linking_consent_revoke_popup_description">Toestemming aan Amazon is vereist voor het koppelen van accounts. Door je toestemming in te trekken, wordt je account losgekoppeld van Amazon en kun je geen spraakbesturing gebruiken.</string>
+    <string name="app_to_app_linking_privacy_label">Ik wil de Kitchen Plus skill-functie activeren en mijn informatie met Amazon delen om spraakdiensten te ontvangen</string>
+    <string name="app_to_app_linking_step_one">Log in of maak een Amazon-account aan</string>
+    <string name="app_to_app_linking_step_three">Gebruik spraakbesturing met je Airfryer</string>
+    <string name="app_to_app_linking_step_two">Maak verbinding met je account</string>
+    <string name="app_to_app_linking_subtitle">Maak verbinding tussen NutriU en Amazon Alexa voor handsfree koken.</string>
+    <string name="app_to_app_linking_success_header">Spraakbesturing</string>
+    <string name="app_to_app_linking_success_subtitle">Dat is alles! Nu kun je handsfree koken met je Airfryer.</string>
+    <string name="app_to_app_linking_success_title">Goed gedaan! NutriU is verbonden met Alexa</string>
+    <string name="app_to_app_linking_title">Maak verbinding met de app op je smarthome-apparaat om spraakbesturing te gebruiken</string>
+    <string name="app_to_app_linking_unlink_disabled_description">Als je de Alexa-app hebt gebruikt om verbinding te maken met NutriU, verbreek dan de verbinding met de Alexa-app.</string>
+    <string name="app_to_app_unlink_notice">"
+Als je de verbinding met je Amazon-account verbreekt, heeft Alexa geen toegang tot je Airfryer om handsfree te koken."</string>
+    <string name="app_to_app_unlink_title">Verbreek de verbinding met je Amazon-account</string>
+    <string name="app_transparency_prompt_for_iOS_only">NutriU wil toestemming om je te volgen via apps en websites die eigendom zijn van andere bedrijven. We zullen een uniek ID uitwisselen met onze marketingpartners om de effectiviteit van onze advertenties te begrijpen.</string>
+    <string name="appliance_empty_description">Voeg je Aifryer toe en bekijk alle functies die hier specifiek voor zijn.</string>
+    <string name="appliance_empty_title">Je hebt nog geen apparaat toegevoegd!</string>
+    <string name="appliance_named_notifications_settings_title">\"%s\" meldingen</string>
+    <string name="appliance_notifications_settings_description">Kies wanneer jij wilt dat je Airfryer jou kookupdates stuurt.</string>
+    <string name="appliance_notifications_settings_title">\"My Smart Airfryer\"-meldingen</string>
+    <string name="appliance_removal_message">Je hebt je apparaat verwijderd</string>
+    <string name="appliance_selection_onboarding_description">Laat ons weten welke apparaten je gebruikt en we zullen populaire recepten en NutriU-artikelen delen.</string>
+    <string name="appliance_selection_onboarding_title">Voeg je apparaat toe voor gepersonaliseerde recepten</string>
+    <string name="appliance_selection_own_appliance_header_title">Bezit je ook een apparaat?</string>
+    <string name="appliances">Apparaten</string>
+    <string name="apply">Toepassen</string>
+    <string name="ar_AE">Arabisch</string>
+    <string name="ar_KW">Arabisch</string>
+    <string name="are_you_using_blender_or_airfryer">Gebruik je een blender of airfryer?</string>
+    <string name="articles">Artikelen</string>
+    <string name="articles_all">Alle artikelen</string>
+    <string name="articles_favourite">Favorieten</string>
+    <string name="author">Auteur</string>
+    <string name="back">Terug</string>
+    <string name="bake_cooking_method_title">Bakken</string>
+    <string name="before_we_start">Welkom bij NutriU</string>
+    <string name="benefit_1_v4">"Laat je inspireren door gezonde recepten
+"</string>
+    <string name="blend_consumption_type_all">Alles</string>
+    <string name="blend_consumption_type_custom">%sg</string>
+    <string name="blend_consumption_type_half">De helft</string>
+    <string name="blend_consumption_type_none">Niets</string>
+    <string name="blend_consumption_type_one_quarter">Een kwart</string>
+    <string name="blend_consumption_type_one_third">Een derde</string>
+    <string name="blend_details_error_message">Sorry, er ging iets mis. Melangegegevens kunnen niet worden geladen. Probeer het opnieuw.</string>
+    <string name="blend_details_how_nutritious">Hoe voedzaam was je laatste smoothie?</string>
+    <string name="blend_details_nutri_info_title">250 g inhoud</string>
+    <string name="blend_details_prepared_on">Bereid op: %s</string>
+    <string name="blender">Blender</string>
+    <string name="blender_and_juicer">Blender &amp; sapcentrifuge</string>
+    <string name="blender_description">Krijg je dagelijkse dosis met vruchten- en groentensmoothies</string>
+    <string name="blender_or_juicer">Blender of juicer</string>
+    <string name="blenders">Blenders</string>
+    <string name="blenders_and_juicers">Blenders &amp; sapcentrifuges</string>
+    <string name="blending_time">Mengtijd:</string>
+    <string name="bluetooth_off_button">Bluetooth inschakelen</string>
+    <string name="bluetooth_off_description">Bluetooth is vereist voor het koppelen met de blender. Schakel Bluetooth in bij de instellingen van je mobiele telefoon.</string>
+    <string name="bluetooth_off_title">Schakel Bluetooth in</string>
+    <string name="bluetooth_pairing_description_p2">Bluetooth maakt deel uit van de locatieservice van het apparaat, dus locatietoestemming is vereist.</string>
+    <string name="bluetooth_pairing_title">"Bluetooth 
+koppelen"</string>
+    <string name="bmi">BMI</string>
+    <string name="boosts_carousel_error_message">Sorry, er ging iets mis. Het gedeelte Dagelijkse boosts kan niet worden geladen. Probeer het opnieuw.</string>
+    <string name="browse_recipes">Recepten bekijken</string>
+    <string name="by_continuing_you_agree">Toestaan</string>
+    <string name="camera_access_not_granted">Geen toegang verleend tot je camera.</string>
+    <string name="can">kan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancel_changes">Wijzigingen annuleren</string>
+    <string name="carbohydrate">Koolhydraten</string>
+    <string name="celsius">°C</string>
+    <string name="celsius_sign">%s°</string>
+    <string name="centrifugal_juicer">Sapcentrifuge</string>
+    <string name="centrifugal_juicer_description">Elke dag vers sap zoals jij die lekker vindt</string>
+    <string name="check_airfryer_plugged_in">Controleer of je Airfryer is aangesloten en volledig is ingeschakeld.</string>
+    <string name="check_bluetooth_settings">Maak verbinding via Bluetooth en begin met mixen!</string>
+    <string name="check_bluetooth_settings_description">"Je Philips-mixer moet via Bluetooth verbinding met je app maken. Dat is zo gedaan.
+Ga naar Instellingen > Bluetooth en geef toestemming om verbinding met je smartphone te maken. Mixen maar!"</string>
+    <string name="check_bluetooth_settings_success">Je bent er helemaal klaar voor!</string>
+    <string name="check_bluetooth_settings_success_description">De volgende stap is het koppelen van je blender.</string>
+    <string name="check_credentials">Controleer de inloggegevens</string>
+    <string name="check_your_permissions_in_settings">Controleer je toestemming in de instellingen</string>
+    <string name="chicken_drumsticks_preset_title">Kippenboutjes</string>
+    <string name="choose_content_description">Kies ten minste één type content dat je wilt zien, inclusief recepten, artikelen en tips voor de apparaten die je bezit.</string>
+    <string name="choose_content_description_preselected">Je kunt het type content kiezen dat jij wilt zien, inclusief recepten en tips. Voor apparaten die je al bezit, is de content al toegevoegd.</string>
+    <string name="choose_photo">Foto kiezen</string>
+    <string name="choose_your_content">Kies je content</string>
+    <string name="clear">Leegmaken</string>
+    <string name="clear_all">Alles wissen</string>
+    <string name="clear_shopping_list_warning">Je staat op het punt je boodschappenlijstje te wissen. Doorgaan?</string>
+    <string name="clear_the_list">De lijst leegmaken?</string>
+    <string name="colour">Kleur</string>
+    <string name="coming_soon">BINNENKORT VERKRIJGBAAR</string>
+    <string name="comment_count">%s reactie</string>
+    <string name="comments_count">%s reacties</string>
+    <string name="comments_empty">Reageer als eerste</string>
+    <string name="comments_label">Reacties</string>
+    <string name="comments_list_error_message">Sorry, er is iets misgegaan. Lijst met opmerkingen niet geladen. Probeer het opnieuw.</string>
+    <string name="community_images">Zelfgemaakte hoogstandjes</string>
+    <string name="community_introduction_consent_additonal_description">Bent je er nog niet klaar voor? Je kunt NutriU nog steeds gebruiken en later akkoord gaan via het menu Instellingen. Zodra je zich hebt aangemeld, maakt je deel uit van de groeiende Airfryer-community.</string>
+    <string name="community_notification_description">Ontvang meldingen over nieuwe volgers, favorieten en opmerkingen over jouw recepten.</string>
+    <string name="community_notification_title">Community-updates</string>
+    <string name="confirm">Bevestig</string>
+    <string name="confirm_save_changes_title">Wijzigingen opslaan?</string>
+    <string name="connect_my_blender">Verbind mijn blender</string>
+    <string name="connect_to_access_point_first_step">Tik op \"Verbinden\" voor toegang tot je locatieservices.</string>
+    <string name="connect_to_access_point_second_step">Meld je aan bij het \"Philips Setup\"-netwerk.</string>
+    <string name="connect_to_access_point_third_step">Geef \"lokale netwerktoegang\" zodat je met je telefoon vebinding met je Airfryer kunt maken.</string>
+    <string name="connect_to_access_point_third_step_nutrimax">"Geef 'lokale netwerktoegang' zodat je je telefoon op je NutriMax kunt aansluiten."</string>
+    <string name="connected">Verbonden</string>
+    <string name="connected_via_wifi">Verbonden via wifi</string>
+    <string name="connecting_to_wifi_android_10_step_1">"Tik op 'Verbinden' om toegang tot je locatieservices toe te staan."</string>
+    <string name="connecting_to_wifi_android_10_step_2">"Selecteer het netwerk 'Philips Setup' in de Wi-Fi-lijst."</string>
+    <string name="connecting_to_wifi_failed_message">"Verbinding maken met 'Philips Setup' is mislukt. Probeer opnieuw verbinding te maken."</string>
+    <string name="contact">Contact</string>
+    <string name="contact_url">https://www.philips.be/c-m/consumenten-ondersteuning</string>
+    <string name="content_cannot_be_found">De inhoud die je hebt opgevraagd, is niet gevonden.</string>
+    <string name="content_deselect_dialog_text">"Als je een receptencategorie deselecteert kun je geen recepten meer aanmaken in die categorie. Apparaten in die categorie zullen worden verwijderd uit de lijst met instellingen.
+"</string>
+    <string name="content_selection_description_only_dolphin">"Je krijgt gepersonaliseerde tips, nieuwtjes en honderden gezonde smoothie-recepten die passen bij jouw doelen en voorkeuren. 
+
+Tik op Volgende om te beginnen."</string>
+    <string name="content_selection_description_settings_v3">Dit zal ons helpen om je de juiste recepten en NutriU-artikelen te tonen.</string>
+    <string name="continue_action">Ga door</string>
+    <string name="continue_preheat">Doorgaan met voorverwarmen</string>
+    <string name="continue_to_parameters">Ga verder naar parameters</string>
+    <string name="continue_with_setup">Ga verder met instellen</string>
+    <string name="cook">Koken</string>
+    <string name="cook_message">Specificeer de instellingen van het apparaat.</string>
+    <string name="cook_mode_step">Stap %s</string>
+    <string name="cook_more">Kook meer</string>
+    <string name="cooking_action_back">Terug naar recept</string>
+    <string name="cooking_action_continue">Blijf koken</string>
+    <string name="cooking_action_start">Begin met koken</string>
+    <string name="cooking_action_update_settings">Wijzig tijd/temp.</string>
+    <string name="cooking_almost_done">Bijna klaar</string>
+    <string name="cooking_banner_done">Kookstap %s is klaar</string>
+    <string name="cooking_banner_drawer_open">Alle kookacties zijn beperkt zolang de lade open is.</string>
+    <string name="cooking_banner_in_progress_manual">Bezig met koken.</string>
+    <string name="cooking_banner_keep_warm">"Koken klaar. 
+Voedselverwarmer aan."</string>
+    <string name="cooking_banner_keep_warm_done">Warmhouden gereed.</string>
+    <string name="cooking_banner_keep_warm_paused">Warm houden is gepauzeerd.</string>
+    <string name="cooking_banner_paused">Het koken is onderbroken.</string>
+    <string name="cooking_banner_view_more">Bekijk details</string>
+    <string name="cooking_banner_water_tank_empty">Het koken is onderbroken. Vul het waterreservoir om verder te gaan.</string>
+    <string name="cooking_done">Klaar met koken</string>
+    <string name="cooking_finished_notification_title">Het koken is klaar</string>
+    <string name="cooking_finishing_up">Afronden...</string>
+    <string name="cooking_in_progress">Koken…</string>
+    <string name="cooking_methods">KOOKMETHODES</string>
+    <string name="cooking_mode_finish_community_description_for_liquid_health">Hoe vergelijk jij jezelf met andere chef-koks?</string>
+    <string name="cooking_mode_finish_noncommunity_decription_for_liquid_health">Ziet het er net zo goed uit als het smaakt? Upload een foto en deel deze met je vrienden</string>
+    <string name="cooking_mode_finish_upload_image_description">Trots op hoe je recept bleek? Deel de afbeelding met je vrienden op sociale media!</string>
+    <string name="cooking_next_step">Naar de volgende stap</string>
+    <string name="cooking_preheat_done">Voorverwarmen gereed</string>
+    <string name="cooking_preheat_skipped">Voorverwarmen overgeslagen</string>
+    <string name="cooking_progress_connecting">Verbinding maken met je Airfryer</string>
+    <string name="cooking_progress_connecting_nutrimax">Verbinden met NutriMax</string>
+    <string name="cooking_progress_done">Gekookt</string>
+    <string name="cooking_progress_keep_warm">Warm houden</string>
+    <string name="cooking_progress_keep_warm_done">Blijf warm gedaan</string>
+    <string name="cooking_progress_keep_warm_paused">Houd warm gepauzeerd</string>
+    <string name="cooking_progress_paused">Onderbroken</string>
+    <string name="cooking_progress_preheating">Voorverwarmen...</string>
+    <string name="cooking_progress_ready">Gereed</string>
+    <string name="cooking_progress_recipe">Koken %s</string>
+    <string name="cooking_push_notifications_alert_allow">Toestaan</string>
+    <string name="cooking_push_notifications_alert_description">De melding kan waarschuwingen, geluiden en pictogrambadges bevatten. Deze kunnen worden geconfigureerd in instellingen.</string>
+    <string name="cooking_push_notifications_alert_dont_allow">Niet toestaan</string>
+    <string name="cooking_push_notifications_alert_title">\"NutriU\" wil je kookmeldingen sturen.</string>
+    <string name="cooking_tab_appliance_title_description">BEDIEN OP AFSTAND JE</string>
+    <string name="cooking_time">Kooktijd</string>
+    <string name="cooking_tip_notification_description">"Bijvoorbeeld \"'Schud de friet\""</string>
+    <string name="cooking_tip_notification_title">Tip tijdens het koken</string>
+    <string name="cooking_will_finish_notification_description">Breng me 1 minuut voordat het klaar is op de hoogte</string>
+    <string name="cooking_will_finish_notification_title">Het koken is bijna klaar</string>
+    <string name="copy_text">Kopieer tekst</string>
+    <string name="country">Land</string>
+    <string name="courses">Menugangen</string>
+    <string name="create">Aanmaken</string>
+    <string name="create_account_entry_point_description">Creëer of log in op je Philips-account om alle slimme kookfuncties van je Airfryer te gebruiken.</string>
+    <string name="create_account_entry_point_title">Je Philips-account</string>
+    <string name="create_new">Nieuwe aanmaken</string>
+    <string name="create_new_recipe">Nieuw recept aanmaken</string>
+    <string name="create_recipe">Maak een recept</string>
+    <string name="create_recipe_book_not_private_message">U kunt een opgeslagen recept niet aan openbare receptenboeken toevoegen. Maak hiervoor een privéreceptenboek.</string>
+    <string name="create_recipe_exit_warning">Je wijzigingen zijn niet opgeslagen. Weet je zeker dat je wilt afsluiten?</string>
+    <string name="create_recipe_for">Maak een recept voor</string>
+    <string name="create_recipe_now">Nu een recept maken</string>
+    <string name="create_recipe_steps_toggle_title">Inclusief Airfryer-instellingen</string>
+    <string name="created">heeft gemaakt</string>
+    <string name="crop_image_menu_crop">Bijsnijden</string>
+    <string name="cuisine">Oorsprong</string>
+    <string name="cuisines">Keukens</string>
+    <string name="da_DK">Deens</string>
+    <string name="daily_energy_values">RNI*</string>
+    <string name="daily_energy_values_info" formatted="false">"*De nutriëntreferentiewaarde (RNI) is gebaseerd op een voedingspatroon van %s kilocalorieën. Jouw dagelijkse waarden kunnen hoger of lager zijn, afhankelijk van hoeveel kilocalorieën je nodig hebt. 
+
+Hoeveelheden zijn per portie. Eén portie is 1/%s van het recept '%s'."</string>
+    <string name="daily_energy_values_info_servings" formatted="false">"Hoeveelheden zijn per portie. Eén portie is 1/%s van het recept '%s'."</string>
+    <string name="data_transfer_consent_explanation_description">NutriU stuurt recept- en ingrediëntgegevens naar de blender zodat de blender recepten kan voorbereiden en maken. NutriU ontvangt gegevens over receptbereiding en blendergebruik zodat je begeleiding kunt ontvangen en er verbeteringen kunnen worden aangebracht aan de app en het apparaat op basis van het werkelijke gebruik.</string>
+    <string name="data_transfer_consent_explanation_title">Data overdracht</string>
+    <string name="data_transfer_consent_failure_message">Er is iets misgegaan. Uw instellingen konden niet worden opgeslagen.</string>
+    <string name="data_transfer_consent_text">Door te koppelen via Bluetooth, sta je NutriU toe om recept-, voedings- en gebruiksgegevens over te dragen tussen telefoon en blender.</string>
+    <string name="day_ago">%s dag geleden</string>
+    <string name="days_ago">%s dagen geleden</string>
+    <string name="de_AT">Duits (Oostenrijk)</string>
+    <string name="de_CH">Duits (Zwitserland)</string>
+    <string name="de_DE">Duits</string>
+    <string name="default_calories_daily_intake_value">2000</string>
+    <string name="default_calories_daily_intake_value_indonesia">2150</string>
+    <string name="defrost_cooking_method_title">Ontdooien</string>
+    <string name="delete">Verwijderen</string>
+    <string name="delete_comment">Verwijder reactie</string>
+    <string name="delete_community_image_description">Deze afbeelding wordt permanent verwijderd. Weet je het zeker?</string>
+    <string name="delete_draft">Concept verwijderen</string>
+    <string name="delete_last_recipe_from_recipe_book_info">Dit is het laatste recept in het receptenboek. Als u dit recept verwijdert, wordt het hele receptenboek verwijderd. Wilt u het receptenboek verwijderen?</string>
+    <string name="delete_recipe">Recept verwijderen</string>
+    <string name="delete_recipe_book_confirmation">Weet u zeker dat u uw receptenboek wilt verwijderen?</string>
+    <string name="delete_recipe_confirmation">Als je dit recept verwijdert kan je het niet meer terughalen, weet je het zeker?</string>
+    <string name="delete_recipe_from_recipe_book_confirmation">Weet u zeker dat u dit recept uit uw receptenboek wilt verwijderen?</string>
+    <string name="delete_step">Stap %s verwijderen?</string>
+    <string name="delete_step_description">Deze stap wordt definitief verwijderd. Weet je het zeker?</string>
+    <string name="delete_successful">Recept succesvol verwijderd.</string>
+    <string name="delete_the_recipe">Het recept verwijderen?</string>
+    <string name="delete_this_comment_description">Deze reactie wordt permanent verwijderd. Weet je het zeker?</string>
+    <string name="delete_this_comment_title">Verwijder deze opmerking</string>
+    <string name="delete_this_draft">Dit concept verwijderen</string>
+    <string name="delete_timeline_item_confirmation">Weet je zeker dat je wilt verwijderen?</string>
+    <string name="description">Beschrijving</string>
+    <string name="description_hint">Vertel ons iets over dit recept</string>
+    <string name="description_hint_eg">bijv. Dit is mijn favoriete dessert</string>
+    <string name="device">Apparaat</string>
+    <string name="device_discovery_completed_description_nmx">Tik om je NutriMax te selecteren. Vervolgens koppelen we je NutriMax aan je telefoon.</string>
+    <string name="device_discovery_completed_title_nmx">Selecteer je NutriMax</string>
+    <string name="device_discovery_finished_description_airfryer">Tik om je Airfryer te selecteren. Vervolgens koppelen we je Airfryer aan je telefoon.</string>
+    <string name="device_discovery_finished_navigation_title_airfryer">Je airfryer</string>
+    <string name="device_discovery_finished_navigation_title_nmx">Jouw NutriMax</string>
+    <string name="device_discovery_finished_title_airfryer">Selecteer je Airfryer</string>
+    <string name="device_discovery_in_progress_description_airfryer">We zijn op zoek naar je Airfryer. Controleer of je Airfryer volledig is ingeschakeld. Het zoeken kan tot 30 seconden duren.</string>
+    <string name="device_discovery_in_progress_description_nmx">We zijn op zoek naar je NutriMax. Controleer of het volledig is ingeschakeld als je dit nog niet hebt gedaan. Het zoeken kan tot 30 seconden duren.</string>
+    <string name="device_discovery_in_progress_nmx">Zoeken naar je NutriMax</string>
+    <string name="device_discovery_in_progress_title_airfryer">Zoeken naar je Airfryer</string>
+    <string name="device_discovery_not_found_description_airfryer">De tijd van onze zoekopdracht is verstreken. Als je Airfryer niet volledig is ingeschakeld, wacht dan tot dit het geval is en probeer het dan opnieuw.</string>
+    <string name="device_discovery_not_found_description_nmx">De tijd van onze zoekopdracht is verstreken. Als je NutriMax niet volledig is ingeschakeld, wacht dan tot dit het geval is en probeer het opnieuw.</string>
+    <string name="device_discovery_not_found_navigation_title">Niets gevonden</string>
+    <string name="device_discovery_not_found_title_airfryer">We kunnen je Airfryer niet vinden</string>
+    <string name="device_discovery_not_found_title_nmx">We konden je NutriMax niet vinden</string>
+    <string name="device_filter_airfryer">"Airfryerrecepten
+"</string>
+    <string name="device_filter_all">Alle</string>
+    <string name="device_filter_blenders">"Blender- &amp; juicerrecepten
+"</string>
+    <string name="device_filter_dolphin">Dolphin-recepten</string>
+    <string name="device_mismatch_info_message">Dit recept is niet aangepast op jouw model Airfryer. De bereidingstijden moeten wellicht worden aangepast op je apparaat.</string>
+    <string name="device_mismatch_info_title">Bereidingstijd kan verschillen</string>
+    <string name="device_mismatch_info_title_v2">Ander model Airfryer</string>
+    <string name="device_mismatch_warning">Bereidingstijd hangt af van je model Airfryer</string>
+    <string name="device_mismatch_warning_button">Meer</string>
+    <string name="device_mismatch_warning_v2">De bereidingstijd kan variëren voor jouw model Airfryer.</string>
+    <string name="device_selected">Device selected</string>
+    <string name="device_selection_exit_warning">Je wijzigingen zijn niet opgeslagen. Weet je zeker dat je wilt afsluiten?</string>
+    <string name="device_series">serie</string>
+    <string name="device_status_info_description">"
+Controleer of je Airfryer is ingeschakeld en of je wifi werkt. Als er nog steeds een probleem is, controleer dan de veelgestelde vragen in de Airfryer-instellingen in deze app."</string>
+    <string name="device_status_info_title">Je Airfryer is niet aangesloten</string>
+    <string name="direction_not_set">Voeg ten minste één stap toe</string>
+    <string name="direction_step_number">Instructies</string>
+    <string name="discard">Ongedaan maken</string>
+    <string name="discard_changes">Wijzigingen ongedaan maken?</string>
+    <string name="discard_changes_description">Je raakt je wijzigingen kwijt als je doorgaat zonder ze op te slaan.</string>
+    <string name="disconnect">Verbreek de verbinding</string>
+    <string name="disconnected_from_airfryer">Verbinding met Airfryer verbroken</string>
+    <string name="disconnected_from_airfryer_alert_description">Controleer om verbinding te maken of je Airfryer is ingeschakeld en controleer je verbinding.</string>
+    <string name="disconnected_from_airfryer_alert_title">De verbinding met de Airfryer is verbroken</string>
+    <string name="disconnected_from_device">Verbinding met apparaat verbroken</string>
+    <string name="discover_kitchen_appliances">Ontdek onze keukenapparaten</string>
+    <string name="do_not_own_an_airfryer">Ik heb geen Airfryer</string>
+    <string name="dolphin">Dolphin</string>
+    <string name="dolphin_add_new_recipe">Voeg recept toe</string>
+    <string name="dolphin_communication_error">Er ging iets fout tijdens het communiceren met het apparaat.</string>
+    <string name="dolphin_connecting_to_the_blender">Verbinding maken met de blender...</string>
+    <string name="dolphin_current_firmware_version">Huidige blender-firmware</string>
+    <string name="dolphin_downloading_firmware_file">Firmwarebestand downloaden...</string>
+    <string name="dolphin_favourite_recipes_max">Limiet van 10 recepten bereikt.</string>
+    <string name="dolphin_firmware_up_to_date">"Nieuwste versie. Je apparaat is bijgewerkt.
+"</string>
+    <string name="dolphin_firmware_update_in_progress_error_message">Firmware update is bezig. Probeer het later nog eens.</string>
+    <string name="dolphin_home_entry_point_subtitle">De blender koppelen</string>
+    <string name="dolphin_home_entry_point_subtitle_connected">"Blends en ingrediënten beheren
+"</string>
+    <string name="dolphin_ingredients" formatted="false">Ingrediënten (%s/%s)</string>
+    <string name="dolphin_ingredients_max">Limiet van 30 ingrediënten bereikt.</string>
+    <string name="dolphin_ingredients_overwrite_alert_text">Wijzigingen annuleren en huidige ingrediëntenlijst ophalen uit de blender?</string>
+    <string name="dolphin_install_update">Update installeren</string>
+    <string name="dolphin_max_number_of_ingredients">Je hebt het maximale aantal ingrediënten voor het recept toegevoegd.</string>
+    <string name="dolphin_new_firmware_version">Nieuwe blender-firmware</string>
+    <string name="dolphin_new_firmware_version_available">Er is een nieuwe firmware-update beschikbaar voor de blender.</string>
+    <string name="dolphin_not_in_main_state">Om je recept te kunnen versturen, ga je naar het hoofdscherm van je mixer.</string>
+    <string name="dolphin_progress_finished_message">Schakel de blender tijdens de installatie niet uit. Het proces duurt slechts enkele minuten.</string>
+    <string name="dolphin_progress_finished_message_2">"Ondertussen kun je de app gebruiken.
+"</string>
+    <string name="dolphin_progress_finished_title">We gaan jouw blender nu bijwerken</string>
+    <string name="dolphin_recipes" formatted="false">Recepten (%s/%s)</string>
+    <string name="dolphin_recipes_overwrite_alert_text">Wijzigingen annuleren en huidige receptenlijst ophalen uit de blender?</string>
+    <string name="dolphin_recommended_title">Aanbevolen recepten</string>
+    <string name="dolphin_update_info_message">Let op. Het kan tot 20 minuten duren voordat het volledige proces is afgerond. Ondertussen kun je gewoon een smoothie maken.</string>
+    <string name="dolphin_update_your_blender">Werk je blender bij!</string>
+    <string name="dolphin_user_manual">Gebruiksaanwijzing</string>
+    <string name="done">Gereed</string>
+    <string name="dont_have_a_blender">Ik heb geen blender</string>
+    <string name="download">Downloaden</string>
+    <string name="draft">Concept</string>
+    <string name="edit_live_flagged_message">"Deze actie is momenteel niet toegestaan omdat je recept wordt onderzocht. 
+Probeer het later nog eens."</string>
+    <string name="edit_published_recipe">Gepubliceerd recept bewerken</string>
+    <string name="edit_recipe">Recept bewerken</string>
+    <string name="edit_recipe_book">Receptenboek bijwerken</string>
+    <string name="edit_recipe_draft">Receptconcept bewerken</string>
+    <string name="edit_rni">Wijzig je gegevens</string>
+    <string name="edit_saved_recipe_v4">Bewerk opgeslagen recept</string>
+    <string name="email_description">Je bent aangemeld met:</string>
+    <string name="email_description_text">Je bent aangemeld als:</string>
+    <string name="empty_article_favorites_message">Na het favoriet maken van een artikel wordt het hier weergegeven.</string>
+    <string name="empty_articles_message">Na het aanmaken van één artikel verschijnt het hier.</string>
+    <string name="empty_articles_search_message">Sorry, we konden geen bijpassend artikel vinden.</string>
+    <string name="empty_here">Het is leeg hier</string>
+    <string name="empty_value_placeholder">—</string>
+    <string name="en_AU">Engels (Australië)</string>
+    <string name="en_GB">Engels</string>
+    <string name="en_NZ">Engels (Nieuw Zeeland)</string>
+    <string name="en_SG">Engels (Singapore)</string>
+    <string name="en_US">Engels</string>
+    <string name="en_ZA">Engels (Zuid-Afrika)</string>
+    <string name="enable_storage_permission_message">Schakel de toegang voor opslag in</string>
+    <string name="energy">Energie</string>
+    <string name="energy_graph_info_description_1">"Deze grafiek toont hoeveel kilocalorieën in het ongekookte recept zitten.
+
+
+Kilocalorieën zijn gelijk aan de energiewaarden in één portie en zijn verdeeld in vetten, koolhydraten en eiwitten. 
+
+Je dieet is verdeeld in andere voedingsstoffen, zoals vezels of alcohol."</string>
+    <string name="energy_graph_info_description_1_airfryer">"Deze grafiek toont hoeveel kilocalorieën in het ongekookte recept aanwezig zijn. Als je voedsel bijvoorbeeld met een airfryer bereidt, kan dit de hoeveelheid vet in de ingrediënten en de kilocalorieën per portie doen afnemen.
+
+Kilocalorieën zijn gelijk aan de energie in één portie en zijn onderverdeeld in vetten, koolhydraten en eiwitten. 
+
+\"Ander\" bevat kilocalorieën die afkomstig zijn van bijvoorbeeld alcohol."</string>
+    <string name="energy_graph_info_description_1_dolphin">"Deze grafiek toont hoeveel kilocalorieën in het recept aanwezig zijn.
+
+Kilocalorieën zijn gelijk aan de energie in één portie en zijn onderverdeeld in vetten, koolhydraten en eiwitten. 
+
+\"Ander\" bevat kilocalorieën die afkomstig zijn van bijvoorbeeld alcohol."</string>
+    <string name="energy_graph_info_description_2">"Het weergegeven energiegehalte is gebaseerd op één portie. Dit recept bevat %s porties. De dagelijkse waarden zijn gebaseerd op een inname van 2000 kilocalorieën per dag. De juiste aanbevolen inname voor je hangt af van jouw leeftijd, gewicht en activiteitsniveau.
+
+Als je jouw voedingsprofiel hebt gepersonaliseerd, worden deze waarden weerspiegeld in de grafiek."</string>
+    <string name="energy_graph_info_description_2_airfryer_with_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van je persoonlijke hoeveelheid van %s kilocalorieën die je binnenkrijgt.</string>
+    <string name="energy_graph_info_description_2_airfryer_without_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën. Jouw dagelijkse hoeveelheid kan meer of minder zijn afhankelijk van het aantal kilocalorieën dat je nodig hebt.</string>
+    <string name="energy_graph_info_description_2_dolphin_with_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van je persoonlijke hoeveelheid van %s kilocalorieën die je binnenkrijgt.</string>
+    <string name="energy_graph_info_description_2_dolphin_without_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën. Als je de voor jou aanbevolen dagelijkse hoeveelheid in de app instelt, worden de berekeningen van RNI%% gebaseerd op jouw profiel.</string>
+    <string name="energy_graph_info_description_2_one_serving">Dagelijkse waarden zijn gebaseerd op een dieet van %s kilocalorieën. Je eigen aanbevolen inname varieert op basis van factoren zoals leeftijd, lengte, gewicht en inspanningsniveau.</string>
+    <string name="energy_graph_info_description_2_personalized_one_serving">Dagelijkse waarden zijn gebaseerd op je aanbevolen dieet van %s kilocalorieën.</string>
+    <string name="energy_graph_info_title_1">Deze energiegrafiek lezen</string>
+    <string name="energy_graph_info_title_2">Dagelijkse energiewaarden lezen</string>
+    <string name="energy_info_additional_description">"%s
+
+
+De voedingswaarden zijn gebaseerd op rauw voedsel, tenzij anders aangegeven."</string>
+    <string name="energy_info_calories">Kilocalorieën</string>
+    <string name="energy_info_carbohydrates">Koolhydraten</string>
+    <string name="energy_info_daily_value">% RNI*</string>
+    <string name="energy_info_dietary_fibers">Voedingsvezels</string>
+    <string name="energy_info_explanation_airfryer_with_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën.</string>
+    <string name="energy_info_explanation_airfryer_without_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën. Jouw dagelijkse hoeveelheid kan meer of minder zijn afhankelijk van het aantal kilocalorieën dat je nodig hebt.</string>
+    <string name="energy_info_explanation_dolphin_with_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën.</string>
+    <string name="energy_info_explanation_dolphin_without_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën. Als je de voor jou aanbevolen dagelijkse hoeveelheid in de app instelt, worden de berekeningen van RNI%% gebaseerd op jouw profiel.</string>
+    <string name="energy_info_fat">Vetten</string>
+    <string name="energy_info_omega">Omega-3-vetzuren</string>
+    <string name="energy_info_per_serving">"Per 
+portie"</string>
+    <string name="energy_info_protein">Eiwitten</string>
+    <string name="energy_info_saturated">Verzadigd</string>
+    <string name="energy_info_serving">Elke portie bestaat uit 1/%s van het recept</string>
+    <string name="energy_info_single_serving">Recept voor 1 portie</string>
+    <string name="energy_info_sodium">Natrium</string>
+    <string name="energy_info_sugar">Suiker</string>
+    <string name="energy_info_unsaturated">Onverzadigd</string>
+    <string name="enjoy_the_blend">Geniet ervan!</string>
+    <string name="enjoy_the_meal">Geniet ervan!</string>
+    <string name="enjoy_your_meal">Eet smakelijk!</string>
+    <string name="enjoy_your_meal_community_description">Post een foto van je heerlijke maaltijd en laat zien hoe je kookt.</string>
+    <string name="enjoy_your_meal_non_community_description">Bewaar een afbeelding van je heerlijke maaltijd.</string>
+    <string name="enter_network_credentials_philips_setup_lost_android_10">Je verbinding met het \"Philips Setup\"-netwerk is verbroken. Selecteer \"Philips Setup\" in de onderstaande netwerklijst om opnieuw verbinding te maken.</string>
+    <string name="enter_new_ingredient">Nieuw ingrediënt invoeren</string>
+    <string name="enter_your_comment">Nieuwe reactie invoeren</string>
+    <string name="entry_blender">Instapmixer</string>
+    <string name="error">Fout</string>
+    <string name="error_loading_devices">Het is niet mogelijk om je aparaat te laden. Je kunt het opnieuw proberen of doorgaan naar de volgende stap zonder apparaat.</string>
+    <string name="error_loading_photo">Er is een fout opgetreden tijdens het laden van de foto. Probeer het opnieuw.</string>
+    <string name="error_missing_info">Vul de ontbrekende informatie in</string>
+    <string name="error_user_manual_not_available">Sorry, de gebruiksaanwijzing is niet beschikbaar.</string>
+    <string name="error_view_description_default">"Sorry, er ging iets mis. 
+Het scherm werd niet geladen. Probeer het opnieuw."</string>
+    <string name="error_view_title_default">Oeps!</string>
+    <string name="exit">Sluiten</string>
+    <string name="expanded_carousel_error_message">Sorry, er is een fout opgetreden. Het receptenboek werd niet geladen, probeer het opnieuw.</string>
+    <string name="fahrenheit">°F</string>
+    <string name="faq">Veelgestelde vragen</string>
+    <string name="fat">Vet</string>
+    <string name="favorited">gemarkeerd als favoriet</string>
+    <string name="favorites_list_error_message">Sorry, er is iets misgegaan. Lijst met favorieten niet geladen. Probeer het opnieuw.</string>
+    <string name="favorites_list_error_message_next_page">Sorry, er is iets misgegaan. Een deel van de lijst met favorieten is niet geladen. Probeer het opnieuw.</string>
+    <string name="favourite">%s favoriet</string>
+    <string name="favourites">%s favorieten</string>
+    <string name="favourites_label">Favorieten</string>
+    <string name="fi_FI">Fins</string>
+    <string name="filter_articles">Filter artikelen</string>
+    <string name="filter_nutri_u_stories">Filter NutriU-artikelen</string>
+    <string name="filter_recipes">Recepten filteren</string>
+    <string name="filter_your_results">Je resultaten filteren</string>
+    <string name="filters">Filters</string>
+    <string name="filters_choose_category">Kies een categorie</string>
+    <string name="filters_loading_failed_message">Oeps, we konden de filters niet laden. Probeer het opnieuw.</string>
+    <string name="filters_refine_by">Verfijnen door</string>
+    <string name="find_articles">Zoek artikelen</string>
+    <string name="find_out_more">Ontdek meer</string>
+    <string name="find_recipe">Zoek een recept</string>
+    <string name="find_recipes">Recepten zoeken</string>
+    <string name="find_recipes_for_recipe_book">Recepten ontdekken voor het receptenboek</string>
+    <string name="find_some_recipes_you_like">Recepten zoeken die je leuk vindt</string>
+    <string name="find_some_tips_you_like">Zoek naar artikelen</string>
+    <string name="find_stories">Zoek artikelen</string>
+    <string name="finding_blender_description">Zorg ervoor dat jouw blender is ingeschakeld en zich maximaal 2 meter van je mobiele telefoon bevindt.</string>
+    <string name="finding_blender_title">Een blender zoeken</string>
+    <string name="finish">Klaar</string>
+    <string name="finish_setup">Voltooi de installatie</string>
+    <string name="firmware_update_cancel_message">Weet je zeker dat je de firmware update wilt annuleren?</string>
+    <string name="firmware_update_device_up_to_date">Je firmware is bijgewerkt.</string>
+    <string name="firmware_update_in_progress_error">Je Airfryer wordt momenteel bijgewerkt. De speciale acties van de Airfryer worden uitgeschakeld totdat de update is voltooid.</string>
+    <string name="firmware_update_transferring_data_message">"Schakel de blender niet uit en sluit de mobiele app niet af voordat de overdracht is voltooid!
+"</string>
+    <string name="firmware_update_transferring_data_message_2">Schakel de blender niet uit en houd dit scherm open totdat de overdracht is voltooid.</string>
+    <string name="firmware_update_transferring_data_title">Firmware aan het bijwerken…</string>
+    <string name="fish_filet_preset_title">Visfilet</string>
+    <string name="follow">Volgen</string>
+    <string name="followed">gevolgd</string>
+    <string name="followers">Volgers</string>
+    <string name="followers_list_error_message">Sorry, er is iets misgegaan. Lijst met volgers niet geladen. Probeer het opnieuw.</string>
+    <string name="followers_list_error_message_next_page">Sorry, er is iets misgegaan. Een deel van de lijst met volgers is niet geladen. Probeer het opnieuw.</string>
+    <string name="following">Volgend</string>
+    <string name="food_category_dairy">Zuivel</string>
+    <string name="food_category_fish">Vis</string>
+    <string name="food_category_fruits">Fruit</string>
+    <string name="food_category_liquids">Vloeistoffen</string>
+    <string name="food_category_meat">Vlees</string>
+    <string name="food_category_vegetables">Groenten</string>
+    <string name="food_preferences">Voedselvoorkeuren</string>
+    <string name="four_servings">4 porties</string>
+    <string name="fr_BE">Frans (België)</string>
+    <string name="fr_CH">Frans (Zwitserland)</string>
+    <string name="fr_FR">Frans</string>
+    <string name="fresh_content_notification_description">Ontvang meldingen over nieuwe recepten, gezonde tips en meer.</string>
+    <string name="fresh_content_notification_title">Nieuwe updates voor je content</string>
+    <string name="fresh_fries_preset_title">Verse frietjes</string>
+    <string name="fresh_ideas_for_you">Verse ideeën voor jou</string>
+    <string name="fridge_make_a_meal">Maak onmiddellijk een maaltijd</string>
+    <string name="fridge_make_a_smoothie">Maak onmiddellijk een smoothie</string>
+    <string name="fridge_make_a_smoothie_or_meal">Maak een smoothie of een maaltijd</string>
+    <string name="fridge_what_is_in_my">Wat zit er in mijn koelkast?</string>
+    <string name="fridge_what_is_in_my_title">Wat zit er in mijn koelkast</string>
+    <string name="frozen_potato_based_snacks_preset_title">Bevroren snacks op basis van aardappelen</string>
+    <string name="fw_update_notification_title">Blender update</string>
+    <string name="gallery_access_not_granted">Geen toegang verleend tot je fotogalerij.</string>
+    <string name="general">Algemeen</string>
+    <string name="general_category_description">Geen van de bovenstaande apparaten is vereist</string>
+    <string name="general_save_or_exit_warning">Je wijzigingen zijn niet opgeslagen. Weet je zeker dat je wilt afsluiten?</string>
+    <string name="generic_no_result_message">Sorry, we konden geen resultaten vinden.</string>
+    <string name="get_personalized_recipes_text">Analytics helpt ons recepten aan te bevelen die je bevallen</string>
+    <string name="get_personalized_recipes_title">Ontvang gepersonaliseerde recepten</string>
+    <string name="get_photo_error">"Het is niet mogelijk om de foto op te halen. Probeer het opnieuw.
+"</string>
+    <string name="get_started">Laten we beginnen</string>
+    <string name="go_back">Ga terug</string>
+    <string name="go_back_to_settings">Ga terug naar instellingen</string>
+    <string name="go_to_settings">Ga naar Instellingen</string>
+    <string name="go_to_settings_button">Ga naar Instellingen</string>
+    <string name="gram_unit">%s g</string>
+    <string name="grams">%s g</string>
+    <string name="graph_label_daily_values">RNI* %s kcal</string>
+    <string name="graph_label_per_serving">Per portie %s kcal</string>
+    <string name="graph_label_your_consumption">Jouw consumptie</string>
+    <string name="grill_cooking_method_title">Grillen</string>
+    <string name="guest_profile_description">Het kost maar een minuut om je te registreren, waarna je toegang hebt tot alle functies van NutriU. Dan kun je bijvoorbeeld favoriete recepten opslaan en jouw eigen recepten delen.</string>
+    <string name="guest_profile_register_login">Registreren/aanmelden</string>
+    <string name="guest_user">Gastgebruiker</string>
+    <string name="guest_user_community_screen_title">Het duurt maar even om je te registreren en alle functies van NutriU te kunnen gebruiken, zoals het opslaan van favouriete recepten en het delen van je eigen recepten.</string>
+    <string name="guest_user_cooking_screen_title">Het duurt maar even om je te registreren en alle functies van NutriU te kunnen gebruiken, zoals het opslaan van favouriete recepten en het delen van je eigen recepten.</string>
+    <string name="guest_user_description">Het kost slechts een minuut om te registreren en alle functies van NutriU te ontgrendelen, zoals het opslaan van favoriete recepten en het delen van je eigen recepten.</string>
+    <string name="guest_user_generic_screen_title">Het duurt maar even om je te registreren en alle functies van NutriU te kunnen gebruiken, zoals het opslaan van favouriete recepten en het delen van je eigen recepten.</string>
+    <string name="guest_user_profile_screen_title">Het duurt maar even om je te registreren en alle functies van NutriU te kunnen gebruiken, zoals het opslaan van favouriete recepten en het delen van je eigen recepten.</string>
+    <string name="guidelines_airfryer_photo_hint_1_description">Gebruik een droog microvezeldoekje of een lensdoekje. Een van de gemakkelijkste methoden is om de cameralens van je telefoon schoon te vegen met een droog microvezeldoekje of een lensdoekje.</string>
+    <string name="guidelines_airfryer_photo_hint_1_title">Maak je camera schoon</string>
+    <string name="guidelines_airfryer_photo_hint_2_description">Maaltijden onder natuurlijk licht zien er natuurlijker uit en tonen meer details in je eten.</string>
+    <string name="guidelines_airfryer_photo_hint_2_title">Gebruik natuurlijk licht</string>
+    <string name="guidelines_airfryer_photo_hint_3_description">De maaltijd zelf mag niet het hele frame vullen. Twee derde van de foto moet negatieve ruimte zijn. Dat helpt het te fotograferen object nog meer op te vallen.</string>
+    <string name="guidelines_airfryer_photo_hint_3_title">Blijf op optimale afstand</string>
+    <string name="guidelines_airfryer_photo_hint_4_description">Deze weergave toont de maaltijd alsof je er vanuit een hoek naar kijkt. Het wordt beschouwd als de beste hoek om maaltijden te fotograferen.</string>
+    <string name="guidelines_airfryer_photo_hint_4_title">Maak de foto in een hoek van 45°</string>
+    <string name="guidelines_airfryer_photo_open">"Kijk hoe je kwalitatief hoogwaardige foto's maakt"</string>
+    <string name="guidelines_airfryer_photo_title">"Hoe maak je kwalitatief hoogwaardige foto's?"</string>
+    <string name="health_good_afternoon">Goedemiddag %s</string>
+    <string name="health_good_evening">Goedenavond %s</string>
+    <string name="health_good_morning">Goedemorgen %s</string>
+    <string name="health_hello_name">Hoi %s</string>
+    <string name="health_stories">Gezondheidsverhalen</string>
+    <string name="hello_name">Hi %s</string>
+    <string name="help">Info</string>
+    <string name="help_improve_text">We gebruiken de data om inzicht te krijgen hoe we het beter kunnen doen</string>
+    <string name="help_improve_title">Help NutriU te verbeteren</string>
+    <string name="hide_this_section">Verberg dit gedeelte</string>
+    <string name="high_speed_blender">Mixer met hoge snelheid</string>
+    <string name="hold_airfryer_menu_button">Houd de menuknop ingedrukt totdat je zeker weet dat het wifi-symbool knippert.</string>
+    <string name="home_greeting_1">Nog meer smakelijke ideeën</string>
+    <string name="home_greeting_10">Laten we gaan koken</string>
+    <string name="home_greeting_11">Laat je inspireren</string>
+    <string name="home_greeting_2">Recente activiteit</string>
+    <string name="home_greeting_3">Dit staat er op het menu</string>
+    <string name="home_greeting_4">Ontdek wat er op het menu staat</string>
+    <string name="home_greeting_5">Op zoek naar nieuwe ideeën?</string>
+    <string name="home_greeting_6">Klaar voor iets nieuws?</string>
+    <string name="home_greeting_7">Trek in nieuwe ideeën?</string>
+    <string name="home_greeting_8">Wat staat er vandaag op het menu?</string>
+    <string name="home_greeting_9">Laten we iets nieuws proberen</string>
+    <string name="home_newsfeed_subtitle">Mensen die je volgt</string>
+    <string name="home_tips_subtitle">NutriU-artikelen</string>
+    <string name="hour_ago">%s uur geleden</string>
+    <string name="hours_ago">%s uur geleden</string>
+    <string name="how_much">Meeteenheid</string>
+    <string name="humidity">Vochtigheid</string>
+    <string name="humidity_empty">--</string>
+    <string name="humidity_not_set">Stel de luchtvochtigheid in</string>
+    <string name="iap_no_accessories_available">Er zijn geen accessoires beschikbaar voor je airfryer</string>
+    <string name="iap_no_products_available">Er zijn momenteel geen producten beschikbaar</string>
+    <string name="id_ID">Bahasa Indonesia</string>
+    <string name="ihut_off_header">Test voor thuisgebruik beëindigen</string>
+    <string name="ihut_off_text">"\"Beste testpersoon, 
+de test voor thuisgebruik van de Philips Airfryer en de bijbehorende app is beëindigd. Bedankt voor je deelname en je waardevolle feedback! 
+
+Verwijder deze test-app van je smartphone. Zoals aan het begin van de test werd vermeld, kun je het aangemaakte testaccount na de test niet meer gebruiken. 
+
+Om van de voordelen van de NutriU-app te blijven profiteren, installeer je de Philips NutriU-app op je telefoon en maak je een nieuw account aan. 
+
+We kijken ernaar uit om je binnenkort opnieuw te verwelkomen voor een consumententest. 
+
+Je Philips-producttestcentrum.\""</string>
+    <string name="image_editing_instructions">Je kunt de foto inzoomen of draaien</string>
+    <string name="image_not_set">Stel de receptfoto in</string>
+    <string name="imp_fluid_ounce">vloeibare ons</string>
+    <string name="imp_ounce">ons</string>
+    <string name="imp_pound">pond</string>
+    <string name="inappropriate_abusive_content">Ongepaste of kwetsende inhoud</string>
+    <string name="inappropriate_content">Ongepaste inhoud</string>
+    <string name="incomplete_content">Onvolledige content</string>
+    <string name="incorrect_content">Onjuiste inhoud</string>
+    <string name="info_title">Info</string>
+    <string name="ingredient">Ingrediënt</string>
+    <string name="ingredient_hint_longer">"Voer een ingrediënt in, bijv. 'wortel'"</string>
+    <string name="ingredient_n_plural">%s ingrediënten</string>
+    <string name="ingredient_n_singular">%s ingrediënt</string>
+    <string name="ingredient_not_found">Sorry, we herkennen dit niet.</string>
+    <string name="ingredient_not_found_dolphin">Oeps! Het lijkt erop dat we je ingrediënt nog niet hebben. Probeer het later opnieuw, want we blijven meer toevoegen aan NutriU.</string>
+    <string name="ingredient_not_set">Voeg ten minste één ingrediënt toe</string>
+    <string name="ingredient_share" formatted="false">%s %s van %s</string>
+    <string name="ingredients">Ingrediënten</string>
+    <string name="ingredients_empty_placeholder">Er bevinden zich geen ingrediënten in de blender</string>
+    <string name="ingredients_to_avoid_add_another">Voeg meer toe</string>
+    <string name="ingredients_to_avoid_confirm_button_title">Vermijd deze ingrediënten</string>
+    <string name="ingredients_to_avoid_entry_point">Vermijd ingrediënt</string>
+    <string name="ingredients_to_avoid_entry_point_title">Vind je sommige ingrediënten niet lekker?</string>
+    <string name="ingredients_to_avoid_finish_title">"Klaar! 
+Je zult geen recepten zien met deze ingrediënten."</string>
+    <string name="ingredients_to_avoid_search_placeholder">Voer te vermijden ingrediënten in</string>
+    <string name="ingredients_to_avoid_settings_item_title">Te vermijden ingrediënten</string>
+    <string name="ingredients_to_avoid_start_title">Wil je sommige ingrediënten vermijden?</string>
+    <string name="ingredients_to_avoid_title">Wat wil je vermijden?</string>
+    <string name="inspiration">Alle recepten</string>
+    <string name="instant_boosts">Dagelijkse boosts</string>
+    <string name="jailbreak_warning_message">"Waarschuwing. Je gebruikt NutriU op een 'jailbroken' apparaat. Dit is tegen ons advies. Jouw privégegevens zijn hierdoor niet veilig."</string>
+    <string name="juicer">Sapcentrifuge</string>
+    <string name="juicers">sapcentrifuges</string>
+    <string name="just_now">zojuist</string>
+    <string name="kcal_per_day">kcal/dag</string>
+    <string name="kcal_per_serving">kcal/portie</string>
+    <string name="keep_warm">Blijf warm</string>
+    <string name="keep_warm_time">Warmhoud-tijd</string>
+    <string name="kind_of_blend">Soort blend</string>
+    <string name="ko_KR">Koreaans (Zuid-Korea)</string>
+    <string name="language">Taal</string>
+    <string name="language_confirm_save_changes_message">Weet je zeker dat je de taal wilt wijzigen? NutriU wordt opnieuw gestart om deze wijziging te voltooien.</string>
+    <string name="language_selection_additional_info">Tip: Je kunt je taalkeuze op elk gewenst moment wijzigen in het menu Instellingen.</string>
+    <string name="language_selection_subtitle">Je voorkeurstaal is helaas niet beschikbaar. Laat ons weten in welke taal je de app wilt gebruiken.</string>
+    <string name="language_selection_title">Selecteer je taal</string>
+    <string name="last_month">vorige maand</string>
+    <string name="last_preparation">Laatste voorbereiding %s</string>
+    <string name="last_preparation_title">Laatste voorbereiding</string>
+    <string name="last_used">Laatst gebruikt</string>
+    <string name="last_week">vorige week</string>
+    <string name="last_year">vorig jaar</string>
+    <string name="linked_recipes_to_NutriU_story_title">Probeer deze recepten</string>
+    <string name="linked_story_in_recipe_details_action_title">Instructies</string>
+    <string name="linked_story_in_recipe_details_section_title">Kooktip</string>
+    <string name="loading">Bezig met laden</string>
+    <string name="loading_nutri_u_story_failed">Laden van artikel mislukt. Probeer het opnieuw.</string>
+    <string name="loading_recipe_failed">Laden van recept mislukt. Probeer het opnieuw.</string>
+    <string name="local_network_usage_description">Dankzij lokale netwerktoegang kan app verbinding maken met het apparaat en op afstand beginnen met koken.</string>
+    <string name="locale">nl_NL</string>
+    <string name="locales">nl_BE</string>
+    <string name="location_when_in_use_usage_description">De app heeft toegang tot de locatieservice nodig voor het verkrijgen van de Wi-Fi-netwerknaam en verbinding met je Airfryer te maken.</string>
+    <string name="logout">Afmelden</string>
+    <string name="maintenance_dialog_description">We voeren momenteel onderhoud aan NutriU om je ervaring te verbeteren en verontschuldigen ons voor het ongemak. Probeer het binnenkort opnieuw.</string>
+    <string name="maintenance_dialog_title">Server momenteel niet beschikbaar</string>
+    <string name="make_recipe_book_private">Receptenboek privé maken</string>
+    <string name="manage_dolphin_blend_history">Onlangs bereide recepten</string>
+    <string name="manage_dolphin_ingredients">Beheer ingrediënten</string>
+    <string name="manage_dolphin_recipes">Beheer recepten</string>
+    <string name="manage_dolphin_unpair">Mijn blender ontkoppelen</string>
+    <string name="manage_dolphin_unpair_text_android">"Weet je zeker dat je je blender van je telefoon wilt loskoppelen?
+
+Als de verbinding problemen geeft, ga je naar Bluetooth-instellingen op je telefoon en verwijder je de blender."</string>
+    <string name="manage_dolphin_unpair_text_ios">"Weet je zeker dat je je apparaat wilt loskoppelen? 
+Opmerking: Als je problemen ondervindt met het opnieuw verbinden met het apparaat, verwijder je het apparaat in de Bluetooth-instellingen van het besturingssysteem."</string>
+    <string name="manage_dolphin_version">Softwareversie</string>
+    <string name="manage_ingredients_title">Beheer ingrediënten</string>
+    <string name="manage_your_app_experience">Beheer je app-ervaring</string>
+    <string name="manage_your_appliances">Beheer je apparaten</string>
+    <string name="manual_cooking_title">Handmatig koken</string>
+    <string name="marketing_opt_in_banner_title">Veilige welkomstvoucher ter waarde van €10</string>
+    <string name="marketing_opt_in_details_description_1">Meld je hier aan voor de exclusieve Philips-nieuwsbrief en ontvang als welkomstgeschenk een voucher van €10*. Ontvang ook informatie over nieuwe producten, nieuws, uitnodigingen voor gratis producttests en nuttige tips over onze producten, aanbiedingen en diensten.</string>
+    <string name="marketing_opt_in_details_description_2">*Je ontvangt de voucher per e-mail na bevestiging van je e-mailadres. De voucher is geldig voor nieuwe abonnees vanaf een minimale bestelwaarde van €30. De voucher is 14 dagen geldig na succesvolle registratie voor de Philips online shop en kan niet worden gecombineerd met andere kortingen.</string>
+    <string name="marketing_opt_in_details_title">Ons aanbod voor jou!</string>
+    <string name="marketing_opt_in_success_message">Bedankt voor het abonneren! Blijf op de hoogte voor speciale aanbiedingen, tips en trucs.</string>
+    <string name="marketing_optin_confirmation_button_text">Oké, ik doe mee</string>
+    <string name="masticating_juicer">Slowjuicer</string>
+    <string name="masticating_juicer_description">Onttrek maximale voeding zonder gedoe</string>
+    <string name="max_number_of_steps_error">Je kunt niet meer dan %s stappen hebben.</string>
+    <string name="meat_chops_preset_title">Vleeskoteletten</string>
+    <string name="min">"%s'"</string>
+    <string name="minimal_duration">Minimale duur</string>
+    <string name="minimum_aircooker_temperature_copy">De minimumtemperatuur van de Air Cooker is %s</string>
+    <string name="minimum_aircooker_time_copy">De minimale tijd van de Air Cooker is 1 minuut</string>
+    <string name="minimum_airfryer_temperature_copy">De minimumtemperatuur van de Airfryer is %s</string>
+    <string name="minimum_airfryer_time_copy">De minimumtijd van je Airfryer is 1 minuut</string>
+    <string name="minute">min.</string>
+    <string name="minute_ago">%s minuut geleden</string>
+    <string name="minutes_ago">%s minuten geleden</string>
+    <string name="month_ago">%s maand geleden</string>
+    <string name="months_ago">%s maanden geleden</string>
+    <string name="more">Meer</string>
+    <string name="muffins_cake_preset_title">Muffins/cake</string>
+    <string name="my_airfryer">Mijn Airfryer</string>
+    <string name="my_appliance">Mijn apparaten</string>
+    <string name="my_blender">Mijn blender</string>
+    <string name="my_blender_juicer">Mijn blender/juicer</string>
+    <string name="my_blender_manage_ingredients_description">Ingrediënten toevoegen of verwijderen uit de blender</string>
+    <string name="my_blender_manage_recipes_description">Recepten toevoegen aan of verwijderen uit de blender</string>
+    <string name="my_blender_not_paired_description">Koppel je blender en bereik het volledige resultaat van NutriU</string>
+    <string name="my_blender_not_paired_title">Koppel mijn blender</string>
+    <string name="my_gallery">Mijn galerij</string>
+    <string name="my_images">Mijn kookgalerij</string>
+    <string name="my_nutrition_error_state_description">Sorry, er ging iets mis. Mijn voeding kan niet worden geladen. Probeer het opnieuw.</string>
+    <string name="my_nutrition_title">Mijn voeding</string>
+    <string name="my_philips_blender">Mijn Philips blender</string>
+    <string name="my_profile">Mijn profiel</string>
+    <string name="my_recipes">Mijn recepten</string>
+    <string name="my_shopping_list">Mijn boodschappenlijstje</string>
+    <string name="name">Naam</string>
+    <string name="name_empty">Je naam dient ingevuld te zijn</string>
+    <string name="nb_NO">Noors</string>
+    <string name="need_to_select_content_type">"Welke soort recepten wil je graag zien?
+"</string>
+    <string name="network_error">Er is iets fout gegaan. Probeer het opnieuw.</string>
+    <string name="new_air_cooker_recipe">Nieuw Air Cooker-recept</string>
+    <string name="new_airfryer_recipe">Nieuw Airfryer-recept</string>
+    <string name="new_blender_recipe_v4">Nieuw blenderrecept</string>
+    <string name="new_content_added">Nieuwe content toegevoegd</string>
+    <string name="new_content_added_description">We hebben nieuwe content toegevoegd op basis van de apparaten die je geselecteerd hebt. Dit kun je terugzien in je profiel.</string>
+    <string name="new_for_you">Nieuw voor jou</string>
+    <string name="new_recipe_with_device">Maak %s-recept</string>
+    <string name="newsfeed_by">Op %s</string>
+    <string name="newsfeed_created_nutri_u_story">%s heeft een nieuw artikel.</string>
+    <string name="newsfeed_created_recipe">%s heeft een recept aangemaakt</string>
+    <string name="newsfeed_created_recipe_book">%s heeft een nieuw receptenboek</string>
+    <string name="newsfeed_following">%s volgt:</string>
+    <string name="newsfeed_like_nutri_u_story" formatted="false">%s heeft het artikel van %s favoriet gemaakt.</string>
+    <string name="newsfeed_like_recipe" formatted="false">%s maakte %s recept favoriet</string>
+    <string name="newsfeed_like_recipe_book" formatted="false">%s heeft het receptenboek van %s gemarkeerd als favoriet</string>
+    <string name="newsfeed_number_of_followers">%s volgers</string>
+    <string name="newsfeed_title">Mensen die je volgt</string>
+    <string name="next">Volgende</string>
+    <string name="nl_BE">Nederlands (België)</string>
+    <string name="nl_NL">Nederlands</string>
+    <string name="nmx_humidity_high">Hoog</string>
+    <string name="nmx_humidity_low">Laag</string>
+    <string name="nmx_humidity_medium">Medium</string>
+    <string name="nmx_humidity_off">Uit</string>
+    <string name="no">Nee</string>
+    <string name="no_activities_yet">Nog geen activiteiten</string>
+    <string name="no_appliance_selected">Geen apparaat geselecteerd</string>
+    <string name="no_blender_found_title">Je blender kan niet worden gevonden</string>
+    <string name="no_category_selected_alert_message">"
+Je kunt de selectie niet ongedaan maken omdat er ten minste één inhoudscategorie moet worden geselecteerd."</string>
+    <string name="no_category_selected_alert_title">Er moet minimaal één inhoudscategorie worden geselecteerd</string>
+    <string name="no_created_recipe_books_other">%s heeft nog geen receptenboeken gemaakt</string>
+    <string name="no_created_recipes_other">%s heeft nog geen recepten aangemaakt</string>
+    <string name="no_device_browse_desc_airfryer">Vind het perfecte model en begin met het bereiden van deze lekkere recepten.</string>
+    <string name="no_device_title_airfryer">Airfryer zoeken</string>
+    <string name="no_device_title_airfryer_accessories">Accessoires voor de Airfryer</string>
+    <string name="no_device_title_blender">Zoek een Blender</string>
+    <string name="no_device_title_juicer">Zoek een Sapcentrifuge</string>
+    <string name="no_followers_yet">Nog geen volgers</string>
+    <string name="no_following_other">Deze persoon volgt op dit moment nog niemand</string>
+    <string name="no_following_owner">-</string>
+    <string name="no_internet_connection">Je lijkt offline te zijn. Controleer je internetverbinding.</string>
+    <string name="no_internet_connection_notification">Geen internetverbinding</string>
+    <string name="no_loved_recipes">Je hebt nog geen artikelen bewaard</string>
+    <string name="no_loved_recipes_other">%s heeft nog geen favorieten</string>
+    <string name="no_new_history_items">Er zijn geen nieuwe bereide items in de mixgeschiedenis.</string>
+    <string name="no_recipe_books_created">Nog geen receptenboeken gemaakt</string>
+    <string name="no_recipes_created">Je hebt nog geen recepten aangemaakt</string>
+    <string name="no_recipes_in_collection">"Nog geen recepten
+"</string>
+    <string name="no_recipes_planned">Geen recepten gepland</string>
+    <string name="no_stories">Er zijn nog geen artikelen gemaakt</string>
+    <string name="no_thanks">Niet nu, bedankt</string>
+    <string name="no_thanks_button_title">Nee bedankt</string>
+    <string name="none">Geen</string>
+    <string name="not_connected_error_description">"
+Je bent offline. Controleer je verbinding."</string>
+    <string name="not_connected_error_title">Maak verbinding met internet!</string>
+    <string name="not_interested">Nee, ik ben niet geïnteresseerd</string>
+    <string name="not_now">Niet nu</string>
+    <string name="notification_channel_fw_update_name">Firmware-updatemeldingen</string>
+    <string name="notification_comment">%s reageerde op jouw recept:</string>
+    <string name="notification_favourite">%s maakte jouw recept favoriet</string>
+    <string name="notification_favourite_recipe_book">%s heeft uw receptenboek gemarkeerd als favoriet</string>
+    <string name="notification_flagged" formatted="false">Je recept (%s) is gemarkeerd vanwege %s. Het bevindt zich in je map Concepten, zodat je het kunt herstellen.</string>
+    <string name="notification_follow">%s volgt je nu</string>
+    <string name="notification_removed" formatted="false">Je %s recept is verwijderd vanwege %s.</string>
+    <string name="notification_removed_prepared_meal">Je afbeelding is voor %s verwijderd.</string>
+    <string name="notification_report_reasons" formatted="false">%s en %s</string>
+    <string name="notification_taken" formatted="false">Je recept voor %s is om de volgende reden uit de community verwijderd: %s. Je kunt het nog steeds vinden onder \"Mijn recepten\".</string>
+    <string name="notifications">Meldingen</string>
+    <string name="notifications_disabled_settings_description">Schakel meldingen in om sneller berichten te ontvangen, zelfs als je de app niet geopend hebt.</string>
+    <string name="notifications_disabled_settings_title">"Meldingen zijn uitgeschakeld in
+de telefooninstellingen."</string>
+    <string name="notifications_settings_description">Stel de voorkeuren voor je content in en beheer meldingen.</string>
+    <string name="notifications_settings_title">NutriU-meldingen beheren</string>
+    <string name="num_one">1</string>
+    <string name="num_three">3</string>
+    <string name="num_two">2</string>
+    <string name="number_of_images_plural">%s afbeeldingen</string>
+    <string name="number_of_images_singular">%s afbeelding</string>
+    <string name="number_of_servings">Aantal porties</string>
+    <string name="nutri_details_rni_title">Aanbevolen voedselinname*</string>
+    <string name="nutri_info_dialog_message">"Deze grafiek toont de verdeling van kilocalorieën per portie in vetten, koolhydraten en eiwitten. Het kan je helpen de 'voedingsverdelingen' tussen deze macronutriënten in je dieet te begrijpen.
+
+Het aantal kilocalorieën is gebaseerd op de rauwe ingrediënten van het recept. De hoeveelheid vet en kilocalorieën kan door koken worden verminderd."</string>
+    <string name="nutri_info_dialog_title">Kilocalorieën per portie</string>
+    <string name="nutri_u_stories">NutriU-artikelen</string>
+    <string name="nutri_u_story_creator">Op %s</string>
+    <string name="nutrient_intake_graph_error">Oeps! Er is iets misgegaan</string>
+    <string name="nutrients">Voedingsstoffen</string>
+    <string name="nutrients_calcium">Calcium</string>
+    <string name="nutrients_energy_info_explanation_dolphin_with_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën.</string>
+    <string name="nutrients_energy_info_explanation_dolphin_without_rni">* De aanbevolen voedselinname (RNI) is de dagelijks aanbevolen hoeveelheid voeding die je zou moeten eten op basis van een dieet van %s kilocalorieën. Als je de voor jou aanbevolen dagelijkse hoeveelheid in de app instelt, worden de berekeningen van RNI%% gebaseerd op jouw profiel.</string>
+    <string name="nutrients_fibers">Vezels</string>
+    <string name="nutrients_folic_acid">Foliumzuur</string>
+    <string name="nutrients_info" formatted="false">"*RNI-percentage is de aanbevolen dagelijkse hoeveelheid voedingsstoffen die je moet eten op basis van een kilocalorie-dieet van %s. Afhankelijk van je energiebehoeften kunnen de dagelijkse waarden hoger of lager zijn. 
+
+Hoeveelheden zijn berekend per portie. Een portie is 1/%s van het recept “%s”."</string>
+    <string name="nutrients_info_one_serving_servings">Hoeveelheden zijn berekend per portie.</string>
+    <string name="nutrients_info_servings" formatted="false">Hoeveelheden zijn berekend per portie. Een portie is 1/%s van het recept “%s”.</string>
+    <string name="nutrients_iron">IJzer</string>
+    <string name="nutrients_magnesium">Magnesium</string>
+    <string name="nutrients_minerals">Mineralen</string>
+    <string name="nutrients_percent_daily_value">% RNI*</string>
+    <string name="nutrients_potassium">Kalium</string>
+    <string name="nutrients_salt">Zout</string>
+    <string name="nutrients_selenium">Selenium</string>
+    <string name="nutrients_vitamin_a">Vitamine A</string>
+    <string name="nutrients_vitamin_b_1">Thiamine</string>
+    <string name="nutrients_vitamin_b_12">Vitamine B-12</string>
+    <string name="nutrients_vitamin_b_2">Riboflavine</string>
+    <string name="nutrients_vitamin_b_3">Niacine</string>
+    <string name="nutrients_vitamin_b_5">Pantotheenzuur</string>
+    <string name="nutrients_vitamin_b_6">Vitamine B-6</string>
+    <string name="nutrients_vitamin_b_7">Biotine</string>
+    <string name="nutrients_vitamin_b_9">Foliumzuur</string>
+    <string name="nutrients_vitamin_c">Vitamine C</string>
+    <string name="nutrients_vitamin_d">Vitamine D</string>
+    <string name="nutrients_vitamin_e">Vitamine E</string>
+    <string name="nutrients_vitamin_k">Vitamine K</string>
+    <string name="nutrients_zinc">Zink</string>
+    <string name="nutriflavor_technology">Nutriflavor-technologie</string>
+    <string name="nutrimax">NutriMax</string>
+    <string name="nutrimax_setup_mode_first_step">"Ga op je NutriMax naar 'Instellingen' en druk vervolgens op 'Wifi instellen'."</string>
+    <string name="nutrimax_setup_mode_second_step">"Tik op 'Doorgaan' wanneer het apparaat naar de toegangspuntmodus gaat."</string>
+    <string name="nutrimax_setup_mode_third_step">"Tik op 'Doorgaan' wanneer de instelmodus op het apparaat is geactiveerd."</string>
+    <string name="nutrimax_setup_mode_title">Zet de NutriMax in de instelmodus</string>
+    <string name="nutrimax_status_info_description">"
+Controleer of je NutriMax is ingeschakeld en of je Wi-Fi werkt. Als er nog steeds een probleem is, bekijk dan in deze app de veelgestelde vragen in de NutriMax-instellingen."</string>
+    <string name="nutrimax_status_info_title">Je NutriMax is niet aangesloten</string>
+    <string name="nutrinets_vitamins">Vitaminen</string>
+    <string name="nutrition_claims">Voedingsclaims</string>
+    <string name="nutrition_tab_my_rni_description_generic">Op basis van je persoonlijke profiel</string>
+    <string name="nutrition_tab_my_rni_title">Mijn ideale voedselinname</string>
+    <string name="nutrition_tab_rni_description_generic">Waarden op basis van een gemiddelde persoon</string>
+    <string name="nutrition_tab_rni_description_personalized">Waarden op basis van je persoonlijke gegevens</string>
+    <string name="nutrition_tab_rni_title">Aanbevolen hoeveelheid voedselinname</string>
+    <string name="nutrition_title">Voeding</string>
+    <string name="nutritional_values">Voedingswaarden</string>
+    <string name="nutritional_values_airfryer">Voedingswaarden</string>
+    <string name="nutritional_values_dolphin">1 portie (250 g)</string>
+    <string name="occasions">Gelegenheden</string>
+    <string name="of">van</string>
+    <string name="ok">Oké</string>
+    <string name="onboarding_analytics_title">Leuk om je te ontmoeten</string>
+    <string name="onboarding_content_airfryer">Airfryer</string>
+    <string name="onboarding_content_subtitle">Laat ons weten welk apparaat je gebruikt, zodat we je de beste recepten en NutriU-verhalen kunnen laten zien.</string>
+    <string name="onboarding_content_title">Laten we recepten voor je op maat maken!</string>
+    <string name="onboarding_get_started_subtitle">"Geniet van elke dag opnieuw van onbeperkte, gezonde en smakelijke 
+recepten!"</string>
+    <string name="onboarding_get_started_title">Welkom in een wereld van smaak</string>
+    <string name="one_serving">1 portie</string>
+    <string name="oneda_mandatory_privacy_policy_screen_agree_button">Oké &amp; Ga door</string>
+    <string name="oneda_mandatory_privacy_policy_screen_description">Per 1 september is Domestic Appliances een zelfstandig bedrijf en geen onderdeel meer van Philips. De app wordt je aangeboden door Domestic Appliances. Vanwege deze wijziging in de entiteit die jouw gegevens en de app beheert, hebben we de privacyverklaring bijgewerkt. Klik hier voor meer informatie.</string>
+    <string name="oneda_mandatory_privacy_policy_screen_title">Transitie naar Philips Domestic Appliances</string>
+    <string name="only_time_adjustment_message">Pas voordat je begint naar eigen keuze de kooktijd aan.</string>
+    <string name="only_you_will_see">Jouw persoonlijke NutriU</string>
+    <string name="oops">Oeps!</string>
+    <string name="other">Overige</string>
+    <string name="other_airfryers">Andere Airfryers</string>
+    <string name="other_devices">Andere apparaten</string>
+    <string name="our_app_works_best">Begin vandaag om het maximale uit je Philips-apparaat te halen! Je kunt nu genieten van smakelijke, gezonde recepten op basis van je profiel en smaak.</string>
+    <string name="overseas_usage_data_consent_message">Ik ga akkoord met de overdracht van persoonlijke informatie naar het buitenland</string>
+    <string name="package_unit">zakje</string>
+    <string name="pair">Koppelen</string>
+    <string name="pair_device">Koppelen</string>
+    <string name="pairing">Koppelen</string>
+    <string name="pairingWithBlenderTitle">Koppelen met je blender</string>
+    <string name="pairing_airfryer_error">Het koppelen van de Airfryer met je telefoon is mislukt. Probeer de Airfryer opnieuw met je telefoon te koppelen.</string>
+    <string name="pairing_completed_description">Jouw blender en app zijn gesynchroniseerd. Ga naar Instellingen om Bluetooth te controleren.</string>
+    <string name="pairing_completed_title">Klaar!</string>
+    <string name="pairing_error_text">Controleer of de blender ingeschakeld en binnen bereik is; ga naast de blender staan op max. 2 meter afstand</string>
+    <string name="pairing_error_title">Koppelen is niet mogelijk</string>
+    <string name="pairing_nmx_error">Het koppelen van NutriMax met je telefoon is mislukt. Probeer NutriMax opnieuw met je telefoon te koppelen</string>
+    <string name="pause">Pauze</string>
+    <string name="per_serving">Per portie</string>
+    <string name="per_week">%s per week</string>
+    <string name="personal_data_removed_description">Jouw gedeelde informatie wordt niet langer opgeslagen op ons platform. Je krijgt advies op basis van de gemiddelde persoon.</string>
+    <string name="personal_data_removed_title">Persoonlijke gegevens verwijderd</string>
+    <string name="personal_intake_history_nutrient_picker_title">Voedingsstof</string>
+    <string name="personal_intake_history_title">Mijn geschiedenis</string>
+    <string name="personalize">Personaliseren</string>
+    <string name="personalize_rni">Personaliseer je app</string>
+    <string name="personalized_nutrition">Gepersonaliseerde voeding</string>
+    <string name="personalized_nutrition_description_health_dashboard">Wil je voedingstips op maat speciaal voor jouw behoeften?</string>
+    <string name="personalized_nutrition_rni_entry_point_health_dashboard">Wil je voedingstips op maat speciaal voor jouw behoeften?</string>
+    <string name="philips_announcements">Aankondigingen van Philips</string>
+    <string name="philips_privacy_notice">Privacyverklaring van Philips</string>
+    <string name="photo_image_usage_description">"De app heeft toegang nodig tot de camera en de foto's om je profielfoto en de foto's van je recepten te uploaden."</string>
+    <string name="photo_library">Fotogalerij</string>
+    <string name="pl_PL">Pools</string>
+    <string name="placeholder_no_favourites_yet">Nog geen favorieten</string>
+    <string name="planner_last_week">Vorige week</string>
+    <string name="planner_next_week">Volgende week</string>
+    <string name="planner_replace_planned_recipe">"Wil je het geplande
+recept vervangen?"</string>
+    <string name="planner_this_week">Deze week</string>
+    <string name="planner_today">vandaag</string>
+    <string name="planner_tomorrow">morgen</string>
+    <string name="planner_yesterday">gisteren</string>
+    <string name="please_choose_reason">Wat is er aan de hand?</string>
+    <string name="please_insert_food">Plaats voedsel</string>
+    <string name="please_select_an_ingredient">Selecteer een ingrediënt</string>
+    <string name="posting">Plaatsen…</string>
+    <string name="posting_comments_failed">Reactie plaatsen mislukt. Probeer het opnieuw.</string>
+    <string name="power_on_your_airfryer">Zet je Airfryer aan</string>
+    <string name="power_on_your_nutrimax">Zet je NutriMax aan</string>
+    <string name="preheat_cooking_method">Voorverwarmen</string>
+    <string name="preheat_cooking_method_message">Air Cooker wordt verwarmd tot 160°C. Dit duurt ongeveer 5 minuten.</string>
+    <string name="preheat_steps_exceeded">Voorverwarmen kan slechts één keer per recept worden geselecteerd.</string>
+    <string name="preheat_time">Verwarmingstijd</string>
+    <string name="preparation_time">Voorbereidingstijd</string>
+    <string name="preparation_time_description">Hoelang duurt het van begin tot eind?</string>
+    <string name="preparation_time_info">Hier kun je aangeven hoeveel tijd er nodig is om alles voor te bereiden voor het koken, zoals snijden, schillen en mengen.</string>
+    <string name="preparation_time_info_blenders_juicers">Hier kun je aangeven hoeveel tijd er nodig is om alles voor te bereiden (bijv. snijden, schillen en mengen).</string>
+    <string name="preparation_time_not_set">Stel voorbereidingstijd in</string>
+    <string name="presets">VOORKEURSINSTELLINGEN</string>
+    <string name="privacy">Analytics en cookies</string>
+    <string name="privacy_acknowledgement_description">Bedankt voor het gebruik van de Philips NutriU-app. Lees de privacyverklaring en de algemene voorwaarden zorgvuldig door en klik op \"OK\" om de app te gebruiken.</string>
+    <string name="privacy_acknowledgement_title">Privacyverklaring</string>
+    <string name="privacy_bullets_airfryer">"- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Plan je maaltijden en maak boodschappenlijstjes
+- Ontvang suggesties op basis van de dingen die jij lekker vindt
+- Ontdek heerlijke recepten van de Philips-chef
+- En nog veel meer"</string>
+    <string name="privacy_bullets_airfryer_community">"- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Plan je maaltijden en maak boodschappenlijstjes
+- Volg thuiskoks en doe inspiratie op
+- Ontdek heerlijke recepten van de Philips-chef
+- En nog veel meer
+"</string>
+    <string name="privacy_bullets_airfryer_community_v5p2">"- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Volg thuiskoks en doe inspiratie op
+- Ontdek heerlijke recepten van de Philips-chef
+- En nog veel meer"</string>
+    <string name="privacy_bullets_airfryer_dolphin">"- Ontvang gepersonaliseerde ondersteuning voor je gezonde doelen
+- Personaliseer je ervaring
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Plan je smoothies en maaltijden en maak boodschappenlijstjes
+"</string>
+    <string name="privacy_bullets_airfryer_dolphin_community">"- Ontvang gepersonaliseerde ondersteuning voor jouw gezonde doelen
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Plan je smoothies en maaltijden en maak boodschappenlijstjes
+- Volg thuiskoks en doe inspiratie op
+"</string>
+    <string name="privacy_bullets_airfryer_dolphin_community_v5p2">"- Ontvang gepersonaliseerde ondersteuning voor jouw gezonde doelen
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Volg thuiskoks en doe inspiratie op"</string>
+    <string name="privacy_bullets_airfryer_dolphin_v5p2">"- Ontvang gepersonaliseerde ondersteuning voor je gezonde doelen
+- Personaliseer je ervaring
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze"</string>
+    <string name="privacy_bullets_airfryer_v5p2">"- Maak en deel je eigen recepten
+- Sla je favorieten op en organiseer ze
+- Ontvang suggesties op basis van de dingen die jij lekker vindt
+- Ontdek heerlijke recepten van de Philips-chef
+- En nog veel meer"</string>
+    <string name="privacy_bullets_dolphin">"- Ontvang gepersonaliseerde ondersteuning voor je gezonde doelen 
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Bekijk de voedingswaarde van elke smoothie 
+- Ontdek honderden recepten gemaakt door voedingsexperts
+- Plan je smoothies en maak boodschappenlijstjes
+"</string>
+    <string name="privacy_bullets_dolphin_v5p2">"- Ontvang gepersonaliseerde ondersteuning voor je gezonde doelen 
+- Ontvang voedingsadvies waardoor jij zult slagen
+- Bekijk de voedingswaarde van elke smoothie 
+- Ontdek honderden recepten gemaakt door voedingsexperts"</string>
+    <string name="privacy_explanation_dialog_header">Melding over cookies</string>
+    <string name="privacy_info_message_v2">"Deze app maakt gebruik van Adobe Analytics, een analyseservice ('Adobe Analytics') van Adobe Systems Software Ireland Limited ('Adobe'). Adobe Analytics maakt gebruik van 'cookies' of vergelijkbare technieken. Dit zijn tekstbestanden die in de app worden geplaatst om gebruikspatronen van de app te kunnen analyseren. Wanneer de cookie-informatie over het gebruik van de app naar Adobe wordt verzonden, wordt het IP-adres eerst geanonimiseerd voordat de geografische locatie wordt bepaald. Dit adres wordt vervangen door een algemeen IP-adres voordat de gegevens worden opgeslagen. Adobe gebruikt deze gegevens namens Philips om het gebruik van de app te analyseren, rapporten over de activiteit van de app op te stellen voor Philips en andere diensten te verlenen aan Philips die te maken hebben met de activiteit en het gebruik van de app. Adobe koppelt uw IP-adres niet aan andere gegevens waarover Adobe beschikt. 
+
+De app maakt gebruik van Apptentive, een feedback- en communicatiedienst ('Apptentive') die wordt geleverd door Apptentive Inc. Apptentive maakt gebruik van een technologie die lijkt op een cookie om gebruikspatronen van de app te kunnen analyseren en uw feedback te ontvangen via de app.
+Apptentive zal namens Philips informatie over uw apparaat (zoals de fabrikant, het model en het besturingssysteem), gebruikspatronen van de app en informatie die u verstrekt (zoals feedback of antwoorden op enquêtes) gebruiken om diensten te leveren aan Philips zodat Philips het gebruik van de app kan begrijpen, ondersteuning kan bieden en de producten en diensten kan verbeteren. Uw IP-adres wordt geanonimiseerd voordat het wordt gebruikt en opgeslagen binnen de producten en diensten van Apptentive.
+
+Deze app gebruikt Google Firebase, een dienst voor het ontwikkelen van apps, (Firebase) aangeboden door Google Ireland Ltd. (Google). Firebase maakt gebruik van cookies of vergelijkbare technieken (SDK): tekstbestanden die in uw app en webbrowser worden geplaatst.
+Firebase gebruikt namens Philips gegevens van uw apparaat, zoals uw apparaat-ID, IP-adres, IDFA- of Google Play Services-ID en MAC-adres, en vervangt ze door een unieke code. Wanneer u de app gebruikt, meten wij het aantal bezoeken aan de app, welke pagina's u bekijkt, uw netwerkverbinding, laadtijden en wanneer de app crasht. Wij gebruiken deze informatie om uw gebruik van de app te evalueren en te begrijpen, om prestaties te testen en te analyseren en uiteindelijk onze producten en diensten te optimaliseren.
+
+De App maakt gebruik van Branch Metrics om gebruikers te dieplinken naar de app en om te analyseren hoe gebruikers bij de app terechtkomen en deze gebruiken ('Branch’). Namens Philips gebruikt Branch Metrics informatie over uw gebruik van de app (zoals mobiel platform; tijdstempel; API key (identificatie voor toepassing); appversie; identificatie van het apparaat; iOS Identifier for Advertising; iOS Identifier for Vendors; Android Advertiser ID; IP-adres; model, fabrikant en besturingssysteem van het apparaat; begin- en eindtijd van sessies; code van het mobiele netwerk en netwerkstatus). Dergelijke gegevens worden verzonden naar en opgeslagen op de servers van Branch Metrics. We gebruiken Branch om uw gebruik van de app te analyseren en rapporten op te stellen over de activiteit in de app. Ga voor meer informatie naar: https://branch.io/policies/#privacy
+
+U kunt voorkomen dat gegevens (cookies en het IP-adres) worden verzameld en gebruikt door u hiervoor af te melden nadat u dit scherm sluit."</string>
+    <string name="privacy_info_message_with_branchio">"Adobe Analytics. Deze app maakt gebruik van Adobe Analytics, een analyseservice (\"Adobe Analytics\") die wordt aangeboden door Adobe Systems Software Ireland Limited (\"Adobe\"). Adobe Analytics gebruikt \"cookies\" of vergelijkbare technieken. Dit zijn tekstbestanden die in je app worden geplaatst om de app te helpen bij het analyseren van algemene verkeerspatronen via onze app. Door de informatie over het gebruik van de app die door de cookie gegenereerd wordt naar Adobe te verzenden, zorgt Adobe ervoor dat je IP-adres wordt geanonimiseerd voordat geo-lokalisatie kan worden gebruikt en wordt vervangen door een generiek IP-adres voordat je IP-adres wordt opgeslagen. Namens Philips Domestic Appliances zal Adobe deze informatie gebruiken om te evalueren hoe je de app gebruikt, om rapporten samen te stellen over de app-activiteit voor Philips Domestic Appliances en om andere diensten met betrekking tot app-activiteit en het gebruik van de app aan Philips Domestic Appliances te leveren. Adobe zal je IP-adres niet koppelen aan andere gegevens waarover Adobe beschikt. 
+
+Apptentive. Deze app maakt gebruik van Apptentive, een feedback- en communicatiedienst (\"Apptentive\") die wordt aangeboden door Apptentive Inc. Apptentive gebruikt een technologie die lijkt op een \"cookie\" om de app te helpen de algemene verkeerspatronen te analyseren en via de app je feedback te verzamelen. Namens Philips gebruikt Apptentive informatie over je apparaat (zoals fabrikant, model en besturingssysteem), app-gebruikspatronen en informatie die je wilt verstrekken (zoals antwoorden op enquêtes of feedback) om services aan Philips te leveren om hen te helpen het gebruik van apps te begrijpen, ondersteuning te bieden en hun producten en services te verbeteren.  Voordat je de producten en diensten van Apptentive gebruikt, wordt je IP-adres in Apptentive geanonimiseerd.
+
+Branch Metrics. Deze app maakt gebruik van Branch Metrics, een service van Branch Metrics Inc. (\"Branch\"), om gebruikers te deeplinken naar de app, te analyseren hoe gebruikers de app openen en gebruiken en deze inzichten te gebruiken om de app te verbeteren.  Namens Philips Domestic Appliances verwerkt Branch gegevens over je gebruik van de app (zoals het mobiele platform, tijdsaanduiding, API-sleutel (ID voor applicatie), de versie van de app, het apparaat-ID, het iOS-ID voor advertenties, het iOS-ID voor leveranciers, het Android Advertiser ID, het IP-adres, het model van het apparaat, de fabrikant en het besturingssysteem van het apparaat, de start-/stoptijd van de sessie, de mobiele netwerkcode en de netwerkstatus).  Als je de app hebt gedownload door op een van de platforms van onze marketingpartners op een Philips Domestic Appliances-advertentie te klikken, zoals Facebook, Apple of Google, en besluit om toestemming te geven, zal Branch advertentiegegevens verzamelen over je mobiele apparaat, inclusief unieke identificatiegegevens en analysegegevens over de advertentie waarop je hebt geklikt en andere gebeurtenissen omtrent de app (zoals eerste installatie, openen en app-delen via de functie voor het delen van apps).  Om inzicht te krijgen in de effectiviteit van onze advertentiecampagnes en de betrokkenheid te meten, delen we je advertentiegegevens met het platform dat we hebben gebruikt om de advertentie te laten zien die vervolgens de gegevens zal gebruiken om te rapporteren over de effectiviteit van onze advertenties.  Door in te stemmen met het gebruik van Branch, ga je akkoord met het delen van je advertentiemetingsgegevens met het platform dat je gebruikt hebt bij het klikken op onze advertentie, zoals het platform Facebook, Apple of Google dat je gegevens zal verwerken conform de privacyverklaring (Facebook: https://www.facebook.com/privacy/explanation; Apple:  https://www.apple.com/privacy/;  Google:  https://policies.google.com/privacy).
+
+Google Firebase. Deze app maakt gebruik van Google Firebase, een app-ontwikkelservice (\"Firebase\") die wordt aangeboden door Google Ireland Ltd. (\"Google\"). Firebase gebruikt \"cookies\" of vergelijkbare technieken zoals tekstbestanden die in je app en webbrowser worden geplaatst. Namens Philips Domestic Appliances zal Firebase informatie van je apparaat gebruiken, zoals je apparaat-ID, IP-adres, je IDFA- of Google Play-services-ID en je MAC-adres, en deze vervangen door een unieke code. Wanneer je de app gebruikt, meten we het aantal bezoeken aan de app, welke pagina's je opent, je netwerkverbinding, de laadtijden en wanneer de app crasht. We gebruiken deze informatie om inzicht in het gebruik van de app te krijgen en het gebruik ervan te evalueren, om de prestaties te testen en te analyseren en om uiteindelijk onze producten en diensten te optimaliseren. 
+
+Je kunt het verzamelen en gebruiken van gegevens (cookies en IP-adres) voorkomen als je je afmeldt na het sluiten van dit scherm."</string>
+    <string name="privacy_notice_description">Om je van de juiste informatie te voorzien en onze diensten te verlenen, verwerken we je persoonsgegevens. Lees de Privacyverklaring voor meer informatie.</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="privacy_policy_url">https://www.philips.nl/a-w/mobile-privacy-notice/nutriu.html</string>
+    <string name="privacy_setting_option">Wanneer je je app-gegevens en cookies deelt, kunnen we NutriU blijven verbeteren en jou een behulpzame en persoonlijke ervaring bieden.</string>
+    <string name="profile">Profiel</string>
+    <string name="profile_bmi">Body mass index (BMI): %s</string>
+    <string name="profile_image_consent">"Foto's die je toevoegt, worden opgeslagen op onze servers en kunnen worden bekeken door andere gebruikers van deze app."</string>
+    <string name="profile_manage_appliances">Beheer apparaten</string>
+    <string name="profile_manage_content">Beheer content</string>
+    <string name="profile_manage_title">Beheer</string>
+    <string name="profile_my_content_title">Mijn content</string>
+    <string name="profile_my_preferences">Mijn voorkeuren</string>
+    <string name="profile_no_rni_button">Personaliseer NutriU</string>
+    <string name="profile_no_rni_question">Wil je aanbevelingen krijgen die overeenkomen met je behoeften?</string>
+    <string name="profile_nutritional_profile_button">Aanpassen</string>
+    <string name="profile_nutritional_profile_title">Voedingsprofiel</string>
+    <string name="profile_rni_title">Aanbevolen dagelijkse consumptie</string>
+    <string name="profile_timeline_empty_placeholder_title">Nog geen activiteit</string>
+    <string name="program_recommendation">Aanbevolen programma</string>
+    <string name="protein">Eiwit</string>
+    <string name="pt_BR">Portugees</string>
+    <string name="pt_PT">Portugees</string>
+    <string name="publish">Publiceren</string>
+    <string name="published_recipe_title">Je hebt je recept gepubliceerd!</string>
+    <string name="publishing">Publiceren…</string>
+    <string name="publishing_v2">Publiceren</string>
+    <string name="push_notifications">Push-meldingen</string>
+    <string name="quick_filters_title">Hongerig naar ideeën?</string>
+    <string name="rate_this_app">Deze app beoordelen</string>
+    <string name="read_Analytics_and_cookies_title">Lees Analytics &amp; cookies in:</string>
+    <string name="read_privacy_notice">Lees de privacyverklaring</string>
+    <string name="receive_marketing_email_description">Promotionele berichten van Philips ontvangen gebaseerd op mijn voorkeuren en online gedrag</string>
+    <string name="recent_searches">Recente zoekopdrachten</string>
+    <string name="recipe_already_in_recipe_book_message">Het geselecteerde recept staat al in het receptenboek. Selecteer alstublieft een ander recept.</string>
+    <string name="recipe_book">Receptenboek</string>
+    <string name="recipe_book_create_new">Nieuw receptenboek aanmaken</string>
+    <string name="recipe_book_description_hint">Vertel ons iets over dit receptenboek</string>
+    <string name="recipe_book_error_message">Er is helaas iets misgegaan. Een gedeelte van het receptenboek kon niet worden geladen — probeer het opnieuw.</string>
+    <string name="recipe_book_name">Naam van receptenboek</string>
+    <string name="recipe_book_name_not_set">Geef uw receptenboek een naam</string>
+    <string name="recipe_book_not_private_message">U kunt een opgeslagen recept niet aan het openbare receptenboek toevoegen. Selecteer hiervoor een privéreceptenboek.</string>
+    <string name="recipe_books">Receptenboeken</string>
+    <string name="recipe_by">Recept van</string>
+    <string name="recipe_description">Beschrijving van het recept</string>
+    <string name="recipe_description_description">Vertel ons een verhaal of deel je tips.</string>
+    <string name="recipe_details_cooking_time">Kooktijd: %s minuten</string>
+    <string name="recipe_details_cooking_time_description">Kooktijd:</string>
+    <string name="recipe_details_preparation_time">Voorbereidingstijd: %s minuten</string>
+    <string name="recipe_details_preparation_time_description">Voorbereidingstijd:</string>
+    <string name="recipe_details_servings_description">Porties:</string>
+    <string name="recipe_details_servings_plural">Porties: %s</string>
+    <string name="recipe_details_servings_singular">Porties: %s</string>
+    <string name="recipe_details_view">%s keer bekeken</string>
+    <string name="recipe_details_views">%s keer bekeken</string>
+    <string name="recipe_elements_order">$value1$value2$value3</string>
+    <string name="recipe_filters">Mijn apparaten</string>
+    <string name="recipe_n_plural">%s recepten</string>
+    <string name="recipe_n_singular">%s recept</string>
+    <string name="recipe_name">Naam van recept</string>
+    <string name="recipe_photo">Foto van recept</string>
+    <string name="recipe_photo_description">Laat ons een foto zien van het eindresultaat.</string>
+    <string name="recipe_publish_missing_info">Er lijkt informatie te ontbreken, controleer dit voordat je publiceert.</string>
+    <string name="recipe_removed_from">"Recept verwijderd uit %s
+"</string>
+    <string name="recipe_save_missing_info">Er lijkt informatie te ontbreken, controleer dit voordat je opslaat.</string>
+    <string name="recipe_saved">Je recept is opgeslagen!</string>
+    <string name="recipe_sent_description">Kijk op het blenderscherm voor de instructies.</string>
+    <string name="recipe_sent_title">"Recept verstuurd!
+"</string>
+    <string name="recipe_title">Naam van recept</string>
+    <string name="recipe_type">Type recept:</string>
+    <string name="recipe_type_category">Type recept: %s</string>
+    <string name="recipe_types">Recept types</string>
+    <string name="recipe_upload_failed">Het uploaden van het recept is mislukt. Probeer het opnieuw.</string>
+    <string name="recipes">Recepten</string>
+    <string name="recipes_empty_placeholder">Er bevinden zich geen recepten in de blender</string>
+    <string name="recommended_for_you_community_variant_section_title">Van de community</string>
+    <string name="recommended_for_you_section_title">Suggesties voor jou</string>
+    <string name="recommended_recipes_analytics_opt_in_more_info">Wat betekent dit</string>
+    <string name="recommended_recipes_analytics_opt_in_share_data">Mijn app-gegevens met NutriU delen</string>
+    <string name="recommended_recipes_analytics_opt_in_subtitle">Je kunt dit altijd wijzigen in Instellingen</string>
+    <string name="recommended_recipes_analytics_opt_in_title">We kunnen geen recepten aanraden die je bevallen, tenzij je je NutriU-gegevens deelt</string>
+    <string name="recommended_recipes_analytics_opt_in_toast_message">Bedankt! Blijf NutriU gebruiken om ons te vertellen wat je lekker vindt en blijf op de hoogte voor recepten die je geweldig zult vinden.</string>
+    <string name="recommended_recipes_based_on_preference_subtitle">Op basis van jouw voorkeuren</string>
+    <string name="recommended_recipes_based_on_preference_title">Meer van waar je van houdt</string>
+    <string name="recommended_recipes_carousel_description">Gerechten waarvan we denken dat jij ze geweldig vindt</string>
+    <string name="recommended_recipes_carousel_title_opt_in">Gebaseerd op jouw activiteit</string>
+    <string name="recommended_recipes_carousel_title_opt_out">Verse ideeën voor jou</string>
+    <string name="recommended_recipes_error_message">Sorry, er is een fout opgetreden. De aanbevolen recepten werden niet geladen, probeer het opnieuw.</string>
+    <string name="recommender_questionnaire_accept_text">Zeker! Laten we het doen</string>
+    <string name="recommender_questionnaire_cancel_text">Ik doe het later in Instellingen</string>
+    <string name="recommender_questionnaire_canceled_toast_message">Als je van gedachten verandert, kun je in Instellingen je Voedselvoorkeuren instellen.</string>
+    <string name="recommender_questionnaire_description">Vertel ons wat je lekker vindt en we zullen recepten vinden waar je dol op bent.</string>
+    <string name="recommender_questionnaire_finished_toast_message">Begrepen! Je vindt nu persoonlijke suggesties op het startscherm.</string>
+    <string name="recommender_questionnaire_header_text">Voedselvoorkeuren</string>
+    <string name="recommender_questionnaire_remove_selection_toast_message">Oké. Kom gerust op elke moment terug om voorkeuren te kiezen, zodat we persoonlijke suggesties kunnen doen.</string>
+    <string name="recommender_questionnaire_title">Krijg persoonlijke suggesties</string>
+    <string name="reconnect_wifi_message">Je telefoon is niet op hetzelfde wifi-netwerk aangesloten als je Airfryer. Selecteer %s bij de volgende stap om opnieuw verbinding te maken met hetzelfde netwerk waarop je Airfryer is aangesloten.</string>
+    <string name="reconnect_wifi_title">Maak opnieuw verbinding met je wifi</string>
+    <string name="refine_filter_airfryer">Airfryer filters</string>
+    <string name="refine_filter_blender_and_juicer">Blender en juicer filters</string>
+    <string name="refine_filter_dolphin">Blender-filters</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="registartion_offline">Registratie is niet beschikbaar omdat je offline bent</string>
+    <string name="reheat_cooking_method_title">Opwarmen</string>
+    <string name="remote_consent">Toestemming op afstand</string>
+    <string name="remote_cooking">Koken op afstand</string>
+    <string name="remote_cooking_consent">"Met deze functie kun je je smart home-apparaat bedienen via de NutriU-app of via spraakbesturing als je deze met NutriU hebt verbonden. 
+
+Zorg ervoor dat je het apparaat altijd onder controle hebt en laat het nooit zonder toezicht werken."</string>
+    <string name="remote_cooking_consent_title">Koken op afstand inschakelen?</string>
+    <string name="remote_cooking_profile_consent">"Met koken op afstand kunt je de kooktijd en -temperatuur wijzigen en stoppen of beginnen met koken, zelfs als je niet in de keuken bent.
+
+Zorg ervoor dat je altijd de controle over je apparaat hebt en laat het apparaat niet zonder toezicht werken."</string>
+    <string name="remove">Verwijderen</string>
+    <string name="remove_airfryer">Verwijder Airfryer</string>
+    <string name="remove_all_recipes_after_last_ingredient_removal">Je hebt alle ingrediënten op de lijst gekocht. Wil je alle ingrediënten verwijderen van het boodschappenlijstje?</string>
+    <string name="remove_appliance">Apparaat verwijderen</string>
+    <string name="remove_blender">Verwijder Blender</string>
+    <string name="remove_content_alert_message" formatted="false">Als je de content van de \"%s\" verwijdert, zie je geen gerelateerde content zoals recepten, artikelen en tips. Je verwijdert de %s ook van je lijst met apparaten</string>
+    <string name="remove_content_alert_title">Content van de \"%s\" verwijderen?</string>
+    <string name="remove_from_the_recipe_book">Verwijderen uit receptenboek</string>
+    <string name="remove_juicer">Verwijder Sapcentrifuge</string>
+    <string name="remove_nutrimax">Verwijder NutriMax</string>
+    <string name="remove_photo">Foto verwijderen</string>
+    <string name="remove_this_airfryer">Weet je zeker dat je deze Airfryer wilt verwijderen?</string>
+    <string name="remove_this_blender">Weet je zeker dat je deze Blender wilt verwijderen?</string>
+    <string name="remove_this_connected_airfryer">Deze Airfryer verwijderen?</string>
+    <string name="remove_this_juicer">Weet je zeker dat je deze Sapcentrifuge wilt verwijderen?</string>
+    <string name="remove_this_nutrimax">Deze NutriMax verwijderen?</string>
+    <string name="report">Rapporteren</string>
+    <string name="report_article">Rapporteer dit artikel</string>
+    <string name="report_comment">Rapporteer commentaar</string>
+    <string name="report_comment_missing">Voer een opmerking in om het rapporteren te voltooien</string>
+    <string name="report_image">Meld deze afbeelding</string>
+    <string name="report_please_add_comment_description">Voeg een opmerking toe zodat we weten waarom je dit rapporteert.</string>
+    <string name="report_please_add_comment_title">Opmerking ontbreekt</string>
+    <string name="report_recipe">Recept rapporteren</string>
+    <string name="report_recipe_book_button">Hebt u feedback? We horen die graag!</string>
+    <string name="report_recipe_book_title">Receptenboek rapporteren</string>
+    <string name="report_story">Meld artikel</string>
+    <string name="report_submitted_text">Bedankt voor je hulp om van NutriU een betere app te maken.</string>
+    <string name="report_submitted_title">Gerapporteerd</string>
+    <string name="report_text">Is jou iets verkeerds opgevallen? Laat het ons weten</string>
+    <string name="report_this_recipe">Dit recept rapporteren</string>
+    <string name="report_this_story">Meld dit artikel</string>
+    <string name="report_tip">Tip rapporteren</string>
+    <string name="report_user">Gebruiker rapporteren</string>
+    <string name="request_new_ingredient">Verzoek een ingrediënt.</string>
+    <string name="reset">Resetten</string>
+    <string name="reset_airfryer">Reset je Airfryer door tegelijkertijd de omhoog-knoppen aan weerszijden van het scherm ingedrukt te houden.</string>
+    <string name="reset_rni_data">Reset mijn gegevens</string>
+    <string name="resetting_rni_data_accept_button">Ja, reset gegevens</string>
+    <string name="resetting_rni_data_title">Jouw gegevens opnieuw instellen</string>
+    <string name="resetting_rni_data_warning">Al jouw RNI-gegevens worden gereset en je kunt dit niet ongedaan maken. Weet je zeker dat je wilt doorgaan?</string>
+    <string name="resseting_rni_data">Reset mijn gegevens</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="rni_age_dialog_title">Geboortedatum invoeren</string>
+    <string name="rni_entry_point_title">Wil je je voeding personaliseren?</string>
+    <string name="rni_gender_female">Vrouw</string>
+    <string name="rni_gender_male">Man</string>
+    <string name="rni_gender_question">Geslacht?</string>
+    <string name="rni_hint_age">Vul de datum in</string>
+    <string name="rni_hint_height">170.0</string>
+    <string name="rni_hint_hip">90.0</string>
+    <string name="rni_hint_waist">60.0</string>
+    <string name="rni_hint_weight">70.0</string>
+    <string name="rni_personalization_accept_action_title">Ja, ga verder</string>
+    <string name="rni_personalization_accept_button_title">Laten we aan de slag gaan!</string>
+    <string name="rni_personalization_additional_description">"Waarom hebben we jouw gegevens nodig? 
+
+Om je te helpen jouw gezondheidsdoelen te halen, biedt NutriU voedingsadvies en recepten die zijn afgestemd op jouw persoonlijke doelen en voorkeuren. 
+ Als je hier niet klaar voor bent, kunt je er ook voor kiezen advies te ontvangen op basis van gemiddelden."</string>
+    <string name="rni_personalization_description">Als je optimaal gebruik wilt maken van NutriU en jouw voedingsdoelen, raden we je aan jouw gegevens in te vullen. Dan ontvang je advies dat speciaal op jou is afgestemd.</string>
+    <string name="rni_personalization_nutriu_description">We kunnen je helpen genieten van nog betere melanges. Deel een paar details over jezelf. Je krijgt handige voedingsmengsels en nuttige informatie op basis van je gegevens en smaken.</string>
+    <string name="rni_personalize_nutriu_consent_text">Ik stem ermee in mijn persoonsgegevens en de gegevens over mijn leefstijl te delen die gebruikt zullen worden om voedingsinformatie op maat te verstrekken.</string>
+    <string name="rni_personalize_your_nutrition_description">"Vul je gegevens in om het meeste uit NutriU en je eigen voedingsbehoeften te halen. We kunnen je dan advies geven op basis van jouw behoeften.
+
+Nu even niet? Dan baseren we onze aanbevelingen op de gemiddelde voedingsbehoeften.
+"</string>
+    <string name="rni_personalize_your_nutrition_description_optional_part">Je persoonlijke energiebehoefte is %s kilocalorieën.</string>
+    <string name="rni_personalize_your_nutrition_success">Je ziet nu je aanbevolen dagelijkse inname (% van de dagelijkse hoeveelheid) in de recepten.</string>
+    <string name="rni_personalize_your_nutrition_success_description">Vanaf nu zie je jouw aanbevolen dagelijkse hoeveelheid (% van dagelijkse waarde) in de recepten. Ga naar je profiel om je details te zien of wijzigen.</string>
+    <string name="rni_personalize_your_nutrition_success_info">Ga naar je profiel om je gegevens te bekijken of bij te werken.</string>
+    <string name="rni_personalize_your_nutrition_success_title">Klaar!</string>
+    <string name="rni_personalize_your_nutrition_title">Je voeding personaliseren</string>
+    <string name="rni_personalize_your_nutriu_experience_title">Personaliseer je NutriU-ervaring</string>
+    <string name="rni_question_age">"Wanneer ben je geboren?
+"</string>
+    <string name="rni_question_height">Hoe lang ben je?</string>
+    <string name="rni_question_hip">Wat is je heupomvang?</string>
+    <string name="rni_question_waist">Wat is je taillemaat?</string>
+    <string name="rni_question_weight">Wat is je huidige gewicht?</string>
+    <string name="rni_sport_2_to_4_hours">2 - 4 uur</string>
+    <string name="rni_sport_4_to_6_hours">4 - 6 uur</string>
+    <string name="rni_sport_less_than_2_hours">Minder dan 2 uur</string>
+    <string name="rni_sport_more_than_6_hours">Meer dan 6 uur</string>
+    <string name="rni_sport_none">Helemaal niet</string>
+    <string name="rni_sport_title">Hoeveel sport je per week?</string>
+    <string name="rni_unit_height">cm</string>
+    <string name="rni_unit_hip">cm</string>
+    <string name="rni_unit_waist">cm</string>
+    <string name="rni_unit_weight">kg</string>
+    <string name="rni_work_body_movement">Ik beweeg veel.</string>
+    <string name="rni_work_exertion">I span mezelf fysiek in.</string>
+    <string name="rni_work_only_sitting">Ik zit de hele dag.</string>
+    <string name="rni_work_sitting">Ik sta soms en beweeg een beetje.</string>
+    <string name="rni_work_sitting_very_little_movement">Zittend op het werk met zeer weinig lichaamsbeweging.</string>
+    <string name="rni_work_title">Hoe actief is je dagelijks leven?</string>
+    <string name="roast_cooking_method_title">Braden</string>
+    <string name="save">Opslaan</string>
+    <string name="save_and_add_another">Opslaan en nieuwe stap toevoegen</string>
+    <string name="save_and_finish">Opslaan en voltooien</string>
+    <string name="save_as_draft">Opslaan als concept</string>
+    <string name="save_changes">Wijzigingen opslaan</string>
+    <string name="save_made_changes_info">"Wil je deze wijzigingen opslaan?
+"</string>
+    <string name="save_my_preferences">Bewaar mijn voorkeuren</string>
+    <string name="save_not_allowed_without_selection">"Je kunt niet opslaan zonder een keuze te maken!
+"</string>
+    <string name="save_recipe_book">Receptenboek opslaan</string>
+    <string name="saved_recipe_title_v4">Je hebt je recept opgeslagen!</string>
+    <string name="saved_to">Opgeslagen in %s</string>
+    <string name="saving">Bezig met opslaan</string>
+    <string name="saving_v4">Opslaan...</string>
+    <string name="search">Zoeken</string>
+    <string name="search_again">Opnieuw zoeken</string>
+    <string name="search_people_no_data_message">Sorry, we kunnen geen overeenkomstige Airfryer-kok vinden.</string>
+    <string name="search_recipes_no_data_message">Sorry, we kunnen geen overeenkomstige recepten vinden.</string>
+    <string name="search_stories_no_data_message">Sorry, we konden geen overeenkomende artikelen vinden.</string>
+    <string name="searching">Zoeken</string>
+    <string name="second">sec</string>
+    <string name="second_ago">%s seconde geleden</string>
+    <string name="seconds_ago">%s seconden geleden</string>
+    <string name="see_more">Lees meer</string>
+    <string name="select_another_airfryer">Een andere Airfryer selecteren</string>
+    <string name="select_content">Selecteer inhoud</string>
+    <string name="select_device">Selecteer een apparaat</string>
+    <string name="select_servings_title">"Hoeveel porties wil je maken?
+"</string>
+    <string name="select_your_airfryer">"Selecteer jouw model Airfryer
+"</string>
+    <string name="select_your_country">Land selecteren</string>
+    <string name="select_your_country_subtitle">Kies jouw land voor lokale inhoud en aanbevelingen voor recepten.</string>
+    <string name="select_your_device">Selecteer je apparaat</string>
+    <string name="select_your_kitchen_appliances_description">Door je apparaten toe te voegen, kan NutriU je gepersonaliseerde recepten en tips laten zien. Je kunt je apparaten altijd updaten in je voorkeursinstellingen.</string>
+    <string name="select_your_kitchen_appliances_profile_description">Door uw apparaten toe te voegen, kan NutriU je gepersonaliseerde recepten en tips laten zien.</string>
+    <string name="select_your_kitchen_appliances_title">Selecteer je keukenapparatuur</string>
+    <string name="select_your_model">Kies je model</string>
+    <string name="selected">Geselecteerd</string>
+    <string name="selected_tags">Geselecteerde labels</string>
+    <string name="send_to_blender">Naar blender sturen</string>
+    <string name="sending_recipe_description">Het recept wordt binnen enkele seconden op je blender weergegeven.</string>
+    <string name="sending_recipe_failed_description">"Het geselecteerde recept is niet naar de blender verzonden. Controleer of Bluetooth is ingeschakeld op je telefoon en blender, en of de apparaten zich dicht genoeg bij elkaar bevinden.
+Probeer opnieuw."</string>
+    <string name="sending_recipe_title">"Recept wordt verstuurd
+"</string>
+    <string name="serving_n_plural">%s porties</string>
+    <string name="serving_n_singular">%s portie</string>
+    <string name="serving_not_set">Voer het aantal porties in</string>
+    <string name="serving_size">Portiegrootte</string>
+    <string name="serving_unit_format">%s</string>
+    <string name="servings">Porties</string>
+    <string name="servings_description">Voor hoeveel volwassenen is dit?</string>
+    <string name="servings_empty">-- porties</string>
+    <string name="servings_empty_v2">— porties</string>
+    <string name="set">Instellen</string>
+    <string name="set_airfryer_time_and_temperature">Stel de tijd en temperatuur van de Airfryer in</string>
+    <string name="set_amount">Vastgestelde hoeveelheid</string>
+    <string name="set_humidity">Vochtigheid instellen</string>
+    <string name="set_ingredients_to_avoid">Stel te vermijden ingrediënten in</string>
+    <string name="set_temperature">Temperatuur instellen</string>
+    <string name="set_time">Tijd instellen</string>
+    <string name="settings">Instellingen</string>
+    <string name="shake_fries">Schud de mand</string>
+    <string name="shake_multiple_times_mesage">Open het deksel en schud de mand %s keer tijdens het koken.</string>
+    <string name="shake_once_message">Open de Airfryer en schud de mand één keer tijdens het koken.</string>
+    <string name="share">Delen</string>
+    <string name="share_data_description">Ik wil mijn App-gegevens delen om de app te helpen verbeteren en persoonlijke services aangeboden te krijgen.</string>
+    <string name="share_my_app_data">Mijn app-gegevens met NutriU delen</string>
+    <string name="share_recipe">Recept delen...</string>
+    <string name="share_shopping_list">Boodschappenlijstje delen</string>
+    <string name="share_story">Deel artikel ...</string>
+    <string name="shop_product_entry_point">Koop dit product</string>
+    <string name="shopping_list">Boodschappenlijstje</string>
+    <string name="shopping_list_empty">Er staat niets op je boodschappenlijstje.</string>
+    <string name="shopping_list_recipe_added">Recept toegevoegd aan boodschappenlijstje</string>
+    <string name="shot">scheutje</string>
+    <string name="show_more">Meer tonen</string>
+    <string name="skip">Overslaan</string>
+    <string name="slow_cook_cooking_method_title">Langzaam koken</string>
+    <string name="smart_airfryer">Slimme Airfryer</string>
+    <string name="smart_coach_says">Smart Coach zegt</string>
+    <string name="smart_cooking_consent">"Met slim koken kun je de kooktijd en temperatuur wijzigen en stoppen of beginnen met koken, zelfs als je niet in de keuken bent.
+
+Zorg ervoor dat je altijd de controle over je apparaat houdt en laat het apparaat niet zonder toezicht werken."</string>
+    <string name="smart_cooking_consent_title">Slim koken inschakelen?</string>
+    <string name="smart_cooking_not_on">"'Slim koken' staat niet aan"</string>
+    <string name="smart_device_disconnect">Weet je zeker dat je %s wilt loskoppelen?</string>
+    <string name="smart_device_paired_message">Nu heb je toegang tot recepten en artikelen die zijn afgestemd op jouw apparaat.</string>
+    <string name="smart_devices">Slimme apparaten</string>
+    <string name="smoothie_n_plural">smoothies</string>
+    <string name="smoothie_n_singular">smoothie</string>
+    <string name="smoothies">smoothies</string>
+    <string name="smoothies_and_juices">Smoothies &amp; sappen</string>
+    <string name="smoothies_per_week">Smoothies per week</string>
+    <string name="sort_by">Sorteren op</string>
+    <string name="sous_vide_cooking_method_message">Stel temperatuur en tijd in. Vochtigheid wordt automatisch ingesteld.</string>
+    <string name="sous_vide_cooking_method_title">Vacuüm koken</string>
+    <string name="spam">Spam</string>
+    <string name="special_diets">Speciale diëten</string>
+    <string name="spectre_paired_title">Je slimme Airfryer is toegevoegd en gekoppeld!</string>
+    <string name="spectre_setup_mode_description">"Houd de menuknop aan de linkerkant van het scherm ingedrukt totdat je het wifi-symbool ziet knipperen. 
+
+Tik op Doorgaan als je het wifi-symbool ziet knipperen."</string>
+    <string name="spectre_setup_mode_first_step">Houd de menuknop aan de linkerkant van het scherm ingedrukt totdat het Wi-Fi-symbool begint te knipperen.</string>
+    <string name="spectre_setup_mode_second_step">"Tik op 'Doorgaan' als je het wifi-symbool ziet knipperen."</string>
+    <string name="spectre_setup_mode_title">Zet de Airfryer in de instelmodus</string>
+    <string name="standard_blender">Standaardmixer</string>
+    <string name="start_cook_mode">Kook!</string>
+    <string name="start_manual_cooking">Start handmatig koken</string>
+    <string name="start_preheat">Starten met voorverwarmen</string>
+    <string name="steam_cooking_method_title">Stomen</string>
+    <string name="step_by_step">Stap voor stap</string>
+    <string name="step_by_step_description">Vertel ons zo duidelijk mogelijk wat we moeten doen.</string>
+    <string name="step_by_step_optional">Stap voor stap (optioneel)</string>
+    <string name="step_cooking_not_in_progress">Verzend instellingen</string>
+    <string name="step_description_missing">Voer de beschrijving van de stap in</string>
+    <string name="step_hint">Instructies</string>
+    <string name="step_number">Stap %s</string>
+    <string name="step_number_list">Stap %s</string>
+    <string name="steps_instruction">Schrijf instructies voor deze stap</string>
+    <string name="steps_limit_error">Je hebt het maximale aantal stappen bereikt.</string>
+    <string name="stories">Artikelen</string>
+    <string name="sv_SE">Zweeds</string>
+    <string name="tags_title_text">Selecteer zoveel categorieën als je wilt.</string>
+    <string name="take_photo">Foto maken</string>
+    <string name="taste">Smaak</string>
+    <string name="tell_us_more">Vertel ons meer</string>
+    <string name="temperature">Temperatuur</string>
+    <string name="temperature_not_set">Stel temperatuur in</string>
+    <string name="terms_and_conditions_url">https://www.philips.nl/c-w/terms/terms-and-conditions-nutriu-app.html</string>
+    <string name="terms_conditions">Voorwaarden</string>
+    <string name="text_copied">Tekst gekopieerd naar klembord</string>
+    <string name="th_TH">Thais (Thailand)</string>
+    <string name="three_servings">3 porties</string>
+    <string name="time">Tijd</string>
+    <string name="time_empty">-- min.</string>
+    <string name="time_empty_v2">— min.</string>
+    <string name="time_exceeded">Tijd overschrijdt limiet.</string>
+    <string name="time_not_set">Stel tijd in</string>
+    <string name="time_to_prepare">Voorbereidingstijd</string>
+    <string name="timeline">Tijdlijn</string>
+    <string name="timeline_blend_serving">%s kcal/250 g</string>
+    <string name="timeline_empty_placeholder_action_title">Ga naar recepten</string>
+    <string name="timeline_empty_placeholder_message">Voor het invullen van je tijdlijn moet je een nieuw recept voorbereiden</string>
+    <string name="timeline_empty_placeholder_title">Heeft zich aangesloten bij NutriU</string>
+    <string name="timeline_this_month">Deze maand</string>
+    <string name="timeline_this_week">Deze week</string>
+    <string name="timeline_you_blended">Je mengde</string>
+    <string name="timeline_you_cooked">Jij hebt gekookt</string>
+    <string name="tip_rni_daily_need_title">Je dagelijkse behoefte</string>
+    <string name="title_hint">Voer naam in</string>
+    <string name="title_not_set">Geef je recept een naam voordat je het publiceert</string>
+    <string name="title_not_set_save">Geef je recept een naam voordat je het opslaat</string>
+    <string name="today">Vandaag</string>
+    <string name="tomorrow">morgen</string>
+    <string name="top_recipe_books_title">Onze beste receptenboeken van dit moment</string>
+    <string name="total_time">Totale tijd</string>
+    <string name="tr_TR">Turks (Turkije)</string>
+    <string name="try_again">Probeer het opnieuw</string>
+    <string name="try_broccoli">Probeer \"Broccoli\"</string>
+    <string name="turn_on_airfryer_description">"Druk op de aan-uitknop aan de rechterkant van het Airfryer-scherm om je Airfryer aan te zetten.
+
+Nadat het aanzetten van je Airfryer druk je op Doorgaan."</string>
+    <string name="turn_on_airfryer_first_step">Controleer of je Airfryer is aangesloten en druk eenmaal kort en krachtig op de aan/uit-knop aan de rechterkant van het scherm.</string>
+    <string name="turn_on_airfryer_second_step">"Zodra je Airfryer is ingeschakeld, tik je hieronder op 'Doorgaan'."</string>
+    <string name="turn_on_nutrimax_first_step">Controleer of je NutriMax is aangesloten en druk rechts op het scherm op de aan-uitknop.</string>
+    <string name="turn_on_nutrimax_second_step">"Zodra je NutriMax is ingeschakeld, tik je hieronder op 'Doorgaan'."</string>
+    <string name="turn_smart_cooking_on">Schakel Slim koken in</string>
+    <string name="two_servings">2 porties</string>
+    <string name="type">Type</string>
+    <string name="type_of_ingredients">Soorten ingrediënten</string>
+    <string name="undo">Ongedaan maken</string>
+    <string name="unit_branch_plural">takjes</string>
+    <string name="unit_branch_singular">takje</string>
+    <string name="unit_bunch_plural">bosjes</string>
+    <string name="unit_bunch_singular">bosje</string>
+    <string name="unit_can_plural">blikjes</string>
+    <string name="unit_centiliter_plural">centiliter</string>
+    <string name="unit_centiliter_singular">centiliter</string>
+    <string name="unit_clove_plural">teentjes</string>
+    <string name="unit_clove_singular">teentje</string>
+    <string name="unit_cup">c</string>
+    <string name="unit_dash_plural">scheutjes</string>
+    <string name="unit_dash_singular">scheutje</string>
+    <string name="unit_decigram">dg</string>
+    <string name="unit_decigram_plural">decigram</string>
+    <string name="unit_decigram_singular">decigram</string>
+    <string name="unit_deciliter_plural">deciliter</string>
+    <string name="unit_deciliter_singular">deciliter</string>
+    <string name="unit_drop_plural">druppels</string>
+    <string name="unit_drop_singular">druppel</string>
+    <string name="unit_gram">g</string>
+    <string name="unit_gram_plural">gram</string>
+    <string name="unit_gram_singular">gram</string>
+    <string name="unit_imp_cup_plural">kopjes</string>
+    <string name="unit_imp_cup_singular">kopje</string>
+    <string name="unit_imp_pound_plural">ponden</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_kilogram">kg</string>
+    <string name="unit_kilogram_plural">kilogram</string>
+    <string name="unit_kilogram_singular">kilogram</string>
+    <string name="unit_liter_plural">liter</string>
+    <string name="unit_liter_singular">liter</string>
+    <string name="unit_microgram">µg</string>
+    <string name="unit_milligram">mg</string>
+    <string name="unit_milligram_plural">milligram</string>
+    <string name="unit_milligram_singular">milligram</string>
+    <string name="unit_milliliter">ml</string>
+    <string name="unit_milliliter_plural">milliliter</string>
+    <string name="unit_milliliter_singular">milliliter</string>
+    <string name="unit_ounce">oz.</string>
+    <string name="unit_piece_plural">stukken</string>
+    <string name="unit_piece_singular">stuk</string>
+    <string name="unit_pinch_plural">snufjes</string>
+    <string name="unit_pinch_singular">snufje</string>
+    <string name="unit_sachet_plural">zakjes</string>
+    <string name="unit_sachet_singular">zakje</string>
+    <string name="unit_shot_plural">opnames</string>
+    <string name="unit_slice_plural">sneetjes</string>
+    <string name="unit_slice_singular">sneetje</string>
+    <string name="unit_tablespoon_plural">eetlepels</string>
+    <string name="unit_tablespoon_singular">eetlepel</string>
+    <string name="unit_teaspoon_plural">theelepels</string>
+    <string name="unit_teaspoon_singular">theelepel</string>
+    <string name="unit_us_cup_plural">kopjes</string>
+    <string name="unit_us_cup_singular">kopje</string>
+    <string name="unknown">Onbekend</string>
+    <string name="unknown_error">Er is iets fout gegaan. Probeer het opnieuw.</string>
+    <string name="unpair_and_hide_airfryer">Ontkoppel Airfryer van je telefoon</string>
+    <string name="unpair_and_hide_nutrimax">Koppel NutriMax los van je telefoon</string>
+    <string name="update_airfryer">Update je Airfryer</string>
+    <string name="update_description_mandatory">Er is een nieuwe versie van de app beschikbaar. Download de nieuwste update om de app te blijven gebruiken.</string>
+    <string name="update_description_optional">We hebben onze app verbeterd. Je kunt de nieuwste versie downloaden in de store.</string>
+    <string name="update_now">Nu updaten</string>
+    <string name="update_rni_data_description">"Met de gegevens die je hebt gedeeld, kan NutriU voedingsadvies en recepten bieden die overeenkomen met jouw persoonlijke doelen en voorkeuren. Doorloop de vragenlijst opnieuw om jouw gegevens aan te passen. 
+
+Als je jouw gegevens niet meer wilt delen, krijg je advies op basis van gemiddelden."</string>
+    <string name="update_rni_data_title">Verander jouw persoonlijke gegevens</string>
+    <string name="update_title_mandatory">Update vereist</string>
+    <string name="update_title_optional">"Hallo, er is een nieuwe update van de app beschikbaar. 
+"</string>
+    <string name="uploading_photos">"Bezig met het uploaden van foto's…"</string>
+    <string name="us_fluid_ounce">vloeibare ons</string>
+    <string name="us_ounce">ons</string>
+    <string name="used_ingredients">Gebruikte ingrediënten</string>
+    <string name="user_blocked_title">Je bent geblokkeerd</string>
+    <string name="user_name">Naam</string>
+    <string name="vegetables_preset_title">Groenten</string>
+    <string name="version">Versie</string>
+    <string name="view">Weergeven</string>
+    <string name="view_all">Alles weergeven</string>
+    <string name="view_all_articles">Alle artikelen weergeven</string>
+    <string name="view_all_comments">Alle reacties bekijken (%s)</string>
+    <string name="view_all_tags">Alle labels bekijken</string>
+    <string name="view_more_details">Meer weergeven</string>
+    <string name="visit_page_button">De pagina bezoeken</string>
+    <string name="voice_control">Spraakbesturing</string>
+    <string name="walkthrough_add_recipe_message">Creëren en delen van de beste maaltijden.</string>
+    <string name="walkthrough_add_recipe_title">Een recept aanmaken</string>
+    <string name="walkthrough_close">"Ik snap 'm!"</string>
+    <string name="walkthrough_from_the_community_message">Updates ontvangen van koks die jij volgt</string>
+    <string name="walkthrough_from_the_community_title">Mijn nieuwsfeed</string>
+    <string name="walkthrough_notifications_message">Zie wie jou leuk vindt, volgt en wie commentaar plaatst.</string>
+    <string name="walkthrough_notifications_title">Meldingen</string>
+    <string name="walkthrough_planner_message">Plan jouw menu en boodschappen voor de week.</string>
+    <string name="walkthrough_planner_title">Plannen en boodschappen doen</string>
+    <string name="walkthrough_profile_message">Alle recepten en instellingen beheren</string>
+    <string name="walkthrough_profile_title">Voorkeuren</string>
+    <string name="walkthrough_recipe_details_title">Recepten</string>
+    <string name="walkthrough_recipe_details_v4_message">U kunt meer over het recept ontdekken, het recept markeren als favoriet, het delen, erop reageren, en het toevoegen aan uw receptenboek.</string>
+    <string name="walkthrough_search_message_v3">Zoek en filter recepten en artikelen</string>
+    <string name="walkthrough_search_title">Uitgebreid zoeken</string>
+    <string name="water_tank">WATERTANK</string>
+    <string name="water_tank_empty_action_label">Vul nu het waterreservoir</string>
+    <string name="water_tank_empty_status_label">Het waterpeil is laag</string>
+    <string name="water_tank_status_all_good">Alles goed</string>
+    <string name="we_respect_your_privacy_text">We gebruiken je gegevens conform onze privacyverklaring</string>
+    <string name="we_respect_your_privacy_title">Wij respecteren je privacy</string>
+    <string name="week">Week</string>
+    <string name="week_ago">%s week geleden</string>
+    <string name="weeks">weken</string>
+    <string name="weeks_ago">%s weken geleden</string>
+    <string name="what_does_this_mean">Wat betekent dit?</string>
+    <string name="whats_in_my_fridge_empty_state">Sorry, er zijn geen ingrediënten beschikbaar.</string>
+    <string name="whats_in_my_fridge_error_message">Sorry, er ging iets mis. \"Wat staat er in mijn koelkast\" kan niet worden geladen. Probeer het opnieuw.</string>
+    <string name="which_appliance_will_you_use">Welk apparaat ga je gebruiken?</string>
+    <string name="wif_cooking_time_label">Tijd</string>
+    <string name="wifi_authentication_airfryer_footnote">Het koppelen kan tot 30 seconden duren. Laat je Airfryer aanstaan en de NutriU-app open op je telefoon.</string>
+    <string name="wifi_authentication_airfryer_instructions_title">Koppel je Airfryer met je telefoon</string>
+    <string name="wifi_authentication_description">Houd de pijl-omlaag links van het Airfryer-scherm ingedrukt. We laten het je weten zodra de Airfyer is gekoppeld met je telefoon.</string>
+    <string name="wifi_authentication_first_step">Druk eenmaal kort en krachtig op de pijl naar beneden aan de linkerkant van het beeldscherm.</string>
+    <string name="wifi_authentication_navigation_title">Koppelen met telefoon</string>
+    <string name="wifi_authentication_nmx_footnote">Het koppelen kan tot 30 seconden duren. Houd je NutriMax ingeschakeld en de Philips NutriU-app geopend op je telefoon.</string>
+    <string name="wifi_authentication_nmx_instructions_title">Koppel je NutriMax met je telefoon</string>
+    <string name="wifi_authentication_nutrimax_first_step">"Op je apparaat kun je het koppelen toestaan door op 'Ja' te drukken."</string>
+    <string name="wifi_authentication_nutrimax_title">Goed gedaan! Koppel nu je NutriMax met je telefoon</string>
+    <string name="wifi_authentication_second_step">Als de pijl omlaag continu brandt, druk je op het mobiele apparaat op \"Koppelen\".</string>
+    <string name="wifi_authentication_success_airfryer_description">Nu kun je recepten naar je Airfryer sturen en deze bedienen met de NutriU-app, zelfs als je niet in de keuken bent.</string>
+    <string name="wifi_authentication_success_title">Geweldig, je bent klaar om op afstand te koken</string>
+    <string name="wifi_authentication_title">Koppel je Airfryer met je mobiele apparaat</string>
+    <string name="wifi_cooking_disabled_step_action_message">Beëindig het geopende kookproces voordat je een nieuwe begint.</string>
+    <string name="wifi_cooking_drawer_is_open_description">Sluit de lade om door te gaan</string>
+    <string name="wifi_cooking_drawer_is_open_label">Lade is open</string>
+    <string name="wifi_cooking_keeping_warm">Voedselverwarmer</string>
+    <string name="wifi_cooking_no_wifi_message">Zorg voor het uitvoeren van deze handeling dat je van hetzelfde netwerk als je Airfryer gebruikmaakt</string>
+    <string name="wifi_cooking_no_wifi_positive_button">Instellingen</string>
+    <string name="wifi_cooking_send_settings_label">Verzend instellingen</string>
+    <string name="wifi_cooking_step_title">Stap 1</string>
+    <string name="wifi_cooking_temperature_label">Temperatuur</string>
+    <string name="wifi_cooking_time_label">Tijd</string>
+    <string name="wifi_device_accept">Accepteren</string>
+    <string name="wifi_device_certificate_mismatch_error">"Het certificaat komt niet overeen met het opgeslagen certificaat. Dit kan gebeuren nadat de fabrieksinstellingen geactiveerd zijn, maar kan ook wijzen op een man-in-the-middle-aanval.
+
+ Het nieuwe certificaat accepteren?"</string>
+    <string name="wifi_device_firmware_current_version_tag">Airfryer-versie</string>
+    <string name="wifi_device_firmware_loading_screen_error_description">"Sorry, er ging iets mis.
+Het scherm kan niet worden geladen. Probeer het opnieuw."</string>
+    <string name="wifi_device_firmware_loading_screen_error_title">Oeps!</string>
+    <string name="wifi_device_firmware_up_to_date">Je Airfryer is bijgewerkt.</string>
+    <string name="wifi_device_firmware_update_changelog">"Deze update bevat: 
+%s"</string>
+    <string name="wifi_device_firmware_update_extra_info">Updates kunnen tot 20 minuten duren. Je kunt je Airfryer niet gebruiken terwijl deze wordt bijgewerkt, maar je kunt wel onze nieuwste recepten bekijken.</string>
+    <string name="wifi_device_firmware_update_failed_description">"Sorry, er ging iets mis.
+Firmware-update is mislukt. Probeer het opnieuw."</string>
+    <string name="wifi_device_firmware_update_failed_title">Oeps!</string>
+    <string name="wifi_device_firmware_update_installing">%s-update installeren...</string>
+    <string name="wifi_device_firmware_update_installing_extra_info">Gebruik je Airfryer niet tijdens het updaten.</string>
+    <string name="wifi_device_firmware_update_installing_success">Succesvol geüpdatet naar %s</string>
+    <string name="wifi_device_firmware_update_title">Update je Airfryer</string>
+    <string name="wifi_device_firmware_update_version_tag">Airfryer</string>
+    <string name="wifi_device_firmware_update_your_airfryer">Update je Airfryer!</string>
+    <string name="wifi_device_firmware_version">Firmwareversie</string>
+    <string name="wifi_device_reject">Weigeren</string>
+    <string name="wifi_setup_access_point_issues_description">Zorg dat je in je telefooninstellingen alle volgende toestemmingen hebt gegeven.</string>
+    <string name="wifi_setup_access_point_issues_first_step">Schakel \"Nauwkeurig\" in voor je locatierechten.</string>
+    <string name="wifi_setup_access_point_issues_second_step">Geef toestemming voor toegang tot het lokale netwerk.</string>
+    <string name="wifi_setup_access_point_issues_title">Kun je geen verbinding maken met het \"Philips Setup\"-netwerk?</string>
+    <string name="wifi_setup_bottom_info_nmx">Tik op \"NutriMax instellen\" voor stapsgewijze instructies. Tik op \"Installatie overslaan\" als je NutriMax al verbinding heeft met je wifi-netwerk.</string>
+    <string name="wifi_setup_check_nutrimax_plugged_in">Controleer of je NutriMax is aangesloten en volledig is ingeschakeld.</string>
+    <string name="wifi_setup_choose_network_add_manually">Handmatig toevoegen</string>
+    <string name="wifi_setup_choose_network_description">Als je meer dan één netwerk hebt, raden we je aan het primaire netwerk te kiezen.</string>
+    <string name="wifi_setup_choose_network_subtitle">Kies je netwerk</string>
+    <string name="wifi_setup_choose_network_title">Kies je wifi-netwerk</string>
+    <string name="wifi_setup_connect">Verbinding maken</string>
+    <string name="wifi_setup_connect_to_named_network">Verbinding maken met %s-netwerk?</string>
+    <string name="wifi_setup_connect_to_wifi_description">"Vervolgens vraagt de NutriU-app toestemming om locatieservices te gebruiken om via de telefoon verbinding met het 'Philips Setup'-netwerk te maken."</string>
+    <string name="wifi_setup_connect_to_wifi_navigation_title">Maak verbinding met wifi</string>
+    <string name="wifi_setup_connect_to_wifi_title">"Koppel je Airfryer met het 'Philips Setup'-netwerk."</string>
+    <string name="wifi_setup_connect_to_wifi_warning">"De wifi-verbinding wordt kort verbroken als de app verbinding maakt met het 'Philips Setup'-netwerk."</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name">Vul de naam van het wifi-netwerk in</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_airfryer">Geef je Airfryer een naam*</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_extra_info">De Airfryer ondersteunt alleen een netwerk van 2,4 Ghz.</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_nutrimax">Geef je NutriMax een naam*</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_nutrimax_extra_info">NutriMax heeft een 2,4 Ghz netwerk nodig</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_name_placeholder">Netwerk SSID-naam</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_nutrimax_title">Zorg dat je NutriMax verbinding met je wifi-netwerk heeft</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_nutrimax_title_named">"Koppel je NutriMax met '%s'"</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_password">Vul je wifi-wachtwoord in</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_password_extra_info">"Als het type beveiliging van je wifi-netwerk 'WPA/WPA2 Personal' is, moet het ingevulde wachtwoord ten minste 8 tekens bevatten."</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_title">Zorg dat je Airfryer verbinding met je wifi-netwerk heeft</string>
+    <string name="wifi_setup_connect_to_your_wifi_network_title_named">Koppel je Airfryer met \"%s\"</string>
+    <string name="wifi_setup_connected_consent_already_given_description">Je hebt al toestemming gegeven om met de afstandsbediening op afstand te koken. Je kunt dit altijd wijzigen in de apparaatinstellingen.</string>
+    <string name="wifi_setup_connected_consent_already_given_title">Goed gedaan! Je bent succesvol verbonden!</string>
+    <string name="wifi_setup_connected_description">"Als je de NutriU-app vervolgens wilt gebruiken om je Airfryer te bedienen, moet je op afstand toestemming geven om 'Slim koken' in te schakelen."</string>
+    <string name="wifi_setup_connected_nutrimax_description">"Als je de NutriU-app vervolgens wilt gebruiken om je NutriMax te bedienen, moet je op afstand toestemming geven om 'Koken op afstand' in te schakelen."</string>
+    <string name="wifi_setup_connected_title">Goed gedaan! Je bent bijna klaar</string>
+    <string name="wifi_setup_connecting_failed_description">Volg de onderstaande stappen voordat je het opnieuw probeert:</string>
+    <string name="wifi_setup_connecting_failed_first_step">Controleer de naam van je wifi-netwerk en het juiste wachtwoord</string>
+    <string name="wifi_setup_connecting_failed_nutrimax_second_step">Zorg ervoor dat je telefoon en de NutriMax verbonden zijn met hetzelfde wifi-netwerk</string>
+    <string name="wifi_setup_connecting_failed_nutrimax_third_step">Controleer of je telefoon en de NutriMax zich binnen het bereik van je wifi-router bevinden</string>
+    <string name="wifi_setup_connecting_failed_second_step">Zorg ervoor dat je telefoon en de Airfryer verbonden zijn met hetzelfde wifi-netwerk</string>
+    <string name="wifi_setup_connecting_failed_third_step">Controleer of je telefoon en de Airfryer zich binnen het bereik van je wifi-router bevinden</string>
+    <string name="wifi_setup_connecting_failed_title">We kunnen geen verbinding maken met je wifi-netwerk</string>
+    <string name="wifi_setup_connection_in_progress_description">Dit kan 60 seconden duren. Houd je Airfryer aan en de app open. We laten je weten wanneer je Airfryer is gekoppeld.</string>
+    <string name="wifi_setup_connection_in_progress_nutrimax_description">Dit kan 30 seconden duren. Houd je NutriMax aan en de app open. We laten je weten wanneer je NutriMax is gekoppeld.</string>
+    <string name="wifi_setup_connection_in_progress_nutrimax_title">NutriMax is met \"%s\" aan het koppelen</string>
+    <string name="wifi_setup_connection_in_progress_title">Airfryer koppelen met \"%s\"</string>
+    <string name="wifi_setup_connection_unsuccessful_description">"De telefoon kan je Airfryer niet vinden in het wifi-thuisnetwerk. Dit kan zijn omdat je het verkeerde wachtwoord hebt ingevuld of omdat je Airfryer buiten bereik is.
+
+ Controleer je wachtwoord, plaats je apparaat en telefoon dichter bij je thuisrouter en probeer het opnieuw."</string>
+    <string name="wifi_setup_connection_unsuccessful_title">Verbinding maken is mislukt</string>
+    <string name="wifi_setup_device_issues_description">"Controleer of uw Airfryer is aangesloten en ingeschakeld.
+
+Als het is ingeschakeld, moet u een harde reset uitvoeren. Hier volgt hoe enz."</string>
+    <string name="wifi_setup_device_issues_title">We kunnen uw Airfryer niet vinden</string>
+    <string name="wifi_setup_device_name_hint">Mijn Spectre</string>
+    <string name="wifi_setup_device_name_label">Geef je Spectre een unieke naam</string>
+    <string name="wifi_setup_device_not_prepared_description">Als je het knipperende lampje op je apparaat niet ziet, reset dan je apparaat. Zodra het apparaat weer is ingeschakeld, zou het knipperende lampje zichtbaar moeten zijn. Als dat nog steeds niet het geval is, neem dan contact op met onze klantenservice voor meer informatie.</string>
+    <string name="wifi_setup_device_not_prepared_title">Reset je apparaat</string>
+    <string name="wifi_setup_enter_hidden_network_credentials_title">"Laten we de Airfryer nu verbinden met 'MyNetwork'"</string>
+    <string name="wifi_setup_enter_name_default">Mijn slimme Airfryer</string>
+    <string name="wifi_setup_enter_name_nutrimax_default">Mijn NutriMax</string>
+    <string name="wifi_setup_enter_name_placeholder">Vul naam in</string>
+    <string name="wifi_setup_enter_network_name">Vul de netwerknaam in</string>
+    <string name="wifi_setup_enter_network_name_hint">Netwerk-SSID-naam</string>
+    <string name="wifi_setup_enter_password_description">"Als het type beveiliging van je WiFi 'WPA/WPA2 Personal' is, moet het ingevulde wachtwoord ten minste 8 tekens bevatten."</string>
+    <string name="wifi_setup_enter_password_placeholder">Vul wachtwoord in</string>
+    <string name="wifi_setup_enter_wifi_password">Vul je wifi-wachtwoord in</string>
+    <string name="wifi_setup_find_network_issues_description">"Volg alle 4 de stappen voordat je de app 
+verlaat."</string>
+    <string name="wifi_setup_find_network_issues_first_step">Controleer of je verborgen netwerk een 2,4 GHz-netwerk is</string>
+    <string name="wifi_setup_find_network_issues_fourth_step">Zorg ervoor dat je telefoon zich binnen het bereik van je wifi-netwerk bevindt</string>
+    <string name="wifi_setup_find_network_issues_second_step">"Controleer of je telefoon verbonden is met hetzelfde verborgen
+Wi-Fi-netwerk"</string>
+    <string name="wifi_setup_find_network_issues_third_step">"Tik op 'Handmatig toevoegen' en vul de naam en het wachtwoord van je verborgen wifi-netwerk in"</string>
+    <string name="wifi_setup_find_network_issues_title">Maak verbinding met je verborgen of privé Wi-Fi-netwerk</string>
+    <string name="wifi_setup_hidden_network_ghz_support">Airfryer ondersteunt alleen 2,4 Ghz-netwerk.</string>
+    <string name="wifi_setup_hsdp_pairing_failed_error">Probeer het later opnieuw. Als het probleem na 24 uur nog niet is opgelost, neem dan contact op met de klantenservice.</string>
+    <string name="wifi_setup_mode_title">Instelmodus</string>
+    <string name="wifi_setup_network_not_found_error">Wifi-netwerkapparaat niet gevonden. Ga terug naar de vorige stap en zet het apparaat aan.</string>
+    <string name="wifi_setup_no_location_permission_description">We gebruiken locatieservices om verbinding te maken met je Airfryer. Zonder deze toestemming kan je telefoon je Airfryer niet bedienen of recepten en kookinstructies delen.</string>
+    <string name="wifi_setup_no_location_permission_description_ios">"We gebruiken locatiegegevens om verbinding te maken met je Airfryer. Zonder deze informatie kan je telefoon je Airfryer niet bedienen of recepten en kookinstructies delen.
+
+Zorg ervoor dat zowel locatietoestemming als locatiediensten zijn ingeschakeld. Je kunt locatieservices inschakelen in privacyinstellingen en locatietoestemming in de app-instellingen."</string>
+    <string name="wifi_setup_no_location_permission_description_nmx">We gebruiken locatieservices om verbinding te maken met je NutriMax. Zonder deze toestemming kan je telefoon je NutriMax niet bedienen of recepten en kookinstructies delen.</string>
+    <string name="wifi_setup_no_location_permission_proceed_action">Locatieservices toestaan</string>
+    <string name="wifi_setup_no_location_permission_title">Weet je het zeker?</string>
+    <string name="wifi_setup_no_location_services_description">Zonder locatieservices weet de app niet met welk wifi-netwerk je Airfryer verbinding heeft zodat de app er geen verbinding mee kan maken.</string>
+    <string name="wifi_setup_no_location_services_description_nmx">Zonder locatieservices weet de app niet op welk wifi-netwerk je NutriMax staat en kan er geen verbinding mee worden gemaakt.</string>
+    <string name="wifi_setup_no_location_services_title">Waarom we locatiediensten gebruiken</string>
+    <string name="wifi_setup_no_nearby_networks_found_error">Geen wifi-netwerken in de buurt gevonden. Blijf binnen het bereik van een actief wifi-netwerk en probeer het opnieuw.</string>
+    <string name="wifi_setup_no_precise_location_permission_description">Je hebt toegang verleend tot je locatie, maar je hebt \"Precise\" uitgeschakeld. NutriU heeft je exacte locatie nodig om verbinding te maken met het wifi-netwerk. Schakel in de instellingen van de app nauwkeurige locatieservices in.</string>
+    <string name="wifi_setup_no_precise_location_permission_title">Nauwkeurige locatie nodig</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_1">Airfryer wordt verbonden met een 2,4 Ghz-netwerk</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_2">Airfryer moet op hetzelfde netwerk zijn aangesloten als je telefoon</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_3">Voeg handmatig een netwerk toe als je een verborgen netwerk wilt gebruiken</string>
+    <string name="wifi_setup_no_preferred_network_visible_instruction_4">Zorg ervoor dat je binnen het bereik van je wifi-netwerk bent</string>
+    <string name="wifi_setup_no_preferred_network_visible_title">Verbinding maken met je verborgen of privé wifi-netwerk</string>
+    <string name="wifi_setup_no_wifi_connection_description">Lees alle 4 stappen voordat je de applicatie verlaat.</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_1">"Tik in de instellingen van je telefoon op 'WiFi'"</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_2">Zorg ervoor dat je wifi is ingeschakeld</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_3">Selecteer je netwerk</string>
+    <string name="wifi_setup_no_wifi_connection_instruction_4">Ga terug naar de NutriU-app</string>
+    <string name="wifi_setup_no_wifi_connection_title">Het lijkt erop dat je geen wifi-netwerk hebt.</string>
+    <string name="wifi_setup_not_connected_issues_continue">Ja ik heb het gedaan</string>
+    <string name="wifi_setup_not_connected_issues_description">Het lijkt erop dat je telefoon niet verbonden is met een wifi-netwerk.</string>
+    <string name="wifi_setup_not_connected_issues_first_step">Controleer of wifi is ingeschakeld in je telefooninstellingen</string>
+    <string name="wifi_setup_not_connected_issues_help">Ik heb hulp nodig</string>
+    <string name="wifi_setup_not_connected_issues_second_step">Controleer of je wifi-router is ingeschakeld</string>
+    <string name="wifi_setup_not_connected_issues_title">Zorg ervoor dat je verbonden bent met je wifi-netwerk</string>
+    <string name="wifi_setup_nutrimax_in_wifi_mode_settings">"Zorg ervoor dat je apparaat in de 'Wi-Fi-instellingsmodus' staat wanneer je 'Wi-Fi-instellingen' selecteert in Instellingen van het apparaat."</string>
+    <string name="wifi_setup_nutrimax_issues_title">We kunnen je NutriMax niet vinden</string>
+    <string name="wifi_setup_nutrimax_not_in_setup_mode">Het lijkt erop dat je NutriMax niet in de instelmodus staat.</string>
+    <string name="wifi_setup_paired_description">Je kunt nu recepten naar je Airfryer versturen en de Airfryer bedienen met je NutriU-app.</string>
+    <string name="wifi_setup_paired_navigation_title">Gekoppeld</string>
+    <string name="wifi_setup_paired_title">Je Airfryer is nu verbonden en gekoppeld</string>
+    <string name="wifi_setup_pairing_unsuccessful_description">Dit kan te wijten zijn aan een verkeerde gebruikersnaam</string>
+    <string name="wifi_setup_pairing_unsuccessful_title">Koppelen is mislukt</string>
+    <string name="wifi_setup_product_discovery_error_navigation_title">Niets gevonden</string>
+    <string name="wifi_setup_reset_nutrimax">Reset je NutriMax door tegelijkertijd de omhoog-knoppen aan weerszijden van het scherm ingedrukt te houden.</string>
+    <string name="wifi_setup_start_pairing">Begin met koppelen</string>
+    <string name="wifi_setup_turn_on_device_description">Wanneer je je Airfryer voor de eerste keer aanzet, probeert deze automatisch verbinding te maken met het wifi-netwerk bij je thuis. Je ziet een wifi-symbool knipperen op het scherm.</string>
+    <string name="wifi_setup_turn_on_device_help">Hulp nodig?</string>
+    <string name="wifi_setup_turn_on_device_title">Zet je Airfryer aan</string>
+    <string name="wifi_setup_welcome_bottom_info">"Tik op 'Airfryer instellen' voor stapsgewijze instructies. Tik op 'Instellen overslaan' als je Airfryer al verbinding met je wifi-netwerk heeft."</string>
+    <string name="wifi_setup_welcome_continue">Airfryer instellen</string>
+    <string name="wifi_setup_welcome_description">Verstuur recepten naar je Airfryer en kook op afstand via je mobiele telefoon.</string>
+    <string name="wifi_setup_welcome_first_step">Stel je Airfryer in</string>
+    <string name="wifi_setup_welcome_navigation_title">Aan de slag</string>
+    <string name="wifi_setup_welcome_nutrimax_continue">Stel je NutriMax in</string>
+    <string name="wifi_setup_welcome_nutrimax_description">Verstuur recepten naar je NutriMax en kook op afstand via je mobiele telefoon.</string>
+    <string name="wifi_setup_welcome_nutrimax_first_step">Stel je NutriMax in</string>
+    <string name="wifi_setup_welcome_nutrimax_second_step">Koppel je NutriMax met je telefoon</string>
+    <string name="wifi_setup_welcome_nutrimax_third_step">Zorg dat je NutriMax verbinding met je wifi-netwerk heeft</string>
+    <string name="wifi_setup_welcome_second_step">Koppel je Airfryer met je telefoon</string>
+    <string name="wifi_setup_welcome_skip_setup">Instellen overslaan</string>
+    <string name="wifi_setup_welcome_third_step">Zorg dat je Airfryer verbinding met je wifi-netwerk heeft</string>
+    <string name="wifi_setup_welcome_title">Slimmer koken in drie stappen of minder</string>
+    <string name="wifi_unable_to_connect_to_device_wifi">Verbinding maken met het \"Philips Setup\"-netwerk is mislukt. Probeer het opnieuw.</string>
+    <string name="wimf_result_error">Sorry, er ging iets mis. \"Wat staat er in mijn koelkast resultaten\" kan niet worden geladen. Probeer het opnieuw.</string>
+    <string name="wimf_result_you_have_all_ingredients">Je hebt alle ingrediënten</string>
+    <string name="write_the_first_step">1. Beschrijf de eerste stap</string>
+    <string name="year_ago">%s jaar geleden</string>
+    <string name="years_ago">%s jaar geleden</string>
+    <string name="yes">Ja</string>
+    <string name="yesterday">gisteren</string>
+    <string name="you_have_no_notifications">Je hebt geen meldingen</string>
+    <string name="zero_percent">0%</string>
+</resources>

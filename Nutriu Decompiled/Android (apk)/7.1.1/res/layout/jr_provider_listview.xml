@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/jr_provider_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/jr_tagline" android:layout_alignParentTop="true">
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ProgressBar android:id="@android:id/empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" android:layout_centerInParent="true" />
+    <TextView android:gravity="center" android:id="@id/jr_empty_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/jr_provider_list_empty" android:layout_above="@id/jr_tagline" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/jr_shared_footer" />
+</RelativeLayout>

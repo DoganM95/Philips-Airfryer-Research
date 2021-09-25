@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Change_Selected_Product">Change selected product</string>
+    <string name="Confirmation_Change">Change</string>
+    <string name="Confirmation_Change_Selection">You can change your selection at any time.</string>
+    <string name="Confirmation_Continue_Support">Continue to support</string>
+    <string name="Confirmation_Selected">You have selected</string>
+    <string name="Confirmation_Title">Confirmation</string>
+    <string name="Continue_Btntxt">Continue</string>
+    <string name="No_Internet">No internet connection. Please check if your connection is working in your phone’s wifi settings or data settings</string>
+    <string name="Product_Details_Select">Select this product</string>
+    <string name="Product_Title">Products</string>
+    <string name="Select_Product_Desc">In order to give you better support, could you tell us which product you own?</string>
+    <string name="Select_Product_Find">Find product</string>
+    <string name="Select_Product_Title">Select product</string>
+    <string name="iap_product_detail_title">Product details</string>
+    <string name="myphilips_CC">MyPhilips account</string>
+    <string name="pse_App_Content">The content of this app is now tailored to your</string>
+    <string name="pse_Back_My_Account">Back to My account</string>
+    <string name="pse_Change_Product">If you want to change your product selection, you can do this in My account</string>
+    <string name="pse_Change_Your_Product">If you ever want to change your selected product, you can do so in My account.</string>
+    <string name="pse_Choose_Product_Register.">Choose the product you want to register.</string>
+    <string name="pse_Explain_Benefits">Explain benefits to select the right product here.</string>
+    <string name="pse_Find_Your_Product_Title">Find Your Product</string>
+    <string name="pse_My_Account">My account</string>
+    <string name="pse_No_Result">0 results found for</string>
+    <string name="pse_No_Result_Desc">This filters our product list. Please check that there are no typos in your filter term</string>
+    <string name="pse_Product_Register">What product do you want to register?</string>
+    <string name="pse_Product_Support_Desc">So we can give you the best support, please let us know which product you own.</string>
+    <string name="pse_Register_Your_Product">Register your product</string>
+    <string name="pse_Select_Your_Product_Title">Select Your Product</string>
+    <string name="pse_Selected">Selected</string>
+    <string name="pse_Selected_Product">Product Selected</string>
+    <string name="pse_Skip_Registration">Skip registration</string>
+    <string name="pse_Skip_Step">Skip step</string>
+    <string name="pse_View_Recipes">View recipes</string>
+    <string name="pse_What_Product">What product do you use?</string>
+    <string name="search">Search</string>
+</resources>

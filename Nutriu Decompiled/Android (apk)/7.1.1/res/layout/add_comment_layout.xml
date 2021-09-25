@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="?dividerColorOnInverse" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/spacing_1x" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/commentsWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/userImage" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_profile_photo_error" android:layout_marginEnd="@dimen/spacing_2x" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/addCommentInputWrapper" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <EditText android:layout_gravity="center" android:id="@id/addCommentInput" android:padding="@dimen/spacing_1x" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:hint="@string/enter_your_comment" android:maxLines="5" app:layout_constraintEnd_toStartOf="@id/sendCommentAction" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?inputFieldMultiline" />
+            <ImageView android:id="@id/sendCommentAction" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_send_primary" android:layout_marginStart="@dimen/spacing_1.5x" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/addCommentInput" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</merge>

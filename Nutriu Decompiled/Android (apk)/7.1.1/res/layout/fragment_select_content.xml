@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" layout="@layout/toolbar" />
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:paddingBottom="@dimen/spacing_5x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x">
+            <TextView android:textAppearance="?textAppearanceH2Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_your_content" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <TextView android:textAppearance="?textAppearanceBody2Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_5x" android:text="@string/choose_content_description_preselected" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/categoriesWithDevices" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textAppearance="?textAppearanceSmallText1Neutral2" android:id="@id/additionalContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/additional_content" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/categoriesWithoutDevices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_5x" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:layout_gravity="bottom" android:id="@id/bottomButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/save_my_preferences" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" style="?buttonDense" />
+</FrameLayout>

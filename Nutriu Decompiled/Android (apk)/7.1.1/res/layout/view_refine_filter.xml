@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/filterView" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?textAppearanceH4Secondary" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textAppearance="?textAppearanceBody2Inverse" android:gravity="center" android:id="@id/filterNumber" android:background="@drawable/circle_neutral1" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginEnd="@dimen/spacing_1x" android:backgroundTint="?nutriuColorActive" />
+        <include android:id="@id/arrow" layout="@layout/view_settings_arrow" />
+    </LinearLayout>
+    <include layout="@layout/view_settings_divider" />
+</RelativeLayout>

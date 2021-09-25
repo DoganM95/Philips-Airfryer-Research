@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/loading_layout_feed" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/feedList" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_4x" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include layout="@layout/view_error_message" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptyLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:background="@drawable/circle_gradient_secondary" android:layout_width="@dimen/empty_state_newsfeed_placeholder" android:layout_height="@dimen/empty_state_newsfeed_placeholder" android:layout_marginBottom="@dimen/spacing_1.5x" android:src="@drawable/img_chef_hat_inverse" android:scaleType="centerInside" />
+                    <TextView android:textAppearance="?textAppearanceBody3Secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_activities_yet" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </FrameLayout>
+</LinearLayout>

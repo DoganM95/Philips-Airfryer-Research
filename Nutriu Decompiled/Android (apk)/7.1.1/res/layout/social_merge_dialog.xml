@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.philips.platform.uid.view.widget.Label android:paddingBottom="@dimen/uid_page_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/USR_DLS_Merge_Accounts_Logout_Dialog_Message" style="@style/UIDAlertDialogMessageTextStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

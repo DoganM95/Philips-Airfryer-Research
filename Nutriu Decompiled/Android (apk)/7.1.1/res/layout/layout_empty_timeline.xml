@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.philips.ka.oneka.app.ui.shared.EmptyStateLayout android:id="@id/emptyStateLayoutTimeline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" app:buttonLabel="@string/timeline_empty_placeholder_action_title" app:message="@string/timeline_empty_placeholder_message" app:titleLabel="@string/profile_timeline_empty_placeholder_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

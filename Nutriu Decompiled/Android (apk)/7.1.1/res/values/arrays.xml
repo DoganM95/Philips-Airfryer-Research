@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="server_pool">
+        <item>time1.google.com</item>
+        <item>time2.google.com</item>
+        <item>time3.google.com</item>
+        <item>time4.google.com</item>
+    </string-array>
+</resources>

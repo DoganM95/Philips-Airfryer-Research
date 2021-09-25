@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="ring_outer">
+        <path android:fillColor="?uidRadioButtonDefaultDisabledBackgroundColor" android:pathData="M20 10A10 10 0 0 1 10 20 10 10 0 0 1 0 10 10 10 0 0 1 10 0 10 10 0 0 1 20 10Z" />
+    </group>
+    <group android:name="dot_group">
+        <path android:fillColor="?uidRadioButtonDefaultDisabledIconColor" android:pathData="M14 10a4 4 0 0 1 -4 4 4 4 0 0 1 -4 -4 4 4 0 0 1 4 -4 4 4 0 0 1 4 4z" />
+    </group>
+</vector>

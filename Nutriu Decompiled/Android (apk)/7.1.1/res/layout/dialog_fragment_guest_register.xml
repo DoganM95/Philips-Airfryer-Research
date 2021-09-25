@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/bg_loading_rounded" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/spacing_3x">
+        <FrameLayout android:id="@id/animationLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/animationView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/overlayDialogContainer" android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:layout_marginBottom="@dimen/spacing_4x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+            <TextView android:id="@id/btnRegister" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_0.5x" android:text="@string/guest_profile_register_login" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?buttonDense" />
+            <TextView android:id="@id/btnContinue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/not_interested" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?buttonDenseInverse" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

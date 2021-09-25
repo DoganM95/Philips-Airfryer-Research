@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?uidContentPrimaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/detailed_screen_parent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/detailed_screen_parent_one" android:paddingLeft="@dimen/view_padding" android:paddingRight="@dimen/view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.philips.platform.uid.view.widget.Label android:textSize="20.0sp" android:id="@id/detailed_screen_productname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_alignParentStart="true" fontPath="fonts/centralesansbold.ttf" style="@style/UIDLabel" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.philips.platform.uid.view.widget.Label android:textSize="12.0sp" android:id="@id/detailed_screen_productctn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_alignParentStart="true" style="@style/UIDLabel.RecyclerViewItemDescriptionText" />
+            </RelativeLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/detailed_screen_placeholder" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/view_padding" android:src="@drawable/product_placeholder" />
+            <include layout="@layout/fragment_detailedscreen_image_navigation" />
+            <com.philips.platform.uid.view.widget.Button android:id="@id/detailedscreen_select_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/Product_Details_Select" android:layout_centerHorizontal="true" android:textAllCaps="false" style="@style/UIDExtraWideButton.Center" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/scroll_view_bottom" />
+    </LinearLayout>
+</ScrollView>

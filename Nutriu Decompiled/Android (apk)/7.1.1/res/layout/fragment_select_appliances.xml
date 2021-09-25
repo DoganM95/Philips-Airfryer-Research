@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:visibility="gone" layout="@layout/toolbar" />
+    <include layout="@layout/view_error_message" />
+    <include layout="@layout/layout_loading_appliances_selection" />
+    <androidx.core.widget.NestedScrollView android:id="@id/applianceScrollView" android:paddingBottom="@dimen/spacing_5x" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x">
+            <TextView android:textAppearance="?textAppearanceH2Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_5x" android:text="@string/select_your_model" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/applianceList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_5x" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottomButtonLayout" android:background="@color/white_90_percent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/addApplianceButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/confirm" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" style="?buttonDense" />
+    </LinearLayout>
+</FrameLayout>

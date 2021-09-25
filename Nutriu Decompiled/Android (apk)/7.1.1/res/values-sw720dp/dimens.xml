@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">55.0dip</dimen>
+    <dimen name="activity_margin">25.0dip</dimen>
+    <dimen name="activity_margin_land">400.0dip</dimen>
+    <dimen name="activity_margin_port">160.0dip</dimen>
+    <dimen name="productdetails_screen_image">350.0dip</dimen>
+    <dimen name="savedscreen_product_text_container_height">15.0dip</dimen>
+    <dimen name="tablet_details_view_land_margin">100.0dip</dimen>
+    <dimen name="welcome_screen_image_height">350.0dip</dimen>
+</resources>

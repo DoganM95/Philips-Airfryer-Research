@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <View android:background="?dividerColorOnInverse" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/enableAnalyticsWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:dividerPadding="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x">
+        <androidx.appcompat.widget.AppCompatCheckBox android:gravity="fill" android:id="@id/enableAnalytics" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/selector_checkbox_primary" android:layout_marginEnd="@dimen/spacing_2x" />
+        <TextView android:textAppearance="?textAppearanceBody3Secondary" android:layout_gravity="fill" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/privacy_setting_option" android:layout_weight="1.0" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+    <TextView android:id="@id/whatDoesThisMeanButton" android:padding="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/what_does_this_mean" android:layout_marginStart="@dimen/spacing_6x" style="?buttonQuietTiny" />
+</LinearLayout>

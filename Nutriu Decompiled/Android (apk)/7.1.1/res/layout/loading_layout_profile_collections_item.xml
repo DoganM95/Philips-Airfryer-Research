@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="80.0dip" android:layout_height="80.0dip">
+        <ImageView android:layout_gravity="start|center|top" android:background="@drawable/bg_container_background_05_rounded_small" android:layout_width="40.0dip" android:layout_height="40.0dip" android:foreground="@drawable/bg_border_inverse" />
+        <ImageView android:layout_gravity="end|center|top" android:background="@drawable/bg_container_background_05_rounded_small" android:layout_width="40.0dip" android:layout_height="40.0dip" android:foreground="@drawable/bg_border_inverse" />
+        <ImageView android:layout_gravity="start|bottom|center" android:background="@drawable/bg_container_background_05_rounded_small" android:layout_width="40.0dip" android:layout_height="40.0dip" android:foreground="@drawable/bg_border_inverse" />
+        <ImageView android:layout_gravity="end|bottom|center" android:background="@drawable/bg_container_background_05_rounded_small" android:layout_width="40.0dip" android:layout_height="40.0dip" android:foreground="@drawable/bg_border_inverse" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginStart="@dimen/spacing_2x">
+        <View android:layout_gravity="top" android:background="?loadingColor" android:layout_width="192.0dip" android:layout_height="16.0dip" />
+        <View android:layout_gravity="bottom" android:background="?loadingColor" android:layout_width="113.0dip" android:layout_height="16.0dip" />
+    </FrameLayout>
+</LinearLayout>

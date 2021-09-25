@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/backgroundOverlay" android:background="?containerBackgroundCarbon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.4" />
+    <FrameLayout android:layout_gravity="end" android:id="@id/sheetLayout" android:background="?containerBackgroundInverse" android:focusable="true" android:clickable="true" android:layout_width="280.0dip" android:layout_height="fill_parent">
+        <androidx.core.widget.NestedScrollView android:id="@id/ingredientsScrollView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?textAppearanceH2Primary" android:id="@id/ingredientsTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/ingredients" android:layout_marginStart="@dimen/spacing_2x" app:layout_constraintEnd_toStartOf="@id/servingsText" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textAppearance="?textAppearanceH3Secondary" android:id="@id/servingsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_profile_primary" android:layout_marginEnd="@dimen/spacing_2x" android:drawableTint="?nutriuColorSecondary" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/ingredientsList" android:paddingBottom="@dimen/spacing_3x" android:focusable="false" android:clickable="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_6x" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ingredientsTitle" />
+                <View android:layout_gravity="end" android:id="@id/overlay" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </FrameLayout>
+</FrameLayout>

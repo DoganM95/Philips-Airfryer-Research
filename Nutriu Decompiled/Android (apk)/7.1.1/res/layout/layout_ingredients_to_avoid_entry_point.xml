@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ingredientsToAvoidLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x">
+        <TextView android:textAppearance="?textAppearanceH5Secondary" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ingredients_to_avoid_entry_point_title" android:maxLines="1" android:layout_weight="1.0" />
+        <ImageView android:id="@id/ingredientsToAvoidMoreBtn" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_more" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@id/ingredientsToAvoidEntryPointBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ingredients_to_avoid_entry_point" android:maxLines="1" android:drawableEnd="@drawable/ic_arrow_right_small_primary" android:paddingStart="0.0dip" style="?buttonQuietSmall" />
+</LinearLayout>

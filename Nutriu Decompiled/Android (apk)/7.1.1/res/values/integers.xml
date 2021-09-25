@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="apptentive_gravity_center">17</integer>
+    <integer name="apptentive_gravity_left">3</integer>
+    <integer name="apptentive_gravity_start">0x00800003</integer>
+    <integer name="apptentive_image_grid_default_attachments_total">4</integer>
+    <integer name="apptentive_image_grid_default_column_number">4</integer>
+    <integer name="apptentive_image_grid_default_column_number_incoming">3</integer>
+    <item type="integer" name="apptentive_layout_height_for_weight">@integer/wrap_content</item>
+    <item type="integer" name="apptentive_layout_width_for_weight">@integer/match_parent</item>
+    <item type="integer" name="apptentive_message_center_status_text_gravity">@integer/apptentive_gravity_center</item>
+    <item type="integer" name="apptentive_orientation_fill_length">@integer/apptentive_orientation_vertical</item>
+    <integer name="apptentive_orientation_horizontal">0</integer>
+    <integer name="apptentive_orientation_vertical">1</integer>
+    <integer name="apptentive_typeface_monospace">3</integer>
+    <integer name="apptentive_typeface_normal">0</integer>
+    <integer name="apptentive_typeface_sans">1</integer>
+    <integer name="apptentive_typeface_serif">2</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="circle">1</integer>
+    <integer name="config_navAnimTime">150</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="google_play_services_version">12451000</integer>
+    <integer name="grid_span_count">2</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="match_parent">-1</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_header_orientation">1</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_calendar_year_selector_span">3</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="philips_gradient_angle">315</integer>
+    <integer name="reg_badge_view_medium_size_radius">16</integer>
+    <integer name="reg_badge_view_small_size_radius">12</integer>
+    <integer name="reg_config_mediumAnimTime">300</integer>
+    <integer name="reg_dot_navigation_unselected_alpha">77</integer>
+    <integer name="reg_hamburger_menu_group_layout_alpha">128</integer>
+    <integer name="reg_layout_margin_16">16</integer>
+    <integer name="reg_layout_max_width_648">648</integer>
+    <integer name="scroll_page_indicator_rotation">0</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="square">0</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="uid_alert_dialog_anim_duration">300</integer>
+    <integer name="uid_alert_dialog_scrollbar_fade_duration">10000</integer>
+    <integer name="uid_alert_dialog_title_max_lines">2</integer>
+    <integer name="uid_checkbox_font_spacing_multiplier">1</integer>
+    <integer name="uid_edittext_font_spacing_multiplier">0</integer>
+    <integer name="uid_indeterminate_progressbar_anim_duration">900</integer>
+    <integer name="uid_label_font_spacing_multiplier">1</integer>
+    <integer name="uid_navigation_bar_text_line_spacing_multiplier">0</integer>
+    <integer name="uid_notification_bar_line_space_multiplier">1</integer>
+    <integer name="uid_progress_bar_circular_big_duration">1500</integer>
+    <integer name="uid_progress_bar_circular_middle_duration">1250</integer>
+    <integer name="uid_progress_bar_circular_small_duration">1000</integer>
+    <integer name="uid_radiobutton_font_spacing_multiplier">1</integer>
+    <integer name="wrap_content">-2</integer>
+</resources>

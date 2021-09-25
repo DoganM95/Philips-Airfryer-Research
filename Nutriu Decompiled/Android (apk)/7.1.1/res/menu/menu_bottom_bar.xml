@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_home_primary" android:enabled="true" android:id="@id/tab_home" android:title="" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_recipe_primary" android:enabled="true" android:id="@id/tab_recipes" android:title="" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_smart_device_primary" android:enabled="false" android:id="@id/tab_device_modes" android:title="" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_article_primary" android:enabled="true" android:id="@id/tab_articles" android:title="" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_profile_primary" android:enabled="true" android:id="@id/tab_profile" android:title="" app:showAsAction="ifRoom" />
+</menu>

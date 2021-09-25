@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/tvStepNumber" android:padding="@dimen/spacing_1.5x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_0.5x" />
+        <ImageView android:id="@id/ivRemoveStep" android:padding="@dimen/spacing_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_inverse" android:layout_marginEnd="@dimen/spacing_1x" app:tint="?nutriuColorPrimary" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/imageContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:layout_marginBottom="@dimen/spacing_1.5x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+        <include layout="@layout/image_layout" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/stepDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/viewAirfryerParams" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+        <LinearLayout android:id="@id/timeContainer" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer">
+            <ImageView android:src="@drawable/ic_time_small_primary" app:tint="?nutriuColorSecondary" style="@style/TagImage" />
+            <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/tvAirfryerTime" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/temperatureContainer" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer">
+            <ImageView android:src="@drawable/ic_temp_small_primary" app:tint="?nutriuColorSecondary" style="@style/TagImage" />
+            <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/tvAirfryerTemperature" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

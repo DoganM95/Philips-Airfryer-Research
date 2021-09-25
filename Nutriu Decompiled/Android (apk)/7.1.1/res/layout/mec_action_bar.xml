@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.philips.platform.uid.view.widget.NavigationContainer android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBar" android:background="@drawable/uid_shadow_level_two" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/mec_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="false">
+            <FrameLayout android:layout_gravity="start" android:id="@id/mec_header_back_button_framelayout" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/border16_margin_left_right" android:paddingEnd="@dimen/border16_margin_left_right">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/mec_iv_header_back_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <com.philips.platform.uid.view.widget.ActionBarTextView android:layout_gravity="center_horizontal" android:id="@id/mec_actionBar_headerTitle_lebel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/UIDToolbarBarTitleText" />
+            <FrameLayout android:layout_gravity="end" android:id="@id/mec_cart_container" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/cart_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/network_margin_left_right" android:layout_marginStart="10.0dip" />
+                <com.philips.platform.uid.view.widget.NotificationBadge android:layout_gravity="start|center|top" android:id="@id/mec_cart_item_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" style="@style/NotificationBadge.Small" />
+            </FrameLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+</com.philips.platform.uid.view.widget.NavigationContainer>

@@ -1,0 +1,57 @@
+{
+  "appinfra": {
+    "appidentity.micrositeId": "11562",
+    "appidentity.sector": "b2c",
+    "appidentity.appState": "PRODUCTION",
+    "appidentity.serviceDiscoveryEnvironment": "PRODUCTION",
+    "tagging.sensitiveData": [
+      "bundleId, language"
+    ],
+    "abtest.precache": [
+      "philipsmobileappabtest1content",
+      "philipsmobileappabtest1success"
+    ],
+    "contentLoader.limitSize": 100,
+    "servicediscovery.platformMicrositeId": "70000",
+    "servicediscovery.platformEnvironment": "production",
+    "appconfig.cloudServiceId": " appinfra.appconfigdownload",
+    "logging.releaseConfig": {
+      "fileName": "AppInfraLog",
+      "numberOfFiles": 5,
+      "fileSizeInBytes": 50000,
+      "logLevel": "Off",
+      "fileLogEnabled": false,
+      "consoleLogEnabled": false,
+      "componentLevelLogEnabled": false,
+      "componentIds": [
+      ]
+    },
+    "logging.debugConfig": {
+      "fileName": "AppInfraLog",
+      "numberOfFiles": 5,
+      "fileSizeInBytes": 50000,
+      "logLevel": "All",
+      "fileLogEnabled": false,
+      "consoleLogEnabled": true,
+      "componentLevelLogEnabled": false,
+      "componentIds": [
+      ]
+    }
+  },
+  "MEC": {
+    "propositionId": "IAP_MOB_DKA",
+    "voucherCode.enable": true,
+    "PIL_ECommerce_API_KEY": "YH5G5ebFVf4xi8lBsy17C8jx0mV055E06bzByYiC"
+  },
+  "PIM": {
+    "legacyClientId": "{\"CN\":\"fjec8cehtzqt2mk6yzbng36mgx2fxztj\",\"default\":\"mjvvdbw7sx37rngu64w7v853fhhtagav\"}",
+    "clientId": "{\"CN\":\"ebfdd4e6-2cfe-40a2-99e8-ea7fd581c80a\",\"default\":\"44d541ae-71f0-4007-9109-92670e188e36\"}",
+    "migrationClientId": "{\"CN\":\"eb73ac55-284d-44cb-b24f-4e9189ecd26b\",\"default\":\"8ef8908b-f8fa-4dd7-b630-322df2ffc8f7\"}",
+    "apiKey": "{\"CN\":\"FmUH5ui0Tv9TS2VvMRovR5CKDnkUjkcz9oYIfppt\",\"default\":\"CnNRm7WrZc3q0Mp27bqNf1yPOROk5ctQ3USAlwWd\"}",
+    "redirectUri": "{\"CN\":\"https://www.authz.accounts.philips.com.cn/udi-authz/static/redirect.html\",\"default\":\"com.philips.apps.44d541ae-71f0-4007-9109-92670e188e36://oauthredirect\"}",
+    "marketingOptinApiKey": "{\"CN\":\"FmUH5ui0Tv9TS2VvMRovR5CKDnkUjkcz9oYIfppt\",\"default\":\"7mzk092cx03rvSuokw7gv2MemeEIAf706kgnS7Za\"}",
+    "weChatAppId": "wx2684f55b79cbafed",
+    "rsids": "philipsmobileappsonekaprod"
+  }
+}
+

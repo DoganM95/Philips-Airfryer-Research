@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/Theme.Nutriu.DarkStatusBar.StatusBackgroundPrimary" android:orientation="vertical" android:background="?containerBackgroundInverse" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/actionsHolder" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/backButton" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/spacing_2x" android:visibility="gone" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_primary" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/btnToolbarAction" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:text="@string/skip" android:layout_marginEnd="@dimen/spacing_2x" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="?buttonQuietSmall" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/view_error_message" />
+    <include layout="@layout/layout_loading_appliances_selection" />
+    <androidx.core.widget.NestedScrollView android:id="@id/applianceScrollView" android:paddingBottom="@dimen/spacing_5x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/spacing_6x">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x">
+            <TextView android:textAppearance="?textAppearanceH2Secondary" android:id="@id/applianceSelectionTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_5x" android:text="@string/select_your_model" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/applianceList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_5x" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/bottomButtonLayout" android:background="@color/white_90_percent" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/bottomButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/confirm" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" style="?buttonDense" />
+    </LinearLayout>
+</FrameLayout>

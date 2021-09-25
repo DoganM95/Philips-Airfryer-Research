@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/containerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/loading_layout_profile_tips" />
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintWidth_max="?containerMaxWidth" layout="@layout/view_error_message" />
+    <com.philips.ka.oneka.app.ui.shared.EmptyStateLayout android:layout_gravity="center" android:id="@id/emptyLayoutArticles" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintWidth_max="?containerMaxWidth" app:message="@string/no_stories" />
+    <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/tipList" android:paddingBottom="@dimen/spacing_2x" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" app:layout_constraintWidth_max="?containerMaxWidth" />
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/articles_side_padding" android:paddingEnd="@dimen/articles_side_padding" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways|snapMargins">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:contentInsetStart="0.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <RelativeLayout android:id="@id/searchLayout" android:focusable="true" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_5x" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_1x" android:animateLayoutChanges="true" android:layout_marginStart="@dimen/article_title_padding_end" android:layout_marginEnd="@dimen/article_title_padding_start">
+                        <TextView android:textAppearance="?textAppearanceBody3Neutral3" android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/searchInputPlaceholder" android:background="@drawable/bg_container_background_05_rounded_medium" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search" android:drawablePadding="@dimen/spacing_1x" android:layout_alignParentTop="true" android:drawableStart="@drawable/ic_search_primary" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" />
+                    </RelativeLayout>
+                    <include android:id="@id/filterOptionsCarousel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_article_filters" />
+                    <View android:layout_gravity="bottom" android:id="@id/toolbarDivider" android:background="@drawable/line_divider_on_inverse" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

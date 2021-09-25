@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/uid_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:title="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.philips.platform.uid.view.widget.ActionBarTextView android:id="@id/uid_toolbar_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UIDToolbarBarTitleText" />
+</androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?uidContentPrimaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/savedScreen_screen_parent_one" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:id="@id/title_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.philips.platform.uid.view.widget.Label android:textSize="20.0sp" android:id="@id/title_view" android:paddingLeft="@dimen/view_padding" android:paddingRight="@dimen/view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="16.0dip" android:text="@string/pse_Selected_Product" fontPath="fonts/centralesansbold.ttf" style="@style/UIDLabel" />
+        </LinearLayout>
+        <include layout="@layout/uid_horizontal_separator" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/savedScreen_screen_parent" android:paddingLeft="@dimen/view_padding" android:paddingRight="@dimen/view_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/savedscreen_productimage" android:layout_width="fill_parent" android:layout_height="@dimen/savedscreen_productcontainer_height" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/savedScreen_screen_child_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" android:layout_marginEnd="15.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.philips.platform.uid.view.widget.Label android:textSize="16.0sp" android:id="@id/savedscreen_productname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_alignParentStart="true" fontPath="fonts/centralesansbook.ttf" style="@style/UIDLabel" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.philips.platform.uid.view.widget.Label android:textSize="12.0sp" android:id="@id/savedscreen_productvariant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/savedscreen_productname" android:layout_alignParentStart="true" fontPath="fonts/centralesanslight.ttf" style="@style/UIDLabel.RecyclerViewItemDescriptionText" />
+                </RelativeLayout>
+                <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="?uidButtonPrimaryFocusBackgroundColor" android:id="@id/tv_check_circle" android:paddingTop="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dls_checkcircle" fontPath="fonts/iconfont.ttf" />
+                    <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/title_text_size_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/pse_Selected" android:layout_toRightOf="@id/tv_check_circle" android:layout_centerHorizontal="true" fontPath="fonts/centralesanslight.ttf" style="@style/UIDLabel.RecyclerViewItemDescriptionText" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/uid_horizontal_separator" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout_container" android:paddingLeft="@dimen/view_padding" android:paddingRight="@dimen/view_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/title_text_size_small" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:text="@string/Confirmation_Change_Selection" fontPath="fonts/centralesanslight.ttf" style="@style/UIDLabel.SliderMarginBottom" />
+            <com.philips.platform.uid.view.widget.Button android:id="@id/savedscreen_button_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Continue_Btntxt" android:textAllCaps="false" style="@style/UIDExtraWideButton.Center" />
+            <com.philips.platform.uid.view.widget.Button android:id="@id/savedscreen_button_settings" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/savedscreen_product_text_container_height" android:text="@string/Confirmation_Change" android:textAllCaps="false" app:uidComponentType="Secondary" style="@style/UIDPrimaryControl.Secondary" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/scroll_view_bottom" />
+    </LinearLayout>
+</ScrollView>

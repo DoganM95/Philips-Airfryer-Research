@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/uid_circular_button_regular_radius" />
+    <size android:height="@dimen/uid_circular_button_regular_height_width" android:width="@dimen/uid_circular_button_regular_height_width" />
+    <solid android:color="@color/uid_default_button_background_selector" />
+</shape>

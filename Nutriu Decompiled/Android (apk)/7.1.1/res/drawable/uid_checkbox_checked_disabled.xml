@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="background">
+        <path android:fillColor="?uidCheckBoxDefaultDisabledBackgroundColor" android:pathData="M2,0L18,0A2,2 0,0 1,20 2L20,18A2,2 0,0 1,18 20L2,20A2,2 0,0 1,0 18L0,2A2,2 0,0 1,2 0z" />
+    </group>
+    <group android:name="tick">
+        <path android:fillColor="?uidCheckBoxDefaultDisabledIconColor" android:pathData="M9.14,16.05l-5.85,-5.84l1.42,-1.42l4.15,4.16l6.32,-9.02l1.64,1.14l-7.68,10.98z" />
+    </group>
+</vector>

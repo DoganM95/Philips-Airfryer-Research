@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/home_screen_quick_filter_width" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" android:layout_marginEnd="@dimen/home_quick_filter_margin" android:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/filterOptionImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" />
+    <TextView android:textAppearance="?textAppearanceH5Secondary" android:textSize="@dimen/home_quick_filter_text_size" android:id="@id/filterOptionLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:lines="2" android:textAlignment="center" android:hyphenationFrequency="full" />
+</LinearLayout>

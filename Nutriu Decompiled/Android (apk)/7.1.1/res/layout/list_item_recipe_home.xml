@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_0.5x" android:paddingBottom="@dimen/spacing_0.5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:layout_marginEnd="@dimen/carousel_item_home_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:layout_marginBottom="@dimen/spacing_2.5x" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/list_item_activity_header" />
+    <include layout="@layout/layout_recipe_tile_image" />
+    <TextView android:textAppearance="?textAppearanceH5Secondary" android:id="@id/text" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:maxLines="2" android:lines="2" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/image" />
+</LinearLayout>

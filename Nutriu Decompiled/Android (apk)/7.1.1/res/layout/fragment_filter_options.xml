@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/filterOptionsList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <TextView android:id="@id/findRecipesButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x" android:text="@string/find_recipes" style="?buttonDense" />
+</LinearLayout>

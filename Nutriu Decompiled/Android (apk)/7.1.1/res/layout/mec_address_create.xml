@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/mec_address_create_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textDirection="locale" android:layout_marginStart="@dimen/border16_margin_left_right" android:layout_marginEnd="@dimen/border16_margin_left_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:orientation="vertical" android:id="@id/address_container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_buttons" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:background="?uidContentPrimaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.philips.platform.uid.view.widget.Label android:textSize="20.0sp" android:gravity="start" android:id="@id/tv_shipping_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp" android:text="@string/mec_shipping_address" style="@style/mec_address_header" />
+            <LinearLayout android:id="@id/llShipping" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border12_margin">
+                <include android:id="@id/dls_iap_address_shipping" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/mec_enter_address" />
+            </LinearLayout>
+            <com.philips.platform.uid.view.widget.CheckBox android:id="@id/billingCheckBox" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border16_margin_left_right" android:checked="true" android:text="@string/mec_use_as_billing_address" />
+            <LinearLayout android:orientation="vertical" android:id="@id/llBilling" android:tag="binding_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp">
+                <com.philips.platform.uid.view.widget.Label android:textSize="20.0sp" android:gravity="start" android:id="@id/tv_billing_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mec_billing_address" style="@style/mec_address_header" />
+                <include android:id="@id/addressbilling" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border12_margin" layout="@layout/mec_enter_address" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_buttons" android:background="?uidContentPrimaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.philips.platform.uid.view.widget.Button android:id="@id/btn_continue" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/border8_margin" android:layout_marginBottom="@dimen/border12_margin" app:uidComponentType="Primary" fontPath="fonts/iconfont.ttf" style="@style/mecCentralesansBookFont" />
+    </LinearLayout>
+    <include android:id="@id/mec_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/mec_progress_bar" />
+</RelativeLayout>

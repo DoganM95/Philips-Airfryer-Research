@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jr_about_title" style="@style/jr_about_dialog_text" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jr_git_describe" style="@style/jr_about_dialog_text" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/jr_about_URL" style="@style/jr_about_dialog_text" />
+</LinearLayout>

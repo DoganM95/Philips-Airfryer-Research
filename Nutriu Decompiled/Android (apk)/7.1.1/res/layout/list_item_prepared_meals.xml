@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="@dimen/spacing_11x" android:layout_height="@dimen/spacing_11x" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_1x" app:cardCornerRadius="?nutriuCornerRadius0.5"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/communityImage" android:background="@drawable/placeholder_light" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/bg_border_inverse" android:src="@drawable/ic_recipe_placeholder_small_neutral1" android:scaleType="centerCrop" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/bottomSheetItemLabel" android:background="?selectableItemBackground" android:padding="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_4x" style="?textAppearanceBody2Secondary" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/text" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_1.5x" android:paddingBottom="@dimen/spacing_1.5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

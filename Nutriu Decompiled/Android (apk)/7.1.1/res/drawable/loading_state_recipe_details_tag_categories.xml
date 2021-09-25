@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="375.0dip" android:autoMirrored="true" android:viewportWidth="375.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M0,0H375V32H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M40,0L96,0A16,16 0,0 1,112 16L112,16A16,16 0,0 1,96 32L40,32A16,16 0,0 1,24 16L24,16A16,16 0,0 1,40 0z" android:fillType="nonZero" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H375V32H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M136,0L192,0A16,16 0,0 1,208 16L208,16A16,16 0,0 1,192 32L136,32A16,16 0,0 1,120 16L120,16A16,16 0,0 1,136 0z" android:fillType="nonZero" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H375V32H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M232,0L288,0A16,16 0,0 1,304 16L304,16A16,16 0,0 1,288 32L232,32A16,16 0,0 1,216 16L216,16A16,16 0,0 1,232 0z" android:fillType="nonZero" />
+    </group>
+    <group>
+        <clip-path android:pathData="M0,0H375V32H0z" />
+        <path android:fillColor="?loadingColor" android:pathData="M328,0L384,0A16,16 0,0 1,400 16L400,16A16,16 0,0 1,384 32L328,32A16,16 0,0 1,312 16L312,16A16,16 0,0 1,328 0z" android:fillType="nonZero" />
+    </group>
+</vector>

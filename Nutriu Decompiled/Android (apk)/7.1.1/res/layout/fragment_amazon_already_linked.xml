@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <androidx.core.widget.NestedScrollView android:id="@id/nestedScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x">
+            <ImageView android:id="@id/amazonAlexaIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" app:layout_constraintStart_toStartOf="@id/paddingStart" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_amazon_alexa_logo" />
+            <View android:id="@id/divider" android:background="?dividerColorOnInverse" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/spacing_4x" app:layout_constraintEnd_toEndOf="@id/paddingEnd" app:layout_constraintStart_toStartOf="@id/paddingStart" app:layout_constraintTop_toBottomOf="@id/amazonAlexaIcon" />
+            <TextView android:textAppearance="?textAppearanceH2Secondary" android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:text="@string/app_to_app_linking_already_connected_title" app:layout_constraintEnd_toEndOf="@id/paddingEnd" app:layout_constraintStart_toStartOf="@id/paddingStart" app:layout_constraintTop_toBottomOf="@id/divider" />
+            <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/match_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/app_to_app_linking_already_connected_description" />
+            <FrameLayout android:id="@id/amazonPrivacyCheckboxLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/spacing_4x" android:layout_weight="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/thirdLabel">
+                <include layout="@layout/amazon_privacy_checkbox_layout" />
+            </FrameLayout>
+            <TextView android:id="@id/disconnectButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_8x" android:text="@string/app_to_app_linking_already_connected_disconnect" style="?buttonDense" />
+            <TextView android:textAppearance="?textAppearanceBody3Neutral1" android:id="@id/disconnectDisabledDescription" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" android:text="@string/app_to_app_linking_unlink_disabled_description" app:layout_constraintEnd_toEndOf="@id/paddingEnd" app:layout_constraintStart_toStartOf="@id/paddingStart" app:layout_constraintTop_toBottomOf="@id/header" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

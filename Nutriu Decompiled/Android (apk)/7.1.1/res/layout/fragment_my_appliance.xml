@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+    <include layout="@layout/layout_loading_my_appliances" />
+    <androidx.core.widget.NestedScrollView android:paddingBottom="@dimen/spacing_5x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/spacing_6x">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x">
+            <TextView android:textAppearance="?textAppearanceH2Secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/manage_your_appliances" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/appliancesList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <com.philips.ka.oneka.app.ui.shared.EmptyStateLayout android:gravity="center" android:id="@id/applianceEmptyStateLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" app:buttonLabel="@string/add_appliance" app:message="@string/appliance_empty_description" app:titleLabel="@string/appliance_empty_title" />
+            <com.philips.ka.oneka.app.ui.shared.EmptyStateLayout android:gravity="center" android:id="@id/errorState" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x" app:buttonLabel="@string/refresh" app:message="@string/unknown_error" app:titleLabel="@string/error_view_title_default" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:layout_gravity="bottom" android:id="@id/bottomButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/add_appliance" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" style="?buttonDense" />
+</FrameLayout>

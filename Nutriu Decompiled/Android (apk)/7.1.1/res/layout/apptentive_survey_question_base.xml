@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/question_base" android:background="@android:color/transparent" android:paddingLeft="@dimen/apptentive_card_view_gap_horizontal" android:paddingTop="@dimen/apptentive_card_view_gap_vertical" android:paddingRight="@dimen/apptentive_card_view_gap_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Apptentive.Style.Widget.CardView.Survey">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+                    <TextView android:textAppearance="@style/Apptentive.TextAppearance.Subhead" android:autoLink="all" android:id="@id/question_title" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="@style/Apptentive.TextAppearance.Caption" android:textColor="?apptentiveValidationFailedColor" android:id="@id/question_required" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apptentive_required" />
+                        <TextView android:textAppearance="@style/Apptentive.TextAppearance.Caption" android:id="@id/dash_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apptentive_instruction_text_separator" />
+                        <TextView android:textAppearance="@style/Apptentive.TextAppearance.Caption" android:id="@id/question_instructions" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="?apptentiveCardBorderColor" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/answer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/validation_failed_border" android:background="@drawable/apptentive_survey_question_invalid_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

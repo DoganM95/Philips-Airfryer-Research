@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/spacing" android:visibility="gone" android:layout_width="180.0dip" android:layout_height="@dimen/newsfeed_section_footer_top_spacing" />
+    <RelativeLayout android:layout_width="171.0dip" android:layout_height="@dimen/carousel_item_home_large_height">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/seeMoreElement" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/gray_circle" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="@dimen/spacing_4x" android:src="@drawable/circle_border_grey" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_arrow_right_primary" app:layout_constraintBottom_toBottomOf="@id/gray_circle" app:layout_constraintEnd_toEndOf="@id/gray_circle" app:layout_constraintStart_toStartOf="@id/gray_circle" app:layout_constraintTop_toTopOf="@id/gray_circle" />
+            <TextView android:textAppearance="?textAppearanceH5Primary" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/see_more" android:layout_below="@id/gray_circle" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/gray_circle" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</LinearLayout>

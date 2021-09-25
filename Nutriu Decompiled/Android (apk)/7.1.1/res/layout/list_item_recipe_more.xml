@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/spacing" android:visibility="gone" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="@dimen/newsfeed_section_footer_top_spacing" />
+    <RelativeLayout android:background="?containerBackground10" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="@dimen/list_item_recipe_size" android:layout_marginTop="@dimen/spacing_0.5x" android:foreground="@drawable/bg_border_inverse">
+        <TextView android:textAppearance="?textAppearanceH4Primary" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:drawablePadding="@dimen/spacing_0.25x" android:layout_centerInParent="true" android:drawableEnd="@drawable/ic_arrow_right_small_primary" />
+    </RelativeLayout>
+</LinearLayout>

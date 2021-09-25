@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@drawable/screen_gradient_vertical" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btnClose" android:background="?selectableItemBackground" android:padding="@dimen/spacing_2x" android:visibility="invisible" android:fitsSystemWindows="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_close_inverse" />
+        <ImageView android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="@dimen/spacing_10x" android:src="@drawable/ic_update" android:layout_marginStart="@dimen/spacing_6x" android:layout_marginEnd="@dimen/spacing_6x" />
+        <TextView android:textAppearance="?textAppearanceH1Inverse" android:id="@id/tvUpdateTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_6x" android:layout_marginEnd="@dimen/spacing_6x" />
+        <TextView android:textAppearance="?textAppearanceBody2Inverse" android:id="@id/tvUpdateText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_6x" android:layout_marginEnd="@dimen/spacing_6x" />
+        <LinearLayout android:id="@id/layoutUpdateDownload" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x">
+            <TextView android:textAppearance="?textAppearanceH5Inverse" android:layout_gravity="center" android:id="@id/tvUpdateDownload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_now" android:layout_marginStart="@dimen/spacing_6x" app:drawableEndCompat="@drawable/ic_arrow_right_small_inverse" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

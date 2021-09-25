@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loadingViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:layout_marginStart="@dimen/spacing_1x" />
+            <ImageView android:layout_width="134.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:scaleType="fitXY" android:layout_marginStart="@dimen/spacing_3x" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:layout_marginEnd="@dimen/spacing_3x" />
+        </LinearLayout>
+        <ImageView android:layout_width="78.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/spacing_8x" android:layout_marginBottom="@dimen/spacing_2x" android:src="?loadingColor" android:scaleType="fitXY" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="88.0dip">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="?loadingColor" android:layout_marginStart="@dimen/spacing_1x" />
+            <ImageView android:layout_width="134.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:scaleType="fitXY" android:layout_marginStart="@dimen/spacing_3x" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:layout_marginEnd="@dimen/spacing_3x" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="88.0dip">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="?loadingColor" android:layout_marginStart="@dimen/spacing_1x" />
+            <ImageView android:layout_width="134.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:scaleType="fitXY" android:layout_marginStart="@dimen/spacing_3x" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:layout_marginEnd="@dimen/spacing_3x" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="88.0dip">
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="?loadingColor" android:layout_marginStart="@dimen/spacing_1x" />
+            <ImageView android:layout_width="134.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:scaleType="fitXY" android:layout_marginStart="@dimen/spacing_3x" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <de.hdodenhof.circleimageview.CircleImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spacing_2x" android:src="?loadingColor" android:layout_marginEnd="@dimen/spacing_3x" />
+        </LinearLayout>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>
