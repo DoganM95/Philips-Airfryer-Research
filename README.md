@@ -2,11 +2,12 @@ Bit of research to control a philips airfryer using http instead of "nutriu" app
 
 ## Infos
 
+Fryer model: 9280/90 (=wifi connected model)
 Current local ip of my fryer: 192.168.0.30
 Open ports found on fryer: 80 (http), 443 (https)
 
 ## Encryption
-Took different approaches to capture traffic:
+Took different approaches to capture traffic of philips "nutriu" app, which offers remote control for the fryer:
 - "NetCapture" on android and its CA cert, to able to read ssl packets, unfortunately the content itself is also encrypted
 - "PCAPdroid" on android to capture pcaps. decoding this gave me at least a `/upnp/description.xml` uri
 
