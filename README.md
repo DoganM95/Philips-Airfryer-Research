@@ -50,3 +50,26 @@ Connection: Close
 ```
 
 GET request on 192.168.0.30/ responds with 404
+
+## The journey
+
+There is a nice vscode extension called "Smali2Java" to decompile smali files into java files, which makes the classes more readable (needs `Jadx`).
+
+As the airfryer reacts to a `/upnp` path, testing the server of UPNP connection seemed logical.
+The Airfryer indeed shows up as a UPNP device in WIndows (Explorer -> Network -> Other Devices -> "Reference")
+
+Googling "upnp descriptor xml" returned <https://macchina.io/docs/00200-UPnPSSDPTutorialAndUserGuide.html>
+which seems very similar to the response of the airfryer, so this was perhaps used to implement the airfryer's server.
+
+The decompiled app file LanTransportContext.smali also has a method called `getSSDPDiscoveryStrategy` referencing a
+`com/philips/connectivity/condor/lan/context/LanTransportContext`, which suggests the nutriu app iself also uses upnp
+service discovery for each airfryer model. SSDP stands for [Simple Service Discovery Protocol](https://en.wikipedia.org/wiki/Simple_Service_Discovery_Protocol).
+
+A (name-obfuscated) class contains the string `M-SEARCH`, which is a broadcast message to upnp devies to get their descriptors.
+
+A nice documentation on this can be found [here](https://www.electricmonk.nl/log/2016/07/05/exploring-upnp-with-python/)
+
+A python package called [Scapy](https://scapy.net/) seems to provide a good entrypoint to test the mentioned `M-Search` command.
+
+There is a script from [this github repo](https://github.com/tenable/upnp_info), which seems to not work on broadcast address `239.255.255.250`, but works when using the specific address of the target device ip instead (`192.168.0.30`, port `1900`). This script supposedly discovers all services of a upnp device, but could not find any services on the airfryer's upnp. The modified script is in this repo, named `upnp_info.py`.
+
