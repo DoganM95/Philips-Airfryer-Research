@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:contentInsetStart="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/back_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_back" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/mossy_green" android:ellipsize="end" android:id="@id/custom_title_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2x" fontPath="@string/font_bold" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/evergreen" android:id="@id/custom_options_label" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

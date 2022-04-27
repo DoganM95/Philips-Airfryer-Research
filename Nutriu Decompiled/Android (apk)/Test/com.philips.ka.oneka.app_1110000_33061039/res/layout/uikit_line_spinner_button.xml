@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:gravity="center" android:id="@id/buttonLinePB" android:paddingLeft="@dimen/uikit_spinneronbutton_button_padding_left" android:paddingTop="@dimen/uikit_spinneronbutton_button_padding_top" android:paddingBottom="@dimen/uikit_spinneronbutton_button_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textAllCaps="false" style="?attr/uikit_progressBarButton" />
+    <com.philips.cdp.uikit.customviews.CircularLineProgressBar android:layout_gravity="center" android:id="@id/lineProgressBarPB" android:layout_width="@dimen/uikit_spinneronbutton_spinner_width" android:layout_height="@dimen/uikit_spinneronbutton_spinner_height" app:uikit_duration="63" />
+</FrameLayout>

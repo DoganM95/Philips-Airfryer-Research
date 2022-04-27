@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="32.0dip" android:width="44.0dip" android:viewportWidth="44.0" android:viewportHeight="32.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="?nutriuColorPrimary" android:pathData="M21.16,25L6,25C4.9,25 4,24.11 4,23L4,10C4,8.9 4.9,8 6,8L7.67,8L9,6L14,6L16,8L21.16,8C20.25,9.06 19.5,10.27 18.96,11.58C18.22,11.21 17.39,11 16.5,11C13.46,11 11,13.46 11,16.5C11,19.54 13.46,22 16.5,22C17.39,22 18.22,21.79 18.96,21.42C19.5,22.73 20.25,23.94 21.16,25ZM18.47,13.02C18.33,13.54 18.22,14.07 18.14,14.61C17.7,14.23 17.13,14 16.5,14C15.12,14 14,15.12 14,16.5C14,17.88 15.12,19 16.5,19C17.13,19 17.7,18.77 18.14,18.39C18.22,18.93 18.33,19.46 18.47,19.98C17.89,20.31 17.22,20.5 16.5,20.5C14.29,20.5 12.5,18.71 12.5,16.5C12.5,14.29 14.29,12.5 16.5,12.5C17.22,12.5 17.89,12.69 18.47,13.02Z" android:strokeColor="@color/transparent" android:strokeWidth="1.0" />
-    <path android:fillColor="?nutriuColorPrimary" android:pathData="M32,16L32,10C32,9.44 31.55,9 31,9C30.44,9 30,9.45 30,10L30,16L24,16C23.44,16 23,16.45 23,17C23,17.56 23.45,18 24,18L30,18L30,24C30,24.56 30.45,25 31,25C31.56,25 32,24.55 32,24L32,18L38,18C38.56,18 39,17.55 39,17C39,16.44 38.55,16 38,16L32,16Z" android:strokeColor="@color/transparent" android:strokeWidth="1.0" />
-</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="?actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/hamburger_click" android:layout_width="wrap_content" android:layout_height="?actionBarSize" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/hamburger_icon" android:layout_width="18.0dip" android:layout_height="12.0dip" android:layout_marginLeft="@dimen/uikit_hamburger_icon_left_margin" />
+        <com.philips.cdp.uikit.customviews.BadgeView android:layout_gravity="center" android:id="@id/hamburger_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_hamburger_counter_icon_left_margin" style="@style/NotificationLabel.Small" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/uikit_hamburger_menu_title_text_size" android:textColor="@android:color/white" android:ellipsize="marquee" android:id="@id/hamburger_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_hamburger_counter_icon_left_margin" android:scrollHorizontally="true" android:singleLine="true" android:layout_toRightOf="@id/hamburger_click" android:layout_centerInParent="true" fontPath="fonts/centralesanslight.ttf" />
+</RelativeLayout>

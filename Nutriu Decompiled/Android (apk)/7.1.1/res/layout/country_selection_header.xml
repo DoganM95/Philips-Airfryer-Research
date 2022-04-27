@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/usr_country_selection_LinearLayout" android:background="?uidContentTertiaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/reg_text_size_16" android:textColor="?uidContentItemTertiaryNormalTextColor" android:layout_gravity="center_horizontal" android:id="@id/country_selection_header_TextView" android:padding="@dimen/reg_dimen_16dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/USR_DLS_Country_Selection_Explainary_Text" />
-</LinearLayout>

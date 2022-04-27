@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@id/mec_address_card_view" android:tag="layout/mec_address_create_card_0" android:padding="@dimen/iap_margin_10dp" android:focusable="true" android:clickable="true" android:layout_width="150.0dip" android:layout_height="150.0dip" android:textDirection="locale" app:cardCornerRadius="10.0dip" app:cardElevation="8.0dip" app:cardUseCompatPadding="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="150.0dip">
-        <com.philips.platform.uid.view.widget.Label android:textSize="56.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="75.0dip" android:text="@string/mec_pros_plus" android:layout_weight="1.0" fontPath="fonts/centralesansbold.ttf" />
-        <com.philips.platform.uid.view.widget.Label android:textSize="14.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="75.0dip" android:text="@string/mec_add_new_address" android:layout_weight="1.0" />
-    </LinearLayout>
-</androidx.cardview.widget.CardView>

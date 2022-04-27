@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loadingViewContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/imageContainer"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:src="@drawable/ic_loading_search_suggestions" android:layout_marginStart="@dimen/spacing_1x" />
-</com.facebook.shimmer.ShimmerFrameLayout>

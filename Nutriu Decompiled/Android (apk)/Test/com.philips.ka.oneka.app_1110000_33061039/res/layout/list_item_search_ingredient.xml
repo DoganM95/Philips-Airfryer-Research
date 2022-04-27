@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_ingredient_name" android:background="@color/white" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x" style="@style/Text.ListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

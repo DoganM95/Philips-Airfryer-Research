@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:gravity="center_vertical" android:id="@android:id/text1" android:padding="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/img_input_device_primary_wrapper" style="@style/SpinnerItem"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

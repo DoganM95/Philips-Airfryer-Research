@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/user_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x">
+                <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:id="@id/user_name_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_2x" fontPath="@string/font_bold" />
+                <ImageView android:id="@id/comment_action_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_down" android:layout_marginEnd="@dimen/spacing_2x" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/dark_blue_grey" android:id="@id/user_comment_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:layout_marginBottom="@dimen/spacing_0.75x" android:lineSpacingExtra="4.0sp" android:layout_marginEnd="@dimen/spacing_3x" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/warm_grey" android:id="@id/comment_time_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/white_two" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+</LinearLayout>

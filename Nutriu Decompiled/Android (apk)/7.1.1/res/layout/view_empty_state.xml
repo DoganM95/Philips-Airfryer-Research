@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptyLayout" android:padding="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceH3Secondary" android:gravity="center_horizontal" android:id="@id/titleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/empty_here" />
-    <TextView android:textAppearance="?textAppearanceBody2Neutral2" android:gravity="center_horizontal" android:id="@id/messageLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/empty_articles_message" />
-    <TextView android:gravity="center" android:id="@id/buttonLabel" android:paddingTop="@dimen/spacing_1.75x" android:paddingBottom="@dimen/spacing_1.75x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?buttonDenseSmall" />
-</LinearLayout>

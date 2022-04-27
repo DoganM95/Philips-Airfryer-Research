@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_bar_lyt" android:background="@drawable/consumercare_actionbar_shape_gradient_bg" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/action_bar_icon_parent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+        <ImageView android:id="@id/home_icon" android:contentDescription="@string/img_description" style="@style/actionbarIconHomeImageView" />
+        <ImageView android:id="@id/back_to_home_img" android:contentDescription="@string/img_description" style="@style/actionbarIconArrowImageView" />
+    </RelativeLayout>
+    <TextView android:id="@id/action_bar_title" style="@style/actionbarFontTextView" fontPath="digitalcarefonts/CentraleSans-Light.otf" />
+</RelativeLayout>

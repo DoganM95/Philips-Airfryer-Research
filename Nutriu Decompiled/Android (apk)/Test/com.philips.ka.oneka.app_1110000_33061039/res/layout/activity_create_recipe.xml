@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/sv_wrapper" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include layout="@layout/toolbar" />
+        <RelativeLayout android:id="@id/photo_fragment_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/tv_photo_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/image_not_set" style="@style/Text.Error" />
+        <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recipe_title" style="@style/Text.Section.Title" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:id="@id/et_title" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:hint="@string/title_hint" android:paddingEnd="@dimen/spacing_6x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText" />
+            <ImageView android:id="@id/iv_delete_title" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_clear" android:layout_centerVertical="true" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_2x" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:id="@id/tv_title_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_not_set" style="@style/Text.Error" />
+        <TextView android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description" style="@style/Text.Section.Title" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <EditText android:gravity="top" android:id="@id/edit_text_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/description_hint" android:paddingEnd="@dimen/spacing_6x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText.MultiLine.Wrap" />
+            <ImageView android:id="@id/iv_delete_description" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/spacing_1x" android:src="@drawable/ic_clear" android:layout_alignParentTop="true" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" android:layout_alignEnd="@id/edit_text_description" />
+        </RelativeLayout>
+        <TextView android:id="@id/tv_ingredients" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ingredients" style="@style/Text.Section.Title" />
+        <include layout="@layout/list_item_create_recipe_ingredient_empty" />
+        <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/rv_ingredients" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="LinearLayoutManager" />
+        <TextView android:id="@id/tv_ingredients_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ingredient_not_set" style="@style/Text.Error" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_add_ingredient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_ingredient" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_add_new_wrapper" style="@style/Text.Section.Subtitle" />
+        <TextView android:layout_gravity="start" android:id="@id/tv_directions" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/directions" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Section.Title" />
+        <include layout="@layout/list_item_steps_empty" />
+        <LinearLayout android:orientation="vertical" android:id="@id/steps_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/rv_steps" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="LinearLayoutManager" />
+        <TextView android:id="@id/tv_directions_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/direction_not_set" style="@style/Text.Error" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_add_step" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_step" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_add_new_wrapper" style="@style/Text.Section.Subtitle" />
+        <TextView android:id="@id/tv_servings_and_time" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/servings" style="@style/Text.Section.Title" />
+        <TextView android:textColor="@color/warm_grey" android:id="@id/tv_servings" android:background="@color/white_input" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:text="@string/servings_empty" android:drawableStart="@drawable/ic_servings_wrapper" style="@style/Text.PickerValue" />
+        <TextView android:id="@id/tv_servings_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/serving_not_set" style="@style/Text.Error" />
+        <TextView android:gravity="center_vertical" android:id="@id/tv_preparation_time_info" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/time_to_prepare" android:drawablePadding="@dimen/spacing_1x" android:drawableEnd="@drawable/ic_info_wrapper" style="@style/Text.Section.Title" />
+        <TextView android:textColor="@color/warm_grey" android:id="@id/tv_preparation_time" android:background="@color/white_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:text="@string/time_empty" android:drawableStart="@drawable/ic_preparation_time_wrapper" style="@style/Text.PickerValue" />
+        <TextView android:id="@id/tv_preparation_time_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/preparation_time_not_set" style="@style/Text.Error" />
+        <TextView android:id="@id/tv_privacy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/section_title_text" android:text="@string/privacy" style="@style/Text.Section.Title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="start|center" android:id="@id/tv_private_recipe_info" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_recipe_private" android:drawablePadding="@dimen/spacing_1x" android:drawableEnd="@drawable/ic_info_wrapper" android:layout_marginStart="@dimen/spacing_2x" style="@style/TextStyleNormal" />
+            <android.support.v4.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <android.support.v7.widget.AppCompatCheckBox android:layout_gravity="end" android:id="@id/cb_private_recipe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/spacing_2x" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_add_recipe_tags" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_recipe_tags" style="@style/Text.Section.Title" />
+        <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_added_tags" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cuisines" style="@style/Text.Section.Subtitle" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_cuisines" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+            <include android:id="@id/loading_cuisines_layout" layout="@layout/loading_layout_small" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/additional_tags_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/courses" style="@style/Text.Section.Subtitle" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_courses" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <include android:id="@id/loading_courses_layout" layout="@layout/loading_layout_small" />
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/occasions" style="@style/Text.Section.Subtitle" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_occasions" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <include android:id="@id/loading_occasions_layout" layout="@layout/loading_layout_small" />
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessories" style="@style/Text.Section.Subtitle" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_accessories" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <include android:id="@id/loading_accessories_layout" layout="@layout/loading_layout_small" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/view_all_tags_button" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:padding="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all_tags" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_arrow" android:rotation="90.0" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/spacing_4x" />
+        <Button android:textSize="14.0sp" android:textColor="@color/dark_blue_grey" android:gravity="center" android:id="@id/btn_delete" android:background="@android:color/transparent" android:padding="@dimen/spacing_2x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/delete_this_draft" android:textAllCaps="false" fontPath="@string/font_bold" />
+        <Button android:textSize="@dimen/button_text_size" android:textColor="@color/evergreen" android:gravity="center" android:id="@id/btn_save_as_draft" android:background="@color/light_grey" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/save_as_draft" android:textAllCaps="false" style="?android:attr/borderlessButtonStyle" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/button_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_publish" android:background="@drawable/btn_green_bg" android:padding="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="80.0dip" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/publish" android:textAllCaps="false" fontPath="@string/font_xbold" />
+            <LinearLayout android:gravity="center" android:id="@id/publishing_loading_layout" android:background="@drawable/btn_green_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <ProgressBar android:layout_gravity="center" android:id="@id/publishing_progress_bar" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginEnd="@dimen/spacing_1x" />
+                <TextView android:textSize="@dimen/button_text_size" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/publishing" fontPath="@string/font_xbold" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

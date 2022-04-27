@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.philips.ka.oneka.app.ui.shared.FloatingActionView android:id="@id/searchFilter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/spacing_5x" android:layout_marginBottom="@dimen/spacing_2x" android:minWidth="138.0dip" style="?buttonFloatingAction"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

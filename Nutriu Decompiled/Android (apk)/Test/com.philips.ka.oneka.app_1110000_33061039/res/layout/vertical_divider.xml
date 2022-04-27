@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/divider" android:background="@color/light_grey" android:layout_width="1.0dip" android:layout_height="46.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" android:layout_toEndOf="@id/followers_label"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

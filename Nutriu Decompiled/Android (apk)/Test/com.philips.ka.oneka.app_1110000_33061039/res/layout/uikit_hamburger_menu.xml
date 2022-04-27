@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/philips_drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:gravity="center" android:id="@id/toolbar" android:background="?uikit_actionBarBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/uikit_toolbar_elevation" app:contentInsetStart="0.0dip" app:contentInsetEnd="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </LinearLayout>
+    <android.support.design.widget.NavigationView android:layout_gravity="start" android:id="@id/navigation_view" android:background="?uikit_hamburgerGradient" android:fitsSystemWindows="true" android:layout_width="@dimen/uikit_hamburger_width" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/list_view_parent" android:layout_width="@dimen/uikit_hamburger_width" android:layout_height="fill_parent">
+            <ListView android:layout_gravity="start" android:id="@id/hamburger_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+            <ImageView android:id="@id/philips_logo" android:visibility="gone" android:layout_width="@dimen/uikit_hamburger_logo_width" android:layout_height="@dimen/uikit_hamburger_logo_height" android:layout_marginTop="@dimen/uikit_hamburger_menu_logo_top_margin" android:layout_marginBottom="@dimen/uikit_hamburger_menu_logo_bottom_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="229.5" />
+        </RelativeLayout>
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/imageWrapper" android:background="@drawable/placeholder_light" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/image" android:layout_width="0.0dip" android:layout_height="@dimen/step_image_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="@string/image_aspect_ratio" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_step_arrow" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/spacing_2x" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toLeftOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

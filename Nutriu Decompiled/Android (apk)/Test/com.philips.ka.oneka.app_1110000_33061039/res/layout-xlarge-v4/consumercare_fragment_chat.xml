@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/chatScrollView" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/chatNowImageParent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/chatnow_bg" android:layout_width="fill_parent" android:layout_height="500.0dip" android:contentDescription="@string/chat_desc" />
+                <TextView android:id="@id/helpText" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginTop="@dimen/activity_margin" style="@style/chatNowHelpText" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="70.0dip">
+            <TextView android:layout_gravity="left" android:id="@id/chatDesc" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:text="@string/chat_desc" style="@style/chatNowDesc" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/chatNowParentPort" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:weightSum="2.0" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/chatNoThanksParent" android:padding="2.0dip" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:layout_weight="1.0" style="@style/fontButton">
+                    <Button android:id="@id/chatNoThanks" android:layout_width="fill_parent" android:layout_height="@dimen/support_btn_height" android:layout_marginTop="0.0dip" android:text="@string/cancel" style="?attr/uikit_outlinedButtonStyle" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+                </RelativeLayout>
+                <Button android:id="@id/chatNow" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:text="@string/chat_now" android:layout_weight="1.0" style="@style/fontButton" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/chatNowParentLand" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="350.0dip" android:weightSum="2.0" android:layout_weight="1.0">
+                <RelativeLayout android:id="@id/chatNoThanksParentLand" android:padding="2.0dip" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:layout_weight="1.0" style="@style/fontButton">
+                    <Button android:id="@id/chatNoThanksLand" android:layout_width="fill_parent" android:layout_height="@dimen/support_btn_height" android:layout_marginTop="0.0dip" android:text="@string/cancel" style="?attr/uikit_outlinedButtonStyle" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+                </RelativeLayout>
+                <Button android:id="@id/chatNowLand" android:layout_marginLeft="@dimen/activity_margin" android:layout_marginRight="@dimen/activity_margin" android:text="@string/chat_now" android:layout_weight="1.0" style="@style/fontButton" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

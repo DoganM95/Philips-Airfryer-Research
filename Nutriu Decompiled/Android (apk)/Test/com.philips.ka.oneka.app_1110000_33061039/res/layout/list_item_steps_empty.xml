@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/tv_first_step" android:layout_width="fill_parent" android:layout_height="@dimen/first_step_height" android:text="@string/write_the_first_step" style="@style/Text.FirstStep"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

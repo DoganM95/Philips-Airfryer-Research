@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/reg_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:reglib="http://reg.lib/schema">
+    <ScrollView android:id="@id/sv_root_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reg_root_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_reg_veify_email" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_marginTop="@dimen/reg_header_margin_top" android:layout_marginBottom="0.0dip" android:text="@string/reg_VerifyEmail_VerifyEmail_lbltxt" style="@style/reg_titleTextStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+            <View style="@style/reg_line" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_reg_welcome_container" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_reg_email" android:text="@string/reg_VerifyEmail_EmailSentto_lbltxt" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                <com.philips.cdp.registration.ui.customviews.XTextView android:text="@string/reg_VerifyEmail_ActivateInfo_lbltxt" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_explain_value_to_user" android:text="@string/Activation_explain_value_to_user" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_reg_create_account_container" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/reg_margin_bottom" style="@style/reg_text_background">
+                <com.philips.cdp.registration.ui.customviews.XHavingProblems android:orientation="vertical" android:id="@id/view_having_problem" android:paddingLeft="@dimen/reg_layout_margin" android:paddingTop="@dimen/reg_margin_bottom" android:paddingRight="@dimen/reg_layout_margin" android:paddingBottom="@dimen/reg_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_reg_singin_options" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/fl_reg_align_activate" android:layout_width="fill_parent" android:layout_height="@dimen/reg_btn_height" android:layout_marginTop="@dimen/reg_margin_bottom">
+                    <com.philips.cdp.registration.ui.customviews.XButton android:enabled="true" android:id="@id/btn_reg_activate_acct" android:text="@string/reg_VerifyEmail_Activated_btntxt" style="@style/reg_style_btn" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/pb_reg_activate_spinner" android:padding="@dimen/reg_pb_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <com.philips.cdp.registration.ui.customviews.XRegError android:id="@id/reg_email_verified_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_margin_bottom" android:layout_below="@id/fl_reg_align_activate" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/reg_btn_height" android:layout_marginTop="@dimen/reg_margin_bottom" android:layout_below="@id/reg_email_verified_error">
+                    <com.philips.cdp.registration.ui.customviews.XButton android:id="@id/btn_reg_resend" android:background="@drawable/reg_btn_forgot_selector" android:text="@string/reg_Resend_btntxt" style="@style/reg_forgot_password" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/pb_reg_resend_spinner" android:padding="@dimen/reg_pb_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </RelativeLayout>
+            <com.philips.cdp.registration.ui.customviews.XRegError android:id="@id/reg_error_msg" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_margin_bottom" android:layout_below="@id/btn_reg_activate_acct" />
+            <View android:layout_width="wrap_content" android:layout_height="@dimen/reg_scroll_margin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

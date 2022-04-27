@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/spacing_9x" android:layout_height="@dimen/spacing_9x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/pickerTabIcon" android:layout_width="@dimen/spacing_3x" android:layout_height="@dimen/spacing_3x" />
-    <TextView android:textAppearance="?textAppearanceBody2Inverse" android:layout_gravity="center" android:id="@id/pickerTabTitle" android:layout_width="@dimen/spacing_6.5x" android:layout_height="wrap_content" android:textAlignment="center" />
-</LinearLayout>

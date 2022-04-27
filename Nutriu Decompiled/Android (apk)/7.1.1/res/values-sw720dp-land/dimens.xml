@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="apptentive_message_center_card_view_composing_margin_side">212.0dip</dimen>
-    <dimen name="apptentive_message_center_fab_margin_side">184.0dip</dimen>
-    <dimen name="apptentive_message_center_greeting_side_margin">276.0dip</dimen>
-    <dimen name="apptentive_message_center_message_list_margin_side">212.0dip</dimen>
-</resources>

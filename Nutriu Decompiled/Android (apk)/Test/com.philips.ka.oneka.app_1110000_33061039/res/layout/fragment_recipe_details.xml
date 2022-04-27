@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+        <android.support.design.widget.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap" app:expandedTitleMarginStart="48.0dip" app:expandedTitleMarginEnd="64.0dip" app:contentScrim="?colorPrimary" app:titleEnabled="false">
+            <include layout="@layout/image_layout" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="start|bottom|center" android:orientation="horizontal" android:id="@id/profile_container" android:background="@drawable/black_overlay_bottom_to_top" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" app:layout_collapseMode="parallax">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_user" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/iv_user" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/circle_placeholder_light" app:civ_border_width="@dimen/circular_image_border_width" app:civ_border_color="@color/white" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+                        <TextView android:ellipsize="end" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Text.Details.User" fontPath="@string/font_xbold" />
+                        <TextView android:id="@id/tv_user_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/Text.Details.User.Address" fontPath="@string/font_book" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Space android:layout_width="@dimen/spacing_1x" android:layout_height="fill_parent" />
+                <com.philips.ka.oneka.app.ui.shared.SelectableLottieAnimationView android:id="@id/favourite_button" android:visibility="gone" android:layout_width="@dimen/fab_button_width" android:layout_height="@dimen/fab_button_height" app:lottie_fileName="favorite_animation_on_to_off.json" />
+            </LinearLayout>
+            <View android:background="@drawable/black_overlay" android:layout_width="fill_parent" android:layout_height="@dimen/collapsing_toolbar_shadow_height" />
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:layout_collapseMode="pin">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/toolbar_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:fontFamily="@string/font_bold" android:layout_marginEnd="@dimen/spacing_2x" />
+                    <ImageView android:id="@id/action_favourite" android:background="?selectableItemBackground" android:padding="@dimen/spacing_1x" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_favourite" />
+                </LinearLayout>
+            </android.support.v7.widget.Toolbar>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/publish_recipe_layout" android:background="@drawable/bg_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_collapseMode="parallax">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:src="@drawable/ic_created_recipe" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/white" android:padding="@dimen/spacing_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/done" fontPath="@string/font_xbold" />
+            </LinearLayout>
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/loading_layout_recipe_details" />
+            <LinearLayout android:orientation="vertical" android:id="@id/main_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:animateLayoutChanges="true">
+                <LinearLayout android:gravity="center_vertical" android:id="@id/layout_device_warning" android:background="@color/light_grey_v2" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x">
+                    <ImageView android:layout_width="@dimen/spacing_3x" android:layout_height="@dimen/spacing_3x" android:src="@drawable/ic_warning" />
+                    <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/device_mismatch_warning" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" style="@style/Text.Details.DeviceWarning" />
+                    <ImageView android:id="@id/btn_device_warning_info" android:layout_width="@dimen/spacing_3x" android:layout_height="@dimen/spacing_3x" android:src="@drawable/ic_info_green" />
+                </LinearLayout>
+                <TextView android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.Title" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x">
+                    <TextView android:id="@id/tv_favourites" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableStart="@drawable/ic_favourite_dark_wrapper" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.Meta" />
+                    <TextView android:id="@id/tv_comments" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableStart="@drawable/ic_comments_dark_wrapper" style="@style/Text.Details.Meta" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/add_to_collection_button" android:background="@drawable/bg_green_rounded" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/spacing_1x" android:foreground="?selectableItemBackground" android:text="@string/add_to_collection_button" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" fontPath="@string/font_bold" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x" android:baselineAligned="false">
+                    <LinearLayout android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer.Grey">
+                        <ImageView android:src="@drawable/ic_serving" android:tint="@color/evergreen" style="@style/TagImage" />
+                        <TextView android:id="@id/tv_servings" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer.Grey">
+                        <ImageView android:src="@drawable/ic_prep_time" android:tint="@color/evergreen" style="@style/TagImage" />
+                        <TextView android:id="@id/tv_preparation_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/TagContainer.Grey">
+                        <ImageView android:src="@drawable/ic_temperature" android:tint="@color/evergreen" style="@style/TagImage" />
+                        <TextView android:id="@id/tv_cooking_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+                    </LinearLayout>
+                </LinearLayout>
+                <com.philips.ka.oneka.app.ui.shared.ExpandableTextView android:ellipsize="end" android:id="@id/tv_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.Description" />
+                <TextView android:id="@id/tv_read_more" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/read_more" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.ReadMore" />
+                <TextView android:gravity="center_vertical" android:id="@id/tags_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/tags" style="@style/Text.Details.Subtitle" />
+                <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:orientation="horizontal" android:id="@id/rv_recipe_tags" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
+                <TextView android:gravity="center_vertical" android:id="@id/ingredients_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/ingredients" style="@style/Text.Details.Subtitle" />
+                <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/ingredients_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" app:layoutManager="LinearLayoutManager" />
+                <RelativeLayout android:id="@id/calories_title_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x">
+                    <TextView android:gravity="center_vertical" android:id="@id/calories_label" android:layout_width="fill_parent" android:text="@string/calories_breakdown" style="@style/Text.Details.Subtitle" />
+                    <ImageView android:id="@id/calories_info" android:background="?selectableItemBackground" android:padding="@dimen/spacing_1x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_info" android:tint="@color/evergreen" android:layout_marginEnd="@dimen/spacing_1x" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/calories_data_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_3x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+                    <com.philips.ka.oneka.app.ui.recipe.details.NutritionGraphView android:layout_gravity="top" android:id="@id/nutrition_graph" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_1x" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/nutrition_values_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_1x">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <ImageView android:tint="@color/azure" style="@style/RecipeDetails.NutritionInfo.Badge" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/carbohydrate" style="@style/RecipeDetails.NutritionInfo.Label" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2.5x">
+                            <TextView android:id="@id/carbs_percentage_label" style="@style/RecipeDetails.NutritionInfo.Label.Percentage" />
+                            <View style="@style/RecipeDetails.NutritionInfo.Divider" />
+                            <TextView android:id="@id/carbs_grams_label" style="@style/RecipeDetails.NutritionInfo.Label.Grams" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <ImageView android:tint="@color/mossy_green" style="@style/RecipeDetails.NutritionInfo.Badge" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/protein" style="@style/RecipeDetails.NutritionInfo.Label" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2.5x">
+                            <TextView android:id="@id/proteins_percentage_label" style="@style/RecipeDetails.NutritionInfo.Label.Percentage" />
+                            <View style="@style/RecipeDetails.NutritionInfo.Divider" />
+                            <TextView android:id="@id/proteins_grams_label" style="@style/RecipeDetails.NutritionInfo.Label.Grams" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <ImageView android:tint="@color/yellow_orange" style="@style/RecipeDetails.NutritionInfo.Badge" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fat" style="@style/RecipeDetails.NutritionInfo.Label" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2.5x">
+                            <TextView android:id="@id/fats_percentage_label" style="@style/RecipeDetails.NutritionInfo.Label.Percentage" />
+                            <View style="@style/RecipeDetails.NutritionInfo.Divider" />
+                            <TextView android:id="@id/fats_grams_label" style="@style/RecipeDetails.NutritionInfo.Label.Grams" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/others_label_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                            <ImageView android:tint="@color/warm_grey" style="@style/RecipeDetails.NutritionInfo.Badge" />
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/other" style="@style/RecipeDetails.NutritionInfo.Label" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/others_values_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_2.5x">
+                            <TextView android:id="@id/others_percentage_label" style="@style/RecipeDetails.NutritionInfo.Label.Percentage" />
+                            <View style="@style/RecipeDetails.NutritionInfo.Divider" />
+                            <TextView android:id="@id/others_grams_label" style="@style/RecipeDetails.NutritionInfo.Label.Grams" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:gravity="center_vertical" android:id="@id/steps_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:text="@string/directions" style="@style/Text.Details.Subtitle" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+                    <LinearLayout android:orientation="vertical" android:id="@id/steps_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <View android:id="@id/steps_overlay" android:background="@drawable/bg_fading_white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="220.0dip" android:layout_alignParentBottom="true" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/view_full_recipe" android:background="@drawable/bg_green_rounded" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_6x" android:layout_marginTop="@dimen/spacing_2.5x" android:layout_marginBottom="@dimen/spacing_1x" android:foreground="?selectableItemBackground" android:text="@string/view_the_full_recipe" android:layout_alignParentBottom="true" fontPath="@string/font_bold" />
+                </RelativeLayout>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/enjoy_image" android:background="@drawable/green_circle" android:padding="@dimen/spacing_2x" android:visibility="gone" android:layout_width="@dimen/picker_image_width" android:layout_height="@dimen/picker_image_height" android:layout_marginTop="@dimen/spacing_3x" android:layout_marginBottom="@dimen/spacing_2x" android:src="@drawable/ic_enjoy" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:layout_gravity="center_horizontal" android:id="@id/enjoy_label" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/enjoy_the_meal" fontPath="@string/font_xbold" />
+                <FrameLayout android:id="@id/comments_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:gravity="center" android:id="@id/btn_report_recipe" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_this_recipe" style="@style/Text.Details.Report" />
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

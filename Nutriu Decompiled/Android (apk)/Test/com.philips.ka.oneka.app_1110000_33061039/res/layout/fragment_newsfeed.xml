@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/loading_layout_feed" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.design.widget.CoordinatorLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.design.widget.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/app_bar" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+                <android.support.design.widget.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                    <include layout="@layout/header_newsfeed" />
+                </android.support.design.widget.CollapsingToolbarLayout>
+            </android.support.design.widget.AppBarLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/view_error_message" />
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:background="@drawable/bg_green_circle" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_chef_hat" android:scaleType="centerInside" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/sap_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_activities_yet" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" fontPath="@string/font_medium" />
+                </LinearLayout>
+            </FrameLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/feed_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </android.support.design.widget.CoordinatorLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

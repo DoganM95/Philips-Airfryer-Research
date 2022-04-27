@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/loading_layout" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:src="@drawable/ic_notifications_empty_state" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/sap_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/you_have_no_notifications" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" fontPath="@string/font_medium" />
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/view_error_message" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:id="@id/notifications_list" android:paddingTop="@dimen/spacing_2x" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

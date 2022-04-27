@@ -1,0 +1,50 @@
+{
+  "UserRegistration": {
+    "JanRainConfiguration.RegistrationClientID.Development": "hvqxnk27pead5pbm2gsmt7weuvgs3mf9",
+    "JanRainConfiguration.RegistrationClientID.Testing": "pnvrmtfnx7bmcxy253x8pkn2bxkhb6km",
+    "JanRainConfiguration.RegistrationClientID.Evaluation": "86whu94fu3y83773mhwrwb56wspf98ke",
+    "JanRainConfiguration.RegistrationClientID.Staging": "86whu94fu3y83773mhwrwb56wspf98ke",
+    "JanRainConfiguration.RegistrationClientID.Production": "mjvvdbw7sx37rngu64w7v853fhhtagav",
+    "PILConfiguration.MicrositeID": "11562",
+    "PILConfiguration.RegistrationEnvironment": "PRODUCTION",
+    "Flow.EmailVerificationRequired" : "true",
+    "Flow.TermsAndConditionsAcceptanceRequired" : "true",
+    "SigninProviders.default": ["facebook","googleplus"],
+    "SigninProviders.NL": ["facebook","googleplus"]
+  },
+  "appinfra": {
+    "appidentity.micrositeId" : "11562",
+    "appidentity.sector"  : "b2c",
+    "appidentity.appState"  : "PRODUCTION",
+    "appidentity.serviceDiscoveryEnvironment"  : "PRODUCTION",
+    "tagging.sensitiveData": ["bundleId, language"] ,
+    "abtest.precache":["philipsmobileappabtest1content","philipsmobileappabtest1success"] ,
+    "contentLoader.limitSize":100,
+    "servicediscovery.platformMicrositeId":"70000",
+    "servicediscovery.platformEnvironment":"production",
+    "appconfig.cloudServiceId":" appinfra.appconfigdownload",
+    "logging.releaseConfig":{
+      "fileName":"AppInfraLog",
+      "numberOfFiles":5,
+      "fileSizeInBytes":50000,
+      "logLevel":"Off",
+      "fileLogEnabled":false,
+      "consoleLogEnabled":false,
+      "componentLevelLogEnabled":false,
+      "componentIds": [
+      ]
+    },
+    "logging.debugConfig":{
+      "fileName":"AppInfraLog",
+      "numberOfFiles":5,
+      "fileSizeInBytes":50000,
+      "logLevel":"All",
+      "fileLogEnabled":false,
+      "consoleLogEnabled":true,
+      "componentLevelLogEnabled":false,
+      "componentIds": [
+      ]
+    }
+  }
+}
+

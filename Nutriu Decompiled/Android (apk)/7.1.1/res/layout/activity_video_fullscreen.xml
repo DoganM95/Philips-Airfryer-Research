@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <VideoView android:id="@id/fullscreenVideoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
-    <View android:background="@drawable/bg_gradient_black_to_20_black_top_to_bottom" android:layout_width="fill_parent" android:layout_height="64.0dip" />
-    <ImageView android:id="@id/closeButton" android:padding="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_inverse" />
-</RelativeLayout>

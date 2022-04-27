@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/detailed_screen_parent_image" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/detailedscreen_pager" android:layout_width="fill_parent" android:layout_height="@dimen/productdetails_screen_image" android:layout_marginTop="@dimen/savedscreen_product_image_margin" android:layout_weight="1.0" />
+    <com.philips.cdp.uikit.customviews.CircleIndicator android:layout_gravity="center_horizontal" android:id="@id/detailedscreen_indicator" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

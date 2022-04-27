@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/proceedBtn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/on_boarding_button_height" android:layout_marginBottom="@dimen/spacing_1x" app:layout_constraintBottom_toTopOf="@id/issuesButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_goneMarginBottom="@dimen/spacing_3x" style="?buttonDense" />
-    <TextView android:id="@id/issuesButton" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_3x" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="?buttonQuietSmall" />
-</androidx.constraintlayout.widget.ConstraintLayout>

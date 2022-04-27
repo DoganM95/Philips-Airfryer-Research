@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/linearlayoutlist" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/popup_text_size" android:textColor="?uikit_darkerColor" android:gravity="center" android:id="@id/listtextview" android:layout_width="wrap_content" android:layout_height="53.0dip" android:layout_marginLeft="12.0dip" fontPath="fonts/centralesansbook.ttf" />
+</LinearLayout>

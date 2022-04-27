@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/tagsList" android:paddingLeft="@dimen/spacing_2x" android:paddingRight="@dimen/spacing_2x" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:paddingHorizontal="@dimen/spacing_2x" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/tagsShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/loading_state_recipe_details_tag_categories" android:scaleType="fitXY" />
-    </com.facebook.shimmer.ShimmerFrameLayout>
-</FrameLayout>

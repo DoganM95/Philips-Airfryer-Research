@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/navigationButton" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/spacing_1.75x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_primary" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textAppearance="?textAppearanceH4Secondary" android:gravity="center" android:id="@id/toolbarTitle" android:paddingTop="@dimen/spacing_1.25x" android:paddingBottom="@dimen/spacing_1.5x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/wifi_setup_welcome_navigation_title" app:layout_constraintBottom_toBottomOf="@id/navigationButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/navigationButton" />
-</androidx.constraintlayout.widget.ConstraintLayout>

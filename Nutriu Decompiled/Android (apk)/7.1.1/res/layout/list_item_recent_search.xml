@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/recentSearchTv" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

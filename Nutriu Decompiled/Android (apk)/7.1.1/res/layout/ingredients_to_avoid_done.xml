@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/avoidIngredientsDoneWrapper" android:background="?containerBackgroundGradient" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/doneImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_3x" android:src="@drawable/img_ingredients_to_avoid_done_secondary3" android:layout_alignParentTop="true" />
-    <TextView android:textAppearance="?textAppearanceH1Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/ingredients_to_avoid_finish_title" android:layout_below="@id/doneImage" android:layout_marginStart="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_4x" />
-    <Button android:id="@id/avoidIngredientsDoneButton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/done" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?buttonDenseInverse" />
-</RelativeLayout>

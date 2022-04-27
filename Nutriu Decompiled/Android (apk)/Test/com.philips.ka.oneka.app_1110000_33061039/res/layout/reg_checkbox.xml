@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/reg_x_checkbox_parent" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_x_checkbox" android:layout_width="@dimen/reg_x_checkbox_width" android:layout_height="@dimen/reg_x_checkbox_height">
+        <com.philips.cdp.registration.ui.customviews.XIconTextView android:textSize="@dimen/reg_check_size" android:textColor="@color/reg_check_box_tick_color" android:id="@id/reg_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ic_reg_check" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="center" android:id="@id/reg_tv_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+</LinearLayout>

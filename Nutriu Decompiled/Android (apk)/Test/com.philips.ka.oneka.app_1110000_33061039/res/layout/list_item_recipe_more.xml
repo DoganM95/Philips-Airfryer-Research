@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:paddingStart="4.0dip" android:paddingEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/white_two" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="@dimen/list_item_recipe_size" android:layout_marginBottom="@dimen/spacing_1x">
+        <TextView android:textSize="14.0sp" android:textColor="@color/dark_blue_green" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more" android:drawablePadding="@dimen/spacing_0.25x" android:layout_centerInParent="true" android:drawableEnd="@drawable/ic_arrow_right_small_dark_blue_green" fontPath="@string/font_xbold" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textAppearance="?textAppearanceBody3Secondary" android:gravity="center_vertical" android:id="@id/labelRecipeIngredientName" android:paddingTop="@dimen/spacing_1.5x" android:paddingBottom="@dimen/spacing_1.5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

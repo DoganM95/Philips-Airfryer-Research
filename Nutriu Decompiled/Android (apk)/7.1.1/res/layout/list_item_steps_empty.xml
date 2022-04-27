@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textAppearance="?textAppearanceBody2Neutral1" android:gravity="center_vertical" android:id="@id/tvFirstStep" android:background="@drawable/bg_edit_text_normal" android:paddingTop="@dimen/spacing_1.5x" android:paddingBottom="@dimen/spacing_1.5x" android:layout_width="fill_parent" android:layout_height="@dimen/first_step_height" android:text="@string/write_the_first_step" android:drawableEnd="@drawable/ic_add_camera_primary_wrapper" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

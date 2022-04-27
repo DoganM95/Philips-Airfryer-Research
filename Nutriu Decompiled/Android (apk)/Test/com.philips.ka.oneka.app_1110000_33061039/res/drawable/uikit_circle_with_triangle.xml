@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0" app:uikit_vc_viewportWidth="20.0" app:uikit_vc_viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <path android:fillColor="#ffffffff" android:pathData="M10,10m-9.95,0a9.95,9.95 0,1 1,19.9 0a9.95,9.95 0,1 1,-19.9 0" app:uikit_vc_fillColor="#ffffffff" app:uikit_vc_pathData="M10,10m-9.95,0a9.95,9.95 0,1 1,19.9 0a9.95,9.95 0,1 1,-19.9 0" />
+    <path android:fillColor="#00000000" android:pathData="M10,10m-9.59,0a9.59,9.59 0,1 1,19.18 0a9.59,9.59 0,1 1,-19.18 0" android:strokeColor="?uikit_baseColor" android:strokeWidth="1.0" android:strokeAlpha="0.5" android:fillAlpha="0.5" app:uikit_vc_strokeWidth="1.0" app:uikit_vc_strokeColor="?uikit_baseColor" app:uikit_vc_strokeAlpha="0.5" app:uikit_vc_fillColor="#00000000" app:uikit_vc_fillAlpha="0.5" app:uikit_vc_pathData="M10,10m-9.59,0a9.59,9.59 0,1 1,19.18 0a9.59,9.59 0,1 1,-19.18 0" />
+    <path android:fillColor="?uikit_baseColor" android:pathData="M11.021,7.002l0,5.996l2.958,-2.998z" app:uikit_vc_fillColor="?uikit_baseColor" app:uikit_vc_pathData="M11.021,7.002l0,5.996l2.958,-2.998z" />
+    <path android:fillColor="?uikit_baseColor" android:pathData="M8.979,7.002l0,5.996l-2.958,-2.998z" app:uikit_vc_fillColor="?uikit_baseColor" app:uikit_vc_pathData="M8.979,7.002l0,5.996l-2.958,-2.998z" />
+</vector>

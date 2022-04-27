@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:visibility="gone" android:layout_width="@dimen/list_item_large_recipe_size" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:layout_marginBottom="@dimen/spacing_2.5x" android:paddingStart="@dimen/spacing_0.5x" android:paddingEnd="@dimen/spacing_0.5x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@id/ivUser" android:layout_width="@dimen/newsfeed_section_profile_image_size" android:layout_height="@dimen/newsfeed_section_profile_image_size" android:layout_marginEnd="@dimen/spacing_1x" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textAppearance="?textAppearanceH5Secondary" android:id="@id/usernameLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
-        <TextView android:textAppearance="?textAppearanceH5Secondary" android:id="@id/actionLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.5x" android:maxLines="1" />
-    </LinearLayout>
-</LinearLayout>

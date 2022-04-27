@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/empty_icon" android:background="@drawable/bg_green_circle" android:padding="@dimen/spacing_1.5x" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_refresh_arrows" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:gravity="center_horizontal" android:id="@id/tv_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/unknown_error" android:lineSpacingExtra="8.0sp" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:gravity="center_horizontal" android:id="@id/btn_error_refresh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/refresh" android:lineSpacingExtra="8.0sp" fontPath="@string/font_bold" />
+</LinearLayout>

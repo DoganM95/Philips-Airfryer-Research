@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/parentLayout" android:paddingLeft="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/firstParent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:layout_gravity="fill_horizontal" android:id="@id/tellus_philips_submitreview_text" android:visibility="visible" android:text="@string/rate_playstore_headertext" style="@style/supportHomeHelpText" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+            <Button android:id="@id/tellus_PlayStoreReviewButton" android:visibility="visible" android:text="@string/rate_playstore_buttontext" style="@style/fontButton" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/app_review_divider_margin" android:layout_marginBottom="@dimen/app_review_divider_margin" />
+        <LinearLayout android:orientation="vertical" android:id="@id/secondParent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="fill_horizontal" android:text="@string/rate_philips_headertext" style="@style/supportHomeHelpText" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+            <TextView android:textSize="@dimen/title_text_size_medium" android:textColor="?uikit_baseColor" android:layout_gravity="fill_horizontal" android:layout_marginTop="0.0dip" android:text="@string/rate_philips_description" style="@style/supportHomeHelpText" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+            <Button android:id="@id/tellus_PhilipsReviewButton" android:text="@string/rate_philips_headertext" style="@style/fontButton" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

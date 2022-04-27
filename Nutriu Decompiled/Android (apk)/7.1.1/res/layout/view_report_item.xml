@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_9x" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_radio_button_round_primary" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:gravity="center_vertical" android:id="@id/reasonText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_4x" android:layout_toEndOf="@id/checkbox" />
-    <View android:id="@id/divider" android:background="?dividerColorOnInverse" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
-</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_7x" android:layout_marginBottom="@dimen/spacing_3x" android:layout_marginStart="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_4x" style="@style/Text.OnBoarding.Title" fontPath="@string/font_xbold" />
+    <TextView android:gravity="center_vertical" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_4x" android:text="@string/onboarding_description" android:drawablePadding="@dimen/spacing_2x" android:lineSpacingMultiplier="1.2" android:drawableStart="@drawable/ic_info_yellow_wrapper" android:layout_marginStart="@dimen/spacing_4x" android:layout_marginEnd="@dimen/spacing_4x" style="@style/Text.OnBoarding.Description" />
+</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_5x"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include layout="@layout/view_step_image" />
-    <TextView android:textAppearance="?textAppearanceH2Secondary" android:id="@id/stepOrder" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_3x" android:layout_marginStart="?inContainerHorizontalMargin" android:layout_marginEnd="?inContainerHorizontalMargin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageWrapper" app:layout_goneMarginTop="0.0dip" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/stepDescription" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginStart="?inContainerHorizontalMargin" android:layout_marginEnd="?inContainerHorizontalMargin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/stepOrder" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/collections_list" android:paddingTop="@dimen/spacing_1x" android:visibility="visible" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/loading_layout_profile_list" />
+    <include android:visibility="gone" layout="@layout/view_empty_state" />
+</RelativeLayout>

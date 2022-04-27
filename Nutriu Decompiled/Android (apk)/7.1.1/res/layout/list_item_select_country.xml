@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:theme="@style/Theme.Nutriu" android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_7x" android:layoutDirection="ltr" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iconCountryStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_radio_button_round_primary" android:layout_marginEnd="@dimen/spacing_4x" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/countryLabel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_2x" />
-    <ImageView android:id="@id/countryFlagImage" android:layout_width="@dimen/spacing_4x" android:layout_height="@dimen/spacing_4x" />
-</LinearLayout>

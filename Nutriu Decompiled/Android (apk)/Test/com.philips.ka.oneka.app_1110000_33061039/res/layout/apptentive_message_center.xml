@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="?apptentiveViewBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.apptentive.android.sdk.module.messagecenter.view.MessageCenterRecyclerView android:id="@id/message_center_recycler_view" android:paddingBottom="@dimen/apptentive_message_center_bottom_padding" android:scrollbars="vertical" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/composing_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/apptentive_ic_compose" android:contentDescription="@string/apptentive_message_center_fab_content_description" style="?attr/apptentiveFabStyle" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/toolbar" />
-    <TextView android:textAppearance="?textAppearanceH4Secondary" android:id="@id/labelEnergy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/energy" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" />
-    <com.google.android.material.tabs.TabLayout android:layout_gravity="bottom|center" android:id="@id/tabs" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_3x" style="?tabLayout" />
-    <View android:id="@id/tabDivider" android:background="?dividerColorOnInverse" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/spacing_1.5x" />
-    <com.duolingo.open.rtlviewpager.RtlViewPager android:orientation="vertical" android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-</LinearLayout>

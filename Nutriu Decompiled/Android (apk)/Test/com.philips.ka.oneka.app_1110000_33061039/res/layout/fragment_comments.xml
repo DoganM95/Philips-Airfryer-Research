@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" layout="@layout/view_error_message" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar_comments" android:visibility="gone" layout="@layout/toolbar" />
+        <TextView android:gravity="center_vertical" android:id="@id/comments_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/comments_label" style="@style/Text.Details.Subtitle" />
+        <TextView android:id="@id/view_all_comments_button" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_all_comments" style="@style/ViewAllButton" fontPath="@string/font_bold" />
+        <LinearLayout android:id="@id/comments_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:gravity="center" android:layout_gravity="center" android:id="@id/comments_empty_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/comments_empty" android:drawableTop="@drawable/ic_comments_no_results" android:drawablePadding="@dimen/spacing_2x" fontPath="@string/font_medium" />
+        </LinearLayout>
+        <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/comments_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/loading_layout_comments" />
+        <com.philips.ka.oneka.app.ui.comments.add.AddCommentLayout android:id="@id/add_comment_layout" android:background="?selectableItemBackground" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" />
+    <padding android:left="@dimen/user_image_border_size" android:top="@dimen/user_image_border_size" android:right="@dimen/user_image_border_size" android:bottom="@dimen/user_image_border_size" />
+    <stroke android:width="@dimen/user_image_border_size" android:color="@color/white_input" />
+</shape>

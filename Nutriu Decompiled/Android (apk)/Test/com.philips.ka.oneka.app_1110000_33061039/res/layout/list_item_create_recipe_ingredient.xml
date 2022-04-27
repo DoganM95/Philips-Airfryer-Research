@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:layout_marginBottom="@dimen/spacing_0.5x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/evergreen" android:gravity="center_vertical" android:id="@id/ingredient_label" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/enter_new_ingredient" android:layout_centerVertical="true" android:paddingEnd="@dimen/spacing_5x" style="@style/EditText" />
+    <ImageView android:id="@id/delete_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:layout_centerVertical="true" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" android:layout_alignParentEnd="true" />
+</RelativeLayout>

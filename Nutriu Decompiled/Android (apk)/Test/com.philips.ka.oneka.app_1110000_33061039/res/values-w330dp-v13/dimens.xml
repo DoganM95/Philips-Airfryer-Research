@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_margin_top">36.0dip</dimen>
+    <dimen name="springboard_grid_margin_left">33.0dip</dimen>
+    <dimen name="springboard_grid_margin_right">31.0dip</dimen>
+    <dimen name="springboard_gridsize">140.0dip</dimen>
+    <dimen name="springboard_gridspacing">18.0dip</dimen>
+    <dimen name="springboard_text_margin_bottom">13.0dip</dimen>
+    <dimen name="springboard_text_margin_top">14.0dip</dimen>
+    <dimen name="springboard_title_text_margin_bottom">25.0dip</dimen>
+    <dimen name="springboard_title_text_margin_top">53.0dip</dimen>
+    <dimen name="springboard_list_left_margin">151.0dip</dimen>
+    <dimen name="springboard_list_right_margin">150.0dip</dimen>
+</resources>

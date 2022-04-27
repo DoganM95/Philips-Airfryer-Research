@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/labelItemName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_3x" android:layout_marginEnd="@dimen/spacing_1x" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/labelPerServing" android:layout_width="@dimen/energy_item_per_serving_value_width" android:layout_height="wrap_content" android:lines="1" android:layout_marginEnd="@dimen/spacing_1x" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/labelDailyValue" android:layout_width="@dimen/energy_item_daily_value_width" android:layout_height="wrap_content" android:lines="1" android:layout_marginEnd="@dimen/spacing_3x" />
-</LinearLayout>

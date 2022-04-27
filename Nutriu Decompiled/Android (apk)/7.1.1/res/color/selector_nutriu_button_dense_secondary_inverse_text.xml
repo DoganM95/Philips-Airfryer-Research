@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_enabled="false" android:color="?nutriuColorSecondary3" />
-    <item android:color="?nutriuColorPrimary" />
-</selector>

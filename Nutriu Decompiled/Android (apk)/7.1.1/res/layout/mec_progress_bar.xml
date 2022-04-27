@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/mec_progress_bar_container" android:tag="layout/mec_progress_bar_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.philips.platform.uid.view.widget.ProgressBar android:layout_gravity="center" android:id="@id/mec_progress_bar" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UIDProgressBarCircularIndeterminateMiddle" />
-</FrameLayout>

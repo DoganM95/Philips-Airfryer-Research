@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/nutritionShimmer" layout="@layout/loading_layout_my_nutrition" />
-    <TextView android:gravity="center_vertical" android:id="@id/caloriesLabel" android:layout_width="0.0dip" android:layout_height="32.0dip" android:layout_marginLeft="@dimen/spacing_3x" android:layout_marginTop="@dimen/spacing_6x" android:layout_marginRight="@dimen/spacing_3x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_weight="1.0" android:layout_marginHorizontal="@dimen/spacing_3x" app:layout_constraintBottom_toTopOf="@id/nutrientsContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Text.Details.Subtitle" />
-    <FrameLayout android:id="@id/nutrientsContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

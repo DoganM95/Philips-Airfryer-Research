@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/reg_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:reglib="http://reg.lib/schema">
+    <ScrollView android:id="@id/sv_root_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_reg_root_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_reg_account_merge_container" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_header_margin_top">
+                <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_reg_provider_Details" android:text="@string/reg_Social_Merge_Used_EmailError_lbltxt" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_reg_conflict_provider" android:layout_marginBottom="@dimen/reg_margin_bottom" android:text="@string/reg_Social_Merge_Accounts_lbltxt" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_reg_merge_account_box" android:layout_marginTop="0.0dip" style="@style/reg_text_background">
+                <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_reg_merge_account_box" android:text="@string/reg_Social_Merge_Cancel_And_Restart_Registration_lbltxt" style="@style/reg_text_description" reglib:fontAssetName="CentraleSans-Book.OTF" />
+            </LinearLayout>
+            <com.philips.cdp.registration.ui.customviews.XRegError android:id="@id/reg_error_msg" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_margin_bottom" />
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_reg_btn_container" android:paddingLeft="@dimen/reg_layout_margin" android:paddingRight="@dimen/reg_layout_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_margin_bottom">
+                <FrameLayout android:id="@id/fl_reg_sign_in" android:layout_width="fill_parent" android:layout_height="@dimen/reg_btn_height" android:layout_marginBottom="@dimen/reg_margin_bottom">
+                    <com.philips.cdp.registration.ui.customviews.XButton android:enabled="true" android:id="@id/btn_reg_merg" android:text="@string/reg_Social_Merge_btntxt" style="@style/reg_style_btn" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/pb_reg_merge_sign_in_spinner" android:padding="@dimen/reg_pb_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_reg_forgot_password" android:layout_width="fill_parent" android:layout_height="@dimen/reg_btn_height" android:layout_below="@id/fl_reg_sign_in">
+                    <com.philips.cdp.registration.ui.customviews.XButton android:id="@id/btn_reg_cancel" android:background="@drawable/reg_btn_forgot_rect" android:layout_height="@dimen/reg_btn_height" android:text="@string/reg_Social_Merge_Cancel_btntxt" style="@style/reg_forgot_password" reglib:fontAssetName="CentraleSans-Book.OTF" />
+                </FrameLayout>
+            </RelativeLayout>
+            <View android:layout_width="wrap_content" android:layout_height="@dimen/reg_scroll_margin" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:id="@id/ll_root_layout" android:background="@color/reg_social_to_social_ui_blocker_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/reg_btn_height" android:layout_height="@dimen/reg_btn_height" />
+    </LinearLayout>
+</RelativeLayout>

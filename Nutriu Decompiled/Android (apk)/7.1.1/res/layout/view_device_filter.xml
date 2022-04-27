@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceBody3Neutral1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/filters_choose_category" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
-    <LinearLayout android:orientation="vertical" android:id="@id/filtersWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <TextView android:textAppearance="?textAppearanceBody3Neutral1" android:id="@id/filterTypeLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_4x" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/filters_refine_by" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
-    <LinearLayout android:orientation="vertical" android:id="@id/refineWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

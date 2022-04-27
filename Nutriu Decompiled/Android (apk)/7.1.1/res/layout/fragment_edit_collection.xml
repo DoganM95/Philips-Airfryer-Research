@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/toolbar" layout="@layout/toolbar" />
-    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:paddingBottom="@dimen/spacing_6x" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_9x">
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/recipeList" android:paddingBottom="@dimen/spacing_7x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="2" />
-    </androidx.core.widget.NestedScrollView>
-    <TextView android:enabled="false" android:layout_gravity="bottom" android:id="@id/btnSave" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/save_changes" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="?buttonDense" />
-</FrameLayout>

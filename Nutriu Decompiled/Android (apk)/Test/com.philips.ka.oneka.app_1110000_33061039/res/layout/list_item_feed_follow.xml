@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_3x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/feed_header_view" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/profile_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_1x" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_2x">
+            <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:id="@id/feed_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_0.5x" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mossy_green" android:id="@id/feed_timestamp_label" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/followed_profile_wrapper" android:paddingTop="@dimen/spacing_1x" android:paddingBottom="@dimen/spacing_1x" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/followed_profile_image" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_2x">
+            <TextView android:textSize="17.0sp" android:textColor="@color/evergreen" android:id="@id/followed_profile_name_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" fontPath="@string/font_bold" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/mossy_green" android:id="@id/followed_profile_country_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_0.25x" android:layout_marginBottom="@dimen/spacing_1.5x" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/evergreen" android:ellipsize="end" android:id="@id/followed_profile_followers_label" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginBottom="@dimen/spacing_1x" android:lines="1" />
+            <TextView android:id="@id/follow_button" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/follow" style="@style/Button.Follow.Profile" fontPath="@string/font_bold" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

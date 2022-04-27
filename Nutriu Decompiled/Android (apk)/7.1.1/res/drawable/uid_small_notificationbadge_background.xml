@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/uid_notificationbadge_small_radius" android:width="@dimen/uid_notificationbadge_small_radius" />
-    <corners android:radius="@dimen/uid_notificationbadge_small_radius" />
-</shape>

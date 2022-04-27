@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="?containerBackgroundInverse" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_7x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x">
-        <ImageView android:id="@id/iconLanguageStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_radio_button_round_primary" android:layout_marginEnd="@dimen/spacing_4x" />
-        <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/language" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_2x" />
-    </LinearLayout>
-    <include layout="@layout/divider_on_inverse" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:state_pressed="true" android:color="?uidHyperlinkDefaultPressedTextColor" />
-    <item android:color="?uidHyperlinkDefaultVisitedTextColor" app:uid_state_visited="true" />
-    <item android:color="?uidHyperlinkDefaultNormalTextColor" />
-</selector>

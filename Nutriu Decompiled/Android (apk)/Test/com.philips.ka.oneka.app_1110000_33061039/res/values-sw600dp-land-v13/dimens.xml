@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="apptentive_message_center_greeting_side_margin">188.0dip</dimen>
+    <dimen name="uikit_splash_logo_height">138.0dip</dimen>
+    <dimen name="uikit_splash_logo_width">110.0dip</dimen>
+    <dimen name="apptentive_activity_side_padding">228.0dip</dimen>
+    <dimen name="apptentive_activity_vertical_padding">0.0dip</dimen>
+    <dimen name="apptentive_dialog_side_padding">274.0dip</dimen>
+    <dimen name="apptentive_dialog_vertical_padding">0.0dip</dimen>
+    <dimen name="apptentive_image_file_extension_layout_top">0.0dip</dimen>
+    <dimen name="apptentive_message_center_error_side_margin">128.0dip</dimen>
+    <dimen name="apptentive_message_center_fab_margin_bottom">40.0dip</dimen>
+    <dimen name="apptentive_message_center_footer_height">64.0dip</dimen>
+    <dimen name="apptentive_message_center_header_height">64.0dip</dimen>
+    <dimen name="apptentive_message_center_message_list_side_border">1.0dip</dimen>
+    <dimen name="apptentive_message_center_status_side_padding">32.0dip</dimen>
+    <dimen name="apptentive_message_center_card_view_composing_margin_side">124.0dip</dimen>
+    <dimen name="apptentive_message_center_fab_margin_side">96.0dip</dimen>
+    <dimen name="apptentive_message_center_message_list_margin_side">124.0dip</dimen>
+    <dimen name="uikit_about_screen_content_right_margin">223.0dip</dimen>
+    <dimen name="uikit_about_screen_layout_left_margin">222.0dip</dimen>
+    <dimen name="uikit_about_screen_layout_rest_left_margin">224.0dip</dimen>
+    <dimen name="uikit_about_screen_layout_top_margin">53.0dip</dimen>
+    <dimen name="uikit_about_screen_logo_margin">48.0dip</dimen>
+    <dimen name="uikit_about_screen_logo_margin_bottom">53.0dip</dimen>
+    <dimen name="uikit_about_screen_version_copyright_left_margin">225.0dip</dimen>
+    <dimen name="springboard_list_margin_left_tablet">151.0dip</dimen>
+    <dimen name="springboard_list_margin_right_tablet">151.0dip</dimen>
+    <dimen name="springboard_list_margin_top_tablet">116.0dip</dimen>
+</resources>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="48.0dip" android:width="48.0dip" android:autoMirrored="true" android:viewportWidth="48.0" android:viewportHeight="48.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="?uidRatingBarDefaultNormalOnIconColor" android:pathData="M32.1,28.2l7.9,-7.8l-11,-1.7l-5,-9.9l-5,9.9l-11,1.7l7.9,7.8l-1.8,11l9.9,-5.1l9.9,5.1z" />
-</vector>

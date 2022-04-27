@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:foreground="?selectableItemBackground" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="@drawable/placeholder_light" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/image_warning" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/DeviceWarningImage" />
+        <LinearLayout android:orientation="vertical" android:id="@id/drag_handle_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <View android:background="@drawable/background_white_rounded" android:layout_width="24.0dip" android:layout_height="3.0dip" />
+            <View android:background="@drawable/background_white_rounded" android:layout_width="24.0dip" android:layout_height="3.0dip" android:layout_marginTop="@dimen/spacing_0.5x" />
+        </LinearLayout>
+    </com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout>
+    <TextView android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" style="@style/Text.RecipeListItem" />
+</LinearLayout>

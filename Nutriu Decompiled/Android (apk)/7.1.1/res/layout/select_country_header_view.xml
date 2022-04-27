@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:theme="@style/Theme.Nutriu" android:id="@id/selectCountryHeaderContainer" android:paddingTop="@dimen/spacing_2.5x" android:paddingBottom="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_3x" android:paddingEnd="@dimen/spacing_3x"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="?textAppearanceH2Secondary" android:id="@id/titleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_your_country" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/subtitleLabel" android:paddingTop="@dimen/spacing_2.5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_your_country_subtitle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/titleLabel" app:layout_constraintTop_toBottomOf="@id/titleLabel" />
-</androidx.constraintlayout.widget.ConstraintLayout>

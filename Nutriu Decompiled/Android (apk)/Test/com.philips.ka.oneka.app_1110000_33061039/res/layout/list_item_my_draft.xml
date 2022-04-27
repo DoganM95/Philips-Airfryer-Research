@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/image_layout" />
+    <TextView android:textSize="24.0sp" android:textColor="@color/evergreen" android:id="@id/title_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" style="@style/Text.Details.Title" fontPath="@string/font_xbold" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x">
+        <LinearLayout android:id="@id/servings_layout" android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer.Grey">
+            <ImageView android:src="@drawable/ic_serving" android:tint="@color/evergreen" style="@style/TagImage" />
+            <TextView android:id="@id/servings_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/preparation_time_layout" android:layout_marginEnd="@dimen/spacing_1x" style="@style/TagContainer.Grey">
+            <ImageView android:src="@drawable/ic_prep_time" android:tint="@color/evergreen" style="@style/TagImage" />
+            <TextView android:id="@id/preparation_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/cooking_time_layout" style="@style/TagContainer.Grey">
+            <ImageView android:src="@drawable/ic_temperature" android:tint="@color/evergreen" style="@style/TagImage" />
+            <TextView android:id="@id/cooking_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Tag.Dark" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/greyish_brown" android:ellipsize="end" android:id="@id/description_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:maxLines="3" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" style="@style/Text.Details.Description" />
+    <RelativeLayout android:id="@id/edit_btn" android:background="@drawable/bg_green_rounded" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_5x">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_recipe_draft" android:drawablePadding="@dimen/spacing_1x" android:layout_centerInParent="true" android:drawableEnd="@drawable/ic_edit_white" />
+    </RelativeLayout>
+</LinearLayout>

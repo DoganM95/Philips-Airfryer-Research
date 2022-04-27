@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/savedscreen_product_image_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/welcome_screen_parent_one" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/welcome_screen_image_height" android:src="@drawable/welcomescreen_image" android:scaleType="fitXY" />
+        <TextView android:textSize="@dimen/title_text_size_small" android:textColor="?uikit_baseColor" android:id="@id/welcome_screen_text" android:paddingLeft="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:text="@string/Select_Product_Desc" />
+        <RelativeLayout android:id="@id/welcome_screen_parent_two" android:background="?uikit_baseColor" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/actionbar_height" android:layout_marginTop="35.0dip">
+            <RelativeLayout android:id="@id/welcome_screen_parent_three" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/welcome_screen_find_product_search" android:paddingLeft="@dimen/savedscreen_productcontainer_marigin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mp_search" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/title_text_size_medium" android:textColor="?uikit_baseColor" android:gravity="center" android:id="@id/welcome_screen_find_product_text" android:paddingLeft="@dimen/savedscreen_productcontainer_marigin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Select_Product_Find" android:layout_alignBottom="@id/welcome_screen_find_product_search" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

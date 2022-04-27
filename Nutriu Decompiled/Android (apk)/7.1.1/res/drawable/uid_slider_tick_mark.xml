@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/uid_slider_progress_bar_height" android:width="@dimen/uid_slider_tick_mark_width" />
-</shape>

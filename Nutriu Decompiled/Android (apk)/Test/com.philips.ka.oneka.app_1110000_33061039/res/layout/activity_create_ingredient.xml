@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <TextView android:textColor="@color/mossy_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/amount" style="@style/Text.Section.Title" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textColor="@color/evergreen" android:id="@id/amount_input" android:layout_width="0.0dip" android:layout_height="@dimen/edit_text_height" android:layout_weight="1.0" android:inputType="numberDecimal" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_0.5x" style="@style/EditText" />
+        <EditText android:textColor="@color/evergreen" android:id="@id/unit_input" android:focusable="false" android:focusableInTouchMode="false" android:longClickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/edit_text_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_0.5x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText" />
+    </LinearLayout>
+    <TextView android:textColor="@color/mossy_green" android:id="@id/ingredient_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ingredient" android:transitionName="@string/transition_ingredientLabel" style="@style/Text.Section.Title" />
+    <EditText android:textColor="@color/evergreen" android:textColorHint="@color/warm_grey" android:id="@id/ingredient_input" android:focusable="false" android:focusableInTouchMode="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:hint="@string/ingredient_hint_longer" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" android:transitionName="@string/transition_ingredientInput" style="@style/EditText" />
+    <LinearLayout android:orientation="vertical" android:id="@id/dummy_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

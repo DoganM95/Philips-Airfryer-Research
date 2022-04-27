@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/items_list" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" app:layoutManager="android.support.v7.widget.GridLayoutManager" app:spanCount="2" />
+    <include layout="@layout/loading_layout_search" />
+    <ScrollView android:id="@id/empty_layout" android:paddingTop="@dimen/spacing_1x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/empty_icon" android:background="@drawable/bg_green_circle" android:padding="@dimen/spacing_3x" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/ic_people" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/sap_green" android:gravity="center" android:id="@id/empty_label" android:paddingTop="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" fontPath="@string/font_medium" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <ScrollView android:id="@id/recent_search_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_1x" android:text="@string/recent_searches" android:drawablePadding="@dimen/spacing_1.5x" android:drawableStart="@drawable/ic_recent_searches_wrapper" android:layout_marginStart="@dimen/spacing_2x" fontPath="@string/font_bold" />
+            <LinearLayout android:orientation="vertical" android:id="@id/recent_search_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

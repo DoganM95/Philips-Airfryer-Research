@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/uikit_button_outlined_disabled" />
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_philips_very_dark_blue" />
+                    <corners android:radius="@dimen/uikit_button_corner_rounding" />
+                    <solid android:color="@color/uikit_white" />
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="rectangle"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_philips_very_dark_blue" />
+                    <corners android:radius="@dimen/uikit_button_corner_rounding" />
+                    <solid android:color="#1a0f204b" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_philips_dark_blue" />
+            <corners android:radius="@dimen/uikit_button_corner_rounding" />
+            <solid android:color="@color/uikit_white" />
+        </shape>
+    </item>
+</selector>

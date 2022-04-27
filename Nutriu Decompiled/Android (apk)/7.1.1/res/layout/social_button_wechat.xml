@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.philips.platform.uid.view.widget.Button android:textSize="24.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/UIDSocialIconPrimaryOutline"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

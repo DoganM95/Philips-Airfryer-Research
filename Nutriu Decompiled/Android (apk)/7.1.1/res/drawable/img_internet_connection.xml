@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="96.0dip" android:width="96.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$img_internet_connection__0" android:pathData="M48,48m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" android:fillType="evenOdd" />
-    <path android:fillColor="?nutriuColorInverse" android:pathData="M30.624,50.065l6.69,-0.585c0.694,5.528 5.346,9.8 10.982,9.8 2.914,0 5.628,-1.15 7.647,-3.107l-3.798,-3.742 13.62,-1.302 -1.321,13.421 -3.685,-3.63c-3.26,3.25 -7.697,5.17 -12.463,5.17 -9.148,0 -16.682,-7.01 -17.672,-16.025zM65.15,46.118l-6.688,0.585c-0.654,-5.573 -5.327,-9.894 -10.994,-9.894 -2.914,0 -5.627,1.15 -7.647,3.108l3.798,3.743L30,44.96l1.32,-13.42 3.685,3.631C38.265,31.921 42.702,30 47.468,30c9.18,0 16.734,7.058 17.682,16.118z" android:fillType="evenOdd" />
-</vector>

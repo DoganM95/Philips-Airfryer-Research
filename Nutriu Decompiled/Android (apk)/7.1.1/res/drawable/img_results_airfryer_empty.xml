@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="96.0dip" android:width="96.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
-    <path android:fillColor="@drawable/$img_results_airfryer_empty__0" android:pathData="M48,48m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" android:fillType="evenOdd" />
-    <path android:fillColor="?nutriuColorInverse" android:pathData="M34.85,55.708v6.442h27.3L62.15,52.4v-0.042A12.665,12.665 0,0 0,68 41.675C68,34.675 62.325,29 55.325,29c-2.513,0 -4.855,0.731 -6.825,1.993l-0.001,-0.001a12.723,12.723 0,0 0,-3.435 3.24,1.462 1.462,0 1,1 -2.367,-1.719 15.677,15.677 0,0 1,2.775 -2.935A12.67,12.67 0,0 0,41.675 29C34.675,29 29,34.675 29,41.675c0,4.488 2.332,8.43 5.85,10.683v0.002a12.584,12.584 0,0 0,5.115 1.876,1.462 1.462,0 1,1 -0.39,2.899 15.508,15.508 0,0 1,-4.725 -1.427zM62.15,64.1v1.95A1.95,1.95 0,0 1,60.2 68L36.8,68a1.95,1.95 0,0 1,-1.95 -1.95L34.85,64.1h27.3z" android:fillType="evenOdd" />
-</vector>

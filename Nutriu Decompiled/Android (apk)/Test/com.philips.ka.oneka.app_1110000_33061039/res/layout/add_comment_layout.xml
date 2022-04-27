@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/divider" android:background="@color/white_two" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/spacing_1x" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/comments_wrapper" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="bottom" android:id="@id/user_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_profile_photo_error" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+        <EditText android:textSize="14.0sp" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/add_comment_input" android:padding="@dimen/spacing_1x" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:hint="@string/enter_your_comment" android:maxLines="5" android:layout_weight="1.0" android:inputType="textMultiLine" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/send_comment_action" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_send" android:layout_marginEnd="@dimen/spacing_2x" app:paddingEnd="@dimen/spacing_2x" />
+    </LinearLayout>
+</merge>

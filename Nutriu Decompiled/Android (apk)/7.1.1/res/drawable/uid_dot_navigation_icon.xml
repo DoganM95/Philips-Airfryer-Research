@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="@dimen/uid_dot_navigation_icon_size" android:width="@dimen/uid_dot_navigation_icon_size" />
-    <corners android:radius="@dimen/uid_dot_navigation_icon_radius" />
-    <solid android:color="#ffffffff" />
-</shape>

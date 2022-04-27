@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:foreground="?selectableItemBackground" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/image" android:background="@drawable/bg_border_primary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:src="@drawable/ic_add_new_large_primary" android:scaleType="centerInside" />
-    </com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout>
-    <TextView android:textAppearance="?textAppearanceH5Secondary" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:text="@string/dolphin_add_new_recipe" android:maxLines="2" />
-</LinearLayout>

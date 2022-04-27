@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/library_title" android:layout_marginTop="@dimen/spacing_3x" style="@style/Text.Licences.Title" />
+    <TextView android:id="@id/library_desc" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_4x" style="@style/Text.Licences.Desc" />
+    <include layout="@layout/white_divider" />
+</LinearLayout>

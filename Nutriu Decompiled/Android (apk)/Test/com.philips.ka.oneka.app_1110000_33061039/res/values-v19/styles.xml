@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ApptentiveTheme.Base.Versioned.TranslucentStatus" parent="@style/ApptentiveTheme.Base.Versioned">
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="cardview_recipe_list_favourites">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginStart">@dimen/spacing_2x</item>
+        <item name="cardCornerRadius">16.0dip</item>
+        <item name="cardElevation">2.0dip</item>
+        <item name="contentPaddingLeft">@dimen/spacing_1x</item>
+        <item name="contentPaddingRight">@dimen/spacing_1.5x</item>
+    </style>
+</resources>

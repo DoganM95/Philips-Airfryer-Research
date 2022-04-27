@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/uid_recyclerview_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.philips.platform.uid.view.widget.Label android:gravity="center_vertical" android:id="@id/uid_recyclerview_header" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/UIDLabel.Header" />
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/uid_recyclerview_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

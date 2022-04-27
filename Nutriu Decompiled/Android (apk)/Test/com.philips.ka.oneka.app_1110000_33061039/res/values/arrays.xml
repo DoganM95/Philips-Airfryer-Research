@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="control_icons">
+        <item>@drawable/uikit_arrow_up</item>
+        <item>@drawable/uikit_arrow_down</item>
+    </array>
+    <array name="main_menu_resources">
+        <item>@drawable/consumercare_view_faq</item>
+        <item>@drawable/consumercare_view_product_details</item>
+        <item>@drawable/consumercare_contact_us</item>
+        <item>@drawable/consumercare_feedback</item>
+        <item>@drawable/consumercare_product_selection</item>
+    </array>
+    <string-array name="main_menu_title">
+        <item>@string/view_faq</item>
+        <item>@string/view_product_details</item>
+        <item>@string/contact_us</item>
+        <item>@string/feedback</item>
+        <item>@string/Change_Selected_Product</item>
+    </string-array>
+    <string-array name="product_menu_title">
+        <item>@string/product_download_manual</item>
+        <item>@string/product_information</item>
+    </string-array>
+    <string-array name="server_pool">
+        <item>time1.google.com</item>
+        <item>time2.google.com</item>
+        <item>time3.google.com</item>
+        <item>time4.google.com</item>
+    </string-array>
+    <string-array name="social_service_provider_menu_resources">
+        <item>@string/uikit_fonticon_twitter</item>
+        <item>@string/uikit_fonticon_facebook</item>
+    </string-array>
+    <string-array name="social_service_provider_menu_title">
+        <item>@string/twitter</item>
+        <item>@string/facebook</item>
+    </string-array>
+</resources>

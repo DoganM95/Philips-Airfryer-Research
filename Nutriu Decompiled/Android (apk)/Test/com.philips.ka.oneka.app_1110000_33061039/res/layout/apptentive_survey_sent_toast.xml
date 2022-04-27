@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/survey_sent_toast_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr/apptentiveSurveySentToastStyle">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/survey_sent_action_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/apptentive_checkmark_alt_40dp" />
+        <TextView android:textAppearance="@style/Apptentive.TextAppearance.Subhead.SnackBar" android:id="@id/survey_sent_action_text" android:paddingLeft="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

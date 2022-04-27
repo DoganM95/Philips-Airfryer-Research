@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/white_input" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/green" android:ellipsize="end" android:gravity="center_vertical" android:orientation="vertical" android:id="@id/tv_new_ingredient" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip" android:maxLines="2" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_add_new_wrapper" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x" style="@style/Text.ListItem" fontPath="@string/font_bold" />
+</LinearLayout>

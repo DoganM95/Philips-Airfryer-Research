@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/list_item_collection_size" android:layout_height="@dimen/list_item_collection_size" android:src="@color/lighter_grey" android:layout_marginStart="@dimen/spacing_2x" />
+    <ImageView android:paddingTop="12.0dip" android:layout_width="100.0dip" android:layout_height="25.0dip" android:src="@color/lighter_grey" android:layout_marginStart="@dimen/spacing_2x" />
+</LinearLayout>

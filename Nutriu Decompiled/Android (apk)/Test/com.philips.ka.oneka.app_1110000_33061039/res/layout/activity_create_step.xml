@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/sv_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include layout="@layout/toolbar" />
+        <RelativeLayout android:id="@id/step_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_2x" />
+        <EditText android:id="@id/et_direction_step" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText.MultiLine.Wrap" />
+        <TextView android:id="@id/tv_description_empty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/step_description_missing" style="@style/Text.Error" />
+        <android.support.v7.widget.SwitchCompat android:textColor="@color/evergreen" android:id="@id/sw_need_device" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:text="@string/set_airfryer_time_and_temperature" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
+        <LinearLayout android:orientation="vertical" android:id="@id/view_airfryer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/select_device" style="@style/Text.Section.Title" />
+            <Spinner android:id="@id/device_families" android:background="@color/white_input" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:popupBackground="@color/white" />
+            <TextView android:id="@id/temperature_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_temperature" style="@style/Text.Section.Title" />
+            <TextView android:id="@id/input_temperature" android:background="@color/white_input" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:text="@string/zero" android:drawableStart="@drawable/ic_input_temperature_wrapper" style="@style/Text.PickerValue" />
+            <TextView android:id="@id/label_temperature_empty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/temperature_not_set" style="@style/Text.Error" />
+            <TextView android:id="@id/time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/set_time" style="@style/Text.Section.Title" />
+            <TextView android:id="@id/input_time" android:background="@color/white_input" android:layout_width="fill_parent" android:layout_height="@dimen/step_input_height" android:layout_marginLeft="@dimen/spacing_2x" android:layout_marginRight="@dimen/spacing_2x" android:drawableStart="@drawable/ic_input_time_wrapper" style="@style/Text.PickerValue" />
+            <TextView android:id="@id/label_time_empty" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/time_not_set" style="@style/Text.Error" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

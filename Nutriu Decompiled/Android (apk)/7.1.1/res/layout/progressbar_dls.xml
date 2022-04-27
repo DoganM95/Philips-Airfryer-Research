@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/iap_margin_20dp" android:layout_marginBottom="@dimen/iap_margin_20dp">
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
-            <com.philips.platform.uid.view.widget.ProgressBarWithLabel android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mec_loading" app:uidCircularProgressBarSize="middle" app:uidIsIndeterminateProgressIndicator="true" app:uidLabelPosition="bottom_center" style="@style/UIDProgressBarCircularIndeterminateMiddle" />
-        </LinearLayout>
-    </LinearLayout>
-</LinearLayout>

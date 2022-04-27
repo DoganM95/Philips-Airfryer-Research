@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="control_icons">
+        <item>@drawable/uikit_arrow_up</item>
+        <item>@drawable/uikit_arrow_down</item>
+    </array>
+</resources>

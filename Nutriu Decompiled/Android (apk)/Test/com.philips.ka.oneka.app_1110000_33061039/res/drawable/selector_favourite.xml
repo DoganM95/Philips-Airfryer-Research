@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/ic_favourite_selected_wrapper" />
+    <item android:state_selected="false" android:drawable="@drawable/ic_favourite_not_selected_wrapper" />
+    <item android:drawable="@drawable/ic_favourite_not_selected_wrapper" />
+</selector>

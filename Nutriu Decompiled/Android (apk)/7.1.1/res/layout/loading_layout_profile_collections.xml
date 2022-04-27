@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loadingViewContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_below="@id/imageContainer" android:layout_marginStart="@dimen/spacing_2x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <include layout="@layout/loading_layout_profile_collections_item" />
-        <include layout="@layout/loading_layout_profile_collections_item" />
-    </LinearLayout>
-</com.facebook.shimmer.ShimmerFrameLayout>

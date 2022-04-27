@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:drawable="@drawable/ic_favourite_small_filled_warning" />
-    <item android:state_focused="true" android:drawable="@drawable/ic_favourite_small_filled_warning" />
-    <item android:drawable="@drawable/ic_favourite_small_empty_warning" />
-</selector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_7x" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="?textAppearanceH2Secondary" android:gravity="center_vertical" android:id="@id/commentsTitle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/comments_label" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:id="@id/viewAllCommentsButton" android:padding="@dimen/spacing_2x" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/view_all_comments" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="?buttonQuietAsParagraph" />
-</androidx.constraintlayout.widget.ConstraintLayout>

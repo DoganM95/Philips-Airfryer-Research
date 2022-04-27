@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.daimajia.swipe.SwipeLayout android:layout_width="fill_parent" android:layout_height="72.0dip" android:animateLayoutChanges="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/deleteBtn" android:background="?nutriuColorWarning" android:layout_width="90.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground">
-        <ImageView android:id="@id/deleteIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_delete_inverse" android:backgroundTint="?nutriuColorInverse" app:tint="?nutriuColorInverse" />
-        <TextView android:textAppearance="?textAppearanceSmallText1Inverse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:text="@string/remove" />
-    </LinearLayout>
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:gravity="center_vertical" android:id="@id/labelIngredientName" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
-</com.daimajia.swipe.SwipeLayout>

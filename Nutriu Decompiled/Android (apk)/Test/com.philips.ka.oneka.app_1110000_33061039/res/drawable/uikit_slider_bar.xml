@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:left="@dimen/baseslider_bar_padding">
+        <shape android:shape="line"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/baseslider_bar_width" android:color="@color/uikit_enricher6" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="line"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <stroke android:width="@dimen/slider_bar_progress" android:color="@color/uikit_philips_dark_blue" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

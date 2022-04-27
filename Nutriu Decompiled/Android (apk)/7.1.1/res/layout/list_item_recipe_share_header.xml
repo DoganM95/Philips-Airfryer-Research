@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageView android:id="@id/firstImage" android:background="@drawable/bg_border_05_rounded_marble" android:padding="@dimen/spacing_4x" android:layout_width="112.0dip" android:layout_height="112.0dip" android:foreground="?selectableItemBackgroundBorderless" android:src="@drawable/ic_add_photo_secondary"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.philips.platform.uid.view.widget.Label android:id="@id/item_text" android:padding="@dimen/border8_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/border16_margin_left_right" android:layout_marginEnd="@dimen/border16_margin_left_right" style="@style/UIDUIPickerItem"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

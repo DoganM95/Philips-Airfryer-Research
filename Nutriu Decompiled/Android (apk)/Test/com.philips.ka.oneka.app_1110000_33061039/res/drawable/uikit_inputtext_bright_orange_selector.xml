@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_enricher4" />
+            <corners android:radius="@dimen/uikit_button_corner_rounding" />
+            <solid android:color="@color/uikit_enricher7" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_philips_light_orange" />
+            <corners android:radius="@dimen/uikit_button_corner_rounding" />
+            <solid android:color="@color/uikit_white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <stroke android:width="@dimen/uikit_button_stroke_width" android:color="@color/uikit_enricher4" />
+            <corners android:radius="@dimen/uikit_button_corner_rounding" />
+            <solid android:color="@color/uikit_white" />
+        </shape>
+    </item>
+</selector>

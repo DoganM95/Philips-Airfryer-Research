@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:id="@id/healthBoostsCardView" android:clickable="true" android:layout_width="144.0dip" android:layout_height="144.0dip" android:foreground="?selectableItemBackground" android:layout_marginEnd="@dimen/spacing_1x" app:cardBackgroundColor="?containerBackground05"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/boostIcon" android:layout_width="@dimen/spacing_6x" android:layout_height="@dimen/spacing_6x" android:layout_marginTop="@dimen/spacing_4x" android:scaleType="centerInside" android:layout_marginStart="@dimen/spacing_1x" android:layout_marginEnd="@dimen/spacing_1x" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-        <TextView android:textAppearance="?textAppearanceBody3Inverse" android:gravity="center" android:id="@id/boostName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_1x" android:maxLines="2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/boostIcon" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</androidx.cardview.widget.CardView>

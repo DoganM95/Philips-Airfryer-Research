@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.philips.ka.oneka.app.ui.nutritional.NutrientItemView android:id="@id/nutrientItem" android:layout_width="fill_parent" android:layout_height="40.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

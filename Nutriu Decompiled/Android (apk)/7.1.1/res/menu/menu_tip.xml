@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_favourite_small_empty_warning" android:id="@id/actionFavourite" android:visible="false" android:title="@string/favourites_label" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_share_primary" android:id="@id/actionShare" android:visible="false" android:title="@string/share_recipe" app:showAsAction="always" />
-</menu>

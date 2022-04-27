@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_0.5x" android:paddingBottom="@dimen/spacing_0.5x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:paddingStart="@dimen/spacing_0.5x" android:paddingEnd="@dimen/spacing_0.5x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/header" layout="@layout/list_item_activity_header" />
-    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/image" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="@dimen/list_item_recipe_size" android:layout_marginBottom="@dimen/spacing_2x" android:scaleType="centerCrop" />
-    <TextView android:textAppearance="?textAppearanceBody3Secondary" android:id="@id/text" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="wrap_content" android:maxLines="2" android:lines="2" />
-</LinearLayout>

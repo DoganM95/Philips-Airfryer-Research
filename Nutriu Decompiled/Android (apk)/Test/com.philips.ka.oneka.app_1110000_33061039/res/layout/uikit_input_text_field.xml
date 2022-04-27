@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="16.0sp" android:id="@id/edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/space" android:layout_width="0.0dip" android:layout_height="63.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/error_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/space" />
+    <TextView android:textSize="16.0sp" android:id="@id/error_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="-4.0dip" android:layout_toRightOf="@id/error_image" android:layout_below="@id/space" android:layout_alignTop="@id/error_image" fontPath="fonts/centralesansbook.ttf" />
+</merge>

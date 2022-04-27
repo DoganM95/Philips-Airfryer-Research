@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/ic_add_to_recipe_book_primary" android:id="@id/actionAddToRecipeBook" android:title="@string/add_to_recipe_book" app:showAsAction="always" />
-    <item android:icon="@drawable/ic_share_primary" android:id="@id/actionShare" android:title="@string/share_recipe" app:showAsAction="always" />
-</menu>

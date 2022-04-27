@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:tag="layout/mec_item_date_recycler_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:orientation="vertical" android:id="@id/tv_time_header" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <View android:background="?uidSeparatorContentNormalBackgroundColor" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-        <com.philips.platform.uid.view.widget.Label android:gravity="start|center" android:id="@id/tv_time" android:tag="binding_1" android:paddingLeft="@dimen/border16_margin_left_right" android:paddingRight="@dimen/border16_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/mec_history_list_header" />
-    </LinearLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_orders" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tv_time_header" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
-</RelativeLayout>

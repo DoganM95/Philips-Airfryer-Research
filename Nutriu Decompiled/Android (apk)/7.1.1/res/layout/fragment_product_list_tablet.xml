@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/productListContainerTablet" android:background="?uidContentPrimaryBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/fragmentTabletProductList" android:tag="ProductListingFragment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.39" />
-    <View android:id="@id/listViewSeperator" android:background="@drawable/split_view_seperator_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.01" />
-    <RelativeLayout android:id="@id/fragmentTabletProductDetailsParent" android:background="#ffcccccc" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.6" />
-</LinearLayout>

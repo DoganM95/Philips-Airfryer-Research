@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/cross_fade_image_layout" />
+        <ImageView android:layout_gravity="end" android:id="@id/image_warning" android:visibility="gone" style="@style/DeviceWarningImage" />
+        <LinearLayout android:layout_gravity="start|bottom|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView android:id="@id/favourites_label_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_0.5x" style="@style/cardview_recipe_list_favourites">
+                <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/favourites_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_favourite_dark" style="@style/Text.Details.Info" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView android:id="@id/preparation_time_label_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:layout_marginStart="@dimen/spacing_2x" style="@style/cardview_recipe_list_favourites">
+                <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/preparation_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/spacing_1x" android:drawableStart="@drawable/ic_total_time_wrapper" style="@style/Text.Details.Info" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <com.philips.ka.oneka.app.ui.shared.SelectableLottieAnimationView android:layout_gravity="end|bottom|center" android:id="@id/favourite_button" android:visibility="gone" android:layout_width="@dimen/fab_button_width" android:layout_height="@dimen/fab_button_height" android:layout_margin="@dimen/spacing_2x" />
+    </FrameLayout>
+    <TextView android:textSize="24.0sp" android:textColor="@color/evergreen" android:id="@id/title_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="12.0dip" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.Title" fontPath="@string/font_xbold" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/greyish_brown" android:ellipsize="end" android:id="@id/description_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:maxLines="3" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/Text.Details.Description" />
+</LinearLayout>

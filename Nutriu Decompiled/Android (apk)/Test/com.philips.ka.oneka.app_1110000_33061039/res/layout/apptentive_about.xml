@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:paddingLeft="@dimen/apptentive_activity_side_padding" android:paddingRight="@dimen/apptentive_activity_side_padding" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingTop="@dimen/apptentive_activity_vertical_padding" android:paddingBottom="@dimen/apptentive_activity_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="?apptentiveDialogBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/composing_toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="@dimen/apptentive_message_center_icon_dimension" android:elevation="8.0dip">
+                    <ImageButton android:id="@id/close_about" android:background="?android:selectableItemBackground" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/apptentive_ic_toolbar_close" android:scaleType="fitCenter" android:tint="?android:textColorPrimaryInverse" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="Close" android:layout_alignParentStart="true" />
+                    <ImageButton android:id="@id/branding" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/apptentive_ic_about" android:scaleType="fitCenter" android:tint="?android:textColorPrimaryInverse" android:layout_toRightOf="@id/close_about" android:layout_centerVertical="true" android:contentDescription="Apptentive" android:layout_toEndOf="@id/close_about" />
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/Apptentive.TextAppearance.Subhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/apptentive_about_description" />
+                    <TextView android:textAppearance="@style/Apptentive.TextAppearance.Subhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/apptentive_about_privacy" />
+                    <Button android:textAppearance="@style/Apptentive.TextAppearance.Body1" android:textColor="?colorPrimary" android:id="@id/about_description_link" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:text="@string/apptentive_about_description_link" style="@style/Apptentive.Widget.Button.Borderless" />
+                    <Button android:textAppearance="@style/Apptentive.TextAppearance.Body1" android:textColor="?colorPrimary" android:id="@id/privacy_link" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/apptentive_about_privacy_link" style="@style/Apptentive.Widget.Button.Borderless" />
+                </LinearLayout>
+                <include layout="@layout/apptentive_branding" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/view_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/bottom_toast_label" android:background="@drawable/bg_toast" android:padding="@dimen/spacing_2x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.roughike.bottombar.BottomBar android:id="@id/bottom_bar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_bar_height" app:bb_tabXmlResource="@xml/bottom_bar" app:bb_behavior="iconsOnly" app:bb_longPressHintsEnabled="false" app:bb_inActiveTabAlpha="1.0" app:bb_activeTabAlpha="1.0" app:bb_inActiveTabColor="@color/bottom_bar_inactive" app:bb_activeTabColor="@color/bottom_bar_active" app:bb_badgesHideWhenActive="false" app:bb_titleTypeFace="@string/font_book" app:bb_showShadow="true" />
+</LinearLayout>

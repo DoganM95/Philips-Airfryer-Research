@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.philips.platform.uid.view.widget.Label android:gravity="start|center" android:id="@id/uid_recyclerview_item_one_line" android:layout_width="fill_parent" android:layout_height="@dimen/uid_recyclerview_item_one_line_height" android:drawablePadding="@dimen/uid_recyclerview_drawable_padding" android:textAlignment="viewStart" android:layout_marginStart="@dimen/uid_recyclerview_margin_left_right" android:layout_marginEnd="@dimen/uid_recyclerview_margin_left_right" style="@style/UIDLabel.RecyclerViewItemOneLineTitleText" />
-</LinearLayout>

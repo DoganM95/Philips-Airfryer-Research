@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bg_primary_rounded" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?containerBackground05"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceSmallText2Secondary" android:id="@id/labelDeviceWarning" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:text="@string/device_mismatch_warning_v2" android:layout_weight="1.0" android:layout_marginStart="@dimen/spacing_1.5x" android:layout_marginEnd="@dimen/spacing_1.5x" />
-    <TextView android:textAppearance="?textAppearanceSmallText1Secondary" android:id="@id/labelDeviceWarningInfo" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/device_mismatch_warning_button" android:paddingEnd="@dimen/spacing_2x" />
-</LinearLayout>

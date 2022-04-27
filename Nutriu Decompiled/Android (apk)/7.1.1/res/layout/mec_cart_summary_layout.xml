@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_vertical" android:id="@id/parent_layout" android:tag="layout/mec_cart_summary_layout_0" android:background="@color/uidColorWhite" android:layout_width="@dimen/iap_match_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/mecPriceLayout" android:background="?uidBottomSheetDefaultBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/iap_shopping_cart_btn_margin" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/iap_shopping_cart_btn_margin" android:layout_marginBottom="4.0dip" android:backgroundTint="#ffffffff">
-        <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_retailers_store_name_size_12sp" android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/mec_total_products" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.75" style="@style/mecCentralesansBookFont" />
-        <com.philips.platform.uid.view.widget.Label android:textSize="@dimen/iap_retailers_store_name_size_12sp" android:textColor="?uidContentItemPrimaryNormalTextColor" android:id="@id/mec_total_price" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" style="@style/mecCentralesansBookFont" />
-    </LinearLayout>
-</RelativeLayout>

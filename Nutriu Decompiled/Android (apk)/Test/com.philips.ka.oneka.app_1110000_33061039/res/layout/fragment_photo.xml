@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/photo" android:background="@drawable/placeholder_light" android:foreground="?selectableItemBackgroundBorderless" android:src="@drawable/img_take_photo" android:scaleType="centerCrop" app:layout_widthPercent="@dimen/width_percent" app:layout_aspectRatio="@dimen/aspect_ratio" />
+    <ImageView android:id="@id/overlay_rectangle" android:visibility="gone" android:src="@drawable/img_photo_guide" android:scaleType="fitXY" android:layout_centerInParent="true" app:layout_widthPercent="90.0%" app:layout_aspectRatio="@dimen/aspect_ratio" />
+    <TextView android:id="@id/overlay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/take_photo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="@style/Text.Image" fontPath="@string/font_bold" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <android.support.design.widget.FloatingActionButton android:id="@id/edit_image_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_edit" android:layout_marginEnd="@dimen/spacing_2x" app:elevation="0.0dip" app:backgroundTint="@color/white" />
+    </LinearLayout>
+</android.support.percent.PercentRelativeLayout>

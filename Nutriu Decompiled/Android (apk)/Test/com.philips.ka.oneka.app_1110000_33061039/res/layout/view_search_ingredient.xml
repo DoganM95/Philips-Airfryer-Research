@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/spacing_0.5x">
+        <android.support.v7.widget.AppCompatAutoCompleteTextView android:textColor="@color/evergreen" android:id="@id/actv_search_ingredient" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:hint="@string/ingredient_hint" android:paddingEnd="@dimen/spacing_5x" style="@style/EditText.Ingredient" />
+        <ImageView android:id="@id/iv_delete" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:layout_centerVertical="true" android:paddingStart="@dimen/spacing_1x" android:paddingEnd="@dimen/spacing_1x" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</merge>

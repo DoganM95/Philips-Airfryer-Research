@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/uid_gridview" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/uid_grid_item_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="bottom" android:id="@id/uid_gridview_thumbnail" android:layout_height="@dimen/uid_grid_item_size" style="@style/UIDGridViewImage" />
-</FrameLayout>

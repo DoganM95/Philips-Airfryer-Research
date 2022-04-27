@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_icon_margin">65.0dip</dimen>
+    <dimen name="chat_button_top_margin">8.0dip</dimen>
+    <dimen name="faq_top_margin">3.0dip</dimen>
+    <dimen name="marginTopButton">24.0dip</dimen>
+    <dimen name="faq_firstscreen_sidemargin">160.0dip</dimen>
+    <dimen name="app_review_divider_margin">35.0dip</dimen>
+    <dimen name="locate_layout_margin">130.0dip</dimen>
+</resources>

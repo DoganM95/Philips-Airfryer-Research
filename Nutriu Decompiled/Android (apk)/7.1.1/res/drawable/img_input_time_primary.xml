@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="?nutriuColorPrimary" android:pathData="M16,16m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0" android:strokeColor="@color/transparent" android:strokeWidth="1.0" />
-    <path android:fillColor="?nutriuColorInverse" android:pathData="M21.84,10.16L22.88,9.12C21.98,8.53 21.25,7.94 20.35,7.49L19.76,8.67C19.17,8.53 18.56,8.23 17.97,8.08L18.27,6.9C18.42,6.74 18.27,6.59 18.13,6.59C17.38,6.45 16.63,6.3 15.89,6.3C15.14,6.3 14.4,6.45 13.65,6.59C13.51,6.59 13.36,6.74 13.51,6.9L13.81,8.23C9.94,9.12 7.25,12.53 7.25,16.55C7.25,21.44 11.12,25.3 15.89,25.3C20.8,25.3 24.67,21.44 24.67,16.55C24.67,14.02 23.63,11.79 21.84,10.16M15.89,23.91C11.83,23.91 8.5,20.58 8.5,16.55C8.5,12.5 11.83,9.18 15.89,9.18C19.95,9.18 23.27,12.5 23.27,16.55C23.27,20.58 19.95,23.91 15.89,23.91" android:strokeColor="@color/transparent" android:strokeWidth="1.0" />
-    <path android:fillColor="?nutriuColorInverse" android:pathData="M16.48,11.2l-1.19,0l-0.16,6.23l1.65,0z" android:strokeColor="@color/transparent" android:strokeWidth="1.0" />
-</vector>

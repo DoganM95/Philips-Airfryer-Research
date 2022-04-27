@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceBody1Secondary" android:id="@id/ingredientText" android:paddingTop="@dimen/spacing_1.5x" android:paddingBottom="@dimen/spacing_1.5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" />
-</LinearLayout>

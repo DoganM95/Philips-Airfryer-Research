@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="72.0dip" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceBody2Secondary" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/spacing_4x" />
-    <include layout="@layout/view_settings_divider" />
-    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/selector_checkbox_primary" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
-</RelativeLayout>

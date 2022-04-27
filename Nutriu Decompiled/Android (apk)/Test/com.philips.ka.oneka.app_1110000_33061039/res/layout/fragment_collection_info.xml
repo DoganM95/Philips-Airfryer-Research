@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_2x"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/user_image" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_profile_photo_error" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/collection_by" android:alpha="0.7" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/user_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" fontPath="@string/font_xbold" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:scrollbars="none" android:fadingEdgeLength="40.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" android:requiresFadingEdge="vertical">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="36.0sp" android:textColor="@color/white" android:id="@id/title_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_6x" fontPath="@string/font_xbold" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:alpha="0.5">
+                <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_chef_hat" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/recipes_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_0.5x" android:layout_marginEnd="@dimen/spacing_2x" />
+                <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/ic_favourite" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/favorites_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_0.5x" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/description_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/swipe_layout" android:background="?selectableItemBackground" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:alpha="0.7" android:layout_marginStart="@dimen/spacing_3x">
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/swipe_to_browse_recipes" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_1x" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_right_small" android:tint="@color/white" />
+    </LinearLayout>
+    <TextView android:id="@id/private_collection_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="@dimen/spacing_6x" android:text="@string/private_collection" android:alpha="0.7" android:drawableStart="@drawable/ic_private_white" style="@style/PrivateCollectionText" fontPath="@string/font_bold" />
+</LinearLayout>

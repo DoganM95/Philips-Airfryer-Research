@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/apptentive_branding_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="4.0dip" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
-        <TextView android:textAppearance="@style/Apptentive.TextAppearance.Caption" android:gravity="center_vertical" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" android:text="Powered by" android:paddingEnd="4.0dip" />
-        <ImageView android:layout_width="100.0dip" android:layout_height="35.0dip" android:src="@drawable/apptentive_logo_black" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptyLayout" android:background="?containerBackgroundInverse" android:padding="@dimen/spacing_3x" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?textAppearanceH3Secondary" android:gravity="center_horizontal" android:id="@id/emptyLabel" android:padding="@dimen/spacing_1.5x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/empty_here" />
-    <TextView android:textAppearance="?textAppearanceBody2Neutral2" android:gravity="center_horizontal" android:id="@id/emptyMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_3x" android:text="@string/empty_articles_search_message" />
-</LinearLayout>

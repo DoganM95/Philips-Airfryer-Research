@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/UpButton" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.shamanland.fonticon.FontIconTextView android:textSize="@dimen/uikit_about_screen_dismiss_icon_size" android:textColor="@color/uikit_philips_very_dark_blue" android:layout_gravity="center_vertical" android:id="@id/aboutscreen_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_about_screen_dismiss_icon_margin" android:text="@string/uikit_fonticon_arrow_left" fontPath="fonts/puicon.ttf" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/uikit_about_screen_actionbar_title_size" android:textColor="@color/uikit_philips_very_dark_blue" android:id="@id/aboutscreen_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uikit_about_screen_actionbar_title" android:layout_centerInParent="true" app:fontPath="fonts/centralesanslight.ttf" />
+    <FrameLayout android:id="@id/CloseButton" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <com.shamanland.fonticon.FontIconTextView android:textSize="@dimen/uikit_about_screen_dismiss_icon_cross_size" android:textColor="@color/uikit_philips_very_dark_blue" android:layout_gravity="center_vertical" android:id="@id/aboutscreen_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/uikit_about_screen_dismiss_icon_margin_right" android:text="@string/uikit_fonticon_cross" fontPath="fonts/puicon.ttf" />
+    </FrameLayout>
+</RelativeLayout>

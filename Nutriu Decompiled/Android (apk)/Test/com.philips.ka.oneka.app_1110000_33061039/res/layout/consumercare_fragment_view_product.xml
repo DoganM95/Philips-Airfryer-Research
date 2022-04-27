@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/products_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/toplayout" android:paddingLeft="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" style="@style/viewProductDetails_TopContainer">
+            <ImageView android:id="@id/productimage" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="120.0dip" style="@style/viewProductDetails_ProdImage" />
+            <TextView android:id="@id/name" style="@style/viewProductDetails_Product_Header" fontPath="digitalcarefonts/CentraleSans-Bold.otf" />
+            <TextView android:id="@id/variant" android:layout_toRightOf="@id/productimage" android:layout_below="@id/name" style="@style/viewProductDetails_Product_Variant" fontPath="digitalcarefonts/CentraleSans-Book.otf" />
+            <ImageView android:id="@id/productImageTablet" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="130.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/variant" style="@style/viewProductDetails_ProdImage" />
+        </RelativeLayout>
+        <View android:id="@id/topline" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="2.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/prodbuttonsParent" android:paddingLeft="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+        <TextView android:id="@id/productVideoText" android:paddingLeft="@dimen/activity_margin" android:paddingRight="@dimen/activity_margin" android:visibility="gone" android:layout_marginTop="10.0dip" android:layout_marginBottom="0.0dip" android:text="@string/product_view_videos" style="@style/viewProductDetails_Product_Header" />
+        <HorizontalScrollView android:layout_gravity="center_horizontal" android:id="@id/videoScrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/videoContainerParent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </LinearLayout>
+</ScrollView>

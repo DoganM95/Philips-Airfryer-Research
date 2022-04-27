@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/favouriteButton" android:visibility="gone" android:layout_width="@dimen/recipe_details_follow_button_height" android:layout_height="@dimen/recipe_details_follow_button_height" android:layout_marginTop="@dimen/spacing_2x" android:layout_marginBottom="@dimen/spacing_2x" android:src="@drawable/selector_favourite_button_small_warning" android:scaleType="center" android:layout_marginEnd="@dimen/spacing_4x" app:backgroundTint="?nutriuColorInverse" app:elevation="2.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
