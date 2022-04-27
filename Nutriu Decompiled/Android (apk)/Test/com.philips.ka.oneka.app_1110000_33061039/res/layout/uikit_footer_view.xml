@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/philips_logo" android:layout_width="@dimen/uikit_hamburger_logo_width" android:layout_height="@dimen/uikit_hamburger_logo_height" android:layout_marginTop="@dimen/uikit_hamburger_menu_logo_top_margin" android:layout_marginBottom="@dimen/uikit_hamburger_menu_logo_bottom_margin" android:layout_centerHorizontal="true" android:alpha="229.5" />
-</RelativeLayout>

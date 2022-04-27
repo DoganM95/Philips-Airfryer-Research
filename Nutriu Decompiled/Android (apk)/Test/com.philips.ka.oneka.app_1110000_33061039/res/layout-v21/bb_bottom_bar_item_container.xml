@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/bb_bottom_bar_outer_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <View android:id="@id/bb_bottom_bar_background_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bb_bottom_bar_item_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-</merge>

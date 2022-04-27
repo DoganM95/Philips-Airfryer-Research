@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.apptentive.android.sdk.util.image.PreviewImageView android:id="@id/preview_image" android:background="?apptentiveViewBackground" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/apptentive_ic_image_default_item" android:scaleType="matrix" android:contentDescription="@null" />
-    <RelativeLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/header_bar" android:background="@drawable/apptentive_preview_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
-        <ImageButton android:id="@id/close_dialog" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="@dimen/apptentive_message_center_icon_dimension" android:layout_height="@dimen/apptentive_message_center_icon_dimension" android:src="@drawable/apptentive_ic_back_preview" android:tint="?android:textColorPrimaryInverse" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="Close" />
-    </RelativeLayout>
-    <ProgressBar android:layout_gravity="center" android:id="@id/preview_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/Widget.ProgressBar.Large" />
-</FrameLayout>

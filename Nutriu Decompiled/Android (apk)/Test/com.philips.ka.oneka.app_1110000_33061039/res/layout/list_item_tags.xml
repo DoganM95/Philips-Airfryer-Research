@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout android:orientation="vertical" android:background="@drawable/background_white_transparent_rounded" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:layout_gravity="center" android:id="@id/tag_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:scaleType="centerInside" android:layout_above="@id/text" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
-        <ImageView android:id="@id/checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1.5x" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/spacing_1.5x" android:layout_alignParentEnd="true" />
-        <TextView android:textColor="#ff00693c" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_2x" android:maxLines="2" android:drawablePadding="@dimen/spacing_2x" android:layout_alignParentBottom="true" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x" style="@style/Text.RecipeListItem" fontPath="@string/font_xbold" />
-    </RelativeLayout>
-</com.philips.ka.oneka.app.ui.shared.SquareRelativeLayout>

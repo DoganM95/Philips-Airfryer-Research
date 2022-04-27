@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/uikit_linear" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:orientation="vertical" android:id="@id/uikit_checkbox_text_layout" android:layout_width="22.0dip" android:layout_height="22.0dip">
-        <com.shamanland.fonticon.FontIconView android:id="@id/uikit_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/uikit_fonticon_tick_light" android:layout_centerInParent="true" style="@style/FontIconCheckBox" />
-    </RelativeLayout>
-    <TextView android:layout_gravity="center" android:id="@id/uikit_checkbox_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
-</LinearLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pickers_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <com.shawnlin.numberpicker.NumberPicker android:orientation="vertical" android:id="@id/first_picker" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_1x" app:np_dividerColor="@color/colorPrimary" app:np_textSize="16.0sp" app:np_typeface="@string/font_book" />
-        <com.shawnlin.numberpicker.NumberPicker android:orientation="vertical" android:id="@id/second_picker" android:background="@android:color/white" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_1x" app:np_textSize="16.0sp" app:np_typeface="@string/font_book" />
-    </LinearLayout>
-    <TextView android:textColor="@android:color/black" android:id="@id/picker_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginStart="@dimen/spacing_1x" android:layout_toEndOf="@id/pickers_wrapper" style="@style/TextStyleNormal" fontPath="@string/font_book" />
-</RelativeLayout>

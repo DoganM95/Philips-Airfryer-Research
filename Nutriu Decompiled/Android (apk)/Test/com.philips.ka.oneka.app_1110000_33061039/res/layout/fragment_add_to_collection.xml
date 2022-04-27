@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="24.0sp" android:textColor="@color/evergreen" android:ellipsize="end" android:id="@id/add_to_collection_label" android:padding="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_to_collection" android:lines="2" android:drawablePadding="@dimen/spacing_2x" android:drawableEnd="@drawable/ic_close_black" fontPath="@string/font_bold" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <android.support.v7.widget.RecyclerView android:orientation="horizontal" android:id="@id/collections_list" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/add_to_collection_list_height" android:layout_centerInParent="true" app:layoutManager="android.support.v7.widget.LinearLayoutManager" />
-        <include android:layout_width="fill_parent" android:layout_height="@dimen/add_to_collection_list_height" android:layout_centerInParent="true" layout="@layout/loading_layout_add_to_collection" />
-    </RelativeLayout>
-</LinearLayout>

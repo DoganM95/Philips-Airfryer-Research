@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textSize="14.0sp" android:id="@id/control_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" fontPath="fonts/centralesansbook.ttf" />
-    <View android:id="@id/divider" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/wrapper" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/spacing_6x" android:paddingStart="@dimen/spacing_2x" android:paddingEnd="@dimen/spacing_2x"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/filter_name_label" style="@style/Text.Filters" fontPath="@string/font_bold" />
-    <include android:id="@id/arrow" layout="@layout/view_settings_arrow" />
-    <include layout="@layout/view_settings_divider" />
-    <TextView android:textColor="@color/mossy_green" android:id="@id/active_filters_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/none" android:layout_toStartOf="@id/arrow" android:layout_toEndOf="@id/filter_name_label" style="@style/Text.Filters.Details" />
-</RelativeLayout>

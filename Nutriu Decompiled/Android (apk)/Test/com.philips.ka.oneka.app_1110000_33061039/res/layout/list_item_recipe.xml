@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackgroundBorderless" android:paddingStart="4.0dip" android:paddingEnd="4.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/placeholder_light" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="@dimen/list_item_recipe_size" android:layout_marginBottom="@dimen/spacing_1x">
-        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_image_placeholder" android:scaleType="centerCrop" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/image_warning" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/DeviceWarningImage" />
-    </RelativeLayout>
-    <TextView android:id="@id/text" android:layout_width="@dimen/list_item_recipe_size" android:layout_height="wrap_content" android:lines="2" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" style="@style/Text.RecipeListItem" />
-</LinearLayout>

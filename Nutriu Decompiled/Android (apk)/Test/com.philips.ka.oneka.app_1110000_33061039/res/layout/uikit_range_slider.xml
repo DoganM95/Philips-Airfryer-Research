@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/slider_text_size_sp" android:textColor="@color/uikit_philips_slider_text" android:id="@id/textviewleft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slider_range_margin" android:layout_alignParentLeft="true" fontPath="fonts/centralesanslight.ttf" />
-    <TextView android:textSize="@dimen/slider_text_size_sp" android:textColor="@color/uikit_philips_slider_text" android:id="@id/textviewright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/slider_range_margin_right" android:layout_alignParentRight="true" fontPath="fonts/centralesanslight.ttf" />
-    <com.philips.cdp.uikit.customviews.RangeSeekBar android:id="@id/baserangebar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slider_margin_text_thumb" android:layout_below="@id/textviewleft" android:layout_centerInParent="true" />
-</RelativeLayout>

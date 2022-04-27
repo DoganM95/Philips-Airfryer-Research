@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="18.0dip" android:width="19.0dip" android:viewportWidth="160.0" android:viewportHeight="160.0" app:uikit_vc_viewportWidth="160.0" app:uikit_vc_viewportHeight="160.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <path android:fillColor="#ff000000" android:pathData="M30,80m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" app:uikit_vc_fillColor="#ff000000" app:uikit_vc_pathData="M30,80m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
-    <path android:fillColor="#ff000000" android:pathData="M130,130m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" app:uikit_vc_fillColor="#ff000000" app:uikit_vc_pathData="M130,130m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
-    <path android:fillColor="#ff000000" android:pathData="M130,30m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" app:uikit_vc_fillColor="#ff000000" app:uikit_vc_pathData="M130,30m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
-    <path android:fillColor="#ff000000" android:pathData="M130,30l-100,50l100,50" app:uikit_vc_fillColor="#ff000000" app:uikit_vc_pathData="M130,30l-100,50l100,50" />
-</vector>

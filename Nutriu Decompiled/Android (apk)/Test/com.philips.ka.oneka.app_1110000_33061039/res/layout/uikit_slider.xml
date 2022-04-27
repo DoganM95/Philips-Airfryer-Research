@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/slider_linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/slider_framelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
-        <ImageView android:layout_gravity="center" android:id="@id/slider_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <TextView android:textSize="@dimen/slider_text_size" android:textColor="?uikit_baseColor" android:layout_gravity="center" android:id="@id/indicator_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/slider_textview_margin_bottom" android:text="@string/uikit_slider_indicator_text_value" android:lines="1" fontPath="fonts/centralesansbold.ttf" />
-    </FrameLayout>
-    <com.philips.cdp.uikit.customviews.BaseSlider android:id="@id/slider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/slider_padding" android:layout_marginTop="@dimen/slider_indicator_margin" android:layout_marginRight="@dimen/slider_padding" android:layout_below="@id/slider_indicator" />
-</LinearLayout>

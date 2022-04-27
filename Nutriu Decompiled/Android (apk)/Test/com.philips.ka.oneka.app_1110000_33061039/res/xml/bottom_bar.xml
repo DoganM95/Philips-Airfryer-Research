@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<tabs>
-    <tab id="@id/tab_newsfeed" icon="@drawable/ic_newsfeed" />
-    <tab id="@id/tab_search" icon="@drawable/ic_search" />
-    <tab id="@id/tab_add" icon="@drawable/ic_add" />
-    <tab id="@id/tab_notification" icon="@drawable/ic_notification" />
-    <tab id="@id/tab_profile" icon="@drawable/ic_profile" />
-</tabs>

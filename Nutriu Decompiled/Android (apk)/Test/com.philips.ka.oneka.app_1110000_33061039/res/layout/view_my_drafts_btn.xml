@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/my_drafts_btn" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:padding="@dimen/spacing_2x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/my_drafts" android:layout_weight="1.0" fontPath="@string/font_bold" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/mossy_green" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit" android:drawableEnd="@drawable/ic_settings_arrow" android:layout_marginEnd="@dimen/spacing_1x" />
-</LinearLayout>

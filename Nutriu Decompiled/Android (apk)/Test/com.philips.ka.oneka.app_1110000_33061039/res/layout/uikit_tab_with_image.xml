@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/tab_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/uikit_tab_text_margin_top" android:layout_above="@id/tab_title" android:layout_centerHorizontal="true" />
-    <com.philips.cdp.uikit.customviews.BadgeView android:id="@id/tab_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_tab_badge_margin_left" android:layout_marginTop="@dimen/uikit_tab_badge_margin_top" android:layout_toRightOf="@id/tab_icon" android:layout_toEndOf="@id/tab_icon" style="@style/NotificationLabel.Small" />
-    <TextView android:textSize="@dimen/uikit_tab_text_size_with_image" android:layout_gravity="center" android:id="@id/tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/uikit_tab_text_margin_bottom" android:includeFontPadding="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" fontPath="fonts/centralesansbook.ttf" />
-    <View android:id="@id/tab_divider" android:background="?uikit_veryLightColor" android:layout_width="@dimen/uikit_tab_divider_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:alpha="0.3" />
-    <View android:id="@id/tab_divider_last" android:background="?uikit_veryLightColor" android:visibility="gone" android:layout_width="@dimen/uikit_tab_divider_width" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:alpha="0.3" />
-</RelativeLayout>

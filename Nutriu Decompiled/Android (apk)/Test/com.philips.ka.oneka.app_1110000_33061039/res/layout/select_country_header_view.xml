@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:id="@id/title_label" android:paddingTop="@dimen/spacing_5x" android:paddingBottom="@dimen/spacing_3x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_4x" android:paddingEnd="@dimen/spacing_4x" style="@style/Text.OnBoarding.Title" fontPath="@string/font_xbold"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

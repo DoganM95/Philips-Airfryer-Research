@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fragment android:name="com.philips.ka.oneka.app.ui.comments.CommentsFragment" android:id="@id/comments_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <TextView android:gravity="center" android:id="@id/btn_report_tip" android:background="?selectableItemBackground" android:paddingTop="@dimen/spacing_2x" android:paddingBottom="@dimen/spacing_2x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_this_tip" style="@style/Text.Details.Report" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="12.0sp" android:width="12.0sp" android:viewportWidth="20.0" android:viewportHeight="20.0" app:uikit_vc_viewportWidth="20.0" app:uikit_vc_viewportHeight="20.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <path android:fillColor="?uikit_errortextcolorinlineforms" android:pathData="M 20 3.2 L 16.8 0 L 10 6.8 L 3.2 0 L 0 3.2 L 6.8 10 L 0 16.8 L 3.2 20 L 10 13.2 L 16.8 20 L 20 16.8 L 13.2 10 Z" app:uikit_vc_fillColor="?uikit_errortextcolorinlineforms" app:uikit_vc_pathData="M 20 3.2 L 16.8 0 L 10 6.8 L 3.2 0 L 0 3.2 L 6.8 10 L 0 16.8 L 3.2 20 L 10 13.2 L 16.8 20 L 20 16.8 L 13.2 10 Z" />
-</vector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/reg_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:reglib="http://reg.lib/schema">
-    <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_bullet_ic_text" android:layout_width="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/reg_Create_Account_PasswordHint_Length_lbltxt" style="@style/reg_password_hint_text" reglib:fontAssetName="CentraleSans-Book.OTF" />
-    <com.philips.cdp.registration.ui.customviews.XTextView android:id="@id/tv_bullet_text" android:layout_width="fill_parent" android:layout_marginBottom="0.0dip" android:text="@string/reg_Create_Account_PasswordHint_Length_lbltxt" style="@style/reg_password_hint_text" reglib:fontAssetName="CentraleSans-Book.OTF" />
-</LinearLayout>

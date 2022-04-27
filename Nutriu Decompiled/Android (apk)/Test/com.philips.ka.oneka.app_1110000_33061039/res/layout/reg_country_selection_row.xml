@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:reglib="http://reg.lib/schema">
-    <ImageView android:id="@id/reg_row_icon" android:padding="@dimen/reg_home_tiltle_padding" android:layout_width="@dimen/reg_coppa_button_margin_top" android:layout_height="@dimen/reg_coppa_button_margin_top" android:layout_marginLeft="@dimen/reg_home_tiltle_padding" />
-    <com.philips.cdp.registration.ui.customviews.XTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/reg_row_title" android:padding="@dimen/reg_home_tiltle_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_input_length" android:text="@string/reg_Country" android:layout_weight="1.0" style="@style/reg_textStyle" reglib:fontAssetName="CentraleSans-Book.OTF" />
-</LinearLayout>

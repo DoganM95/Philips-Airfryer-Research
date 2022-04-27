@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/transparentView" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/uikit_hamburger_list_top_margin" />
-    <RelativeLayout android:id="@id/hamburger_parent" android:layout_width="fill_parent" android:layout_height="@dimen/uikit_hamburger_group_item_height">
-        <TextView android:textSize="@dimen/uikit_hamburger_item_text_title_size" android:textColor="@android:color/white" android:id="@id/hamburger_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uikit_hamburger_item_icon_left_margin" android:layout_centerVertical="true" fontPath="fonts/centralesansbold.ttf" />
-    </RelativeLayout>
-</LinearLayout>

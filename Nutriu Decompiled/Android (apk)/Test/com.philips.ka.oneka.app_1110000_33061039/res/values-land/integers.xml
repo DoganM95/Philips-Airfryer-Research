@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <item type="integer" name="apptentive_layout_height_for_weight">@integer/wrap_content</item>
-    <integer name="apptentive_layout_width_for_weight">0</integer>
-    <item type="integer" name="apptentive_message_center_status_text_gravity">@integer/apptentive_gravity_start</item>
-    <item type="integer" name="apptentive_orientation_fill_length">@integer/apptentive_orientation_horizontal</item>
-</resources>

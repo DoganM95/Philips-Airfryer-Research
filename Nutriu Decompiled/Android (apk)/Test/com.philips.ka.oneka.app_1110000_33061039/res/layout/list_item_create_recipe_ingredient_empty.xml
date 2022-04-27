@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textColor="@color/evergreen" android:gravity="center_vertical" android:id="@id/ingredient_label" android:focusableInTouchMode="false" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/edit_text_height" android:layout_marginBottom="@dimen/spacing_0.5x" android:hint="@string/enter_new_ingredient" android:layout_centerVertical="true" android:paddingEnd="@dimen/spacing_5x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" style="@style/EditText"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

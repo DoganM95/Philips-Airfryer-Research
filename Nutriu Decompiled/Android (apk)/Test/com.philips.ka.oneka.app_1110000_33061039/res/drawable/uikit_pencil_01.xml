@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="20.0dip" android:width="20.0dip" android:viewportWidth="39.2" android:viewportHeight="39.0" app:uikit_vc_viewportWidth="39.2" app:uikit_vc_viewportHeight="39.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <path android:fillColor="@android:color/white" android:pathData="M 11.7 35.5 L 3.3 27.3 L 0 39 Z" app:uikit_vc_fillColor="@android:color/white" app:uikit_vc_pathData="M 11.7 35.5 L 3.3 27.3 L 0 39 Z" />
-    <path android:fillColor="@android:color/white" android:pathData="M38.5,6.3c-0.3-0.3-0.9-1.2-2.1-2.4c-0.3,0-0.3-0.3-0.6-0.3c-1.2-1.2-2.4-2.7-2.7-2.7c-0.9-1.2-1.8-1.2-3,0 c-0.6,0.6-2.4,2.4-2.4,2.4c8.4,8.4,8.4,8.4,8.4,8.4s1.8-1.8,2.4-2.4C39.7,8.1,39.3,7.2,38.5,6.3z" app:uikit_vc_fillColor="@android:color/white" app:uikit_vc_pathData="M38.5,6.3c-0.3-0.3-0.9-1.2-2.1-2.4c-0.3,0-0.3-0.3-0.6-0.3c-1.2-1.2-2.4-2.7-2.7-2.7c-0.9-1.2-1.8-1.2-3,0 c-0.6,0.6-2.4,2.4-2.4,2.4c8.4,8.4,8.4,8.4,8.4,8.4s1.8-1.8,2.4-2.4C39.7,8.1,39.3,7.2,38.5,6.3z" />
-    <path android:fillColor="@android:color/white" android:pathData="M 5.7 24.9 L 14.1 33.3 L 33.6 13.8 L 25.2 5.4 Z" app:uikit_vc_fillColor="@android:color/white" app:uikit_vc_pathData="M 5.7 24.9 L 14.1 33.3 L 33.6 13.8 L 25.2 5.4 Z" />
-</vector>

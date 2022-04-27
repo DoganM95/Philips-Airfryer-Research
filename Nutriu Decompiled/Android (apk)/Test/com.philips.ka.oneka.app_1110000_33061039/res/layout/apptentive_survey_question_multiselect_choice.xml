@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <CheckBox android:gravity="start|center|top" android:id="@id/checkbox" android:paddingTop="5.0dip" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:drawablePadding="0.0dip" style="?attr/apptentiveCheckBoxStyle" />
-    <android.support.design.widget.TextInputLayout android:id="@id/other_text_input_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" app:errorEnabled="true" app:hintAnimationEnabled="true">
-        <EditText android:textAppearance="@style/Apptentive.TextAppearance.Body1" android:id="@id/other_edit_text" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:inputType="textCapSentences|textMultiLine" />
-    </android.support.design.widget.TextInputLayout>
-</LinearLayout>

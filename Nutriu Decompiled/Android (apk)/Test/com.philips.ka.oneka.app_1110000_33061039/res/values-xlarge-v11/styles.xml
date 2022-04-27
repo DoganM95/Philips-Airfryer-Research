@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="jr_about_dialog_text">
-        <item name="android:textAppearance">?android:textAppearanceLarge</item>
-    </style>
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/loading_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/image_container"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ImageView android:id="@id/loading_image" android:layout_width="fill_parent" android:layout_height="280.0dip" android:src="@color/light_grey_v2" />
-        <ImageView android:layout_width="fill_parent" android:layout_height="105.0dip" android:src="@drawable/placeholder_loading_description" android:scaleType="fitXY" />
-    </LinearLayout>
-</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <include android:id="@id/toolbar" layout="@layout/toolbar" />
-    <co.infinum.mjolnirrecyclerview.MjolnirRecyclerView android:id="@id/recipe_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" app:layoutManager="LinearLayoutManager" />
-    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_2x" android:layout_below="@id/toolbar" layout="@layout/loading_layout" />
-    <include layout="@layout/view_empty_state" />
-</RelativeLayout>

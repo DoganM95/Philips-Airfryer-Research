@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:id="@id/step_order" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" fontPath="@string/font_xbold" />
-    <android.support.percent.PercentRelativeLayout android:id="@id/image_wrapper" android:background="@drawable/loading_image_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_1x" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x">
-        <ImageView android:id="@id/image" android:layout_centerInParent="true" app:layout_widthPercent="@dimen/width_percent" app:layout_aspectRatio="@dimen/aspect_ratio" />
-    </android.support.percent.PercentRelativeLayout>
-    <TextView android:textSize="14.0sp" android:textColor="@color/evergreen" android:id="@id/step_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_1x" android:layout_marginBottom="@dimen/spacing_2x" android:lineSpacingExtra="22.0sp" android:lineSpacingMultiplier="0.0" android:layout_marginStart="@dimen/spacing_2x" android:layout_marginEnd="@dimen/spacing_2x" />
-</LinearLayout>

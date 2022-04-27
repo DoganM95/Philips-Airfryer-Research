@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/uikit_philips_dark_blue" />
-    <corners android:topLeftRadius="@dimen/uikit_button_corner_rounding" android:topRightRadius="@dimen/uikit_button_corner_rounding" android:bottomLeftRadius="@dimen/uikit_button_corner_rounding" android:bottomRightRadius="@dimen/uikit_button_corner_rounding" />
-</shape>

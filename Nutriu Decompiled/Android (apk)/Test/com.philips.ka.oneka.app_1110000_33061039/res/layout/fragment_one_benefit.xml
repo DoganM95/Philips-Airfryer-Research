@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="@drawable/bg_fading_black" android:paddingTop="70.0dip" android:paddingBottom="130.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-        <TextView android:id="@id/benefit_label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.Benefit" fontPath="@string/font_xbold" />
-    </RelativeLayout>
-</RelativeLayout>
