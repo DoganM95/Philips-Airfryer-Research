@@ -73,3 +73,23 @@ A python package called [Scapy](https://scapy.net/) seems to provide a good entr
 
 There is a script from [this github repo](https://github.com/tenable/upnp_info), which seems to not work on broadcast address `239.255.255.250`, but works when using the specific address of the target device ip instead (`192.168.0.30`, port `1900`). This script supposedly discovers all services of a upnp device, but could not find any services on the airfryer's upnp. The modified script is in this repo, named `upnp_info.py`.
 
+Disassembling the airfryer (initially for cleaning) gave me the chance to take a look what runs it. 
+There are 2 pcb's inside:
+1. The control unit:
+The brain itself is an esp32, which sits on tha pcb that is also displaying the time/temp and accomodates the capacitive touch springs. 
+![1000011214](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/c7ebc38e-69c6-48f2-bb94-45ad8c616ce3)![1000011224](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/21ba4f03-9652-45c3-a6dd-d0c4cbc3eda4)
+2. The power unit:
+Which i assume is what you give intructions to, using the header pins, namely
+- NTC: Probably one wire of the thermistor, that measures the temperature in the fryer's chamber while frying
+- B: ?
+- F: Maybe the 1/0 pin to enable/disable the fan?
+- H: Maybe the 1/0 pin to enable/disable the heater?
+- C: ?
+- S: ?
+- 5V: A nice power supply to power e.g. microcontrollers
+- DND: Which may be Ground? (because of of these has to be)
+![1000011206](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/bfea9661-f68f-4454-abff-9a1089766c0f)
+![1000011209](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/7af89a0a-955d-401f-8a6f-ba0ef998eb2d)
+
+probing these pins while the fryer operates could give a way better idea of what pin controls what (ideally with an oscilloscope, so pwm frequencies, duty cycles, etc. can be measured).
+In theroy, the control unit could then be replaced with a custom microcontroller to get a DIY airfryer with full control over everything. Keep in mind that operating anything with mains voltage neraby can be very dangerous.
