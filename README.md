@@ -90,6 +90,5 @@ Which i assume is what you give intructions to, using the header pins, namely
 - DND: Which may be Ground? (because of of these has to be)
 ![1000011206](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/bfea9661-f68f-4454-abff-9a1089766c0f)
 ![1000011209](https://github.com/DoganM95/Philips-Airfryer-Research/assets/38842553/7af89a0a-955d-401f-8a6f-ba0ef998eb2d)
-
-probing these pins while the fryer operates could give a way better idea of what pin controls what (ideally with an oscilloscope, so pwm frequencies, duty cycles, etc. can be measured).  
+Probing these pins while the fryer operates could give a way better idea of what pin controls what (ideally with an oscilloscope, so pwm frequencies, duty cycles, etc. can be measured).  
 In theroy, the control unit could then be replaced with a custom microcontroller to get a DIY airfryer with full control over everything. Keep in mind that operating anything with mains voltage neraby can be very dangerous.
